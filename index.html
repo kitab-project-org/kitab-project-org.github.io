@@ -1,8 +1,194 @@
 ---
+layout: splash
 header:
-  excerpt:	"Knowledge, Information Technology, and the Arabic Book"
-  image: /images/covers/kitab3a.jpg
-  caption: "**Photo credit**: Lines from the 'Meadows of Paradise' (Rawḍ al-Jinān), by Gidado dan Layma. Or 6953 f. 297v."
-layout: home
-author_profile: true
+  overlay_image: "images/covers/banner_home.jpg"
+  overlay_filter: rgba(40, 99, 165, 0.5)
+  caption: "Book niches at Samarra, photograph by Ernst Herzfeld (Image courtesy of the [Smithsonian Online Virtual Archives](https://sova.si.edu/details/FSA.A.06?f=online_media_type%3AImages&s=2304&n=12&t=D&q=Mosques&i=2305#ref25861))"
+title: "KITAB"
+tagline: "Knowledge Information Technology & the Arabic Book"
+
+pi_message:
+  - image_path: /images/kitab/all_team2.jpg
+    url: "/about/"
+    btn_label: "Read more"
+    btn_class: "btn--primary"
+    title: "A message from the PI"
+    excerpt: >
+       KITAB provides a digital tool-box and a forum for discussions about Arabic texts. We wish to empower users to explore Arabic texts in completely new ways and to expand the frontiers of knowledge about one of the world's largest and most complex textual traditions.
+
+all_blogs:
+  - image_path:
+    url: "/blogs"
+    btn_label: "Read more blogs"
+    btn_class: "btn--primary"
+
+
+corpus_search:
+  - image_path: /images/covers/search_app.png
+    alt: "placeholder image 2"
+    title: "Find a book in the OpenITI corpus"
+    excerpt: 'Click the button to start searching for books in our corpus and downloading texts'
+    url: "https://kitab-corpus-metadata.azurewebsites.net/"
+    btn_label: "Find a book"
+    btn_class: "btn--primary"
+
+
+
+
+
 ---
+{% include feature_row id="pi_message" type="left" %}
+
+<!Code block for the latest blogs - do not change!>
+
+
+<h1> Our latest blogs </h1>
+<br>  
+<div class = "feature__wrapper">
+
+    
+  
+<div class = "grid__item">
+     <article class = "archive__item">
+      
+      {% assign latest_post = site.posts[0]%}
+      <div class = "archive__item-teaser">
+      {% if latest_post.image %}
+      <img src = {{ latest_post.image }} </img>
+      {% else %}
+      <img src = "/images/kitab/mesa.jpg" > </img>
+      {% endif %}
+      </div>
+      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url }}">read more</a></b>
+      
+      
+      
+      </article>
+      
+      
+</div>
+
+<div class = "grid__item">
+
+     <article class = "archive__item">
+      
+      {% assign latest_post = site.posts[1]%}
+      <div class = "archive__item-teaser">
+      {% if latest_post.image %}
+      <img src = {{ latest_post.image }} </img>
+      {% else %}
+      <img src = "/images/kitab/mesa.jpg" > </img>
+      {% endif %}
+      </div>
+      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url }}">read more</a>
+      
+      
+      
+      </article>
+      
+     
+</div>
+
+<div class = "grid__item">
+
+     <article class = "archive__item">
+      
+      {% assign latest_post = site.posts[2]%}
+      <div class = "archive__item-teaser">
+      {% if latest_post.image %}
+      <img src = {{ latest_post.image }} </img>
+      {% else %}
+      <img src = "/images/kitab/mesa.jpg" > </img>
+      {% endif %}
+      </div>
+      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url }}">read more</a>
+      
+      
+      
+      </article>
+      
+     
+</div>
+
+<div class = "grid__item">
+
+     <article class = "archive__item">
+      
+      <div class = "archive__item-teaser">
+      <img src = "/images/kitab/mesa.jpg" > </img>
+      </div>
+      <h2 class = "archive__item-title no_toc">Read more blogs </h2>
+      <div class = "archive__item-excerpt">
+      <p> Read more blogs about KITAB's corpus, methods and data </p>
+
+      </div>
+      <p> <a href="{{ '/blogs' | relative_url }}" class="btn btn--primary">Read other blogs</a></p>
+      
+      </article>
+      
+
+</div>
+
+</div>
+
+ {% include feature_row id="corpus_search" type="right" %}
+
+<!Code block for the twitter embed - do not change!>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <a class="twitter-timeline" data-width="600" data-height="500" data-theme="light" href="https://twitter.com/sarahsavant1?ref_src=twsrc%5Etfw">Tweets by sarahsavant1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Follow us</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Keep up to date with the KITABis. Follow us on twitter or subscribe to our mailing list.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/subscribe" class="btn btn--primary">Subscribe!</a></p>
+          
+        </div>
+
+           <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Get involved</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Would you like to contribute to our Corpus? Do you have data you would like to share? Are you working in Classical Arabic NLP? We would love to hear from you!</p>
+
+            </div>
+          
+
+          
+            <p><a href="/about/get-involved" class="btn btn--primary">Get in touch!</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+
+
+
+
+
+ 

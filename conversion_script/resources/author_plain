@@ -1,0 +1,19 @@
+name_surname:
+  name             : ""
+  avatar           : "" # path of avatar image, e.g. ""
+  bio              : 
+  location         : ""
+  email            : ""
+  uri              :
+  flickr           :
+  facebook         : ""
+  github           : ""
+  google_plus      :
+  instagram        :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          : ""

@@ -1,0 +1,6 @@
+{"glossary":[
+{"term": "passim", "def": "A computer algorithm used to detect text reuse in the OpenITI Corpus."},
+{"term": "mARkdown", "def" : "The annotation system used on OpenITI texts, see the documentation for more details."},
+{"term": "boxplot", "def" : "A plot that shows the distribution of data. The main box shows the central 50% of the data points (from the lower quartile to the upper quartile) and the central line gives the median. The outer 'whiskers' show 95% of the data points."}
+]
+}

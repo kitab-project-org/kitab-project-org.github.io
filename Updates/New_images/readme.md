@@ -1,0 +1,1 @@
+### Please upload images for the website to this folder and describe them in **image_details.csv**

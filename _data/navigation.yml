@@ -1,14 +1,118 @@
 # main links
 main:
-  - title: "Blog"
-    url: ""
-  - title: "Our Pilot"
-    url: "/pilot/"
-  - title: "Corpus (OpenITI)"
-    url: "/corpus/"
-  - title: "Text Reuse Methods"
-    url: "/methods/"
-  - title: "About the Project"
-    url: "/about/"
-  - title: "About passim"
-    url: "/about-passim/"
+  - title: "About"
+    url: /about/
+  - title: "Corpus and Data"
+    url: /corpus-and-data
+  - title: "Methods"
+    url: /methods
+  - title: "Research"
+    url: /blogs
+  - title: "Documentation"
+    url: /docs/openITI
+
+
+about:
+  - title: About
+    children:
+      - title: "Message from the PI"
+        url: /about/
+      - title: "The KITABIs"
+        url: /about/kitabis
+      - title: "Our Projects"
+        url: /about/our-projects
+      - title: "Collaborations"
+        url: /about/collaborations
+      - title: "Funders"
+        url: /about/funders
+      - title: "Get involved"
+        url: /about/get-involved
+
+
+corpus:
+  - title: Corpus and Data
+    children:
+      - title: "Message from the team"
+        url: /corpus-and-data
+
+  - title: Corpus
+    children:
+      - title: "Message from the team"
+        url: /corpus
+      - title: "About the corpus"
+        url: /corpus/about
+      - title: "Using the corpus"
+        url: /corpus/use
+      - title: "mARkdown"
+        url: /corpus/markdown
+      - title: "OCR"
+        url: /corpus/ocr
+      - title: "Corpus releases"
+        url: /corpus/releases
+      - title: "Read more"
+        url: /corpus/blogs
+
+  - title: Datasets
+    children:
+      - title: "About our data"
+        url: /data
+      - title: "About our Vizualisations"
+        url: /data/viz
+      - title: "Blogs about our Vizualisations"
+        url: /data/viz-blogs      
+      - title: "Use Our Applications"
+        url: /data/apps
+  
+
+
+methods:
+  - title: How we study
+    children:
+      - title: "Introduction to our methods"
+        url: /methods
+      - title: "Challenges"
+        url: /methods/challenges
+      - title: "Text reuse"
+        url: /methods/text-reuse
+      - title: "Network Analysis"
+        url: /methods/networks
+      - title: "Subgenre classification"
+        url: /methods/sub-genre
+      - title: "Stylometry"
+        url: /methods/stylometry
+
+  - title: What we study
+    children:
+      - title: "Book history"
+        url: /methods/book-history
+      - title: "Citation Practices"
+        url: /methods/citation
+      - title: "Scholarly networks"
+        url: /methods/scholar-network
+      - title: "Lost/Dispersed texts"
+        url: /methods/dispersed-texts
+
+
+research:
+  - title: research
+    children:
+      - title: "Blogs"
+        url: /blogs
+      - title: "Articles"
+        url: /research/articles
+      - title: "Books"
+        url: /research/books
+      - title: "Events"
+        url: /research/events
+
+docs:
+  - title: Our Documentation
+    children:
+      - title: "Guides for OpenITI"
+        url: /docs/openITI/
+      - title: "KITAB Datasets"
+        url: /docs/apps/
+
+
+
+
