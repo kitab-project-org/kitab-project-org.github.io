@@ -3,9 +3,9 @@ image: "/images/old_blogs/2020-01-10-When-al-Tabarī-is-Not-(Just)-al-Tabarī--T
 header:
   overlay_image: "/images/covers/banner_blog.jpg"
   overlay_filter: 0.1
-  caption: "Gentile Bellini - Seated Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false 
-title: "When al-Tabarī is Not (Just) al-Tabarī: The Challenges Posed by Composite Editions in the OpenITI Corpus"			
+title: "When al-Tabari is Not (Just) al-Tabari: The Challenges Posed by Composite Editions in the OpenITI Corpus"			
 author: mathew_barber		
 layout:		single
 categories:

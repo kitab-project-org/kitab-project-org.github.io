@@ -22,7 +22,7 @@ NB: this documentation is a work in progress. Please feel free to
 * [A brief history of the OpenITI corpus](#a-brief-history-of-the-openiti-corpus)
 * [Goals](#goals)
 * [Working version (GitHub repositories) vs. Corpus Releases (Zenodo)](#working-version-github-repositories-vs.-corpus-releases-zenodo)
-* [The GitHub Repositories](#the-github-repositories)
+* [The GitHub repositories](#the-github-repositories)
 * [Zenodo releases](#zenodo-releases)
 * [What texts are in OpenITI?](#what-texts-are-in-openiti)
 * [Further reading](#further-reading)
@@ -197,7 +197,7 @@ and [Zenodo](https://doi.org/10.5281/zenodo.3082463) (links for specific release
 version of the corpus, and the second keeps snapshots of the corpus at
 a given time, for citation purposes.
 
-### The GitHub Repositories
+### The GitHub repository
 
 GitHub is where contributors to the OpenITI corpus do most of their
 work. It allows for version control, which ensures nothing is lost (see
@@ -283,7 +283,7 @@ aḥādīth), while the largest book in the corpus, Biḥār al-Anwār,
 Majlisī's encyclopaedic collection of Imamite ḥadīth, amounts to almost
 12 million words. The latter work falls out of the range of our current
 study, since its author died in 1111 AH; the largest work in the corpus
-before 1000AH is Ibn ʿAsākir's Tārīkh Madīnat Dimashq, with slightly
+before 1000AH is Ibn ʿAsakir's Tarikh Madinat Dimashq, with slightly
 under 10 million words. Both Majlisī's work and Ibn ʿAsākir's are
 outliers; no other single work in the corpus contains more than 6
 million words, but the corpus does contain more than 450 text files with
@@ -313,7 +313,7 @@ collections; a small but growing number were digitized by the KITAB team
 by manual transcription or using OCR (26 texts) or provided by users of
 OpenITI (19 texts):
 
-| COUNT | COLL. ID | FULL NAME | LINK | SHORT DESCRIPTION |
+| COUNT | ID | FULL NAME | LINK | SHORT DESCRIPTION |
 |-------|----------|-----------|------|-------------------|
 | 3635 | Shamela | al-Maktaba al-Shāmila | [shamela.ws](http://www.shamela.ws/) | Large digital open-access library, scraped ca. 2014 (*official version*) |
 | 125 | Sham19Y | al-Maktaba al-Shāmila (2019 additions) | [shamela.ws](http://www.shamela.ws/) | Additional scrape of new texts in October 2019 (*official version*) |

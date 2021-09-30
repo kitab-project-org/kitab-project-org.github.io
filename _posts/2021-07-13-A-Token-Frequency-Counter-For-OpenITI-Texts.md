@@ -3,7 +3,7 @@ image: "/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts
 header:
   overlay_image: "/images/covers/banner_blog.jpg"
   overlay_filter: 0.1
-  caption: "Gentile Bellini - Seated Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false 
 title: "A Token Frequency Counter For OpenITI Texts"			
 author: peter_verkinderen		
@@ -19,7 +19,7 @@ One of the participants in our [KITAB user group](http://kitab-project.org/2020
 
 There are quite a lot of online tools that allow you to upload a file (or provide a link to a web page) and will produce a nice table with word counts.
 
-Unfortunately, this specific user group participant works with the largest text in the KITAB corpus, Ibn al-ʿAsākir’s [*Taʾrikh madinat Dimashq*](https://raw.githubusercontent.com/OpenITI/0575AH/master/data/0571IbnCasakir/0571IbnCasakir.TarikhDimashq/0571IbnCasakir.TarikhDimashq.JK000916-ara1.mARkdown), which weighs in at about 75 MB in the OpenITI version, and none of the sites I tried out was willing to accept such a large file. Others failed to produce a frequency list even with smaller books, probably because they don’t deal well with Arabic.
+Unfortunately, this specific user group participant works with the largest text in the KITAB corpus, Ibn al-ʿAsakir’s [*Taʾrikh madinat Dimashq*](https://raw.githubusercontent.com/OpenITI/0575AH/master/data/0571IbnCasakir/0571IbnCasakir.TarikhDimashq/0571IbnCasakir.TarikhDimashq.JK000916-ara1.mARkdown), which weighs in at about 75 MB in the OpenITI version, and none of the sites I tried out was willing to accept such a large file. Others failed to produce a frequency list even with smaller books, probably because they don’t deal well with Arabic.
 
 There are a number of other options to create frequency lists from a text, but most involve using a programming language such as Python or R. Since most of our user group participants do not have any background in programming, we thought about using this question as an opportunity to show the user group how to install Python or R and run a simple script to create the frequency list (for example, using the fantastic R stylo library).
 
@@ -59,7 +59,7 @@ This was a really quick build; if you would find more options useful, don’t he
 
 The tool extracts ‘tokens’ from the text and counts them. The word ‘token’ is frequently used as a synonym for ‘word’, but they are not exactly the same. A token is nothing more than a sequence of characters, in our case defined by default as an unbroken sequence of Arabic-script characters, bounded on either side by characters that do not belong to that list of characters (there are other ways to define tokens as well). The tool does not try to analyse this sequence of characters as a word with a specific meaning, a specific form of a specific verb or the like.
 
-For example, the token <span dir="rtl">ولكتابه</span> (*wa-li-kitābi-hi*, ‘and for his book’) could be considered four separate words, but the tool considers it one token. The opposite is also true: the name ʿAbd Allah is written in Arabic using two separate tokens (in our definition), ʿAbd and Allah, and both are thus counted separately.
+For example, the token <span dir="rtl">ولكتابه</span> (*wa-li-kitabi-hi*, ‘and for his book’) could be considered four separate words, but the tool considers it one token. The opposite is also true: the name ʿAbd Allah is written in Arabic using two separate tokens (in our definition), ʿAbd and Allah, and both are thus counted separately.
 
 Moreover, the plural of <span dir="rtl">كتاب</span> *kitab* is <span dir="rtl">كتب</span> *kutub*, and both are considered (and counted as) separate tokens by the tool, although they are arguably the same word. This problem is compounded with verbs, since Arabic expresses their number, gender, tense and so on using prefixes and suffixes. Each form of the same verb is thus considered a separate token.
 

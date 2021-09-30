@@ -4,7 +4,7 @@ header:
   overlay_image: /images/covers/banner_github.jpg
   overlay_filter: rgba(40, 99, 165, 0.45)
   caption: "An example of a folder in an OpenITI repository on GitHub"
-title:		"Using the Corpus"
+title:		"Using the corpus"
 layout:		single
 sidebar:
   nav: "corpus"

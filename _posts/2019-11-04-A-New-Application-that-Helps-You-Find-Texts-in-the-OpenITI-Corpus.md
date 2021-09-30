@@ -3,7 +3,7 @@ image: "/images/old_blogs/2019-11-04-A-New-Application-that-Helps-You-Find-Texts
 header:
   overlay_image: "/images/covers/banner_blog.jpg"
   overlay_filter: 0.1
-  caption: "Gentile Bellini - Seated Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false 
 title: "A New Application that Helps You Find Texts in the OpenITI Corpus"			
 author: sarah_savant		

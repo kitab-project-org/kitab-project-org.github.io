@@ -2,7 +2,7 @@
 header:
   overlay_image: /images/covers/banner_bookhist.jpg
   overlay_filter: 0.1
-  caption: "A folio from a draft of al-Maqrizi's *Muqaffa* showing his later modifications to the text (Image courtesy [Universiteit Leiden](https://digitalcollections.universiteitleiden.nl/view/item/1945904))."
+  caption: "A folio from a draft of al-Maqrizi's *Muqaffa* showing his later modifications to the text (Image courtesy [Universiteit Leiden](https://digitalcollections.universiteitleiden.nl/view/item/1945904))"
 title: Book history
 layout: tag
 permalink: /methods/book-history

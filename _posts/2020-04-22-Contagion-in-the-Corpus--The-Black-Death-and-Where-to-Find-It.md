@@ -3,7 +3,7 @@ image: "/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-an
 header:
   overlay_image: "/images/covers/banner_blog.jpg"
   overlay_filter: 0.1
-  caption: "Gentile Bellini - Seated Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false 
 title: "Contagion in the Corpus: The Black Death and Where to Find It"			
 author: gowaart_van_den_bossche		

@@ -3,8 +3,8 @@ excerpt:	""
 header:
   overlay_image: /images/covers/banner_data.png
   overlay_filter: rgba(40, 99, 165, 0.45)
-  caption: "A visualisation comparing text reuse between a pair of works."
-title:		"About our Vizualisations"
+  caption: "A visualisation comparing text reuse between a pair of works"
+title:		"About our visualisations"
 layout:		single
 sidebar:
   nav: "corpus"

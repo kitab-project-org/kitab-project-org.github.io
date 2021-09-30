@@ -3,8 +3,8 @@ excerpt:	""
 header:
   overlay_image: /images/covers/banner_tok_length_B1_instances.png
   overlay_filter: rgba(40, 99, 165, 0.60)
-  caption: "A plot showing book length against number of text reuse instances."
-title:		"About the Corpus and Our Data"
+  caption: "A plot showing book length against number of text reuse instances"
+title:		"About the corpus and Our data"
 layout:		single
 sidebar:
   nav: "corpus"

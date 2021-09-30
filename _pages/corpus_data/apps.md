@@ -3,16 +3,16 @@ layout: splash
 header:
   overlay_image: /images/covers/banner_data.png
   overlay_filter: rgba(40, 99, 165, 0.45)
-  caption: "A visualisation comparing text reuse between a pair of works."
+  caption: "A visualisation comparing text reuse between a pair of works"
   actions:
     - label: "Learn more about the Corpus and Data"
       url: /corpus
-title: "Our Applications"
+title: "Our applications"
 
 corpus_app:
   - image_path: /images/covers/corpus_app.png
     alt: "placeholder image 2"
-    title: "Corpus Data Application"
+    title: "The Corpus data application"
     excerpt: 'Do you want to explore data relating to our corpus metadata? <br><br> Check back here soon to try our latest app!'
     url: "#test-link"
     btn_label: "Corpus App - coming soon..."
@@ -20,7 +20,7 @@ corpus_app:
 metadata_app:
   - image_path: /images/covers/search_app.png
     alt: "placeholder image 2"
-    title: "The Corpus Metadata Application"
+    title: "The Corpus metadata application"
     excerpt: 'Looking for a particular book to download in our corpus? Wanting to explore books by specific authors or in specific genres?<br><br> Search for books using the Corpus metadata search app.'
     url: "https://kitab-corpus-metadata.azurewebsites.net/"
     btn_label: "Search our metadata"

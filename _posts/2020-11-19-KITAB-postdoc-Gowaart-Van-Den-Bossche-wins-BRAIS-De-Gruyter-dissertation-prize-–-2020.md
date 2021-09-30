@@ -3,7 +3,7 @@ image: "/images/old_blogs/2020-11-19-KITAB-postdoc-Gowaart-Van-Den-Bossche-wins-
 header:
   overlay_image: "/images/covers/banner_blog.jpg"
   overlay_filter: 0.1
-  caption: "Gentile Bellini - Seated Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false 
 title: "KITAB postdoc Gowaart Van Den Bossche wins BRAIS-De Gruyter dissertation prize – 2020"			
 author: anjum_alam		
