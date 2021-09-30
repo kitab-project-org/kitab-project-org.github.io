@@ -12,7 +12,7 @@ sidebar:
   nav: "research"
 ---
 
-Download a pdf of our programme [here](https://drive.google.com/file/d/142UhXQMnO4JoEh8EbLn0crua38IPGfN8/view)
+Download a pdf of our programme <a href="/documents/Arabic_Pasts_Schedule_2021.pdf" target="_blank">here</a>
 
 
 # Day One (Online)
@@ -28,10 +28,10 @@ Welcome and Introduction (1:00 – 1:30 pm)
 Didactic Disputes: A History of Ashʿarism from 8th/14th-century Tunis\
 *Caitlyn Olson, New York University Abu Dhabi*
 
-Constructing a Historical Narrative of Sunni Theology: Ibn al-Mibrad’s (d. 909/1503) Genealogy of Ḥanbalī Uṣūl al-Dīn\
+Constructing a Historical Narrative of Sunni Theology: Ibn al-Mibrad’s (d. 909/1503) Genealogy of Ḥanbalī *Uṣūl al-Dīn*\
 *Arjan Post, KU Leuven*
 
-Contextualizing the Theological Enterprise of Saʿd al-Dīn al-Taftāzānī (d. 792/1390)\
+Unravelling the “Postclassical”: Characterising Philosophical Theology After Fakhr al-Dīn al-Rāzī (d. 606/1210))\
 *Tariq Mir, SOAS, University of London*
 
 Building the Future upon the Ruins of an Exalted Past. The Islamic Golden Age Topos in the Writings of the Nahḍa Intellectuals\
@@ -71,9 +71,6 @@ Friday, 8 October 2021
 {% capture ses3 %}
 ## Session 1: What Texts Do (9:30 – 11:00 am)
 **Chair, Hugh Kennedy, SOAS, University of London**
-
-Exploring Performance as ‘History Writing’: Practices of Poetic Composition among the Tunisian ‘Issawiya Community\
-*Dia Barghouti, Goldsmiths, University of London*
 
 Stories of Justice: Judges and Courts in Ottoman-Arabic Historiography\
 *James Baldwin, Royal Holloway*
@@ -134,6 +131,7 @@ Coffee Break
 {% capture ses6 %}
 ## Session 4: Early Arabic Pasts (3:45 – 4:45 pm)
 **Chair, Karen Bauer, The Institute of Ismaili Studies**
+
 The Shape of History in the Qurʾan\
 *Mohsen Goudarzi, Department of Classical & Near Eastern Studies, Religious Studies Program*
 
@@ -153,9 +151,6 @@ Saturday, 9 October 2021
 {% capture ses7 %}
 ## Session 1: Raising the Profile of a Historian (1:15 - 2:45 pm)
 **Chair, Arezou Azad, University of Oxford**
-
-Reading *Sīrat Aḥmad ibn Ṭūlūn* of al-Balawī\
-*Matthew Gordon, Miami University*
 
 Uthmān ibn Sanad (d. 1828) for Understanding the History of the Gulf During the Turn of the Nineteenth Century\
 *Saleh Alkhulaifi, SOAS, University of London*

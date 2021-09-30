@@ -14,6 +14,6 @@ Browse the table below to find pdfs of our previous workshop programmes
 
 
 ## [7 - 9 October 2021](https://drive.google.com/file/d/142UhXQMnO4JoEh8EbLn0crua38IPGfN8/view) 
-## [22 October - 24 October 2020](http://kitab-project.org/wp-content/uploads/2020/09/Arabic-Pasts-Schedule_2020-Programme-Agenda.docx.pdf) 
+## [22 - 24 October 2020](http://kitab-project.org/wp-content/uploads/2020/09/Arabic-Pasts-Schedule_2020-Programme-Agenda.docx.pdf) 
 ## [2019]() 
 ## [2018]() 
