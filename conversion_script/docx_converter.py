@@ -76,6 +76,13 @@ def header_build (header, name, blog, glossary):
      head_in = re.sub(r"author:.*\r?\n", author_code, head_in)
      # Sub in the submitted glossary - set up so it will just replace with metadata end placer if glossary empty
      head_in = re.sub(r"\n---", glossary, head_in)
+     images = re.findall(r"\!\[.*?\]\(.*(/images/.*)\)", blog)
+     if len(images) >= 1:
+         thumb = "\nimage: \"" + images[0] + "\"\n---\n"
+     else:
+         thumb = "\nimage: \"/images/kitab/mesa.jpg\"\n---\n"
+     head_in = re.sub(r"\n---", thumb, head_in)
+     
      final = head_in + "\n\n" + blog
      title = re.findall("title:.*\"(.*)\"", head_in)
 
@@ -101,14 +108,31 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
               final, title_s = header_build(header_path, name, blog, glossary)
             else:
               final, title_s = header_build(header_plain, name, blog, glossary)
-
+            
+            # Fixing conversion issues
             # Cleaning out uncessary md and tags from the final piece and converting images so they link to gallery view
-            final = re.sub(r"\!\[\]\((.*)(/images/.*)\)", r"[![](\2)](\2)", final)
+            final = re.sub(r"\!\[.*?\]\((.*)(/images/.*)\)", r"[![](\2)](\2)", final)
             final = re.sub(r"{width=.*?}", "", final)
+            
+            # Remove double underlines (sometimes added in conversion of hyperlinks)
+            final = re.sub(r"\[<u>(.*)</u>\]", "", final)
+            
+            # Fix footnotes to gfm standard
+            final = re.sub(r"\[(\d{1,2}\])[^(]", r"[^\1", final)
+            # This appears to cause a corruption
+            # final = re.sub(r"(\n\[\^\d{1,2}\])[^(]", "\1:", final)
+            
+            # Fix tables to gfm standard
+            final = re.sub(r"((\|.*)+\|)\r\r", "\1\n", final)
+            
+            # Change out non-gfm headings
+            final = re.sub(r"(.*\r)\r\n.*-{3,40}", "\1", final)
+            
 
 
 
             # Create outpath - check that file doesn't already exist
+            title_s = re.sub(r"\s", "-", title_s)
             outpath = blog_dir + str(date.today()) + "-" + title_s + ".md"
             file_no = 0
             while os.path.isfile(outpath):
@@ -133,5 +157,4 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
 
 """ FOOTENOTE REGEX: 1. \[(\d{1,2}\])[^(], [^\1 2. (\n\[\^\d{1,2}\])[^(] , \1: """
 """ Table REGEX removing lines: ((\|.*)+\|)\r\r , \1\n """
-""" Wrong heading regex: (.*\r)\r\n.*-{3,40} , ## \1
-
+""" Wrong heading regex: (.*\r)\r\n.*-{3,40} , ## \1"""
