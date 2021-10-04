@@ -126,9 +126,9 @@ docs:
   - title: Our Documentation
     children:
       - title: "Guides for OpenITI"
-        url: /docs/openITI/
+        url: /docs/openITI
       - title: "KITAB Datasets"
-        url: /docs/apps/
+        url: /docs/apps
 
 
 
