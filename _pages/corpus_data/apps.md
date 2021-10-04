@@ -36,7 +36,7 @@ coming_soon:
 
 permalink: /data/apps
 ---
-Welcome to KITAB's application portal. All of our latest applications can be accessed through this site. You can use them to explore our many data sets, in particular our text reuse data. For guidance on how to use the different applications, please visit our [visualisations page]({{ 'data/viz' | relative_url }}).
+Welcome to KITAB's application portal. All of our latest applications can be accessed through this site. You can use them to explore our many data sets, in particular our text reuse data. For guidance on how to use the different applications, please visit our [visualisations page]({{ 'data/viz' | relative_url }}). As we are still refining our applications, we have yet to release many of them to the public, but we look forward to sharing them with you soon!
 
 {% include feature_row id="metadata_app" type="left" %}
 {% include feature_row id="corpus_app" type="right" %}{% include feature_row id="coming_soon" type="left" %}

@@ -40,6 +40,8 @@ Image 2: A pairwise visualisation comparing al-Tabari's *Taʾrikh* (on the top) 
 {{ image2 | markdownify }}
 </div>
 
-We often provide screen captures of such visualisations in our publications to illustrate our discussions of book history. They are, however, part of an interactive visualisation. In the interactive visualisation, clicking on the yellow line linking the two passages will bring up the relevant text and provide the context in each of the two works, allowing you to read and understand the particular reuse instance.
+We often provide screen captures of such visualisations in our publications to illustrate our discussions of book history. They are, however, part of an interactive visualisation. In the interactive visualisation, clicking on the yellow line linking the two passages will bring up the relevant text and provide the context in each of the two works, allowing you to read and understand the particular reuse instance.
+
+As we have are still refining this visualisation, we are yet to release it to the public. We look forward to sharing it with you soon!
 ## More explanations of our core visualisations coming soon ...
 Return here to see explanations of our new applications, including* the corpus statistics application* the corpus text reuse statistics application* the book DNA explorer.

@@ -51,7 +51,7 @@ corpus:
         url: /corpus/ocr
       - title: "Corpus releases"
         url: /corpus/releases
-      - title: "Read more"
+      - title: "Posts about our corpus"
         url: /corpus/blogs
 
   - title: Datasets
@@ -60,7 +60,7 @@ corpus:
         url: /data
       - title: "About our Vizualisations"
         url: /data/viz
-      - title: "Blogs about our Vizualisations"
+      - title: "Posts about our Vizualisations"
         url: /data/viz-blogs      
       - title: "Use Our Applications"
         url: /data/apps
@@ -98,7 +98,7 @@ methods:
 research:
   - title: Publications
     children:
-      - title: "Blogs"
+      - title: "Blog"
         url: /blogs
       - title: "Articles"
         url: /research/articles
