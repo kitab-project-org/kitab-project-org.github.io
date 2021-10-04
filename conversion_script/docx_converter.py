@@ -128,6 +128,13 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
             # Change out non-gfm headings
             final = re.sub(r"(.*\r)\r\n.*-{3,40}", "\1", final)
             
+            # Identify and replace any numbered list indentations
+            instances = re.findall(r"(\n\d\..*([\r\n]+>.*)+)", final)
+            for group1, group2 in instances:
+                new_instance = re.sub(r"\n>\s", "\n\t", group1)
+                print(new_instance)
+                final = final.replace(group1, new_instance)
+   
 
 
 

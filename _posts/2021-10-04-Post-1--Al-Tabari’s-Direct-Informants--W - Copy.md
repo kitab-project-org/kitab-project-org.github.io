@@ -5,7 +5,7 @@ header:
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false 
 title: "Post 1: Al-Tabari’s Direct Informants: Work on a New Data Set"
-author: sarah_savant
+author: sarah_savant_masoumeh_seydi
 layout:	single
 categories:
   - 
@@ -15,7 +15,7 @@ tags:
 sidebar:
   - title: "Glossary"
   - text: "**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
-image: "/images/blogs/2021-10-01/sarah_savant/media/image1.png"
+image: "/images/blogs/2021-10-04/sarah_savant_masoumeh_seydi/media/image1.png"
 ---
 
 
@@ -69,7 +69,7 @@ The person in the *isnad* with whom al-Tabari implies having had direct contact 
 
 Al-Tabari cites all but one (Abu Saʿid al-Ashajja) of these people in his works using the 'he told me' phrases. However, although al-Khaṭīb mentioned only ten names, al-Tabari seems to identify hundreds of direct contacts. Further, al-Khatib may well have been relying on the very same evidence as we are for identifying al-Tabari's direct informants. But even if he was, it would still be noteworthy that he interpreted the 'he told me' phrases in the same way as we do -- as indicators of direct contact.
 
-[![](/images/blogs/2021-10-01/sarah_savant/media/image1.png)](/images/blogs/2021-10-01/sarah_savant/media/image1.png)
+[![](/images/blogs/2021-10-04/sarah_savant_masoumeh_seydi/media/image1.png)](/images/blogs/2021-10-04/sarah_savant_masoumeh_seydi/media/image1.png)
 
 Graph 1: The frequency and location of the phrases 'he told me'/'he told us' as the first element of an *isnad* across al-Tabari's *Taʾrikh*. Graph designed by Peter Verkinderen and Masoumeh Seydi.
 
@@ -77,9 +77,9 @@ The frequency of this formula can be represented graphically. In Graph 1, the *T
 
 Of phrases that might point to direct transmission, the formula *haddathani*/*haddathana* is by far the most common. Al-Tabari does not use the phrase *samiʿtu* ('I heard'), for example, and the phrases *akhbarana* and *akhbarani* appear only rarely. Al-Tabari's use of the passive 'it is reported from', which does not reveal his direct informant, is concentrated in the final part of the work, a phenomenon discussed in detail elsewhere.[^8]
 
-[![](/images/blogs/2021-10-01/sarah_savant/media/image2.png)](/images/blogs/2021-10-01/sarah_savant/media/image2.png)Graph 2: The frequency and location of the phrases 'he told me'/'he told us' as the first element of an *isnad* in al-Tabari's *Tafsir*.
+[![](/images/blogs/2021-10-04/sarah_savant_masoumeh_seydi/media/image2.png)](/images/blogs/2021-10-04/sarah_savant_masoumeh_seydi/media/image2.png)Graph 2: The frequency and location of the phrases 'he told me'/'he told us' as the first element of an *isnad* in al-Tabari's *Tafsir*.
 
-[![](/images/blogs/2021-10-01/sarah_savant/media/image3.png)](/images/blogs/2021-10-01/sarah_savant/media/image3.png)
+[![](/images/blogs/2021-10-04/sarah_savant_masoumeh_seydi/media/image3.png)](/images/blogs/2021-10-04/sarah_savant_masoumeh_seydi/media/image3.png)
 
 Graph 3: The frequency and location of the phrases 'he told me'/'he told us' as the first element of an *isnad* in al-Tabari's *Tahdhib*.
 
@@ -87,9 +87,9 @@ We describe our data and the way we generated it in much more detail in our next
 
 1.  We went through each work and extracted *isnād*s that start with the *haddathani*/*haddathana* formula. The formula occurs 32,115 times across the *Taʾrikh*, the *Tafsir* and the *Tahdhib*. The *isnad*s are presented in a table entitled 'Transmission Chains' in our data set.
 
-> The style of writing and citation in the *Taʾrikh* differs from that in the *Tafsir* and the *Tahdhib*. Generally speaking, al-Tabari's more narrative style in the former invokes *isnad*s, but often refers back to them in oblique ways. Consequently, *isnad*s and other citations appear relatively less frequently in the *Taʾrikh*, as the graphs above show.
->
-> We extracted the names of transmitters from the *isnad*s and put each in a separate cell in the *isnad*'s row. To identify and separate the names, we relied on a list of transmissive terms, first prepared by R. Kevin Jaques, plus a further list of words, such as 'by him' (*bi-hi*), that appear in *isnad*s but are not part of names.
+	The style of writing and citation in the *Taʾrikh* differs from that in the *Tafsir* and the *Tahdhib*. Generally speaking, al-Tabari's more narrative style in the former invokes *isnad*s, but often refers back to them in oblique ways. Consequently, *isnad*s and other citations appear relatively less frequently in the *Taʾrikh*, as the graphs above show.
+	
+	We extracted the names of transmitters from the *isnad*s and put each in a separate cell in the *isnad*'s row. To identify and separate the names, we relied on a list of transmissive terms, first prepared by R. Kevin Jaques, plus a further list of words, such as 'by him' (*bi-hi*), that appear in *isnad*s but are not part of names.
 
 2.  We created a unified list of authorities by normalising variants of each Arabic name to a single Latin-script version and listing the normalised names in a 'Name Normalisation' table. We also entered the normalised names into the Transmission Chains table.
 
