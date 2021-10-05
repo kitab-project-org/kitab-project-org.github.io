@@ -12,7 +12,9 @@ sidebar:
   nav: "research"
 ---
 
-Arabic Pasts 2021 is happening from 7th - 9th of October. This annual exploratory and informal workshop co-hosted with SOAS University and the University of Oxford offers the opportunity to reflect on history writing in Arabic.
+Arabic Pasts 2021 is happening from 7th - 9th of October. 
+
+This annual exploratory and informal workshop co-hosted with SOAS University and the University of Oxford offers the opportunity to reflect on history writing in Arabic.
 
 Download a pdf of our programme <a href="/documents/Arabic_Pasts_Schedule_2021.pdf" target="_blank">here</a>
 
