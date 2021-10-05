@@ -10,7 +10,7 @@ sidebar:
   nav: "research"
 ---
 
-This annual exploratory and informal workshop offers the opportunity to reflect on history writing in Arabic.
+This annual exploratory and informal workshop co-hosted with SOAS University and the University of Oxford offers the opportunity to reflect on history writing in Arabic.
 
 Papers at this workshop elucidate the following sorts of questions:
 
