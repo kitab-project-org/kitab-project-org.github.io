@@ -23,8 +23,8 @@ about:
         url: /about/kitabis
       - title: "Our Projects"
         url: /about/our-projects
-      - title: "Collaborations"
-        url: /about/collaborations
+      #- title: "Collaborations"
+      #  url: /about/collaborations
       - title: "Funders"
         url: /about/funders
       - title: "Get involved"

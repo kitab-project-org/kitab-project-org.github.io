@@ -24,7 +24,7 @@ Welcome and Introduction (1:00 – 1:30 pm)
 
 {% capture ses1 %}
 ## Session 1: Idealised Pasts (1:30 – 3:30 pm)
-**Chair: James McDougall, University of Oxford**
+**Chair, Leif Stenberg, AKU-ISMC**
 
 Didactic Disputes: A History of Ashʿarism from 8th/14th-century Tunis\
 *Caitlyn Olson, New York University Abu Dhabi*
@@ -48,7 +48,7 @@ Coffee Break
 
 {% capture ses2 %}
 ## Session 2: Lost Texts and Other Recoveries (3:45 – 5:15 pm)
-**Chair, Leif Stenberg, AKU-ISMC**
+**Chair, James McDougall, University of Oxford **
 
 Recovering Lost Texts and Authenticity: Textual Traditions as Living Institution\
 *Kevin Jaques, University of Indiana and KITAB Project*

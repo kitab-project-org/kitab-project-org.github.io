@@ -53,7 +53,7 @@ def find_terms(glossary, blog):
   if found_term == True:
     return sidebar_text
   else:
-    return "---"
+    return "\n---"
 
 
 # Create string from docx formatted text except those in wrong format
@@ -61,7 +61,7 @@ def docx_conv(root, name, images_path):
         author = re.findall(r"(^.*?)\.", name)[0]
         extract_img = "--extract-media=" + images_path + author
         path = os.path.abspath(os.path.join(root, name))
-        blog = pypandoc.convert_file(path, 'md', extra_args =["--wrap=none", extract_img])
+        blog = pypandoc.convert_file(path, 'markdown-simple_tables-multiline_tables-grid_tables', extra_args =["--wrap=none", extract_img])
         return blog, author.lower()
 
 
@@ -76,7 +76,7 @@ def header_build (header, name, blog, glossary):
      head_in = re.sub(r"author:.*\r?\n", author_code, head_in)
      # Sub in the submitted glossary - set up so it will just replace with metadata end placer if glossary empty
      head_in = re.sub(r"\n---", glossary, head_in)
-     images = re.findall(r"\!\[.*?\]\(.*(/images/.*)\)", blog)
+     images = re.findall(r"\!\[.*?\]\(.*(/images/[^)]*)\)", blog)
      if len(images) >= 1:
          thumb = "\nimage: \"" + images[0] + "\"\n---\n"
      else:
@@ -111,7 +111,7 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
             
             # Fixing conversion issues
             # Cleaning out uncessary md and tags from the final piece and converting images so they link to gallery view
-            final = re.sub(r"\!\[.*?\]\((.*)(/images/.*)\)", r"[![](\2)](\2)", final)
+            final = re.sub(r"\!\[.*?\]\(.*(/images/[^)]*)\)", r"[![](\1)](\1)", final)
             final = re.sub(r"{width=.*?}", "", final)
             
             # Remove double underlines (sometimes added in conversion of hyperlinks)
@@ -123,13 +123,18 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
             # final = re.sub(r"(\n\[\^\d{1,2}\])[^(]", "\1:", final)
             
             # Fix tables to gfm standard
-            final = re.sub(r"((\|.*)+\|)\r\r", "\1\n", final)
+            final = re.sub(r"\|\r\r\n", "|\n", final)
+            final = re.sub(r"(\| {3,})+\|", "", final)
+            
+            # Remove rtl markers
+            final = re.sub(r"\[([^\]]*)\]{dir=\"rtl\"}", r"\1", final)
+            final = re.sub(r"{dir=\"rtl\"}", "", final)
             
             # Change out non-gfm headings
             final = re.sub(r"(.*\r)\r\n.*-{3,40}", "\1", final)
             
             # Identify and replace any numbered list indentations
-            instances = re.findall(r"(\n\d\..*([\r\n]+>.*)+)", final)
+            instances = re.findall(r"(\n\d+\..*([\r\n]+>.*)+)", final)
             for group1, group2 in instances:
                 new_instance = re.sub(r"\n>\s", "\n\t", group1)
                 print(new_instance)
@@ -147,7 +152,7 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
                 outpath = blog_dir + str(date.today()) + "-" + title_s + str(file_no) + ".md"
 
             # Write out final blog to correct destination
-            f = open(outpath, "w", encoding = "utf-8")
+            f = open(outpath, "w", newline="", encoding = "utf-8")
             f.write(final)
             f.close()
             print(outpath + "...written to blog directory")
