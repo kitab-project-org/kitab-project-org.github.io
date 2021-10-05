@@ -129,6 +129,18 @@ footer:
     - label: "KITAB Github"
       icon: "fab fa-fw fa-github-square"
       url: "https://github.com/kitab-project-org"
+    - label: "ISMC Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: https://www.facebook.com/akuismclondon/
+    - label: "ISMC Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: https://twitter.com/AKU_ISMC
+    - label: "ISMC LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2F78109905%2Fadmin%2F
+    - label: "ISMC YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: https://www.youtube.com/channel/UC02QlE0dFyWIpgeAQtIyNjQ?view_as=subscriber
     - # label: "Twitter"
       # icon: "fab fa-fw fa-twitter-square"
       # url:
