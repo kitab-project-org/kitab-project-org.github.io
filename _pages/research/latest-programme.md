@@ -169,10 +169,10 @@ An Indian Historian’s Arabic Craft: ʿAbd al-Ḥayy al-Ḥasanī’s (d. 1923)
 </div>
 
 Coffee Break
-2:45 – 3:00 pm
+2:30 – 2:45 pm
 
 {% capture ses8 %}
-## Session 2: Historical Subjects and Modes of Expression (3:00 – 5:00 pm)
+## Session 2: Historical Subjects and Modes of Expression (2:45 – 5:00 pm)
 **Chair, Letizia Osti, University of Milan**
 
 Ibn Khaldūn in His Subjective Lexicon - The Emotional Constellation of an Intellectual in Transition\
