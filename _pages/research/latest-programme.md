@@ -154,7 +154,7 @@ A Theory of Paganism in the Syriac Cave of Treasures and its Deployment in Ibn a
 Saturday, 9 October 2021
 
 {% capture ses7 %}
-## Session 1: Raising the Profile of a Historian (1:15 - 2:45 pm)
+## Session 1: Raising the Profile of a Historian (1:15 - 2:30 pm)
 **Chair, Arezou Azad, University of Oxford**
 
 Uthmān ibn Sanad (d. 1828) for Understanding the History of the Gulf During the Turn of the Nineteenth Century\
