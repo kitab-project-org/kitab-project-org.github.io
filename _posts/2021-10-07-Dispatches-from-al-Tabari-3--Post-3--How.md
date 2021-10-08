@@ -4,7 +4,7 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 3: Post 3: How Many People Did al-Tabari Talk To?"
+title: "Dispatches from al-Tabari 3: How Many People Did al-Tabari Talk To?"
 author: sarah_savant_masoumeh_seydi
 layout:	single
 categories:
