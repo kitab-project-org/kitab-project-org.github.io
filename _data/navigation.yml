@@ -58,9 +58,9 @@ corpus:
     children:
       - title: "About our data"
         url: /data
-      - title: "About our Vizualisations"
+      - title: "About our Visualisations"
         url: /data/viz
-      - title: "Posts about our Vizualisations"
+      - title: "Posts about our Visualisations"
         url: /data/viz-blogs      
       - title: "Use Our Applications"
         url: /data/apps
