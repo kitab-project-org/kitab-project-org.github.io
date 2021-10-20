@@ -79,9 +79,10 @@ def header_build (header, name, blog, glossary):
      images = re.findall(r"\!\[.*?\]\(.*(/images/[^)]*)\)", blog)
      if len(images) >= 1:
          thumb = "\nimage: \"" + images[0] + "\"\n---\n"
-     else:
-         thumb = "\nimage: \"/images/kitab/mesa.jpg\"\n---\n"
-     head_in = re.sub(r"\n---", thumb, head_in)
+         head_in = re.sub(r"\n---", thumb, head_in)
+     # else:
+     #     thumb = "\nimage: \"/images/kitab/mesa.jpg\"\n---\n"
+     
      
      final = head_in + "\n\n" + blog
      title = re.findall("title:.*\"(.*)\"", head_in)
@@ -117,6 +118,8 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
             # Remove double underlines (sometimes added in conversion of hyperlinks)
             final = re.sub(r"\[<u>(.*)</u>\]", "", final)
             
+            final = re.sub(r"\[([^\[\]]*)\]{\.ul}", r"\1", final)
+            
             # Fix footnotes to gfm standard
             final = re.sub(r"\[(\d{1,2}\])[^(]", r"[^\1", final)
             # This appears to cause a corruption
@@ -126,12 +129,13 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
             final = re.sub(r"\|\r\r\n", "|\n", final)
             final = re.sub(r"(\| {3,})+\|", "", final)
             
-            # Remove rtl markers
+            # Remove rtl and ltr markers
             final = re.sub(r"\[([^\]]*)\]{dir=\"rtl\"}", r"\1", final)
-            final = re.sub(r"{dir=\"rtl\"}", "", final)
+            final = re.sub(r"\[?\]?{dir=\"rtl\"}", "", final)
+            final = re.sub(r"\[?\]?{dir=\"ltr\"}", "", final)
             
             # Change out non-gfm headings
-            final = re.sub(r"(.*\r)\r\n.*-{3,40}", "\1", final)
+            final = re.sub(r"(.*\r)\r\n.*-{3,40}", r"\1", final)
             
             # Identify and replace any numbered list indentations
             instances = re.findall(r"(\n\d+\..*([\r\n]+>.*)+)", final)
