@@ -11,13 +11,16 @@ categories:
   - 
   - 
 tags:
-
+  - releases
+image : "/images/thumbs/releases.png"
 sidebar:
   - title: "Glossary"
   - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>"
-image: "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi7/media/image1.png"
+image: "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png"
 ---
 
+
+**Post 7: Text Reuse Alignments**
 
 How did al-Tabari create his extensive works? We contend that well-organised sets of notes played a critical role. Our argument relies on reasoning about the practicalities of working at scale, as well as our analysis of a data set consisting of thousands of citations that al-Tabari begins with the formula 'he told me'/'he told us' (*haddathani*/*haddathana*). As demonstrated in previous posts, we have counted and tabulated these people who, he says, gave him information and have sketched visually (through tree maps) the bundles of notes he likely copied down and collated into notebooks.
 
@@ -29,11 +32,11 @@ Even short alignments often point to a shared source. The following brief alignm
 
 *Taʾrikh*, milestone 66:
 
-ابن اسحاق قال يقال والله اعلم خلق الله ادم ثم وضعه ينظر اليه اربعين يوما قبل ان ينفخ فيه الروح حتى عاد صلصالا كالفخار ولم تمسه نار قال فلما مضي له
+<p dir = 'rtl' align = 'right'> ابن اسحاق قال يقال والله اعلم خلق الله ادم ثم وضعه ينظر اليه اربعين يوما قبل ان ينفخ فيه الروح حتى عاد صلصالا كالفخار ولم تمسه نار قال فلما مضي له </p>
 
 *Tafsir*, milestone 292:
 
-ابن اسحاق \-\--فيقال والله اعلم خلق الله ادم ثم وضعه ينظر اليه اربعين عاما قبل ان ينفخ فيه الروح حتي عاد صلصالا كالفخار ولم تمسه نار قال فيقال والله
+<p dir = 'rtl' align = 'right'> ابن اسحاق \-\--فيقال والله اعلم خلق الله ادم ثم وضعه ينظر اليه اربعين عاما قبل ان ينفخ فيه الروح حتي عاد صلصالا كالفخار ولم تمسه نار قال فيقال والله </p>
 
 In the *Taʾrikh*, the passage is found in a section dedicated to the topic of Adam's creation (*al-qawl fī khalq Ādam*), and it is preceded by an *isnad* going back to Muhammad b. Humayd (d. 248/862). The report begins with 'Ibn Ishaq said'. The following translation loosely follows Rosenthal's:
 
@@ -45,24 +48,23 @@ There are numerous such closely related passages, and once passim has identified
 
 In the longest alignments between the *Taʾrikh* and the *Tafsir*, both texts rely heavily on Muhammad b. Humayd's transmission of Ibn Ishaq's *Sira*. In fact, of the ten longest alignments, all but one can be traced to Muhammad b. Humayd. The *Sira* -- as passed on by Muhammad b. Humayd -- represents a major source common to all three of al-Tabari's works.
 
-Beyond Muhammad b. Humayd, we find other direct informants. As an experiment, we searched through the passim output files for the surface forms of the ten most often cited direct informants. Of the 1,374 alignments, 555 contain one of the names -- and in fact each of the 555 names all ten top informants. Although this evidence is not extensive, it does suggest that al-Tabari reached back to the same trusted notebooks for his different works.
+Beyond Muhammad b. Humayd, we find other direct informants. As an experiment, we searched through the passim output files for the surface forms of the ten most often cited direct informants. Of the 1,374 alignments, 555 contain one of the names -- and in fact all ten top informants are named. Although this evidence is not extensive, it does suggest that al-Tabari reached back to the same trusted notebooks for his different works.
 
-Not Copying Between Works
--------------------------
+**Not Copying Between Works**
 
 The general picture of text reuse yielded by our data set is one of a few extensive alignments and many more fragmentary ones. The most obvious explanation for this phenomenon is that al-Tabari used a common set of notes but adapted them differently in different contexts.
 
 Previous scholars have held the view that al-Tabari did not copy wholesale the *Tafsir* into the *Taʾrikh* (or vice versa), and that is also what our data and visualisations suggest.[^2]
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi7/media/image1.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi7/media/image1.png)Image 1: Alignments between the *Taʾrikh* (on the top) and the *Tafsir* (on the bottom). Based on passim run of February 2021. Files compared: Shamela0009783BK1 and Shamela0007798.
+[![](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png)](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png)Image 1: Alignments between the *Taʾrikh* (on the top) and the *Tafsir* (on the bottom). Based on passim run of February 2021. Files compared: Shamela0009783BK1 and Shamela0007798.
 
 The latest section of the *Taʾrikh* that is aligned with the *Tafsir* falls within a discussion of events in the Prophet's lifetime, specifically concerning the Prophet's wife ʿAʾisha. The arrangement owes much to *Sira* material derived from Muhammad b. Humayd, and the frequency of mentions of Muhammad b. Humayd's name in the aligned passages also points to both texts relying heavily on the *Sira*.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi7/media/image2.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi7/media/image2.png)Image 2: Alignments between the *Tahdhib* (on the top) and the *Taʾrikh* (on the bottom). Files compared: JK008250Vols and Shamela0009783BK1.
+[![](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image2.png)](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image2.png)Image 2: Alignments between the *Tahdhib* (on the top) and the *Taʾrikh* (on the bottom). Files compared: JK008250Vols and Shamela0009783BK1.
 
 By contrast, there are very few alignments between the *Tahdhib* and the *Taʾrikh*, and no obvious pattern. The total number of aligned passages between these two works is forty-four, and the longest passage consists of 239 words. Eight further alignments contain 100 words or more.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi7/media/image3.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi7/media/image3.png)Image 3: Alignments between the *Tahdhib* (on the top) and the *Tafsir* (on the bottom). Files compared: JK008250Vols and Shamela0007798.
+[![](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image3.png)](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image3.png)Image 3: Alignments between the *Tahdhib* (on the top) and the *Tafsir* (on the bottom). Files compared: JK008250Vols and Shamela0007798.
 
 Between the *Tahdhib* and the *Tafsir*, there are a total of 229 aligned passages, the longest of which is 265 words. Of these alignments, forty-five contain at least 100 words.
 
