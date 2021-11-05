@@ -40,14 +40,14 @@ Given the above risks, it is recommended that you check big changes by running J
 
 
 ### Jekyll
-Small changes to the website or blog uploads can be done without needed to install and run Jekyll locally. If you plan to make large changes to the website or add new pages, it is recommended that you install Jeykll on your local machine. This will allow you to test the website prior to uploading your changes to GitHub. The following steps
+Small changes to the website or blog uploads can be done without needed to install and run Jekyll locally. If you plan to make large changes to the website or add new pages, it is recommended that you install Jeykll on your local machine. This will allow you to test the website prior to uploading your changes to GitHub. The following steps. A good guide to Jekyll is [here](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages) (**Note:** This guide uses a different route to the WSL for installing Jekyll on Windows - we do not recommend Windows users follow the route specified in this guide - the blog post is intended as a guide to install and running Jekyll once WSL Ubuntu is installed).
 
 #### Windows vs Mac and Linux
-The recommended route is to run Jekyll throughout Windows Subsystem for Linux, using Ubuntu. You will need to Activate WSL and install Ubuntu, on this (check [this]() guide). Mac and Linux users can use their command line.
+The recommended route is to run Jekyll throughout Windows Subsystem for Linux, using Ubuntu. You will need to Activate WSL and install Ubuntu, on this (check [this](https://ubuntu.com/wsl) guide). Mac and Linux users can use their usual command line.
 
 #### Install Jekyll and get gems for our website
-1. run: 'sudo install Jekyll'
-1. run: 'gem install bundler'
+1. run: 'sudo gem install jekyll'
+1. run: 'sudo gem install jekyll bundler'
 1. 'cd' into the KITAB website directory (the GitHub repository that you downloaded in in the step above)
 1. run 'bundle update' - this uses the website's specs to get the appropriate gems and versions
 1. At this stage (or the following stage) you may find that you get an error telling you that some of your gems are the wrong version. To fix this run gem install 'gem-version' (where you give the name of the gem specified in the error and the version specified). To troubleshoot these issues it is recommend you search for the error in google and follow a stack exchange thread - almost all of the errors you will encounter will be resolved there.
@@ -61,10 +61,10 @@ Whenever you make any changes to the website, you can use the following steps to
 1. Navigate to the local server in the browser to look at your changes.
 1. Use 'ctrl' + 'c' to end the local server process (it is recommended that you do this before making further changes).
 
-**A note on making updates while the server is running** Jekyll allows you to make changes while the server is running and to see those changes locally. When you make a change, it will automatically re-run the build process and push the changes to the server. In some cases, it seems that this process errors and will hang (the command line will hang and you won't be able to end the server). If you find this happens, we recommend you use the command 'bundle exec jekyll serve --no-watch' to run the server. If you do this the website will not update as you make changes, but it will be more stable. In this case you will need to end the server and re-run 'bundle exec jekyll serve --no-watch' everytime that you want to see changes.
+**A note on making updates while the server is running:** Jekyll allows you to make changes while the server is running and to see those changes locally. When you make a change, it will automatically re-run the build process and push the changes to the server. In some cases, it seems that this process errors and will hang (the command line will freeze up and you won't be able to end the local server process). If you find this happens, quit and reopen Ubuntu/the command line, and we recommend you use the command 'bundle exec jekyll serve --no-watch' to run the server in future. If you do this the website will not update as you make changes, but it will be more stable. In this case you will need to end the server and re-run 'bundle exec jekyll serve --no-watch' every time that you want to see changes.
 
 ### Python
-If you plan to run the blog docx conversion script on your local machine (for details on how to see below), you will need to install Python 3.6 on your local machine and use pip install to install any dependencies. For the dependencies see the requirements.txt file in the 'conversion_script' folder of the repository.
+If you plan to run the blog docx conversion script on your local machine (for details on how to see below), you will need to install Python 3.6 or later on your local machine and pip to install the relevant packages. Use pip install to install any dependencies (open your Python-enabled command prompt, cd into the 'conversion_script' folder and use the command 'pip install -r requirements.txt'). For the dependencies see the requirements.txt file in the 'conversion_script' folder of the repository.
 
 ## About the structure and format of the website
 
@@ -130,4 +130,126 @@ This sets the primary-color to the KITAB logo blue. If the theme were to be rese
 
 There is presently no procedure for converting website pages from docx to markdown using a python script. This is due to the increased level of customisation available in the pages part of the website (for example, for the insertion of text boxes). 
 
-It is recommended that you modify the pages directly in the markdown file. This can be done through two 
+It is recommended that you modify the pages directly in the markdown file. This can be done through two approaches (use the second for any major changes, to avoid pushing potential errors to the main website):
+
+### Making changes online
+
+1. Navigate to the relevant page under _pages in the online repository
+1. Click the edit button for that page
+1. Make the changes to the text
+1. Add a clear and identifiable commit message and press commit
+1. Your changes will shortly appear on the website
+
+### Making changes locally
+
+1. Open git Bash (in Windows), or open command line in Mac or Linux.
+1. cd into the GitHub repository for the website.
+1. run 'git pull origin master' (in Bash in windows, in command line in Mac or Linux) - this will get any new changes from remote repository.
+1. Navigate to the repository in your computer file system and navigate to the '_pages' folder, find the markdown file related to the page you want to edit.
+1. Open the file in a text editor that supports markdown (such as EditPad Pro).
+1. Make the relevant changes and save them.
+1. Go to Ubuntu (in Windows) or the command line (in Mac or Linux).
+1. cd into the GitHub repository for the website
+1. run 'bundle exec jekyll serve'
+1. Open the browser and enter the address of the local server
+1. Check that your changes have had the desired effect.
+
+If you are happy with your changes in the browser, do the following:
+1. Go to git Bash (in Windows) or command line in Mac or Linux
+1. Run 'git add .'
+1. Run 'git commit -m "clear and identifiable commit message"
+1. Run 'git push origin master'
+1. Your changes will shortly appear on the main website.
+
+## Adding new pages
+
+## Specific _pages style guides
+
+### Liquid tags
+In existing pages you will come across liquid tags. This are characterised by curly braces '{' '}' and sometimes have '%'. If in doubt, do not remove these tags, as it will impact upon the styling or the hyperlinking within the webpage. To investigate the functionality of specific tags, look at the Liquid docs (see 'Resources' above) or google the relevant tag to find out more.
+
+### Text boxes 
+
+Text boxes are used on the website for emphasis. These use built-in theme functionality, detailed [here](). This webpage specifies the colour profiles and what you will need to write to insert a color.
+
+Use the following code block (which utilises markdown, liquid and html) to insert good text boxes.
+
+```
+{% capture except_notice %} 
+ADD TEXT IN MARKDOWN HERE (this can include anything, including images or tables)
+{% endcapture %}
+
+<div class="notice--warning">
+{{ except_notice | markdownify }}
+</div> 
+```
+
+The code above will output the text in markdown with a warning coloured box.
+
+For examples, look at existing pages of the website, such as 'corpus_use.md'. We recommend that you compare the code in the markdown file to the end result to see how this works.
+
+An example from the (corpus_use.md) file is, the end result can be viewed [here](https://kitab-project.org/corpus/use):
+
+```
+{% capture except_notice %} 
+**Please note:** There are certain exceptional author IDs that we use in the corpus in specific cases where an author cannot be identified, where the author's death date is unknown or where the author is still alive. Please find these variants in the table below. They are constantly being reviewed by the team, so check back here for updates.
+
+  ID | Meaning
+  --- | ---
+  0001Quran.Mushaf (previously 0001KitabAllah.QuranKarim) | The Quran
+  MuallifMajhul | Unknown author (date in URI will correspond to the period when we think the author was alive)
+  1450 | Date used for authors who are still alive
+  Pseudo- | An indication that a work attributed to the author, but the attribution is uncertain or disputed
+
+
+
+{% endcapture %}
+
+
+<div class="notice--warning">
+{{ except_notice | markdownify }}
+</div> 
+```
+
+### The homepage
+
+The file for the homepage is found in the main repository folder as 'index.html'. To edit this file, you will need to right click on it and open it into a text editor (it will by default open in a browser, where you cannot edit it).
+
+index.html uses a splash layout that is built into the theme. This allows you to add 'feature rows' to the page with pictures and links. Two of the boxes on this page are produced using custom html, rather than in-built splash 'feature rows' they are: the latest blog posts, the box for twitter and getting involved. It is unlikely that you will need to change the custom html, but it is documented here for potential future modifications.
+
+#### Feature rows
+The more standardised content of the homepage is added using feature rows. For a guide to splash layouts and feature rows, see [here](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout). This documentation is not very clear and so below is a step-by-step guide to updating or adding a feature row.
+
+The content of feature rows is specified in the header of index.html. For example, the feature row containing the message from the PI, is specified in the header, as follows:
+
+```
+pi_message:
+  - image_path: /images/kitab/all_team2.jpg
+    url: "/about/"
+    btn_label: "Read more"
+    btn_class: "btn--primary"
+    title: "A message from the PI"
+    excerpt: >
+       KITAB provides a digital tool-box and a forum for discussions about Arabic texts. We wish to empower users to explore Arabic texts in completely new ways and to expand the frontiers of knowledge about one of the world's largest and most complex textual traditions.
+```
+
+Any change to content is therefore made in this header matter. For example, if you wanted to change the text of the feature row, you would change the text under 'excerpt'. If you wanted to add another feature row, then you would add more of the same fields to the header. For example, if you wanted to add another row about events, you might add to the header:
+
+```
+events:
+  - image_path: /images/kitab/event_image.jpg
+    url: "/events/"
+    btn_label: "Events"
+    btn_class: "btn--primary"
+    title: "A message from the PI"
+    excerpt: 'See about our latest events'
+```
+
+Once the feature row has been specified in the header, you can add it into the main body of the text in the position that you wanted to add the feature row. For example, if we wanted to add the features rows above one after the other, one with the image on the right and the other with the image on the left, we would add to the main body of the text:
+
+```
+{% include feature_row id="pi_message" type="right" %}
+{% include feature_row id="events" type="left" %}
+``` 
+
+####   
