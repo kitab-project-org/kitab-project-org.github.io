@@ -42,10 +42,16 @@ This will fetch any changes that have been made by any users or on the remote be
 If you make any updates, take the following approach:
 1. Run 
         ```
-        'git add .'
+        git add .
         ```
-1. Run 'git commit -m "**easy to identify commit message**"
-1. Run 'git push origin master'
+1. Run 
+        ```
+        git commit -m "**easy to identify commit message**"
+        ```
+1. Run
+        ```
+        git push origin master
+        ```
 1. Wait a short while to allow GitPages to process your changes and then go to the website to see your changes take effect. 
 
 *WARNING: once you push changes to the main repository they will be added to the website. Make sure that you are happy with your changes before committing them to the main repository (this also applies if you make changes online). Once a change has been pushed to the remote (or committed in the remote - i.e. committed on the GitHub website), you will need to change it back manually and create another commit, to revert (or you will need to reset to an earlier commit - this is not recommended).*
@@ -61,10 +67,20 @@ The recommended route is to run Jekyll throughout Windows Subsystem for Linux, u
 
 #### Install Jekyll and get gems for our website
 1. Open Ubuntu WSL in Windows or command line in Mac or Linux
-1. run: 'sudo gem install jekyll'
-1. run: 'sudo gem install jekyll bundler'
+1. run
+        ```
+        sudo gem install jekyll
+        ```
+1. run
+        ```
+        sudo gem install jekyll bundler
+        ```
 1. 'cd' into the KITAB website directory (the GitHub repository that you downloaded in in the step above)
-1. run 'bundle update' - this uses the website's specs to get the appropriate gems and versions
+1. run 
+       ```
+       bundle update
+       ```
+       - this uses the website's specs to get the appropriate gems and versions
 1. At this stage (or the following stage) you may find that you get an error telling you that some of your gems are the wrong version. To fix this run gem install 'gem -v version' (where you give the name of the gem specified in the error and the version specified, e.g. 'gem install kramdown -v 1.1.0'). To troubleshoot these issues it is recommend you search for the error in google and follow a stack exchange thread - almost all of the errors you will encounter will be resolved there.
 1. to check everything is installed correctly run 'bundle exec jekyll serve'. This will serve the website locally.
 1. Navigate to the local server address given in the command line to see the local instance of the website.
@@ -73,7 +89,10 @@ The recommended route is to run Jekyll throughout Windows Subsystem for Linux, u
 Whenever you make any changes to the website, you can use the following steps to check how those updates look in your browser before pushing them to the main website.
 1. Open WSL Ubuntu in Windows or command line in Mac or Ubuntu
 1. 'cd' into the directory containing the website files
-1. run : 'bundle exec jekyll serve'.
+1. run
+       ```
+       bundle exec jekyll serve
+       ```
 1. Navigate to the local server in the browser to look at your changes.
 1. Use 'ctrl' + 'c' to end the local server process (it is recommended that you do this before making further changes).
 
@@ -189,9 +208,18 @@ It is recommended that you modify the pages directly in the markdown file. This 
 
 If you are happy with your changes in the browser, do the following:
 1. Go to git Bash (in Windows) or command line in Mac or Linux
-1. Run 'git add .'
-1. Run 'git commit -m "*clear and identifiable commit message*"
-1. Run 'git push origin master'
+1. Run 
+        ```
+        git add .
+        ```
+1. Run 
+        ```
+        git commit -m "*clear and identifiable commit message*"
+        ```
+1. Run 
+        ```
+        git push origin master
+        ```
 1. Your changes will shortly appear on the main website.
 
 ## Adding new pages
@@ -211,15 +239,27 @@ Take the following steps to add a new page:
 1. Add the permalink you specified in the header into navigation.yml along with the desired title (in the place in the navigation that you would like the link to appear) - see further the [_data section](#_data) above.
 1. Go to Ubuntu (in Windows) or the command line (in Mac or Linux).
 1. cd into the GitHub repository for the website.
-1. run 'bundle exec jekyll serve'.
+1. run 
+        ```
+        bundle exec jekyll serve
+        ```
 1. Open the browser and enter the address of the local server.
 1. Check that page appears in the expected place in the navigation and that you're happy with the content.
 
 If you are happy with your changes in the browser, do the following:
 1. Go to git Bash (in Windows) or command line in Mac or Linux
-1. Run 'git add .'
-1. Run 'git commit -m "*clear and identifiable commit message*"
-1. Run 'git push origin master'
+1. Run 
+        ```
+        git add .
+        ```
+1. Run 
+        ```
+        git commit -m "*clear and identifiable commit message*"
+        ```
+1. Run 
+        ```
+        git push origin master
+        ```
 1. Your new page will shortly appear on the main website.
 
 ### Header matter
@@ -245,7 +285,7 @@ permalink: /corpus/about
 
 This is a selection of the fields available for the KITAB website - the following is a guide to fields that can be used in the header matter:
 
-```
+```yml
 ---
 excerpt:	# Appears under the title in the banner
 header:
@@ -264,7 +304,7 @@ toc_sticky: # If this is specified as 'true', the table of contents will move do
 
 Below is an empty header than can be copied and pasted into new webpages (it is ok if you leave fields that you don't need empty, it will not cause an error). When copying this text, make sure to keep the indentation the same. The layout has been specified as 'single', as this is most likely to be the kind of page you will be adding. If you need a different page type, do not forget to change this field:
 
-```
+```yml
 ---
 excerpt:	
 header:
@@ -301,7 +341,7 @@ Text boxes are used on the website for emphasis. These use built-in theme functi
 
 Use the following code block (which utilises markdown, liquid and html) to insert good text boxes.
 
-```
+```html
 {% capture except_notice %} 
 *ADD TEXT IN MARKDOWN HERE (this can include anything, including images or tables)*
 {% endcapture %}
@@ -317,7 +357,7 @@ For examples, look at existing pages of the website, such as 'corpus_use.md'. We
 
 An example from the (corpus_use.md) file is, the end result can be viewed [here](https://kitab-project.org/corpus/use):
 
-```
+```html
 {% capture except_notice %} 
 **Please note:** There are certain exceptional author IDs that we use in the corpus in specific cases where an author cannot be identified, where the author's death date is unknown or where the author is still alive. Please find these variants in the table below. They are constantly being reviewed by the team, so check back here for updates.
 
@@ -349,7 +389,7 @@ The more standardised content of the homepage is added using feature rows. For a
 
 The content of feature rows is specified in the header of index.html. For example, the feature row containing the message from the PI, is specified in the header, as follows:
 
-```
+```yml
 pi_message:
   - image_path: /images/kitab/all_team2.jpg
     url: "/about/"
@@ -362,7 +402,7 @@ pi_message:
 
 Any change to content is therefore made in this header matter. For example, if you wanted to change the text of the feature row, you would change the text under 'excerpt'. If you wanted to add another feature row, then you would add more of the same fields to the header. For example, if you wanted to add another row about events, you might add to the header:
 
-```
+```yml
 events:
   - image_path: /images/kitab/event_image.jpg
     url: "/events/"
@@ -383,7 +423,7 @@ Once the feature row has been specified in the header, you can add it into the m
 
 The code block for our latest blogs is identified using the following comment in the code:
 
-```
+```html
 <!Code block for the latest blogs - do not change!>
 ```
 
@@ -395,7 +435,7 @@ The classes used in this code block are taken directly from the minimal mistakes
 
 Within the "div" for the "feature__wrapper", each blog post appears as a "grid__item", as in the example below shows:
 
-```
+```html
 <div class = "grid__item">
      <article class = "archive__item">
       
@@ -424,31 +464,31 @@ Each div is populated using liquid as follows:
 
 First we set a variable for the most recent post (that is the post at index position 0):
 
-```
+```liquid
 {% assign latest_post = site.posts[0]%}
 ```
 
 The Liquid to set the variable for the second most-recent post would, therefore be:
 
-```
+```liquid
 {% assign latest_post = site.posts[1]%}
 ```
 
 Then we extract data about the blog post specified in the variable to populate the html. First we check if the blog post has a thumbnail image:
 
-```
+```liquid
 {% if latest_post.image %}
 ```
 
 If it does, we use that image as our thumbnail in the layout:
 
-```
+```html
 <img src = {{ latest_post.image }} </img>
 ```
 
 Otherwise we use a default image and then close the if statement:
 
-```
+```liquid
 {% else %}
 <img src = "/images/kitab/mesa.jpg" > </img>
 {% endif %}
@@ -466,7 +506,7 @@ Once we've got the image, we use Liquid to get the blog title, we then only take
 
 The code block for the twitter embed and sharing links is indicated with the following comment:
 
-```
+```html
 <!Code block for the twitter embed and sharing - do not change!>
 ```
 
@@ -475,7 +515,7 @@ As with the blog posts, all the items in this section are wrapped in a "feature_
 The following is a guide for changing content:
 
 The twitter embed is as follows: 
-```
+```html
 <a class="twitter-timeline" data-width="600" data-height="500" data-theme="light" href="https://twitter.com/sarahsavant1?ref_src=twsrc%5Etfw">Tweets by sarahsavant1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
@@ -491,7 +531,7 @@ In this case changing "Follow us" to "New text" would change the title of that i
 
 Excerpts for the item are indicated as in the following example:
 
-```
+```html
 <div class="archive__item-excerpt">
    <p>Keep up to date with the KITABis. Follow us on twitter or subscribe to our mailing list.</p>
 
@@ -502,7 +542,7 @@ In this case changing "Keep up to date with the KITABis. Follow us on twitter or
 
 The button links for each item are indicated as in the following example:
 
-```
+```html
 <p><a href="/subscribe" class="btn btn--primary">Subscribe!</a></p>
 ```
 
@@ -537,7 +577,11 @@ Within the repository for there is the folder 'conversion_script'. This folder c
 
 To use this script take the following steps:
 
-1. run 'git pull origin master' - to ensure your local repository is up-to-date with the remote
+1. run 
+        ```
+        git pull origin master
+        ```
+        - to ensure your local repository is up-to-date with the remote
 1. add the .docx files for the new blogs to 'input/blogs' (only .docx is supported - multiple blogs can be uploaded at once) 
 1. Blog post files should be named as follows: firstname_surname.blogtitle (e.g. 'mathew_barber.visualisations blog.docx'). The author code before the '.' will correspond to the author id in authors.yml (see the guide to the _data folder [above](#_data)). If there are multiple blogs by the same author, add a number to the surname (e.g. 'mathew_barber1.second visualisations blog.docx')
 1. copy the sample 'header_plain' file from the 'resources' folder into the 'input/headers' folder. Copy as many header_plain files into this folder as you have blog posts.
@@ -545,44 +589,60 @@ To use this script take the following steps:
 1. Open the header files in a text editor (e.g. EditPad Pro)
 1. Fill out the following fields in each header file, for each blog post: 'title', 'author', 'tags'. The 'image' field will be populated automatically by the script using the first image in the blog. This is the image that appears as the thumb on the homepage. If the blog has no images, you might want to specify a thumbnail image here. The 'author' field should correspond to the author id in 'authors.yml' (see the guide to the _data folder [above](#_data))
 
-   Example of filled-out header file:
-```
----
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "A blog on visualisation"
-author:	mathew_barber
-layout:	single
-categories:
-  - 
-  - 
-tags:
-  - viz
-image : 
----
-```
-Once the files have been added and filled out do the following:
+         Example of filled-out header file:
+         ```yml
+         ---
+         header:
+           overlay_image: "/images/covers/banner_blog.jpg"
+           overlay_filter: 0.1
+           caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+           show_overlay_excerpt: false 
+         title: "A blog on visualisation"
+         author:	mathew_barber
+         layout:	single
+         categories:
+           - 
+           - 
+         tags:
+           - viz
+         image : 
+         ---
+         ```
+
+
 1. If the blog author has not authored for KITAB before, add the author to authors.yml. To do this, copy an existing author from this file and change the id, name and short bio. As noted above, the author id will match that given in the file name and author field in the header file.
 1. Open a python-enabled console.
 1. cd into the 'conversion_script' directory.
-1. type 'python docx_converter.py'.
+1. run 
+         ```
+         python docx_converter.py
+         ```
 1. The script will run and state if it has suceeded.
 1. Navigate to the '_posts' directly to check the new blogs have been added.
 
 If the blogs have been added, do the follow:
 1. open Ubuntu (or terminal in Mac or Linux) and cd into the repository
-1. run 'bundle exec jekyll serve'
+1. run 
+        ```
+        bundle exec jekyll serve
+        ```
 1. navigate to the local server and check the new blogs appear on the website
 
 If the new blogs appear as expected on the website:
 1. open Git Bash (in Windows) or use the terminal in Mac or Linux
 1. cd into the repository for the website
-1. run 'git add .'
-1. run 'git commit -m "added new blogs"'
-1. run 'git push origin master'
+1. run 
+        ```
+        git add .
+        ```
+1. run 
+        ```
+        git commit -m "added new blogs"
+        ```
+1. run 
+        ```
+        git push origin master
+        ```
 
 **If the blog posts do not add to the folder, or they do not appear as expected on the local website, do not push the changes back to GitHub. Instead submit an issue report on the respository specifying the problem**
 
