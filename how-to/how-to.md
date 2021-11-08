@@ -3,11 +3,12 @@
 In the following you find an explanation of the website set-up and some step-by-step guides for updating and adding content to the KITAB website. It is recommended that you consult this document before making any changes to file structures, adding new pages or making changes to existing pages. 
 
 You will find here sections containing guides on the following:
-- the structure and format of the website.
-- making changes to existing pages (note that the homepage and application portal have special formats and will be treated in subsections).
-- adding new pages to the website.
-- using the automatic blog uploading procedure.
-- manually adding blogs to the website 
+- [The structure and format of the website](#about-the-structure-and-format-of-the-website).
+- [Making changes to existing pages](#making-changes-to-existing-pages).
+- [Adding new pages to the website](#adding-new-pages).
+- [Style guides for particular website features](#specific-_pages-style-guides).
+- [Using the automatic blog uploading procedure](#adding-blogs-automatically-from-docx-format).
+- [Manually adding blogs to the website](#manually-adding-blogs-to-the-website). 
 
 ## Resources:
 - Minimal mistakes [documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
@@ -647,3 +648,47 @@ If the new blogs appear as expected on the website:
 
 **If the blog posts do not add to the folder, or they do not appear as expected on the local website, do not push the changes back to GitHub. Instead submit an issue report on the respository specifying the problem**
 
+### Manually adding blogs to the website
+
+If blog posts are in markdown format, they can be manually added to the website without the use of the conversion script. As this involves a good knowledge of markdown, and manually adding blog images to the website directory, this is not the recommended approach. Although it is possible to add the blog and images directly to GitHub, it is easier to add a blog post and its images locally.
+
+To do this, follow these steps:
+1. open git Bash and cd into the website directory
+1. run
+        ```
+        git pull origin master
+        ```
+        - this will update the local files and avoid conflicts
+1. Open a text editor that supports markdown (such as EditPad Pro)
+1. Create a new file for the blog post
+1. Save the file in the '_posts' directory of the website repository, using the following format (using the date that you intend to release the blog post): 'yyyy-mm-dd-title-of-post' (e.g. 2021-11-08-visualisations-blog)
+1. Copy the contents of the header_plain file in 'conversion_script/resources' into the top of the new markdown file.
+1. Fill out the relevant fields of the header (making sure that the 'author' field matches the author id in authors.yml - see [above](#_data)
+1. Paste text of the blog in markdown format into the file
+1. go to the directory /images/blogs/ and add a new folder with the format yyyy-mm-dd
+1. paste the blog images into this folder
+1. update the image addresses in the markdown blog post file (for example, if you had saved image 'viz1.jpg' for the above specified blog, you would give the image location as : '/images/blogs/2021-11-08/viz1.jpg'
+1. Open Ubuntu (or a terminal in Mac or Linux)
+1. cd to the website repository
+1. run
+        ```
+        bundle exec jekyll serve
+        ```
+1. Navigate to the local server address in your browser and check the new blog post is present (note: if the blog is dated into the future, it will not appear on the website until the specified date)
+
+If the blog has been sucessfully added to the website, do the following to add the blog to the main website:
+1. Go to git Bash
+1. cd into the website repository
+1. run
+         ```
+         git add .
+         ```
+1. run
+         ```
+         git commit -m"added new blog manually"
+         ```
+1. run
+         ```
+         git push origin master
+         ```
+1. Your changes should now appear on the main website
