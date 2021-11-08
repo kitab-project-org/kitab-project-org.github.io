@@ -259,7 +259,7 @@ toc_sticky: # If this is specified as 'true', the table of contents will move do
 ---
 ```
 
-Below is an empty header than can be copied and pasted into new webpages (it is ok if you leave fields that you don't need empty, it will not cause an error). The layout has been specified as 'single', as this is most likely to be the kind of page you will be adding. If you need a different page type, do not forget to change this field:
+Below is an empty header than can be copied and pasted into new webpages (it is ok if you leave fields that you don't need empty, it will not cause an error). When copying this text, make sure to keep the indentation the same. The layout has been specified as 'single', as this is most likely to be the kind of page you will be adding. If you need a different page type, do not forget to change this field:
 
 ```
 ---
@@ -508,3 +508,75 @@ In this case changing "/subscribe" to "/blogs" would change the link to the blog
 #### A warning on making changes to the homepage
 As minimal mistakes is a responsive website theme (it adjusts the content according to the screen size), changes to the html on this page can significantly impact the look of the website, potentially making it unreadable on certain screens. If you are new to using responsive themes, or html in general, we recommend that you make changes gradually and continuously check their impact on the website (by running 'bundle exec jekyll serve' each time you make a small change). When checking your changes, make sure you account for different screen sizes (resize the browser box on your computer so that it's mobile sized and a small screen size). **Do not push your changes to the remote repository until you are sure your are happy with the aesthetics of your changes. Reversing changes once they are pushed to the remote is possible, but it is more difficult and in the meantime your changes could impact upon the experience of current users of the KITAB website.**
 
+### Applications portal
+
+The applications portal is found here: 
+
+```
+_pages/corpus_data/apps.md
+```
+
+This page uses a 'splash' layout with feature rows. For a guide to adding and editing feature rows, [see above](#feature-rows)
+
+## Adding blogs automatically from docx format
+
+There are two automatic approaches to adding blog posts:
+1. Using the server-based procedure
+1. Using the script within the respository
+
+### Using the server-based procedure
+
+This procedure will be the preferred option for all team members. It is still being implemented - check back here for the procedure.
+
+### Using the script within the repository
+
+Within the repository for there is the folder 'conversion_script'. This folder contains the python script and dependencies for adding a new blog to the website. The following steps assume that Python and Jekyll have already been installed, and that you have a local clone of the GitHub respostory (see [dependencies](#dependencies) above). The script cannot be run directly from GitHub. 
+
+To use this script take the following steps:
+1. run 'git pull origin master' - to ensure your local repository is up-to-date with the remote
+1. add the .docx files for the new blogs to 'input/blogs' (only .docx is supported - multiple blogs can be uploaded at once) 
+1. Blog post files should be named as follows: firstname_surname.blogtitle (e.g. 'mathew_barber.visualisations blog.docx'). The author code before the '.' will correspond to the author id in authors.yml (see the guide to the _data folder [above](#_data)). If there are multiple blogs by the same author, add a number to the surname (e.g. 'mathew_barber1.second visualisations blog.docx')
+1. copy the sample 'header_plain' file from the 'resources' folder into the 'input/headers' folder. Copy as many header_plain files into this folder as you have blog posts.
+1. Give each header file a name that matches its corresponding blog post (e.g. the header file for 'mathew_barber.visualisations blog.docx' would be 'mathew_barber')
+1. Fill out the following fields in each header file, for each blog post: 'title', 'author', 'tags'. The 'image' field will be populated automatically by the script using the first image in the blog. This is the image that appears as the thumb on the homepage. If the blog has no images, you might want to specify a thumbnail image here. The 'author' field should correspond to the author id in 'authors.yml' (see the guide to the _data folder [above](#_data))
+
+   Example of filled out header file:
+```
+---
+header:
+  overlay_image: "/images/covers/banner_blog.jpg"
+  overlay_filter: 0.1
+  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  show_overlay_excerpt: false 
+title: "A blog on visualisation"
+author:	mathew_barber
+layout:	single
+categories:
+  - 
+  - 
+tags:
+  - viz
+image : 
+---
+```
+
+1. If the blog author has not authored for KITAB before, add the author to authors.yml. To do this, copy an existing author from this file and change the id, name and short bio. As noted above, the author id will match that given in the file name and author field in the header file.
+1. Open a python-enabled console.
+1. cd into the 'conversion_script' directory.
+1. type python docx_converter.py.
+1. The script will run and confirm if it has suceeded.
+1. Navigate to the '_posts' directly to check the new blogs have been added.
+
+If the blogs have been added, do the follow:
+1. open Ubuntu (or terminal in Mac or Linux) and cd into the repository
+1. run 'bundle exec jekyll serve'
+1. navigate to the local server and check the new blogs appear on the website
+
+If the new blogs appear as expected on the website:
+1. open Git Bash (in Windows) or use the terminal in Mac or Linux
+1. cd into the repository for the website
+1. run 'git add .'
+1. run 'git commit -m "added new blogs"'
+1. run 'git push origin master'
+
+**If the blog posts do not add to the folder, or they do not appear as expected on the local website, do not push the changes back to GitHub. Instead submit an issue report on the respository specifying the problem**
