@@ -76,6 +76,14 @@ Whenever you make any changes to the website, you can use the following steps to
 
 **A note on making updates while the server is running:** Jekyll allows you to make changes while the server is running and to see those changes locally. When you make a change, it will automatically re-run the build process and push the changes to the server. In some cases, it seems that this process errors and will hang (the command line will freeze up and you won't be able to end the local server process). If you find this happens, quit and reopen Ubuntu/the command line, and we recommend you use the command 'bundle exec jekyll serve --no-watch' to run the server in future. If you do this the website will not update as you make changes, but it will be more stable. In this case you will need to end the server and re-run 'bundle exec jekyll serve --no-watch' every time that you want to see changes.
 
+#### Common Jekyll errors and solutions (to be updated as errors are reported)
+
+1. **Issue:** Website fails to build or builds incorrectly (often styling disappears), console gives a failure to parse yml frontmatter error.
+   **Solution:** Check the files specified in the console error. If they are pages, check the header front matter for errors (typically a failure to close quotation marks, or add quotation marks causes this error). If it is in navigation.yml or authors.yml, check the yml file for missing or unclosed quotation marks, look for missing indentation.
+
+1. **Issue:** Console states that it failed to parse Liquid
+   **Solution:** Go to the file(s) specified in the console error. Look for Liquid tags that are incorrectly formatted (for example missing '%' or '{' '}' marks), or for spelling errors in tags that mean that they cannot be recognised.
+
 ### Python
 If you plan to run the blog docx conversion script on your local machine (for details on how to see below), you will need to install Python 3.6 or later on your local machine and pip to install the relevant packages. Use pip install to install any dependencies (open your Python-enabled command prompt, cd into the 'conversion_script' folder and use the command 'pip install -r requirements.txt'). For the exact dependencies see the requirements.txt file in the 'conversion_script' folder of the repository.
 
@@ -182,6 +190,91 @@ If you are happy with your changes in the browser, do the following:
 1. Your changes will shortly appear on the main website.
 
 ## Adding new pages
+
+It is recommended that you add new pages locally, although it is possible to create a new markdown file using the 'Add file' function within GitHub. Your changes will, however, be added to the live website as you commit them and so it will not be possible to preview your changes before they go live.
+
+Take the following steps to add a new page:
+
+1. Open git Bash (in Windows), or open command line in Mac or Linux.
+1. cd into the GitHub repository for the website.
+1. run 'git pull origin master' (in Bash in windows, in command line in Mac or Linux) - this will get any new changes from remote repository.
+1. Open a text editor that supports markdown (such as EditPad Pro).
+1. Create a new file and save it in the '_pages' folder of the directory - give it a clear name that relates to the content of the page and ensure that it has the '.md' extension.
+1. Paste the header matter into the new file, and fill out the fields that you need
+1. Add the content to the file and save it.
+1. Go to navigation.yml in the '_data' folder of the respository and open it in a text editor (such as EditPad Pro).
+1. Add the permalink you specified in the header into navigation.yml along with the desired title (in the place in the navigation that you would like the link to appear) - see further the [_data section](#_data) above.
+1. Go to Ubuntu (in Windows) or the command line (in Mac or Linux).
+1. cd into the GitHub repository for the website.
+1. run 'bundle exec jekyll serve'.
+1. Open the browser and enter the address of the local server.
+1. Check that page appears in the expected place in the navigation and that you're happy with the content.
+
+If you are happy with your changes in the browser, do the following:
+1. Go to git Bash (in Windows) or command line in Mac or Linux
+1. Run 'git add .'
+1. Run 'git commit -m "*clear and identifiable commit message*"
+1. Run 'git push origin master'
+1. Your new page will shortly appear on the main website.
+
+### Header matter
+
+All pages must have header matter to function correctly within the website. The header matter specifies matters such as: the banner image that will appear on the page, the title of the page, the relative url address of the page, and specific content features (for an advanced example of header-specified feature, see the [section on feature rows below](#feature-rows). Guidance on the kinds of fields used in headers can be found in the theme [documentation](https://mmistakes.github.io/minimal-mistakes/docs/layouts/). Here we will explore the fields currently used in headers of the KITAB website.
+
+Headers given at the top of the markdown file for each page and are separated from the main text of the webpage using '---' above and below the header. For example the header for 'about-corpus.md' looks like this:
+
+```
+---
+excerpt:	""
+header:
+  overlay_image: /images/covers/banner_corpus.png
+  overlay_filter: rgba(40, 99, 165, 0.45)
+  caption: "A snapshot of KITAB's [corpus metadata search application](https://kitab-corpus-metadata.azurewebsites.net/)"
+title:		"About the corpus"
+layout:		single
+sidebar:
+  nav: "corpus"
+permalink: /corpus/about
+---
+```
+
+This is a selection of the fields available for the KITAB website - the following is a guide to fields that can be used in the header matter:
+
+```
+---
+excerpt:	# Appears under the title in the banner
+header:
+  overlay_image: # Address of image that appears in  the banner
+  overlay_filter: rgba(40, 99, 165, 0.45) # A filter can be applied to the image - the first three numbers are RGB coordinates and the fourth is the level of transparency to apply to the colour overlay.
+  caption: # The caption for the image in the banner - it will appear in the bottom right of the banner.
+title:		# Title of the page that appears in the banner
+layout:		single # The layout to use (specifications [here](https://mmistakes.github.io/minimal-mistakes/docs/layouts/)) - nearly all pages use 'single'. The homepage and applications portal use a 'splash' layout. If the page is going to be an archive of blog posts, it will be specified here.
+sidebar: # Options for what appears in the sidebar
+  nav: "corpus" # If you would like to apply a sidebar navigation menu it should be specified here - the name refers to name given to the sidebar Navigation in navigation.yml
+permalink: /corpus/about # The relative url that will be used for this page in the website structure - this is the address you refer to in navigation.yml or 'relative_url' Liquid tags
+toc: # If this is specified as 'true', a table of contents (using the markdown headings) will appear in the right side
+toc_sticky: # If this is specified as 'true', the table of contents will move downwards as the user scrolls down 
+---
+```
+
+Below is an empty header than can be copied and pasted into new webpages (it is ok if you leave fields that you don't need empty, it will not cause an error). The layout has been specified as 'single', as this is most likely to be the kind of page you will be adding. If you need a different page type, do not forget to change this field:
+
+```
+---
+excerpt:	
+header:
+  overlay_image: 
+  overlay_filter: rgba(40, 99, 165, 0.45)
+  caption: 
+title:		
+layout:		single 
+sidebar: 
+  nav: 
+permalink: 
+toc: 
+toc_sticky:  
+---
+```
 
 ## Specific _pages style guides
 
