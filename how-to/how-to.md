@@ -591,25 +591,25 @@ To use this script take the following steps:
 
   Example of filled-out header file:
 
-           ```yml
-           ---
-           header:
-             overlay_image: "/images/covers/banner_blog.jpg"
-             overlay_filter: 0.1
-             caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-             show_overlay_excerpt: false 
-           title: "A blog on visualisation"
-           author:	mathew_barber
-           layout:	single
-           categories:
-             - 
-             - 
-           tags:
-             - viz
-           image : 
-           ---
-           ```
 
+         ---
+         header:
+           overlay_image: "/images/covers/banner_blog.jpg"
+           overlay_filter: 0.1
+           caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+           show_overlay_excerpt: false 
+         title: "A blog on visualisation"
+         author:	mathew_barber
+         layout:	single
+         categories:
+           - 
+           - 
+         tags:
+           - viz
+         image : 
+         ---
+
+Once the files have been added, do the following:
 
 1. If the blog author has not authored for KITAB before, add the author to authors.yml. To do this, copy an existing author from this file and change the id, name and short bio. As noted above, the author id will match that given in the file name and author field in the header file.
 1. Open a python-enabled console.
