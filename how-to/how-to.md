@@ -79,9 +79,11 @@ Whenever you make any changes to the website, you can use the following steps to
 #### Common Jekyll errors and solutions (to be updated as errors are reported)
 
 1. **Issue:** Website fails to build or builds incorrectly (often styling disappears), console gives a failure to parse yml frontmatter error.
+   
    **Solution:** Check the files specified in the console error. If they are pages, check the header front matter for errors (typically a failure to close quotation marks, or add quotation marks causes this error). If it is in navigation.yml or authors.yml, check the yml file for missing or unclosed quotation marks, look for missing indentation.
 
 1. **Issue:** Console states that it failed to parse Liquid
+   
    **Solution:** Go to the file(s) specified in the console error. Look for Liquid tags that are incorrectly formatted (for example missing '%' or '{' '}' marks), or for spelling errors in tags that mean that they cannot be recognised.
 
 ### Python
