@@ -33,7 +33,7 @@ You should also note that tab completion in Ubuntu is case sensitive ('U' + tab 
 If you plan to run the blog post upload script or make any changes locally, then a familiarity with basic GitHub is essential. Windows users should use Git Bash, Linux or Mac users can use the git functionality in their command line.
 
 To get the repository locally, run the following command:
-- git clone **ADD**
+- git clone https://github.com/kitab-project-org/kitab-project-org.github.io.git
 
 Before making any updates, make sure to run:
 - 'git pull origin master' 
@@ -45,7 +45,7 @@ If you make any updates, take the following approach:
 1. Run 'git push origin master'
 1. Wait a short while to allow GitPages to process your changes and then go to the website to see your changes take effect. 
 
-*WARNING: once you push changes to the main repository they will be added to the website. Make sure that you are happy with your changes before committing them to the main repository (this also applies if you make changes online). Once a change has been pushed to the remote (or committed in the remote - i.e. committed on the GitHub website), you will need to change it back manually and create another commit, to revert (or you will need to reset to an earlier commit - this is not recommended).
+*WARNING: once you push changes to the main repository they will be added to the website. Make sure that you are happy with your changes before committing them to the main repository (this also applies if you make changes online). Once a change has been pushed to the remote (or committed in the remote - i.e. committed on the GitHub website), you will need to change it back manually and create another commit, to revert (or you will need to reset to an earlier commit - this is not recommended).*
 
 Given the above risks, it is recommended that you check big changes by running Jekyll locally before commiting your changes to the remote.
 
@@ -57,17 +57,19 @@ Small changes to the website or blog uploads can be done without needed to insta
 The recommended route is to run Jekyll throughout Windows Subsystem for Linux, using Ubuntu. You will need to Activate WSL and install Ubuntu, on this (check [this](https://ubuntu.com/wsl) guide). Mac and Linux users can use their usual command line.
 
 #### Install Jekyll and get gems for our website
+1. Open Ubuntu WSL in Windows or command line in Mac or Linux
 1. run: 'sudo gem install jekyll'
 1. run: 'sudo gem install jekyll bundler'
 1. 'cd' into the KITAB website directory (the GitHub repository that you downloaded in in the step above)
 1. run 'bundle update' - this uses the website's specs to get the appropriate gems and versions
-1. At this stage (or the following stage) you may find that you get an error telling you that some of your gems are the wrong version. To fix this run gem install 'gem-version' (where you give the name of the gem specified in the error and the version specified). To troubleshoot these issues it is recommend you search for the error in google and follow a stack exchange thread - almost all of the errors you will encounter will be resolved there.
+1. At this stage (or the following stage) you may find that you get an error telling you that some of your gems are the wrong version. To fix this run gem install 'gem -v version' (where you give the name of the gem specified in the error and the version specified, e.g. 'gem install kramdown -v 1.1.0'). To troubleshoot these issues it is recommend you search for the error in google and follow a stack exchange thread - almost all of the errors you will encounter will be resolved there.
 1. to check everything is installed correctly run 'bundle exec jekyll serve'. This will serve the website locally.
 1. Navigate to the local server address given in the command line to see the local instance of the website.
 
 #### Checking your changes by running Jekyll locally
 Whenever you make any changes to the website, you can use the following steps to check how those updates look in your browser before pushing them to the main website.
 1. Open WSL Ubuntu in Windows or command line in Mac or Ubuntu
+1. 'cd' into the directory containing the website files
 1. run : 'bundle exec jekyll serve'.
 1. Navigate to the local server in the browser to look at your changes.
 1. Use 'ctrl' + 'c' to end the local server process (it is recommended that you do this before making further changes).
@@ -75,7 +77,7 @@ Whenever you make any changes to the website, you can use the following steps to
 **A note on making updates while the server is running:** Jekyll allows you to make changes while the server is running and to see those changes locally. When you make a change, it will automatically re-run the build process and push the changes to the server. In some cases, it seems that this process errors and will hang (the command line will freeze up and you won't be able to end the local server process). If you find this happens, quit and reopen Ubuntu/the command line, and we recommend you use the command 'bundle exec jekyll serve --no-watch' to run the server in future. If you do this the website will not update as you make changes, but it will be more stable. In this case you will need to end the server and re-run 'bundle exec jekyll serve --no-watch' every time that you want to see changes.
 
 ### Python
-If you plan to run the blog docx conversion script on your local machine (for details on how to see below), you will need to install Python 3.6 or later on your local machine and pip to install the relevant packages. Use pip install to install any dependencies (open your Python-enabled command prompt, cd into the 'conversion_script' folder and use the command 'pip install -r requirements.txt'). For the dependencies see the requirements.txt file in the 'conversion_script' folder of the repository.
+If you plan to run the blog docx conversion script on your local machine (for details on how to see below), you will need to install Python 3.6 or later on your local machine and pip to install the relevant packages. Use pip install to install any dependencies (open your Python-enabled command prompt, cd into the 'conversion_script' folder and use the command 'pip install -r requirements.txt'). For the exact dependencies see the requirements.txt file in the 'conversion_script' folder of the repository.
 
 ## About the structure and format of the website
 
@@ -103,7 +105,7 @@ authors.yml contains all of the data for the authors of blog posts. If there is 
 
 The contents of all fields should be given as quotation marks, bios should be around 30 words or less. The author id separated by the underscore (e.g. sarah_savant) needs to match the author given in the header matter of the blog post.
 
-navigation.yml provides the structure of the website. The addresses used in this file should be match those in the header matter for relevant pages. The navigation is set up to provide sidebar navigation for all pages of the website. For guidance on how to use the navigation file, see the Minimal Mistakes [documentation](https://mmistakes.github.io/minimal-mistakes/docs/navigation/)
+navigation.yml provides the structure of the website. The addresses used in this file should be match those in the header matter for relevant pages. The navigation is set up to provide sidebar navigation for all pages of the website. For guidance on how to use the navigation file, see the Minimal Mistakes [documentation](https://mmistakes.github.io/minimal-mistakes/docs/navigation/).
 
 Changes to this file should only be made if a new page is added, or if a title needs to be changed in the top navigation or any of the sidebar navigation. Never change the field id 'main', and try to avoid changing other field ids (e.g. about, corpus) or url fields. Changes to these will cause the website to break if corresponding changes are not made in the headers of relevant pages. 
 
@@ -117,11 +119,11 @@ This is where all of the blog posts for the website are stored in markdown forma
 
 ### images
 
-Any images on the website are stored here. **The structure of this folder matters - any changes to organisation will lead to broken links and missing images. Only add images to this folder, do not change the structure**
+Any images on the website are stored here. **The structure of this folder matters - any changes to organisation will lead to broken links and missing images. Only add images to this folder, do not change the structure.**
 
 ### index.html
 
-This contains the content for the homepage of the website. Although it is an html file, Jekyll automatically converts the content of this file from markdown. You will find that this page contains markdown, liquid and html. Specific guidance will be provided below on how to making changes to the content of this page.
+This contains the content for the homepage of the website. Although it is an html file, Jekyll automatically converts the content of this file from markdown. You will find that this page contains markdown, Liquid and html. Specific guidance will be provided below on how to making changes to the content of this page.
 
 ### config.yml
 
@@ -129,7 +131,12 @@ The file detailing the settings for the website. You are unlikely to need to mak
 
 ### A note on the theme colour customisation
 
-This KITAB website uses a modified version of the 'air' skin. The skin is specified in the config file under 'minimal_mistakes_skin'. To add KITAB colours to the website, small changes have been made to: _sass/minimal-mistakes/skins/_air.scss
+This KITAB website uses a modified version of the 'air' skin. The skin is specified in the config file under 'minimal_mistakes_skin'. To add KITAB colours to the website, small changes have been made to:
+
+```
+_sass/minimal-mistakes/skins/_air.scss
+```
+
 
 In this file one field has been changed:
 
@@ -179,7 +186,16 @@ If you are happy with your changes in the browser, do the following:
 ## Specific _pages style guides
 
 ### Liquid tags
-In existing pages you will come across liquid tags. This are characterised by curly braces '{' '}' and sometimes have '%'. If in doubt, do not remove these tags, as it will impact upon the styling or the hyperlinking within the webpage. To investigate the functionality of specific tags, look at the Liquid docs (see 'Resources' above) or google the relevant tag to find out more.
+In existing pages you will come across Liquid tags. This are characterised by curly braces '{' '}' and sometimes have '%'. If in doubt, do not remove these tags, as it will impact upon the styling or the hyperlinking within the webpage. To investigate the functionality of specific tags, look at the Liquid docs (see 'Resources' above) or google the relevant tag to find out more.
+
+### Internal links
+For stability we recommend specifying internal links (that is links to other pages in the KITAB website) using Liquid functionality. This will ensure that the links remain the same if changes are made elsewhere in the website. Take the following code as a guide:
+
+```
+specific [data]({{ '/data' | relative_url }})
+```
+
+Here the usual markdown is used to specify the link. The link text is given between square brackets '[ ]', but rather than specifying the link, we put Liquid between the parenthesis '( )'. '/data' specifies the internal link used in the website, as given in navigation.yml and in the header 'permalink' field of 'about-data.md'. This internal link must be given between quotation marks. ' | relative_url then tells Liquid to treat the text as a relative url. 
 
 ### Text boxes 
 
@@ -303,12 +319,12 @@ Within the "div" for the "feature__wrapper", each blog post appears as a "grid__
 </div>
 ```
 
-**Note:** This grid on the homepage contains 4 items. This is the maximum that the grid feature will hold on one row. If more grid items are added, a new row will be created. It is not recommended that you add more items to this, or change this code at all. You are most likely to change the default images (found in the liquid, explained below, and in the 'Read more blogs' item (the final item in the grid).
+**Note:** This grid on the homepage contains 4 items. This is the maximum that the grid feature will hold on one row. If more grid items are added, a new row will be created. It is not recommended that you add more items to this, or change this code at all. You are most likely to change the default images (found in the Liquid, explained below, and in the 'Read more blogs' item (the final item in the grid).
 
 ##### The Liquid code explained
 Each div is populated using liquid as follows:
 
-First we set a variable for the most recent post (that is the post at index position 0
+First we set a variable for the most recent post (that is the post at index position 0):
 
 ```
 {% assign latest_post = site.posts[0]%}
@@ -342,7 +358,7 @@ Otherwise we use a default image and then close the if statement:
 
 If you wanted to change the default thumbnail image, you would change the image address between the quotation marks.
 
-Once we've got the image, we use Liquid to get the blog title and use it as a hyperlink to link to the url of the blog:
+Once we've got the image, we use Liquid to get the blog title, we then only take the first 50 characters of that title (using truncate), and use it as a hyperlink to link to the url of the blog:
 
 ```
 <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url }}">read more</a></b>
@@ -395,5 +411,5 @@ The button links for each item are indicated as in the following example:
 In this case changing "/subscribe" to "/blogs" would change the link to the blogs page on the website. Changing "Subscribe!" to "New link" would change the text of the button to "New link".
 
 #### A warning on making changes to the homepage
-As minimal mistakes is a responsive website theme (it adjusts the content according to the screen size) changes to the html on this page can significantly impact the look of the website, potentially making it unreadable on certain screens. If you are new to using responsive themes, or html in general, we recommend that you make changes gradually and continuously check their impact on the website (by running 'bundle exec jekyll serve' each time you make a small change). When checking your changes, make sure you account for different screen sizes (resize the browser box on your computer so that it's mobile sized and a small screen size). **Do not push your changes to the remote repository until you are sure your are happy with the aesthetics of your changes. Reversing changes once they are pushed to the remote is possible, but it is more difficult and in the meantime your changes could impact upon the experience of current users of the KITAB website.**
+As minimal mistakes is a responsive website theme (it adjusts the content according to the screen size), changes to the html on this page can significantly impact the look of the website, potentially making it unreadable on certain screens. If you are new to using responsive themes, or html in general, we recommend that you make changes gradually and continuously check their impact on the website (by running 'bundle exec jekyll serve' each time you make a small change). When checking your changes, make sure you account for different screen sizes (resize the browser box on your computer so that it's mobile sized and a small screen size). **Do not push your changes to the remote repository until you are sure your are happy with the aesthetics of your changes. Reversing changes once they are pushed to the remote is possible, but it is more difficult and in the meantime your changes could impact upon the experience of current users of the KITAB website.**
 
