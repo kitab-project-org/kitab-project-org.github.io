@@ -540,8 +540,8 @@ To use this script take the following steps:
 1. Give each header file a name that matches its corresponding blog post (e.g. the header file for 'mathew_barber.visualisations blog.docx' would be 'mathew_barber')
 1. Fill out the following fields in each header file, for each blog post: 'title', 'author', 'tags'. The 'image' field will be populated automatically by the script using the first image in the blog. This is the image that appears as the thumb on the homepage. If the blog has no images, you might want to specify a thumbnail image here. The 'author' field should correspond to the author id in 'authors.yml' (see the guide to the _data folder [above](#_data))
 
-   Example of filled out header file:
-```
+   Example of filled-out header file:
+   ```
 ---
 header:
   overlay_image: "/images/covers/banner_blog.jpg"
@@ -558,7 +558,7 @@ tags:
   - viz
 image : 
 ---
-```
+   ```
 
 1. If the blog author has not authored for KITAB before, add the author to authors.yml. To do this, copy an existing author from this file and change the id, name and short bio. As noted above, the author id will match that given in the file name and author field in the header file.
 1. Open a python-enabled console.
@@ -580,3 +580,4 @@ If the new blogs appear as expected on the website:
 1. run 'git push origin master'
 
 **If the blog posts do not add to the folder, or they do not appear as expected on the local website, do not push the changes back to GitHub. Instead submit an issue report on the respository specifying the problem**
+
