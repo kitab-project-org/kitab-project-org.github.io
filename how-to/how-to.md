@@ -14,7 +14,18 @@ You will find here sections containing guides on the following:
 - [Guide](https://github.github.com/gfm/) to GitHub flavoured markdown (GFM).
 - [Guide](https://shopify.github.io/liquid/) to Liquid - the programming language used by Jekyll to produce html. You may need this to add theme-specific features or stable internal links.
 - [Guide]() to running Jekyll commands
-- [Guide]() to installing Jekyll through Windows Subsystem for Linux (WSL) 
+- [Guide]() to installing Jekyll through Windows Subsystem for Linux (WSL)
+
+Note to Windows Ubuntu WSL users: When the guide below states 'cd into the directory' in you most remember to prefix the directory with '/mnt/' (the directory that specifies your Windows directories). For example:
+
+```
+cd /mnt/c/Users/mathe/Documents/
+```
+
+Would navigate to the Documents directory for the User 'mathe'.
+
+You should also note that tab completion in Ubuntu is case sensitive ('U' + tab will autocomplete to 'Users', where 'u' + tab will not autocomplete and give an error sound).
+
 
 ## Dependencies
 
@@ -122,7 +133,9 @@ This KITAB website uses a modified version of the 'air' skin. The skin is specif
 
 In this file one field has been changed:
 
+```
 $primary-color: #2862a5 !default; 
+```
 
 This sets the primary-color to the KITAB logo blue. If the theme were to be reset to default, make sure to update this field in _air.scss and specify the 'air' skin in config.yml.
 
@@ -157,7 +170,7 @@ It is recommended that you modify the pages directly in the markdown file. This 
 If you are happy with your changes in the browser, do the following:
 1. Go to git Bash (in Windows) or command line in Mac or Linux
 1. Run 'git add .'
-1. Run 'git commit -m "clear and identifiable commit message"
+1. Run 'git commit -m "*clear and identifiable commit message*"
 1. Run 'git push origin master'
 1. Your changes will shortly appear on the main website.
 
@@ -176,7 +189,7 @@ Use the following code block (which utilises markdown, liquid and html) to inser
 
 ```
 {% capture except_notice %} 
-ADD TEXT IN MARKDOWN HERE (this can include anything, including images or tables)
+*ADD TEXT IN MARKDOWN HERE (this can include anything, including images or tables)*
 {% endcapture %}
 
 <div class="notice--warning">
@@ -218,7 +231,7 @@ The file for the homepage is found in the main repository folder as 'index.html'
 index.html uses a splash layout that is built into the theme. This allows you to add 'feature rows' to the page with pictures and links. Two of the boxes on this page are produced using custom html, rather than in-built splash 'feature rows' they are: the latest blog posts, the box for twitter and getting involved. It is unlikely that you will need to change the custom html, but it is documented here for potential future modifications.
 
 #### Feature rows
-The more standardised content of the homepage is added using feature rows. For a guide to splash layouts and feature rows, see [here](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout). This documentation is not very clear and so below is a step-by-step guide to updating or adding a feature row.
+The more standardised content of the homepage is added using feature rows. For a guide to splash layouts and feature rows, see [here](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout). It is recommended that you add or remove content on the homepage using built-in feature rows, rather than hardcoding html. The two cases of html below are used because they have a specialist usage. This documentation is not very clear and so below is a step-by-step guide to updating or adding a feature row.
 
 The content of feature rows is specified in the header of index.html. For example, the feature row containing the message from the PI, is specified in the header, as follows:
 
@@ -252,4 +265,135 @@ Once the feature row has been specified in the header, you can add it into the m
 {% include feature_row id="events" type="left" %}
 ``` 
 
-####   
+#### Our latest blogs - code block
+
+The code block for our latest blogs is identified using the following comment in the code:
+
+```
+<!Code block for the latest blogs - do not change!>
+```
+
+
+This code block uses liquid and html to fetch the latest blogs and thumbnails for them, all wrapped in a "feature__wrapper". 
+
+##### The html code
+The classes used in this code block are taken directly from the minimal mistakes theme. They are typically used for grid post archives on the website, and here the in-built classes have been repurposed to place a grid on the webpage
+
+Within the "div" for the "feature__wrapper", each blog post appears as a "grid__item", as in the example below shows:
+
+```
+<div class = "grid__item">
+     <article class = "archive__item">
+      
+      {% assign latest_post = site.posts[0]%}
+      <div class = "archive__item-teaser">
+      {% if latest_post.image %}
+      <img src = {{ latest_post.image }} </img>
+      {% else %}
+      <img src = "/images/kitab/mesa.jpg" > </img>
+      {% endif %}
+      </div>
+      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url }}">read more</a></b>
+      
+      
+      
+      </article>
+      
+      
+</div>
+```
+
+**Note:** This grid on the homepage contains 4 items. This is the maximum that the grid feature will hold on one row. If more grid items are added, a new row will be created. It is not recommended that you add more items to this, or change this code at all. You are most likely to change the default images (found in the liquid, explained below, and in the 'Read more blogs' item (the final item in the grid).
+
+##### The Liquid code explained
+Each div is populated using liquid as follows:
+
+First we set a variable for the most recent post (that is the post at index position 0
+
+```
+{% assign latest_post = site.posts[0]%}
+```
+
+The Liquid to set the variable for the second most-recent post would, therefore be:
+
+```
+{% assign latest_post = site.posts[1]%}
+```
+
+Then we extract data about the blog post specified in the variable to populate the html. First we check if the blog post has a thumbnail image:
+
+```
+{% if latest_post.image %}
+```
+
+If it does, we use that image as our thumbnail in the layout:
+
+```
+<img src = {{ latest_post.image }} </img>
+```
+
+Otherwise we use a default image and then close the if statement:
+
+```
+{% else %}
+<img src = "/images/kitab/mesa.jpg" > </img>
+{% endif %}
+```
+
+If you wanted to change the default thumbnail image, you would change the image address between the quotation marks.
+
+Once we've got the image, we use Liquid to get the blog title and use it as a hyperlink to link to the url of the blog:
+
+```
+<h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url }}">read more</a></b>
+```
+
+#### The twitter embed and sharing code block
+
+The code block for the twitter embed and sharing links is indicated with the following comment:
+
+```
+<!Code block for the twitter embed and sharing - do not change!>
+```
+
+As with the blog posts, all the items in this section are wrapped in a "feature__wrapper" div. However, in this case all the items are wrapped as a left-styled feature item "feature__item--left". Each item is then coded as an "archive__item", and its associated classes (as with the blog posts below).
+
+The following is a guide for changing content:
+
+The twitter embed is as follows: 
+```
+<a class="twitter-timeline" data-width="600" data-height="500" data-theme="light" href="https://twitter.com/sarahsavant1?ref_src=twsrc%5Etfw">Tweets by sarahsavant1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
+
+To change out the twitter embed, swap out the entirety of the above code for the new embed code provided by twitter (do not change any of the html above or below this code!).
+
+Titles for the items to the right of the twitter embed are indicated as in the following example:
+
+```
+<h2 class="archive__item-title">Follow us</h2>
+```
+
+In this case changing "Follow us" to "New text" would change the title of that item to "New text".
+
+Excerpts for the item are indicated as in the following example:
+
+```
+<div class="archive__item-excerpt">
+   <p>Keep up to date with the KITABis. Follow us on twitter or subscribe to our mailing list.</p>
+
+</div>
+```
+
+In this case changing "Keep up to date with the KITABis. Follow us on twitter or subscribe to our mailing list." to "New excerpt" would change the excerpt text to "New excerpt". Make sure not to change the surrounding code, including keeping <p> and </p> on either side of the excerpt text.
+
+The button links for each item are indicated as in the following example:
+
+```
+<p><a href="/subscribe" class="btn btn--primary">Subscribe!</a></p>
+```
+
+In this case changing "/subscribe" to "/blogs" would change the link to the blogs page on the website. Changing "Subscribe!" to "New link" would change the text of the button to "New link".
+
+#### A warning on making changes to the homepage
+As minimal mistakes is a responsive website theme (it adjusts the content according to the screen size) changes to the html on this page can significantly impact the look of the website, potentially making it unreadable on certain screens. If you are new to using responsive themes, or html in general, we recommend that you make changes gradually and continuously check their impact on the website (by running 'bundle exec jekyll serve' each time you make a small change). When checking your changes, make sure you account for different screen sizes (resize the browser box on your computer so that it's mobile sized and a small screen size). **Do not push your changes to the remote repository until you are sure your are happy with the aesthetics of your changes. Reversing changes once they are pushed to the remote is possible, but it is more difficult and in the meantime your changes could impact upon the experience of current users of the KITAB website.**
+
