@@ -40,7 +40,8 @@ Before making any updates, make sure to run:
 This will fetch any changes that have been made by any users or on the remote before you make your own changes. This is essential for avoiding merge conflicts.
 
 If you make any updates, take the following approach:
-1. Run 'git add .'
+1. Run 
+>> 'git add .'
 1. Run 'git commit -m "**easy to identify commit message**"
 1. Run 'git push origin master'
 1. Wait a short while to allow GitPages to process your changes and then go to the website to see your changes take effect. 
@@ -538,7 +539,8 @@ To use this script take the following steps:
 1. add the .docx files for the new blogs to 'input/blogs' (only .docx is supported - multiple blogs can be uploaded at once) 
 1. Blog post files should be named as follows: firstname_surname.blogtitle (e.g. 'mathew_barber.visualisations blog.docx'). The author code before the '.' will correspond to the author id in authors.yml (see the guide to the _data folder [above](#_data)). If there are multiple blogs by the same author, add a number to the surname (e.g. 'mathew_barber1.second visualisations blog.docx')
 1. copy the sample 'header_plain' file from the 'resources' folder into the 'input/headers' folder. Copy as many header_plain files into this folder as you have blog posts.
-1. Give each header file a name that matches its corresponding blog post (e.g. the header file for 'mathew_barber.visualisations blog.docx' would be 'mathew_barber')
+1. Give each header file a name that matches its corresponding blog post, using the extension .yml (e.g. the header file for 'mathew_barber.visualisations blog.docx' would be 'mathew_barber.yml')
+1. Open the header files in a text editor (e.g. EditPad Pro)
 1. Fill out the following fields in each header file, for each blog post: 'title', 'author', 'tags'. The 'image' field will be populated automatically by the script using the first image in the blog. This is the image that appears as the thumb on the homepage. If the blog has no images, you might want to specify a thumbnail image here. The 'author' field should correspond to the author id in 'authors.yml' (see the guide to the _data folder [above](#_data))
 
    Example of filled-out header file:
@@ -564,8 +566,8 @@ Once the files have been added and filled out do the following:
 1. If the blog author has not authored for KITAB before, add the author to authors.yml. To do this, copy an existing author from this file and change the id, name and short bio. As noted above, the author id will match that given in the file name and author field in the header file.
 1. Open a python-enabled console.
 1. cd into the 'conversion_script' directory.
-1. type python docx_converter.py.
-1. The script will run and confirm if it has suceeded.
+1. type 'python docx_converter.py'.
+1. The script will run and state if it has suceeded.
 1. Navigate to the '_posts' directly to check the new blogs have been added.
 
 If the blogs have been added, do the follow:
