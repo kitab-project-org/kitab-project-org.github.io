@@ -533,6 +533,7 @@ This procedure will be the preferred option for all team members. It is still be
 Within the repository for there is the folder 'conversion_script'. This folder contains the python script and dependencies for adding a new blog to the website. The following steps assume that Python and Jekyll have already been installed, and that you have a local clone of the GitHub respostory (see [dependencies](#dependencies) above). The script cannot be run directly from GitHub. 
 
 To use this script take the following steps:
+
 1. run 'git pull origin master' - to ensure your local repository is up-to-date with the remote
 1. add the .docx files for the new blogs to 'input/blogs' (only .docx is supported - multiple blogs can be uploaded at once) 
 1. Blog post files should be named as follows: firstname_surname.blogtitle (e.g. 'mathew_barber.visualisations blog.docx'). The author code before the '.' will correspond to the author id in authors.yml (see the guide to the _data folder [above](#_data)). If there are multiple blogs by the same author, add a number to the surname (e.g. 'mathew_barber1.second visualisations blog.docx')
@@ -541,7 +542,7 @@ To use this script take the following steps:
 1. Fill out the following fields in each header file, for each blog post: 'title', 'author', 'tags'. The 'image' field will be populated automatically by the script using the first image in the blog. This is the image that appears as the thumb on the homepage. If the blog has no images, you might want to specify a thumbnail image here. The 'author' field should correspond to the author id in 'authors.yml' (see the guide to the _data folder [above](#_data))
 
    Example of filled-out header file:
-   ```
+```
 ---
 header:
   overlay_image: "/images/covers/banner_blog.jpg"
@@ -558,8 +559,8 @@ tags:
   - viz
 image : 
 ---
-   ```
-
+```
+Once the files have been added and filled out do the following:
 1. If the blog author has not authored for KITAB before, add the author to authors.yml. To do this, copy an existing author from this file and change the id, name and short bio. As noted above, the author id will match that given in the file name and author field in the header file.
 1. Open a python-enabled console.
 1. cd into the 'conversion_script' directory.
