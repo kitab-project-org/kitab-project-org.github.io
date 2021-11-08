@@ -41,7 +41,9 @@ This will fetch any changes that have been made by any users or on the remote be
 
 If you make any updates, take the following approach:
 1. Run 
->> 'git add .'
+        ```
+        'git add .'
+        ```
 1. Run 'git commit -m "**easy to identify commit message**"
 1. Run 'git push origin master'
 1. Wait a short while to allow GitPages to process your changes and then go to the website to see your changes take effect. 
