@@ -648,7 +648,7 @@ If the new blogs appear as expected on the website:
 
 **If the blog posts do not add to the folder, or they do not appear as expected on the local website, do not push the changes back to GitHub. Instead submit an issue report on the respository specifying the problem**
 
-### Manually adding blogs to the website
+## Manually adding blogs to the website
 
 If blog posts are in markdown format, they can be manually added to the website without the use of the conversion script. As this involves a good knowledge of markdown, and manually adding blog images to the website directory, this is not the recommended approach. Although it is possible to add the blog and images directly to GitHub, it is easier to add a blog post and its images locally.
 
