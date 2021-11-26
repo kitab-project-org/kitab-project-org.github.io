@@ -29,7 +29,7 @@ diff_viewer:
   - image_path: /images/apps/diff_square_cropped.png
     alt: "A text pair aligned through the diff viewer"
     title: "The diff viewer"
-    excerpt: "An application that allows you to see the differences between two related pieces of text. It is used primarily to read passim outputs, but it can be used with any two (relatively short) pieces of related text"
+    excerpt: "An application that allows you to see the differences between two related pieces of text. It is used primarily to read passim outputs, but it can be used with any two (relatively short) pieces of related text."
     url: "https://kitab-project.org/diffViewer/"
     btn_label: "Use the diff viewer"
     btn_class: "btn--primary" 
@@ -44,7 +44,11 @@ coming_soon:
 
 permalink: /data/apps
 ---
-Welcome to KITAB's application portal. All of our latest applications can be accessed through this site. You can use them to explore our many data sets, in particular our text reuse data. For guidance on how to use the different applications, please visit our [visualisations page]({{ 'data/viz' | relative_url }}). As we are still refining our applications, we have yet to release many of them to the public, but we look forward to sharing them with you soon!
+Welcome to KITAB's application portal. All of our latest applications can be accessed through this site. You can use them to explore our many data sets, in particular our text reuse data. For guidance on how to use the different applications, please visit our [visualisations page]({{ 'data/viz' | relative_url }}). As we are still refining our applications, we have yet to release many of them to the public, but we look forward to sharing them with you soon!
 
-{% include feature_row id="metadata_app" type="left" %}
-{% include feature_row id="diff_viewer" type="right" %}{% include feature_row id="coming_soon" type="left" %}
+
+{% include feature_row id="metadata_app" type="left" %}
+
+
+{% include feature_row id="diff_viewer" type="right" %}
+{% include feature_row id="coming_soon" type="left" %}
