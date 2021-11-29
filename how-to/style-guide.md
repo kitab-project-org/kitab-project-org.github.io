@@ -1,8 +1,19 @@
-**Style guidelines for KITAB blog and other publications**
+# **Style guidelines for KITAB blog and other publications**
 
 In general, KITAB publications follow the style guidelines of Edinburgh University Press (available at <https://edinburghuniversitypress.com/publish-with-us/writing-your-book/style-sheets>), supplemented by the *Oxford Style Manual*.
-
-**General principles:**
+
+**Contents**
+1. [General principles](#general-principles)
+2. [Finer details](#finer-details)+
+--
+-   [Format](#format)
+-   [Numbers](#numbers)
+-   [Punctuation](#punctuation)
+-   [Reference examples](#reference-examples)
+-   [Treatment and spelling of specific terms)[#treatment-and-spellings-of-specific-terms)
+
+
+## **General principles:**
 
 -   British spellings (favour, not favor; organise, not organize; acknowledgements, not acknowledgments; practise as verb, not practice)
 
@@ -22,9 +33,9 @@ In general, KITAB publications follow the style guidelines of Edinburgh Universi
 
 -   Blog posts and website pages omit all diacritics except for hamza (ʾ) and ʿayn (ʿ); however, quotations may retain original diacritics
 
-**Finer details:**
+## **Finer details:**
 
-Format:
+### Format:
 
 -   12-point Calibri font
 
@@ -42,7 +53,7 @@ Format:
 
 -   Translations of titles are given in parentheses, enclosed in quotation marks with minimal capitalisation: *Nahj al-balāgha* (‘The peak of eloquence’)
 
-Numbers:
+### Numbers:
 
 -   Spelled out in words up to 99 and given in figures thereafter, but always in figures with units of measurement, parts of books and ages: 5km, chapter 5, volumes 1–3, Figure 1, at the age of 12 (but: ‘a book with five chapters’; ‘a ten-year-old debate’)
 
@@ -56,7 +67,7 @@ Numbers:
 >
 > 2\. without parentheses
 
-Punctuation:
+### Punctuation:
 
 -   Spaced en rule, not em rule, for interjections – such as this – within the text
 
@@ -74,7 +85,7 @@ Punctuation:
 
 -   No comma after i.e. and e.g.
 
-Reference examples (in bibliographies the name of the initial author is inverted):
+### Reference examples (in bibliographies the name of the initial author is inverted):
 
 -   <u>Article</u>: Lawrence Conrad, ‘Recovering Lost Texts: Some Methodological Issues’, *Journal of the American Oriental Society* 113/2 (1993), 258–63.
 
@@ -98,7 +109,7 @@ Reference examples (in bibliographies the name of the initial author is inverted
 
 -   <u>Shortened forms</u>: Conrad, ‘Recovering Lost Texts’, 258–9; al-Ṭabarī, *History*, i, 123–6; Lindstedt, ‘Transmission of al-Madāʿinī’s Historical Material’, 41; Papaconstantinou, review of Hoyland, 459–61.
 
-Treatment and spelling of specific terms:
+### Treatment and spelling of specific terms:
 
 > ʿAbbāsids
 >
