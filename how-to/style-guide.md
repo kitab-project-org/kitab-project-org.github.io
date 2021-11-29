@@ -4,12 +4,11 @@ In general, KITAB publications follow the style guidelines of Edinburgh Universi
 
 **Contents**
 1. [General principles](#general-principles)
-2. [Finer details](#finer-details)+
--   [Format](#format)
--   [Numbers](#numbers)
--   [Punctuation](#punctuation)
--   [Reference examples](#reference-examples)
--   [Treatment and spelling of specific terms](#treatment-and-spellings-of-specific-terms)
+2. [Finer details](#finer-details)   * [Format](#format)
+   * [Numbers](#numbers)
+   * [Punctuation](#punctuation)
+   * [Reference examples](#reference-examples)
+   * [Treatment and spelling of specific terms](#treatment-and-spellings-of-specific-terms)
 
 
 ## **General principles:**
