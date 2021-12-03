@@ -4,14 +4,14 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title: "Some Suggestions on Using OpenITI Corpus to Present Enhanced Digital Versions of Large Collections: The Case of al-Dhari‘a Ila Tasanif al-Shi‘a"			
-author:	hamid_reza_hakimi	
+title:	"New KITAB visualizations"		
+author:	peter_verkinderen	
 layout:		single
 categories:
   - 
   - 
 tags:
   - viz
-  - markdown
-  - corpus
+  - passim
+  - 
 ---

@@ -130,7 +130,7 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
             final = re.sub(r"(\| {3,})+\|", "", final)
             
             # Remove rtl and ltr markers
-            final = re.sub(r"\[([^\]]*)\]{dir=\"rtl\"}", r"<p dir = 'rtl' align = 'right'> \1 </p>", final)
+            final = re.sub(r"\[([^\]]*)\]{dir=\"rtl\"}", r"\1", final)
             final = re.sub(r"\[?\]?{dir=\"rtl\"}", "", final)
             final = re.sub(r"\[?\]?{dir=\"ltr\"}", "", final)
             
