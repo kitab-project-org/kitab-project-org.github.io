@@ -29,13 +29,13 @@ The most common visualization we use to visualize the overall relation between t
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image1.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image1.png)
 
-Figure 1: scroll visualization of the text reuse between al-Istakhri's *Kitab al-Masalik wa-al-mamalik* (top) and Ibn Hawqal's *Kitab Surat al-ard* (bottom).
+*Figure 1: scroll visualization of the text reuse between al-Istakhri's* Kitab al-Masalik wa-al-mamalik *(top) and Ibn Hawqal's* Kitab Surat al-ard *(bottom).*
 
 This is how you read this visualization (see Figure 2): imagine that we write out the text of both books we compared on a very large scroll, 300 words per line. We then highlight passages that are in both scrolls in red, and connect the location of the passage in scroll 1 to that in scroll 2 with a yellow line (we considered briefly calling this visualization our \'spaghetti\' visualization after these yellow lines). Finally, we zoom out so far that we can only see the highlighted passages and the connecting lines.
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image2.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image2.png)
 
-Figure 2: How to interpret a scroll visualization.
+*Figure 2: How to interpret a scroll visualization.*
 
 The red lines give us an impression of how much of the book is reused in the other book, while the yellow lines help us see whether the common passages occur in the same order in both books. In the example in Figures 1 and 2, the red lines show that much of al-Istakhri's work is reused in Ibn Hawqal's, and the absence of red lines in some sections of the book shows that Ibn Hawqal did not reuse some sections but added his own information there. (People who know the books will immediately suspect that the large blank section in the first quarter of Ibn Hawqal's book must be his description of the Maghrib, which is entirely independent from al-Istakhri's). Meanwhile, the fact that the yellow lines all run nicely parallel shows us that Ibn Hawqal faithfully followed the structure of al-Istakhri's book. For examples where this is not the case, see Sarah Savant's [blog](https://kitab-project.org/A-Tale-of-3-Versions/) on the different versions of Malik's al-Muwatta.
 
@@ -46,7 +46,7 @@ The scroll visualization is very useful for comparing books at a high level. For
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image3.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image3.png)
 
-Figure 3: Diffchecker visualization of a passage from Muntajab al-Din's *Fihrist* (left) and Agha Buzurg Tihrani's *Dhariʿa* (right). Differences are highlighted in darker shade.
+*Figure 3: Diffchecker visualization of a passage from Muntajab al-Din's* Fihrist *(left) and Agha Buzurg Tihrani's* Dhariʿa *(right). Differences are highlighted in darker shade.*
 
 The tool highlights words that are different between two passages in a darker shade, but it does not do a very good job with Arabic texts: it does not display right-to-left text correctly, and it cannot deal well with the small differences between tokens caused by prefixes and suffixes. From looking only at the coloured areas, not the text, in the example in Figure 3, we get the impression that there are only two short sections in the passage that are similar in both texts. However, when we look closer at the text, we can see that already the first word is highlighted as different, although it is exactly the same, albeit that the Dhariʿa (the text on the right) adds the suffix *-hu* at the end of the word (تصانيف vs تصانيفه). Similarly, the third word in the *Fihrist* is identical to the second word in the *Dhariʿa*, except for a dot on the last letter (نقص vs نقض).
 
@@ -56,7 +56,7 @@ I looked into many other online diff tools, hoping to find one that would work b
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image4.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image4.png)
 
-Figure 4: wikEd-diff visualization of the same two passages as Figure 3, generated with the wikEd-diff online demo tool ([http://cacycle.altervista.org/wikEd-diff-tool.html](http://cacycle.altervista.org/wikEd-diff-tool.html)). Text that is only in fragment 1 (from Muntajab al-Din's *Fihrist*) is highlighted in blue, text that is only in fragment 2 (from Agha Buzurg Tihrani's *Dhariʿa*) in orange. Text that is present in both fragments but in a different location is placed where it appears in fragment 2 and highlighted in grey; at its location in fragment 1, an arrow is inserted, and when you hover over the arrow with the mouse, the corresponding text in the other fragment is highlighted in a darker grey.
+*Figure 4: wikEd-diff visualization of the same two passages as Figure 3, generated with the wikEd-diff online demo tool ([http://cacycle.altervista.org/wikEd-diff-tool.html](http://cacycle.altervista.org/wikEd-diff-tool.html)). Text that is only in fragment 1 (from Muntajab al-Din's* Fihrist *) is highlighted in blue, text that is only in fragment 2 (from Agha Buzurg Tihrani's* Dhariʿa *) in orange. Text that is present in both fragments but in a different location is placed where it appears in fragment 2 and highlighted in grey; at its location in fragment 1, an arrow is inserted, and when you hover over the arrow with the mouse, the corresponding text in the other fragment is highlighted in a darker grey.*
 
 This is not easy to read: the display looks cluttered and although the tool selected more text as common to both fragments than Diffchecker, the fact that both alternatives are displayed in the same composite text gives the impression there is much more difference than similarity between the two text fragments.
 
@@ -66,7 +66,7 @@ In the end, the best option seemed to be to use the wikEd-diff javascript code t
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image5.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image5.png)
 
-Figure 5: wikEd-diff output, refined and split into two separate texts (colour coding: blue: only in fragment 1; green: only in fragment 2; orange: in both fragments but in different positions).
+*Figure 5: wikEd-diff output, refined and split into two separate texts (colour coding: blue: only in fragment 1; green: only in fragment 2; orange: in both fragments but in different positions).*
 
 I also wrote a script to refine the output of the wikEd-diff code to make it handle differences below the word/token level in a better way. Compare, for example, how wikEd-diff marks the first word in the example strings, تصايف / تصانيفه (*tasanif / tasanif-hu*), as entirely different (Figure 4), and how the refined output (Figure 5) marks only the suffix *-hu* as different. In the appendix, I will go into a bit more technical detail on how this was done.
 
@@ -76,19 +76,19 @@ I have embedded this code in an online app that is publicly available at [https:
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image6.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image6.png)
 
-Figure 6: OpenITI Diff Viewer interface after loading two texts.
+*Figure 6: OpenITI Diff Viewer interface after loading two texts.*
 
 The app was optimized for use with our OpenITI texts: for example, by default, all OpenITI mARkdown tags (and all punctuation) are stripped away, and all alif-hamza combinations, ta' marbutas/final ha's and alif maqsuras/final ya\'s are normalized. These settings are optional, however, and can be (de)selected in the Options field (see Figure 7).
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image7.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image7.png)
 
-Figure 7: Diff Viewer options
+*Figure 7: Diff Viewer options*
 
 The app has more options: the most useful,in my opinion, is that you can divide the output into lines to make it easier to read the passages side by side (Figure 8). It is usually easy enough to read the beginning of an alignment, but after a couple of lines, it becomes hard to follow where you are in the other fragment, especially if there are many additions/deletions on both sides. This option makes sure that after a divergence between both fragments, both start on the same new line from the point onwards where they converge again.
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image8.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image8.png)
 
-Figure 8: splitting the output into lines for easier reading (compare to Figure 6!).
+*Figure 8: splitting the output into lines for easier reading (compare to Figure 6!).*
 
 Finally, you can download the diff as an image file by clicking the 'Download png' or 'Download svg' buttons. Before downloading the image, you can resize the text fields by dragging the right-most margin of the image, and change the font size in 'Options', so that it fits the layout of the publication you want to use it in.
 
@@ -103,7 +103,7 @@ One way I came up with to do this is to use a heat map: a visualization that ind
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image9.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image9.png)
 
-Figure 9: heat map of the reuse of al-Tabari's *Tarikh*. The number of times each character in the text features in a reuse alignment detected by passim is indicated by colours (see the colour scale on the right).
+*Figure 9: heat map of the reuse of al-Tabari's* Tarikh *. The number of times each character in the text features in a reuse alignment detected by passim is indicated by colours (see the colour scale on the right).*
 
 Take, for example, the heat map of text reuse of al-Tabari's *Tarikh* (Figure 9). The visualization works in a similar way to the book-to-book scroll visualization (Figure 2): the graph represents a scroll, in which each line represents 300 words. Whereas the book-to-book visualization highlights all passages both books have in common in red, this visualization highlights each character in a colour that reflects the number of times it appears in an alignment with another text in the corpus, as detected by passim: in the example in Figure 9, any sections marked in light yellow feature less than 10 times in a reuse instance, while those marked in dark purple were reused up to 120 times.
 
@@ -113,7 +113,7 @@ Heat maps can also be used to investigate the spread of reuse over time. One use
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image10.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image10.png)
 
-Figure 10: text reuse of al-Tabari's *Tarikh* in books written by authors who died before and after al-Tabari.
+*Figure 10: text reuse of al-Tabari's* Tarikh *in books written by authors who died before and after al-Tabari.*
 
 Figure 10 clearly shows that the material al-Tabari used for his *Tarikh* is only partially known from older sources in the corpus: especially the sections between the death of the Prophet and the start of the Umayyad period, and the later ʿAbbāsid period are sparsely documented. Of course, this does not mean that al-Ṭabarī uses original material here; rather, that the material he used did not make it into the corpus. Especially interesting in this sense is the tight-knit block of reuse just between lines 4100 and 4200: when we look at where this reuse comes from, we can see that it comes from the only extant part of Ibn Abi Tahir Tayfur's *Kitab Baghdad*. It is therefore very likely that if the rest of that book were extant, passim would detect much more reuse for the Abbasid part of the *Tarikh*. Sarah Savant[^1] has argued for al-Tabari's heavy reuse of Ibn Abi Tahir's text (without mentioning the author) based on an analysis of al-Tabari's citation patterns in the Tarikh.
 
@@ -121,7 +121,7 @@ We can also split up the reuse data of the later sources into smaller periods, t
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image11.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image11.png)
 
-Figure 11: Reuse of al-Tabari's Tarikh in later texts, grouped by 200-year periods
+*Figure 11: Reuse of al-Tabari's* Tarikh *in later texts, grouped by 200-year periods*
 
 This visualization is generated using a Python script; the heatmaps it outputs are interactive (you can zoom in, and get a count of the number of times a specific word is reused when you move your mouse over a coloured bar; it could also show the URIs of all texts that reuse those specific words). See an example [here]({{ '/tabari-heat-map' | relative_url }}).
 
@@ -151,19 +151,19 @@ Characters that both strings have in common are included as plain text (without 
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image12.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image12.png)
 
-Figure 12: Simplified and abbreviated extract of the output of the wikEd-diff code. Spans are highlighted in the same colours as in Figure 4.
+*Figure 12: Simplified and abbreviated extract of the output of the wikEd-diff code. Spans are highlighted in the same colours as in Figure 4.*
 
 I wrote a script that splits this composite html text into two separate html strings (output1 and output2) in order to display them side by side: untagged (shared) text is added to both output strings, \`wikEdDiffInsert\` and \`wikEdDiffBlock\` spans only to output2, \`wikEdDiffDelete\` and \`wikEdDiffMarkRight\`/\`wikEdDiffMarkLeft\` spans only to output1 (Figure 13).
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image13.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image13.png)
 
-Figure 13: wikEd-diff output split into two separate texts (blue: only in s1, green: only in s2, orange: in s1 and s2 but in different positions). Generated from the wikEd-diff output in Figure 4.
+*Figure 13: wikEd-diff output split into two separate texts (blue: only in s1, green: only in s2, orange: in s1 and s2 but in different positions). Generated from the wikEd-diff output in Figure 4.*
 
 This works, but I noticed that the output of the wikEd-diff code is not as fine-grained as we'd like: more often than not, it will tag an entire word as insertion/deletion even if the only difference is a prefix or a suffix, or a single character. For example, in the first line of Figures 4, 12 and 13, you can see that like diffchecker, wikEd-diff marks تصايف / تصانيفه (*tasanif / tasanif-hu*) as entirely different tokens, although they differ only by one character. The same goes for the words نقص / نقض and التصفح / التصفيح on the same line.
 
 [![](/images/blogs/2021-12-03/peter_verkinderen/media/image5.png)](/images/blogs/2021-12-03/peter_verkinderen/media/image5.png)
 
-Figure 14: wikEd-diff output split into two separate texts (blue: only in s1, green: only in s2, orange: in s1 and s2 but in different positions) and refined using shingled 3-grams.
+*Figure 14: wikEd-diff output split into two separate texts (blue: only in s1, green: only in s2, orange: in s1 and s2 but in different positions) and refined using shingled 3-grams.*
 
 As a next step, I wrote my own implementation of (the first five steps) in Heckel's algorithm in order to finetune the output of the script: each text inside a span is divided into shingled n-grams (default: n = 3 characters; this can be changed under "Options" in the app, see Figure 5), and then these n-grams are used as tokens for Heckel's algorithm. This significantly improves the output: for example, in the first line of Figure 14, you can see that the refined output correctly identifies the word تصانيف as shared between both strings, with only the suffix *-hu* ه tagged as addition in string 2. Similarly, only the last letter in نقص / نقض is tagged as different in both strings.
 
