@@ -17,9 +17,8 @@ tags:
 sidebar:
   - title: "Glossary"
   - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>**csv:** a csv ('Comma Separated Values') file is a plain text file containing data in a table. Each row in the table starts on a new line, and columns are separated using a comma (sometimes another character like a tab).<br><br>**png:** png ('Portable Network Graphics') is a widely supported open image format. It is raster-based (images are stored as columns and rows of pixels), which means that scaling it (reducing or increasing the image size or resolution) will reduce the sharpness of the image.<br><br>**svg:** svg ('Scalabla Vector Graphics') is an image format that is based on vectors (shapes and lines) rather than pixels. This has the advantage that svg images can be scaled up or down without any loss in quality. You cannot use an svg image in a MS Word or Google Docs document.<br><br>**heat map:** a visualization that shows the difference in magnitude of a phenomenon as a variation in color (hue or intensity).<br><br>"
-image: "/images/blogs/2021-12-03/peter_verkinderen/media/image1.png"
+image: "/images/blogs/2021-12-03/peter_verkinderen/media/image9.png"
 ---
-
 
 Much of our work at KITAB involves comparing books in order to understand their relationships. Our main tool for this is the [passim](https://kitab-project.org/methods/text-reuse) software, which detects passages two texts have in common (here are some of our blogs about passim: [1](https://kitab-project.org/Dispatches-from-al-Tabari-7-Text-Reuse/), [2](https://kitab-project.org/a/), [3](https://kitab-project.org/Adventures-in-Alignments-Training-an-Algorithm-to-Recognise-Text-Reuse/), [4](https://kitab-project.org/A-Tale-of-3-Versions/)). passim produces a lot of data about each pair of passages, including where exactly in both books these passages are found, and how many words and characters the shared passage contains in either book.
 
