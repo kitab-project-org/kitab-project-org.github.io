@@ -13,3 +13,4 @@ title: "A sample visualisation : an interactive heat map of al-Tabari's *Taʾrik
 
 On this page you can find an example of text reuse data for al-Tabari's *Taʾrikh* viewed as a heat map, produced by Peter Verkinderen. For more information on the visualisation and guidance on how to use it, see Peter's [blog post]({{'/New-KITAB-visualizations' | relative_url }}) on it and other visualisations. 
 
+<iframe src = "/_pages/applications/0310Tabari.Tarikh_310.html" height = "600" width ="100%"> </iframe>
