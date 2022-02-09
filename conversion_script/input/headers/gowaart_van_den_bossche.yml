@@ -4,14 +4,14 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title:	"New KITAB visualizations"		
-author:	peter_verkinderen	
+title:	"Oh Brethren, Where Are Ye? How to search for words and phrases in the OpenITI corpus, demonstrated with the phrase 'Ikhwan al-Safa'"		
+author:	gowaart_van_den_bossche	
 layout:		single
 categories:
   - 
   - 
 tags:
-  - viz
-  - passim
-  - 
+  - corpus
+  - markdown
+  - search
 ---

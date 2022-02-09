@@ -148,7 +148,7 @@ for root, dirs, files in os.walk(docx_in, topdown=False):
 
 
             # Create outpath - check that file doesn't already exist
-            title_s = re.sub(r"\s", "-", title_s)
+            title_s = re.sub(r"\s|\?|:|,", "-", title_s)
             outpath = blog_dir + str(date.today()) + "-" + title_s + ".md"
             file_no = 0
             while os.path.isfile(outpath):
