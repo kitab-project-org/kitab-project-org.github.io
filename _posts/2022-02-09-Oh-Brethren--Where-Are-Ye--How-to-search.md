@@ -17,6 +17,7 @@ tags:
 sidebar:
   - title: "Glossary"
   - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details."
+image: "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png"
 ---
 
 
