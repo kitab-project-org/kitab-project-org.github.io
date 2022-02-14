@@ -1880,7 +1880,7 @@ And also in the dropdown menu in the bottom right of your Kate screen:
 #### On Mac: 
 
 
-1. Download the highlighting scheme `OpenITImARkdown.xml` file by right-clicking on this [link](./2021IslamicateWorldCourse_files/OpenITImARkdown.xml) and choosing "Save link as". 
+1. Download the highlighting scheme `OpenITImARkdown.xml` file by right-clicking on this [link](https://github.com/OpenITI/mARkdown_highlighting_Kate/raw/main/OpenITImARkdown.xml) and choosing "Save link as". 
 2. Open Terminal (see [https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/](https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/))
 3. Create new subdirectories in the `~/Library/Application Support` folder by
 executing this command:
