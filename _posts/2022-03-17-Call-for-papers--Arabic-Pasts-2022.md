@@ -16,7 +16,7 @@ permalink: /research/events/arabic-pasts-cfp
 image: "/images/arabic-pasts/BNF_Arabe_2076_Ahmad_ibn_Hamdan.jpg"
 sidebar:
   - title: "Arabic Pasts"
-  - text: "This annual exploratory and informal workshop co-hosted with SOAS University and the University of Oxford offers the opportunity to reflect on history writing in Arabic. For more, see the [Arabic Pasts page](/research/events/arabic-pasts)"
+  - text: "This annual exploratory and informal workshop co-hosted with SOAS University and the University of Oxford offers the opportunity to reflect on history writing in Arabic. For more, see the [Arabic Pasts page](/research/events/arabic-pasts)."
 ---
 
 **Arabic Pasts: Histories and Historiographies** 
