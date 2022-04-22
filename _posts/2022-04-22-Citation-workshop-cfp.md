@@ -4,7 +4,7 @@ header:
   overlay_filter: 0.5
   caption: "A citation network drawn from *isnad*s in Ibn ʿAsakir's *Taʾrikh Madinat Dimashq*. [Click here to learn more](https://kitab-project.org/Mapping-Who-s-Who-in-Isnads-First-Steps/)." 
   show_overlay_excerpt: false  
-title:	"Call for papers: A workshop on citation (25th-26th July 2022)"		
+title:	"Call for Papers: A Workshop on Citation (25th-26th July 2022)"		
 author: sarah_savant_mathew_barber
 layout:		single
 categories:
@@ -17,7 +17,7 @@ tags:
 image: "/images/methods/isnads_tag.png"
 ---
 
-# Modeling attribution and acknowledgement in the Digital Humanities: Citation practices and the pre-modern Arabic book.
+# Modeling Attribution and Acknowledgement in the Digital Humanities: Citation Practices and the Pre-Modern Arabic Book.
 A two-day workshop, 25th - 26th July 2022\
 Institute for the Study of Muslim Civilisations, Aga Khan University, London
 
