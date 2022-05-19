@@ -104,6 +104,8 @@ research:
         url: /research/articles
       - title: "Books"
         url: /research/books
+      - title: "Lectures and interviews"
+        url: /research/lectures
   - title: Arabic Pasts
     children:
       - title: "Arabic Pasts"
