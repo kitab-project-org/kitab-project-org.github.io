@@ -27,3 +27,9 @@ KITAB is regularly presenting their research in a variety of settings. Here you 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/O6nOCLL_fWc"></iframe>
 </div>
+
+## The History of the Arabic Book A New Chapter - Near Eastern Studies and Digital Scholarship @IAS Joint Lecture
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z6KkpF3-73U"></iframe>
+</div>
