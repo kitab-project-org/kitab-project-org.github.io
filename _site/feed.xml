@@ -1,4 +1,173 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://kitab-project-org.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kitab-project-org.github.io/" rel="alternate" type="text/html" /><updated>2022-05-19T11:50:41+01:00</updated><id>https://kitab-project-org.github.io/feed.xml</id><title type="html">KITAB</title><subtitle>The Website for the KITAB project</subtitle><author><name>KITAB</name></author><entry><title type="html">Call for Papers: A Workshop on Citation (25th-26th July 2022)</title><link href="https://kitab-project-org.github.io/Citation-workshop-cfp/" rel="alternate" type="text/html" title="Call for Papers: A Workshop on Citation (25th-26th July 2022)" /><published>2022-04-22T00:00:00+01:00</published><updated>2022-04-22T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/Citation-workshop-cfp</id><content type="html" xml:base="https://kitab-project-org.github.io/Citation-workshop-cfp/">&lt;h1 id=&quot;modeling-attribution-and-acknowledgement-in-the-digital-humanities-citation-practices-and-the-pre-modern-arabic-book&quot;&gt;Modeling Attribution and Acknowledgement in the Digital Humanities: Citation Practices and the Pre-Modern Arabic Book.&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://kitab-project-org.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kitab-project-org.github.io/" rel="alternate" type="text/html" /><updated>2022-05-19T12:08:38+01:00</updated><id>https://kitab-project-org.github.io/feed.xml</id><title type="html">KITAB</title><subtitle>The Website for the KITAB project</subtitle><author><name>KITAB</name></author><entry><title type="html">A ramble through the cluster data, part 1: from pairs to clusters.</title><link href="https://kitab-project-org.github.io/A-ramble-through-the-cluster-data-part/" rel="alternate" type="text/html" title="A ramble through the cluster data, part 1: from pairs to clusters." /><published>2022-05-19T00:00:00+01:00</published><updated>2022-05-19T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/A-ramble-through-the-cluster-data--part-</id><content type="html" xml:base="https://kitab-project-org.github.io/A-ramble-through-the-cluster-data-part/">&lt;p&gt;It should be no surprise to any reader of this blog that the KITAB project is primarily interested in studying Arabic text reuse. A large number of posts here, including several from myself, are concerned with the text reuse dataset produced by &lt;a href=&quot;https://kitab-project.org/methods/text-reuse&quot;&gt;passim&lt;/a&gt; and what it can tell us about Arabic book history. But what if I told you that passim produced two datasets and that our work has so far relied on one? If you read our pages on passim, or our blogs, you will see that this work focuses on the study of pairs of texts. That is, how text is reused between two books; where text reuse occurs in those books; how text is rearranged, etc. This post will introduce another dataset, the cluster dataset. It will be part of a series of posts that will follow my ramble&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; (more-or-less in real time) through the cluster data, giving some early insights into how it can be used to understand Arabic book history. This data set could be used to study a range of texts, but here I will take historiography as an example.&lt;/p&gt;
+
+&lt;h1 id=&quot;at-the-trailhead&quot;&gt;At the trailhead&lt;/h1&gt;
+
+&lt;p&gt;Even since I began my work with the KITAB project, I have been aware of a large and mysterious entity known as the ‘cluster data set’. In those early days, Ryan Muther gently and generously guided me through passim, its workings, its outputs (and how to read them). He told me that passim produced an output that brought together all of the passages in the corpus that shared text into clusters. Unfortunately, owing to the manner in which these clusters were formed, very common passages, such as the kind found in hadith, created large and unwieldy clusters of largely unrelated material (more on this problem in part 2). The KITAB project chose to primarily focus on the pairwise data set, which was already sufficiently large and (as our blog posts alone have shown) an incredible resource for understanding many facets of Arabic book history.&lt;/p&gt;
+
+&lt;p&gt;In contrast, David Smith and his team, who developed passim for the study of American Newsprint, have focussed in their research primarily on the cluster dataset. In their study of ‘viral texts’ they are interested in how stories and anecdotes were reprinted across time. They focus on the larger clusters, which represent popular reprints, and what this can tell us about nineteenth-century newspaper culture.&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I was drawn to the cluster data not to study the larger clusters (although that would certainly be a valuable, albeit very complex, study for Arabic). Instead I am interested in the smaller clusters (those that typically contain 3-10 passages). Such clusters can tell us, for example, how one account of the same historical event can be used by multiple authors and see how the different authors make changes or additions in their version. Such clusters could provide evidence of a stemmatic relationship, or hint at how multiple authors have reused the same non-extant source text.&lt;/p&gt;
+
+&lt;p&gt;A study of the cluster data is useful in my research for KITAB’s forthcoming, &lt;a href=&quot;https://kitab-project.org/research/books#the-erc-team-memories-books-communities-making-and-re-making-the-past-in-the-arabic-textual-tradition&quot;&gt;co-authored book&lt;/a&gt;. In a chapter of that book, I will be exploring the Arabic accounts of a famine that occurred during the Fatimid &lt;em&gt;fitna&lt;/em&gt; of 454/1062-466/1073, and what they might teach us about the cultural memory of the famine. I am interested in how accounts of that famine compare to accounts of famine in the Arabic corpus more generally. The chapter will, moreover, attempt to find evidence of quotation of a lost topographical history written by al-Jawwānī (d. 598/1205), which appears to have contained extensive descriptions of the famine. The cluster dataset can be used to explore both of these questions and I will make reference to some early findings of this study in some of the blog posts that follow.&lt;/p&gt;
+
+&lt;h1 id=&quot;some-orienteering-pairs-vs-clusters&quot;&gt;Some orienteering: pairs vs. clusters&lt;/h1&gt;
+
+&lt;p&gt;As has been explained &lt;a href=&quot;https://kitab-project.org/methods/text-reuse&quot;&gt;on this website&lt;/a&gt;, we run passim on the whole OpenITI corpus split into 300-word chunks, which we term milestones. Passim compares each milestone to every other milestone and if it finds shared text it outputs a text reuse alignment (a record that contains the shared text in both milestones and some statistics about their length, start and end points, and shared characters). For KITAB’s research, all alignments are grouped into csv files corresponding to book pairs. For example, all alignments between al-Tabari’s &lt;em&gt;Taʾrikh&lt;/em&gt; and Ibn al-Athir’s &lt;em&gt;Kamil&lt;/em&gt; are grouped into one file.&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;As part of its program, passim performs single-link clustering on every pairwise alignment. It takes the text of each alignment and searches for other pairwise alignments that overlap with it by at least 80%. Through this process, passim creates clusters of passages that all contain related text. At this stage, it is perhaps useful to clarify through an example.&lt;/p&gt;
+
+&lt;p&gt;Through my study of a pair of histories (Ibn al-Athir’s &lt;em&gt;al-Kamil fi-l-taʾrikh&lt;/em&gt; and Ibn Taghribirdi’s &lt;em&gt;Nujum al-Zahira&lt;/em&gt;), I find an alignment of interest, concerning the early-Islamic history of Egypt. The pairwise alignment is given in table 1.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;0630IbnAthirCizzDin.Kamil JK000911-ara1.mARkdown.ms0810&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;0874IbnTaghribirdi.NujumZahira JK001330-ara1.completed.ms0017&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;مريم جاثليق مصر ومعه الاسقف------------------------- بعثه المقوقس---------------- لمنع بلادهم فلما ---نزل بهم عمرو قاتلوه فارسل اليهم لا تعجلونا حتي نعذر اليكم وترون رايكم بعد وليبرز الي ابو مريم وابو مريام فكفوا وخرجا -----------اليه فدعاهما الي -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------الاسلام او--------------------------------------- الجزية واخبرهما بوصية النبي باهل مصر بسبب هاجر ام اسماعيل------------------------------------------------------------------------------------------------------------------------------- عليه السلام --------------------------------------فقالوا قرابة بعيدة لا يصل مثلها الا الانبياء -------------------------------------------------------------------------------------------------------------------------------------------------------------------امنا حتي نرجع اليك فقال عمرو--- مثلي لا يخدع ولكنني اءجلكما ثلاثا لتنظرا ---------------------------------------------------فقالا زدنا فزادهم يوما فرجعا الي المقوقس فهم فابي ارطبون ان يجيبهما وامر بمناهدتهم فقال لاهل مصر اما نحن فسنجهد ان ندفع عنكم ولا نرجع اليهم------------------------------------------------------ فلم يفجا عمرا الا البيات وهو علي عدة فلقوه فقتل ارطبون وكثير ممن معه وانهزم الباقون وسار عمرو والزبير الي عين الشمس وبها جمعهم وبعث الي فرما ابرهة بن الصباح فنزل عليها وبعث عوف بن مالك الي الاسكندرية فنزل عليها قيل وكان الاسكندر وفرما اخوين ونزل عمرو بعين الشمس فقال اهل مصر لملكهم ما تريد الا قتال يوم قوم هزموا كسري وقيصر وغلبوهم علي بلادهم فلا -&lt;/td&gt;
+      &lt;td&gt;مريم جاثليق مصر ومعه الاسقف ابو مريام في اهل البنيات بعثه المقوقس صاحب الاسكندرية لمنع بلادهم فلما تصافوا قال عمرو بن العاص---------- لا تعجلو-ا حتي نعذر اليكم -----------------ليبرز الي ابو مريم وابو مريام راهبا هذه البلاد فبرزا اليه فقال لهما عمرو انتما راهبا هذه البلاد فاسمعا ان الله بعث محمدا بالحق وامره به وامرنا به محمد وادي الينا كل الذي امر به ثم مضي وتركنا علي الواضحة وكان مما امرنا به الاعذار الي الناس فنحن ندعوكم الي الاسلام فمن اجابنا فمثلنا ومن لم يجبنا عرضنا عليه الجزية و--بذلنا له المنعة وقد اعلمنا اننا مفتتحوكم واوصينا بكم حفظا لرحمنا منكم وان لكم ان اجبتمونا بذلك ذمة الي ذمة ومما عهد الينا اميرنا استوصوا بالقبطيين خيرا فان رسول الله صلي الله عليه وسلم اوصانا بالقبطيين خيرا لان لهم ذمة ورحما فقالوا قرابة بعيدة لا يصل مثلها الا الانبياء معروفة شريفة كانت ابنة ملكنا وكانت من اهل منف والملك منهم فاديل عليهم اهل عين شمس فقتلوهم وسلبوهم ملكهم واغربوا فلذلك صارت الي ابراهيم عليه السلام مرحبا به واهلا وامنا حتي نرجع اليك فقال عمرو ان مثلي لا يخدع ولك-ني اءجلكما ثلاثا لتنظرا ولتناظرا قومكما والا ناجزتكم قالا زدنا فزادهم يوما فقالا زدنا فزادهم يوما فرجعا الي المقوقس---- فابي ارطبون ان يجيبهما وامر بمناهدتهم وقال لاهل مصر اما نحن فنجتهد ان ندفع عنكم ولا نرجع اليهم وقد بقيت اربعة ايام واشار عليهم بان يبيتوا المسلمين ف------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------قال الملا من----هم ما تقاتلون من------- قوم قتلوا كسري وقيصر وغلبوهم علي بلادهم فالح&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Table 1: A pairwise alignment between Ibn al-Athir’s Kamil and Ibn Taghribirdi’s Nujum. The hyphens indicate characters inserted in the other text (calculated through a Smith-Waterman alignment algorithm).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;From this alignment, one could search passim’s cluster dataset for the two milestones (that is, look for clusters in which either ms0810 of the &lt;em&gt;Kamil&lt;/em&gt; or ms0017 of the &lt;em&gt;Nujum&lt;/em&gt; are involved). Table 2 gives the result of such a search.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;cluster&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;size&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;id&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;68719610468&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;JK000911-ara1.mARkdown.ms0810&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;180388738305&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;7&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;JK000911-ara1.mARkdown.ms0810&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;249108229347&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;JK000911-ara1.mARkdown.ms0810&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;128849236741&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;JK000911-ara1.mARkdown.ms0810&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17179888967&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;JK000911-ara1.mARkdown.ms0810&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;309237764767&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;JK000911-ara1.mARkdown.ms0810&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;180388738302&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;JK001330-ara1.mARkdown.ms0017&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;128849236740&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;JK001330-ara1.mARkdown.ms0017&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;249108229347&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;JK001330-ara1.mARkdown.ms0017&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17179888964&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;JK001330-ara1.mARkdown.ms0017&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;180388738305&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;7&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;JK001330-ara1.mARkdown.ms0017&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Table 2: All of the clusters to which ms0810 of the Kamil and ms0017 of the Nujum belong. Bold rows indicate the text reuse that is given in the pairwise alignment between the two texts given in table 1 (this one pairwise alignment is found in two clusters, where part of the alignment is drawn into the larger cluster).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The milestone in the &lt;em&gt;Kamil&lt;/em&gt; belongs to six clusters and the one in the &lt;em&gt;Nujum&lt;/em&gt; belongs to five clusters. Notice how the two texts share two cluster numbers (underlined in the table), cluster 249108229347 and 180388738305, indicating that this long pairwise alignment is split between two clusters. The first of these is only shared between these two books, indicated by the fact that the cluster is of size 2 (that is, part of the pairwise alignment is only shared by the &lt;em&gt;Kamil&lt;/em&gt; and &lt;em&gt;Nujum&lt;/em&gt;). However, the second cluster (representing only a part of the same alignment) is of size 7. That means that part of the alignment is shared between the &lt;em&gt;Kamil&lt;/em&gt;, &lt;em&gt;Nujum&lt;/em&gt; and 5 other texts in the OpenITI corpus. Table 3 lists the texts in that cluster.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Book and ms URI&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;Author and Title&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0310Tabari.Tarikh.Shamela0009783BK1-ara1.mARkdown.ms1606&lt;/td&gt;
+      &lt;td&gt;Al-Tabarī, &lt;em&gt;Taʾrikh al-rusul wa-l-muluk&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0597IbnJawzi.Muntazam.Shamela0012406-ara1.mARkdown.ms1039&lt;/td&gt;
+      &lt;td&gt;Ibn al-Jawzi, &lt;em&gt;al-Muntaẓam fi taʾrikh al-muluk wa-l-umam&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0630IbnAthirCizzDin.Kamil.JK000911-ara1.mARkdown.ms0810&lt;/td&gt;
+      &lt;td&gt;Ibn al-Athir, &lt;em&gt;al-Kamil fi-l-taʾrikh&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0634AbuRabicHimyari.Iktifa.Shamela0009770-ara1.completed.ms1000&lt;/td&gt;
+      &lt;td&gt;Abu al-Rabiʿ al-Ḥimyari, &lt;em&gt;al-Iktafaʾ bi-ma taḍammanahu min maghazi rasul allah&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0774IbnKathir.Bidaya.Shamela0004445-ara1.completed.ms3276&lt;/td&gt;
+      &lt;td&gt;Ibn Kathīr, &lt;em&gt;al-Bidaya wa-l-Nihaya&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0874IbnTaghribirdi.NujumZahira. JK001330-ara1.mARkdown.ms0017&lt;/td&gt;
+      &lt;td&gt;Ibn Taghribirdi, &lt;em&gt;Nujum al-zahira fi muluk misr wa-l-qahira&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1411MuhammadTahirBarnaji.SahihWaDacifTarikhTabari. Sham19Y0145435-ara1.ms1957&lt;/td&gt;
+      &lt;td&gt;Muhammad Tahir Barnaji, &lt;em&gt;Ṣahih wa ḍaʿif taʾrikh al-tabari&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Table 3: A list of texts and milestones belonging to cluster 180388738305&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A simple glance at the list of books in table 3 suggests that this is an al-Tabari historiographical cluster. That is, all seven works have been clustered together because they are all reusing a piece of text that first appeared in al-Tabari’s &lt;em&gt;Taʾrikh.&lt;/em&gt; In the case of the final work in the list, it is a modern work that appears to reuse the text as part of a discussion of al-Tabari’s work. In the other cases we would need to examine the text of the milestones themselves to ascertain the exact relationship between all of the texts in the cluster – to determine if they have all reused the passage directly from al-Tabari, if they have relied on intermediaries, or even if some share an earlier (lost) source text. For example, Ibn Taghribirdi cites Ibn Kathir as his source for this passage, so it appears that he had not directly reused al-Tabari. The cluster data thus allows us to contextualise pairwise alignments in the broader corpus and figure out the larger stemmatic relationships that can underlie them.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-next-waypoint&quot;&gt;The next waypoint&lt;/h1&gt;
+
+&lt;p&gt;In this blog post I have attempted to introduce you to the cluster data set, explain its importance and how it is produced. As the example cluster given above shows, the data set can be valuable for understanding stemmatic relationships that span across the corpus, across time and space. However the neat example that I have presented here obscures some of the complexities of the data set as a whole, of its scale and of the weaknesses of single-link clustering, especially for the pre-modern Arabic tradition. The cluster data set contains over three and a half million individual clusters, many of which are very small and some of which are extremely large. In the next blog post, I will take a closer look at why the data set is so large, and provide some basic statistical analyses. This is necessary groundwork if we are to use the cluster data for historical research.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;If you will excuse the wordplay, I mean this both in the sense of a ‘pleasant stroll’ through a data set, and to write in a somewhat disorganised fashion – that is, I will present ideas and thoughts that are in progress. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Ryan Cordell, ‘Reprinting, Circulation and the Network Author in Antebellum Newspapers’, &lt;em&gt;American Literary History 27.3,&lt;/em&gt; (August, 2015), &lt;a href=&quot;https://doi.org/10.1093/alh/ajv028&quot;&gt;&lt;em&gt;https://doi.org/10.1093/alh/ajv028&lt;/em&gt;&lt;/a&gt;, 417-445; the (draft) chapter ‘Classifying Vignettes, Modeling Hybridity’ in Ryan Cordell, David A. Smith, Abby Mullen, Jonathan D. Fitzgerald and Avery Blankenship, &lt;em&gt;Going the Rounds: Virality in Nineteenth-Century American Newspapers&lt;/em&gt;, (Minneapolis: University of Minnesota Press, forthcoming, draft chapters available online), &lt;a href=&quot;https://manifold.umn.edu/read/untitled-bd3eb0af-fdad-4dd6-9c94-3fd15d522ab6/section/06899e82-8f06-43d2-9fc9-ea04dffef886&quot;&gt;https://manifold.umn.edu/read/untitled-bd3eb0af-fdad-4dd6-9c94-3fd15d522ab6/section/06899e82-8f06-43d2-9fc9-ea04dffef886&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;For an example of such a file, see the pairwise file (listed as item 9) in Sarah Bowen Savant and Masoumeh Seydi’s Zenodo release for their recent work on ‘People versus Books’, &lt;a href=&quot;https://zenodo.org/record/5074633#.Yl_LZtrMKUk&quot;&gt;https://zenodo.org/record/5074633#.Yl_LZtrMKUk&lt;/a&gt;. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Mathew Barber</name></author><category term="" /><category term="" /><category term="text-reuse" /><category term="book-history" /><summary type="html">It should be no surprise to any reader of this blog that the KITAB project is primarily interested in studying Arabic text reuse. A large number of posts here, including several from myself, are concerned with the text reuse dataset produced by passim and what it can tell us about Arabic book history. But what if I told you that passim produced two datasets and that our work has so far relied on one? If you read our pages on passim, or our blogs, you will see that this work focuses on the study of pairs of texts. That is, how text is reused between two books; where text reuse occurs in those books; how text is rearranged, etc. This post will introduce another dataset, the cluster dataset. It will be part of a series of posts that will follow my ramble1 (more-or-less in real time) through the cluster data, giving some early insights into how it can be used to understand Arabic book history. This data set could be used to study a range of texts, but here I will take historiography as an example. If you will excuse the wordplay, I mean this both in the sense of a ‘pleasant stroll’ through a data set, and to write in a somewhat disorganised fashion – that is, I will present ideas and thoughts that are in progress. &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/thumbs/authors_graph_pre900.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/thumbs/authors_graph_pre900.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Call for Papers: A Workshop on Citation (25th-26th July 2022)</title><link href="https://kitab-project-org.github.io/Citation-workshop-cfp/" rel="alternate" type="text/html" title="Call for Papers: A Workshop on Citation (25th-26th July 2022)" /><published>2022-04-22T00:00:00+01:00</published><updated>2022-04-22T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/Citation-workshop-cfp</id><content type="html" xml:base="https://kitab-project-org.github.io/Citation-workshop-cfp/">&lt;h1 id=&quot;modeling-attribution-and-acknowledgement-in-the-digital-humanities-citation-practices-and-the-pre-modern-arabic-book&quot;&gt;Modeling Attribution and Acknowledgement in the Digital Humanities: Citation Practices and the Pre-Modern Arabic Book.&lt;/h1&gt;
 &lt;p&gt;A two-day workshop, 25th - 26th July 2022&lt;br /&gt;
 Institute for the Study of Muslim Civilisations, Aga Khan University, London&lt;/p&gt;
 
@@ -688,142 +857,4 @@ Institute for the Study of Muslim Civilisations, Aga Khan University, London&lt;
       &lt;p&gt;Scott C. Lucas, &lt;em&gt;Selections from the Comprehensive Exposition of the Interpretations of the Verses of the Qurʾān&lt;/em&gt; (Cambridge: Royal Aal Al-Bayt Institute for Islamic Thought and Islamic Texts Society, 2017), esp. ii, 467–82 (‘Appendix B: Ṭabarī’s Teachers’). &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Sarah Savant and Masoumeh Seydi</name></author><category term="" /><category term="" /><summary type="html">The argument we are advancing in these blog posts is that when al-Tabari (d. 310/923) created his Taʾrikh al-rusul wa-l-muluk, Jamiʿ al-bayan ʿan taʾwil ay al-Qurʾan (Tafsir) and Tahdhib al-athar, he relied on notes that were bound into notebooks of some kind, and we can reconstruct something of their contents.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/thumbs/tabari_dispatches.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/thumbs/tabari_dispatches.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dispatches from al-Tabari 5: Reconstructing al-Tabari’s Notebooks</title><link href="https://kitab-project-org.github.io/Dispatches-from-al-Tabari-5-Reconstruct/" rel="alternate" type="text/html" title="Dispatches from al-Tabari 5: Reconstructing al-Tabari’s Notebooks" /><published>2021-10-15T00:00:00+01:00</published><updated>2021-10-15T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/Dispatches-from-al-Tabari-5--Reconstruct</id><content type="html" xml:base="https://kitab-project-org.github.io/Dispatches-from-al-Tabari-5-Reconstruct/">&lt;p&gt;In our previous blog post, we argued that al-Tabari (d. 310/923) had to hand an extensive written collection consisting of sets of well-written notes.&lt;/p&gt;
-
-&lt;p&gt;In this post, we demonstrate that the data we have collected helps us begin to visualise the notebooks that served as al-Tabari’s ‘data carriers’.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Scholars have often mined al-Tabari’s citations for evidence of earlier works. They have given the lion’s share of their attention to reputed authors such as Mujahid and Sayf b. ʿUmar who lived two or more generations before al-Tabari. By contrast, our starting point is his direct informants and the material they passed on to al-Tabari. In some cases, they combined material from many different sources.&lt;/p&gt;
-
-&lt;h2 id=&quot;tree-maps&quot;&gt;Tree Maps&lt;/h2&gt;
-
-&lt;p&gt;We visualise al-Tabari’s notebooks using a tree map that was created from a subset of the &lt;em&gt;isnad&lt;/em&gt;s introduced by the phrases ‘he told me’/’he told us’ (&lt;em&gt;haddathana&lt;/em&gt;/&lt;em&gt;haddathani&lt;/em&gt;) – specifically, &lt;em&gt;isnad&lt;/em&gt;s with at least three transmitters after al-Tabari. The tree map displays each person in an &lt;em&gt;isnad&lt;/em&gt; as a rectangle; the size of the rectangle is proportional to the number of times the person is cited. Our main tree map contains four layers of rectangles: al-Tabari himself (dark pink), his direct informants (dark orange), their informants (light orange) and the latters’ informants (yellow). For example, in the first notebook, Bishr b. Muʿadh’s (d. 245/859–60) main source is Yazid b. Zariʿ (d. 182/798-9?). All but twenty of the 2,387 chains that contain three persons after al-Tabari run thus: Bishr b. Muʿadh &amp;lt; Yazid b. Zariʿ &amp;lt; Saʿid.&lt;/p&gt;
-
-&lt;p&gt;It is important to stress that our tree maps do not represent the entirety of the data set, only the subset that fits their parameters. A tree map focused on &lt;em&gt;isnad&lt;/em&gt;s containing three transmitters will exclude all &lt;em&gt;isnad&lt;/em&gt;s that are shorter than three transmitters. Similarly, a tree map visualising &lt;em&gt;isnad&lt;/em&gt;s of at least five transmitters will exclude &lt;em&gt;isnad&lt;/em&gt;s with fewer than five, resulting in a smaller subset and a different tree map. Historians interested in the earliest layers of transmission may find the longer &lt;em&gt;isnad&lt;/em&gt; tree maps particularly interesting, as they highlight chunks of material that seem to have passed through multiple generations to al-Tabari’s direct informants and on to him. But they should remember that the data set was created to prioritise al-Tabari’s direct informants, not transmitters five generations removed from them.&lt;/p&gt;
-
-&lt;p&gt;The images included here are excerpts from a larger set of tree maps that we will publish with our data set in a forthcoming print publication. Bibliographical information is collated from publications by Gilliot, Athari and Lucas,&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; as well as from Ibn Nadim’s &lt;em&gt;Fihrist&lt;/em&gt; and the relevant &lt;em&gt;Encyclopaedia of Islam&lt;/em&gt; articles. We have also consulted other sources.&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;six-sets-of-notes&quot;&gt;Six Sets of Notes&lt;/h2&gt;
-
-&lt;p&gt;What follows is a series of visualisations of six possible – even likely – collections of notes used by al-Tabari.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Notebook 1: Bishr b. Muʿadh&lt;/strong&gt; (d. 245/859–60), cited 2,418 times, filtered to 2,387 chains of at least three transmitters.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png&quot;&gt;&lt;img src=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Image 1: The possible structure of al-Tabari’s notes on his lessons with Bishr b. Muʿadh in Basra.&lt;/p&gt;
-
-&lt;p&gt;Al-Tabari relies on Bishr b. Muʿadh chiefly for reports going back to an authority he calls Saʿid, transmitted via Yazid b. Zariʿ. Ibn al-Nadim mentions in his bio-bibliographical &lt;em&gt;Fihrist&lt;/em&gt; a &lt;em&gt;Kitab Saʿid b. Bashir ʿan Qatada&lt;/em&gt; within a list of compilations of Quran commentary (&lt;em&gt;tasmiyat al-kutub al-musannafa fi tafsir al-Qurʾan&lt;/em&gt;). Qatada b. Diʿama (d. ca. 117/735) was a ‘successor’, that is, he belonged to the generation of Muslims after the Prophet’s death. He was famed for his memory and his knowledge of genealogies, lexicography, historical traditions, Quranic exegesis, variant Quran readings (&lt;em&gt;qiraʾāt&lt;/em&gt;) and Hadith. As for Saʿid, Muhammad b. Saʿd (d. 230/845) has an entry for Abu ʿAbd al-Rahman Saʿid b. Bashir al-Azdi, who, he says, died in 170 (786 or 787 CE), at the start of Harun al-Rashid’s caliphate; he also mentions that Saʿid b. Bashir was from Basra but settled in Damascus. He quotes several reports from Qatada through Saʿid b. Bashir.&lt;/p&gt;
-
-&lt;p&gt;If we look at the &lt;em&gt;isnad&lt;/em&gt;s that continue after Saʿid, we indeed find that nearly all go back to Qatada. But can we be sure that the Saʿīd who passed on material from Qatada was it Saʿid b. Bashir? We cannot. Al-Tabari received reports from Qatada through several routes, including via a transmitter he names explicitly as Saʿīd b. Bashīr and another he calls Saʿīd b. Abī ʿUrūba, who may or may not be the same person. It is perhaps significant that when he refers specifically to Saʿid b. Bashir as a source for Qatada, his direct informant was not Bishr b. Muʿadh but rather a variety of other people (as many as nine). This means that we cannot be certain that there is only one Saʿīd who reported from Qatada or that al-Tabari received material from Saʿid b. Bashir through Bishr b. Muʿadh .&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; This is where further work on named entities would be particularly useful. We can say, however, that whatever the origin of its contents, al-Tabari’s Bishr b. Muʿadh notebook contained a lot of material from Qatada.&lt;/p&gt;
-
-&lt;p&gt;Al-Tabari used this notebook mainly for the &lt;em&gt;Jāmiʿ al-bayān&lt;/em&gt;, but he also picked it up for the &lt;em&gt;Taʾrikh&lt;/em&gt; and a few times for the &lt;em&gt;Tahdhib&lt;/em&gt;. The citations from it in the &lt;em&gt;Taʾrikh&lt;/em&gt; all occur early in the book, with the last (at milestone 984) being found in al-Tabari’s reporting on the sixth year of the hijra. The sixth year is when the Prophet attempted to return to Mecca to make the lesser pilgrimage (&lt;em&gt;ʿumra&lt;/em&gt;) and ended up concluding the accord of al-Hudaybiyya (March 628). Al-Tabari cites Bishr as one of several sources on the events.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Notebook 2: Muhammad b. Humayd al-Razi&lt;/strong&gt; (d. 248/862), cited 2,879 times, filtered to 2,312 chains of at least three transmitters.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png&quot;&gt;&lt;img src=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Image 2: The possible structure of al-Tabari’s notes on his lessons with Muhammad b. Humayd in Rayy.&lt;/p&gt;
-
-&lt;p&gt;In terms of the frequency of citation, the notes al-Tabari obtained from Muhammad b. Humayd were by far the most important for the former’s works. Given the large number of quotations from these notes, they may have occupied numerous books or booklets. In biographical literature, Muhammad b. Humayd is well-known as a transmitter of Ibn Ishaq’s &lt;em&gt;Sira&lt;/em&gt; through the intermediary Salama b. al-Fadl, and it is likely that the material he transmitted from Ibn Ishaq was bound together. In this case, the difference between such notebooks versus a ‘book’ obtained through an &lt;em&gt;ijāza&lt;/em&gt; may have been slight. The data rightly challenges us to think harder not just about ‘actual books’ but also about the concept of notes and notebooks.&lt;/p&gt;
-
-&lt;p&gt;In writing the &lt;em&gt;Taʾrikh&lt;/em&gt;, our data would say that al-Tabari relied almost exclusively on the notes from Muhammad b. Humayd for Ibn Ishaq’s &lt;em&gt;Sira&lt;/em&gt;.&lt;sup id=&quot;fnref:5&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; But for his other works he drew also on other notebooks containing material from the &lt;em&gt;Sira&lt;/em&gt;, especially those of Abu Kurayb (d. 248/862), Yaʿqub b. Ibrāhim al-Dawraqi (d. 252/866), and Sufyan b. Wakiʿ (d. 247/861), as well as at least seven others.&lt;/p&gt;
-
-&lt;p&gt;Given the large number of citations represented in this tree map, we might imagine that the material al-Tabari obtained from Jarir b. ʿAbd al-Hamid, Mihran b. Abi ʿUmar and Abu Tamila Yahya b. Saʿid would likewise have been bound. But how these notebooks would have been stored within al-Tabari’s own shelving system is another question.&lt;/p&gt;
-
-&lt;p&gt;Nearly all material transmitted by Mihran from ‘Sufyan’ is quoted in the &lt;em&gt;Tafsir&lt;/em&gt; from Sura 41 (‘Fussilat’) onwards; this is most likely a collection of the exegetical opinions of Sufyan al-Thawri (d. 161/778). Al-Tabari also cites other direct informants for Sufyan al-Thawri’s opinions, including Yunus b. ʿAbd al-Aʿla (d. 264/877), Abu Kurayb (d. 248/862), and al-Harith b. Muhammad (d. 282/895), as well as the chains Muhammad b. Humayd &amp;lt; Salama b. al-Fadl &amp;lt; Sufyan and Muhammad b. Humayd &amp;lt; Harun &amp;lt; Sufyan.&lt;/p&gt;
-
-&lt;p&gt;It would be worthwhile to compare the fragmentary Quran commentary attributed to Sufyan&lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; with al-Tabari’s &lt;em&gt;Tafsir&lt;/em&gt;. We have not done this. But we do have a machine-readable &lt;em&gt;tafsir&lt;/em&gt; text attributed to Sufyan al-Thawri in the OpenITI corpus (under identifier Shia002462; 29,140 words),&lt;sup id=&quot;fnref:7&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; which has twelve short alignments with al-Tabari’s text; the longest of these measures sixty-one words.&lt;sup id=&quot;fnref:8&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Notebook 3: Al-Muthanna b. Ibrahim al-Amuli&lt;/strong&gt; (d. unknown), cited 2,259 times, filtered to 1,973 chains of at least three people.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png&quot;&gt;&lt;img src=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Image 3: The possible structure of al-Tabari’s notes from his lessons with al-Muthanna in Rayy (possibly Amul also).&lt;/p&gt;
-
-&lt;p&gt;The notes that al-Tabari assembled from al-Muthanna b. Ibrahim al-Amuli are quite diverse, with the largest pieces deriving from transmitters named Ishaq b. al-Hajjaj and Abu Salih ʿAbd Allah.&lt;/p&gt;
-
-&lt;p&gt;The latter appears in Ibn al-Nadim’s &lt;em&gt;Fihrist&lt;/em&gt; as Abu Salih ʿAbd Allah b. Muhammad b. Yazdad b. Suwayd (d. 223/837-8). Ibn al-Nadim calls him an eloquent scribe (&lt;em&gt;ahad al-kuttab al-bulaghaʾ&lt;/em&gt;) and attributes to him a &lt;em&gt;Kitab al-Taʾrikh&lt;/em&gt; and a book of epistles (&lt;em&gt;Kitab rasaʾilihi&lt;/em&gt;). Al-Tabari refers to him in the &lt;em&gt;Tafsir&lt;/em&gt; and the &lt;em&gt;Tahdhib&lt;/em&gt; as ‘the scribe of al-Layth’ (&lt;em&gt;katib al-Layth&lt;/em&gt;); al-Layth appears within the tree map, too. This seems to refer to the famous traditionist and &lt;em&gt;faqih&lt;/em&gt; al-Layth b. Saʿd (d. 175/791).&lt;sup id=&quot;fnref:9&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt; Abu Salih ʿAbd Allah also transmitted from Muʿawiya b. Salih. In our &lt;em&gt;isnad&lt;/em&gt;s, Muʿawiya’s reporting goes back to Ibn ʿAbbas through ʿAli b. Abi Talha.&lt;/p&gt;
-
-&lt;p&gt;Edward Zychowicz-Coghill has recently collected witnesses to a &lt;em&gt;Taʾrikh&lt;/em&gt; by al-Layth on the basis of a recension by Yunus b. Bukayr that is quoted in five other texts. He argues that al-Tabari did not draw on al-Layth’s &lt;em&gt;Taʾrikh&lt;/em&gt;.&lt;sup id=&quot;fnref:10&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt; However, our data reveals additional evidence in the &lt;em&gt;Tafsir&lt;/em&gt; that contradicts his contention. Al-Layth is in fact cited in the &lt;em&gt;Taʾrikh&lt;/em&gt;, but through other &lt;em&gt;isnad&lt;/em&gt;s (and not, according to our data, through Yunus b. Bukayr).&lt;/p&gt;
-
-&lt;p&gt;Al-Layth’s situation is complex, and readers will be forgiven if they find it a bit hard to follow. For us, the most important feature of it is that it allows us to discern how works that Ibn al-Nadim may have recognised as written works were broken down before al-Tabari’s lifetime, absorbed into subsequent writings, and then reabsorbed into al-Tabari’s book. This process seems to have carried memories of earlier works and their conservators (e.g. the reference to &lt;em&gt;katib al-Layth&lt;/em&gt;) but without either citing the works themselves or making an effort to keep them intact. That is why reconstructions are so tricky.&lt;/p&gt;
-
-&lt;p&gt;The case of al-Tabari and, indeed, text reuse data in general, confirm what Beatrice Gruendler has recently argued, which is that in the third/ninth century (as well as beyond) the authorial agency of scholars such as al-Tabari was often exerted through acts of ‘memorizing, collecting, arranging, commenting, and transmitting of pre-existing sources’. As she writes, ‘This dealing with extant text made a scholar no less of an author in the eyes of his contemporaries, as he provided a repository of the knowledge that they needed.’ Gruendler distinguishes between different types of authorial agency. In poetry, authorship was recognised in the creation of a text, and a ‘basic difference already existed between a “ripped off” verbatim formulation and a borrowed reformulated motif’. In the case of poetry, ‘word-by-word’ copying was frowned on, though ‘a degree of reformulation changed the discourse from ownership to literary inspiration’.&lt;sup id=&quot;fnref:11&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:11&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;If we step back, we can understand these two forms of agency as part of a wider epistemology, which attributed greater prestige to adaptation than to simple, perfect reproduction. The reproduction of a work – as a &lt;em&gt;katib&lt;/em&gt; – did not initiate one into the genealogy of a master, whereas a student’s transmission of a teacher’s work (as a &lt;em&gt;rawi&lt;/em&gt; or otherwise) incorporated the student’s persona into the text’s lineage.&lt;/p&gt;
-
-&lt;p&gt;This hierarchy of prestige can be detected in al-Tabari’s citations. Consider the following examples, which indicate al-Tabari’s efforts to track specific pieces.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Notebooks 4 and 5:&lt;/strong&gt; &lt;strong&gt;Ismaʿil b. ʿAbd al-Rahman al-Suddi&lt;/strong&gt; (d. ca. 127/745) via &lt;strong&gt;Musa b. Harun al-Hamdani&lt;/strong&gt; (d. unknown) and &lt;strong&gt;Muhammad b. al-Husayn&lt;/strong&gt; (d. 261/874), respectively.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png&quot;&gt;&lt;img src=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Image 4: The possible structure of al-Tabari’s notes from his lessons with Musa b. Harun al-Hamdani (d. unknown) and Muhammad b. al-Husayn (d. 261/874).&lt;/p&gt;
-
-&lt;p&gt;The direct informants here are the obscure Musa b. Harun and Muhammad b. al-Husayn al-Baghdadi, a Hadith scholar from Nisa in modern-day Turkmenistan). Both transmit through different intermediaries (ʿAmr vs. Ahmad) from Asbat b. Nasr al-Hamdani, who in turn transmits from al-Suddi, a &lt;em&gt;mawla&lt;/em&gt; who was a popular preacher in Kufa. In both cases, al-Suddi’s ‘box’ (that is, the material he provided) is neatly nested inside Asbat’s. However, the material from al-Suddī accounts for less than half of the three-person &lt;em&gt;isnad&lt;/em&gt;s from either Musa b. Harun (who starts a total of 508 chains) and or Muhammad b. al-Husayn (who starts 528).&lt;/p&gt;
-
-&lt;p&gt;Examining these citations, G. H. A. Juynbol questioned the degree to which the material attributed to al-Suddi could be used to understand his views: ‘In al-Tabari’s &lt;em&gt;Tafsir&lt;/em&gt;, countless exegetical remarks ascribed to al-&lt;em&gt;Suddi&lt;/em&gt; can be found and could conceivably be brought together in a volume. Whether such a compilation would allow conclusions as to a certain bias or predilection on his part, if any, has as yet to be established.’ Ibn al-Nadīm does indeed mention a &lt;em&gt;Kitab Tafsir al-Suddi&lt;/em&gt; within the section, mentioned above, that lists compilations of Quranic commentary (&lt;em&gt;tasmiyat al-kutub al-musannafat fi tafsir al-Qurʾan&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Notebook 6: ʿAbd Allah b. al-ʿAbbas&lt;/strong&gt; (d. ca. 68/687–8) via Muhammad b. Saʿd (d. 276/889).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png&quot;&gt;&lt;img src=&quot;/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Image 5: The possible structure of al-Tabari’s notes on information received through a family &lt;em&gt;isnad&lt;/em&gt; from Muhammad b. Saʿd (d. 276/889) in Baghdad.&lt;/p&gt;
-
-&lt;p&gt;Al-Tabari met Muhammad b. Saʿd b. Muhammad b. al-Hasan b. ʿAtiyya b. Saʿd b. Junada al-ʿAwfi in Baghdad. The information he received from the latter originates with ʿAbd Allah b. al-ʿAbbas (d. ca. 68/687–8), a member of the first generation of Muslims who is frequently called the father of Quranic exegesis. The full chain, in which the description of family relations reflects the respective quoted speaker’s perspective, runs as follows: Muhammad b. Saʿd &amp;lt; &lt;em&gt;abi&lt;/em&gt; [‘my father’] &amp;lt; &lt;em&gt;ʿammi&lt;/em&gt; [‘my paternal uncle’, i.e. Muhammad b. Saʿd’s great-uncle] &amp;lt; &lt;em&gt;abihi&lt;/em&gt; [‘his father’, i.e. the great-uncle’s father] &amp;lt; Ibn ʿAbbas. Franz Rosenthal described al-Tabari’s material from Muhammad b. Saʿd as an ‘unpublished’ book and ‘the heirloom of a particular family’ and noted that ‘a family &lt;em&gt;isnad&lt;/em&gt; as complete as this is most remarkable’.&lt;sup id=&quot;fnref:12&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:12&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;It should be noted that although generating our data was challenging, once generated it is relatively easy to read. Filtering the data in the Transmission Chains table to order the &lt;em&gt;isnad&lt;/em&gt;s alphabetically by the name in position 5, for example, reveals numerous identical &lt;em&gt;isnads&lt;/em&gt; running back to Ibn ʿAbbas. The interpretation of these &lt;em&gt;isnad&lt;/em&gt;s will, of course, remain a subject of debate.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Limits of Our Argument&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Scholars such as Lawrence Conrad, Andrew Rippin, Ella Landau-Tasseron and Arietta Papaconstantinou have rightly raised questions about efforts to reconstruct lost sources.&lt;sup id=&quot;fnref:13&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:13&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;13&lt;/a&gt;&lt;/sup&gt; There is an understandable concern in the field about the risks associated with mining later sources for evidence of earlier ones.&lt;/p&gt;
-
-&lt;p&gt;Our work is a comparatively modest effort. Our primary focus is on what al-Tabari had to hand, not on whether any given chunk of material can in fact be traced back to Umayyad times. We make no judgement, for example, about whether the Ibn ʿAbbas notebook actually goes back to the man himself. Indeed, we are sceptical that the notebooks can be reconstructed. Instead, they can be described, given that we possess only extracts from them.&lt;/p&gt;
-
-&lt;p&gt;As for the earlier layers, we are also generally sceptical about the possibility of reconstructing ‘actual books’ from earlier time periods on the basis of quotations and citations found in works that survive today. Our scepticism arises from the fact that authors treated their notes as reusable materials. Now that technology can aid us in new ways, further work on assessing alignments will be worthwhile, but we should be searching for more nuanced ways to describe what we find. What was the nature of these earlier works? Corpora of quotations can be collected and described and sketches of the early written tradition developed on the basis of this evidence, as Kevin Jaques is doing for Ibn Ishaq and as Zychowicz-Coghill has done for al-Layth b. Saʿd.&lt;/p&gt;
-
-&lt;p&gt;Our main bone of contention with efforts at reconstruction that mine later sources for earlier works is that they often give little or no attention or agency to the persons we call al-Tabari’s direct informants. Al-Tabari drew on a material reality that had its own form and organisation. Broadly speaking, our work reflects the field’s rising attention to the materiality of texts, although we do not work with manuscripts. Rather, we direct our attention to where the material has vanished but direct citations of it remain.&lt;/p&gt;
-
-&lt;p&gt;In our next post, we compare al-Tabari’s books and investigate how different notebooks fed into different works.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Beatrice Gruendler, &lt;em&gt;The Rise of the Arabic Book&lt;/em&gt; (Cambridge, MA: Harvard University Press, 2020), 67. Maxim Romanov has made this argument for al-Dhahabi’s (d. 748/1348) &lt;em&gt;Taʾrikh al-Islam&lt;/em&gt;; see e.g. Romanov, ‘Observations of a Medieval Quantitative Historian?’, &lt;em&gt;Der Islam&lt;/em&gt; 94/2 (2017), 462–95, &lt;a href=&quot;https://doi.org/10.1515/islam-2017-0028&quot;&gt;[https://doi.org/10.1515/islam-2017-0028]{.ul}&lt;/a&gt;, at 482ff. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Claude Gilliot, ‘La formation intellectuelle de Tabari (224/5–310/839–923)’, &lt;em&gt;Journal asiatique&lt;/em&gt; 276 (1988), 203–44; Akram Atharī, &lt;em&gt;Muʿjam shuyūkh al-Ṭabarī&lt;/em&gt; (Amman and Cairo: n.p., 2005); and Scott C. Lucas, &lt;em&gt;Selections from the Comprehensive Exposition of the Interpretations of the Verses of the Qurʾān&lt;/em&gt; (Cambridge: Royal Aal Al-Bayt Institute for Islamic Thought and Islamic Texts Society, 2017), esp. ii, 467–82 (‘Appendix B: Ṭabarī’s Teachers’). &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;E.g. Muhammad S. H. Hallaq, &lt;em&gt;Rijal Tafsir al-Tabari, jarhan wa-taʿdilan: Min tahqiq Jamiʿ al-bayan ʿan taʾwil ay al-Qurʾan li-Ahmad Shakir wa-Mahmud Shakir&lt;/em&gt; (Beirut: Dar Ibn Hazm, 1999). &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Cf. Athari, &lt;em&gt;Muʿjam shuyukh al-Tabari&lt;/em&gt;, 159. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:5&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;R. Kevin Jaques has assembled a list of persons upon whom al-Tabari relied for Ibn Ishaq’s &lt;em&gt;Sira&lt;/em&gt;, plus locations within the &lt;em&gt;Taʾrikh&lt;/em&gt; and &lt;em&gt;Tafsir&lt;/em&gt;. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:6&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Sufyan al-Thawri, &lt;em&gt;Tafsir al-Qurʾan al-karim&lt;/em&gt;, ed. Imtiyaz ʿAli ʿArshi (Rampur: n.p., 1965). &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:7&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;This work was published as &lt;em&gt;Tafsir al-Thawri&lt;/em&gt;, edited by ‘a committee (&lt;em&gt;lajna&lt;/em&gt;) of &lt;em&gt;ʿulamaʾ&lt;/em&gt;’, in 1403 AH [1982–3 CE]. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:8&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;The alignments are available at &lt;a href=&quot;http://dev.kitab-project.org/passim01022021/Shia002462-ara1/Shia002462-ara1_Shamela0007798-ara1.inProgress.csv&quot;&gt;[http://dev.kitab-project.org/passim01022021/Shia002462-ara1/Shia002462-ara1_Shamela0007798-ara1.inProgress.csv]{.ul}&lt;/a&gt; (included in the data set associated to these blogs). &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:9&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Al-Tabari refers to al-Layth b. Saʿd (also as al-Layth b. Saʿd al-Misri), but in our data set this name never appears in the al-Muthanna &amp;lt; ʿAbd Allah chains, which refer only to ‘al-Layth’. Al-Tabari may well have maintained in his citations the different surface forms of names that he had recorded in his notes. Al-Khatib al-Baghdadi (d. 463/1071) describes an ʿAbd Allah b. Saliḥ b. Muhammad b. Muslim Abu Salih as an Egyptian who was the &lt;em&gt;katib al-Layth b. Saʿd&lt;/em&gt; and who accompanied the latter to Baghdad. The names here do not quite match (ʿAbd Allah b. Muhammad versus ʿAbd Allah b. Salih). See al-Khatib al-Baghdadi, &lt;em&gt;Taʾrikh Baghdad&lt;/em&gt;, OpenITI, Shamela0000736-ara2.mARkdown, search term: كاتب الليث. &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:10&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Edward Zychowicz-Coghill, &lt;em&gt;The First Arabic Annals: Fragments of Umayyad History&lt;/em&gt; (Berlin: de Gruyter, 2021), 3. &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:11&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Gruendler, &lt;em&gt;Rise of the Arabic Book&lt;/em&gt;, 60–2. &lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:12&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Franz Rosenthal, general introduction to al-Tabari, &lt;em&gt;The History of al-Ṭabarī&lt;/em&gt;, i: &lt;em&gt;General Introduction and From the Creation to the Flood&lt;/em&gt;, trans. Franz Rosenthal (Albany: State University of New York Press, 1989), 6 and 215, n. 337. &lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:13&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Lawrence Conrad, ‘Recovering Lost Texts: Some Methodological Issues’, &lt;em&gt;Journal of the American Oriental Society&lt;/em&gt; 113/2 (1993), 258–63; Andrew Rippin, ‘&lt;em&gt;Tafsir Ibn ʿAbbās&lt;/em&gt; and Criteria for Dating Early &lt;em&gt;Tafsir&lt;/em&gt; Texts’&lt;em&gt;, Jerusalem Studies in Arabic and Islam&lt;/em&gt; 18 (1994), 38–83; Ella Landau-Tasseron, ‘On the Reconstruction of Lost Sources’, &lt;em&gt;al-Qanṭara&lt;/em&gt; 25 (2004), 45–91; Arietta Papaconstantinou, review of Robert Hoyland, &lt;em&gt;Theophilus of Edessa’s Chronicle and the Circulation of Historical Knowledge in Late Antiquity and Early Islam&lt;/em&gt;, &lt;em&gt;Le Muséon&lt;/em&gt; 126 (2013), 459–65. &lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Sarah Savant and Masoumeh Seydi</name></author><category term="" /><category term="" /><summary type="html">In our previous blog post, we argued that al-Tabari (d. 310/923) had to hand an extensive written collection consisting of sets of well-written notes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name>Sarah Savant and Masoumeh Seydi</name></author><category term="" /><category term="" /><summary type="html">The argument we are advancing in these blog posts is that when al-Tabari (d. 310/923) created his Taʾrikh al-rusul wa-l-muluk, Jamiʿ al-bayan ʿan taʾwil ay al-Qurʾan (Tafsir) and Tahdhib al-athar, he relied on notes that were bound into notebooks of some kind, and we can reconstruct something of their contents.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/thumbs/tabari_dispatches.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/thumbs/tabari_dispatches.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
