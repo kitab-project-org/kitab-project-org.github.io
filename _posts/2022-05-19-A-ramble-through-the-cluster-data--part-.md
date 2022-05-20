@@ -4,7 +4,7 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title:	"A ramble through the cluster data, part 1: from pairs to clusters."		
+title:	"A Ramble Through the Cluster Data, Part 1: From Pairs to Clusters."		
 author: mathew_barber
 layout:		single
 categories:
