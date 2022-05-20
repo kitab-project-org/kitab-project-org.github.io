@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://kitab-project-org.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kitab-project-org.github.io/" rel="alternate" type="text/html" /><updated>2022-05-19T12:20:05+01:00</updated><id>https://kitab-project-org.github.io/feed.xml</id><title type="html">KITAB</title><subtitle>The Website for the KITAB project</subtitle><author><name>KITAB</name></author><entry><title type="html">A ramble through the cluster data, part 1: from pairs to clusters.</title><link href="https://kitab-project-org.github.io/A-ramble-through-the-cluster-data-part/" rel="alternate" type="text/html" title="A ramble through the cluster data, part 1: from pairs to clusters." /><published>2022-05-19T00:00:00+01:00</published><updated>2022-05-19T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/A-ramble-through-the-cluster-data--part-</id><content type="html" xml:base="https://kitab-project-org.github.io/A-ramble-through-the-cluster-data-part/">&lt;p&gt;It should be no surprise to any reader of this blog that the KITAB project is primarily interested in studying Arabic text reuse. A large number of posts here, including several from myself, are concerned with the text reuse dataset produced by &lt;a href=&quot;https://kitab-project.org/methods/text-reuse&quot;&gt;passim&lt;/a&gt; and what it can tell us about Arabic book history. But what if I told you that passim produced two datasets and that our work has so far relied on one? If you read our pages on passim, or our blogs, you will see that this work focuses on the study of pairs of texts. That is, how text is reused between two books; where text reuse occurs in those books; how text is rearranged, etc. This post will introduce another dataset, the cluster dataset. It will be part of a series of posts that will follow my ramble&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; (more-or-less in real time) through the cluster data, giving some early insights into how it can be used to understand Arabic book history. This data set could be used to study a range of texts, but here I will take historiography as an example.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://kitab-project-org.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kitab-project-org.github.io/" rel="alternate" type="text/html" /><updated>2022-05-20T09:46:43+01:00</updated><id>https://kitab-project-org.github.io/feed.xml</id><title type="html">KITAB</title><subtitle>The Website for the KITAB project</subtitle><author><name> </name></author><entry><title type="html">A Close and Distant Reading of Writerly Practices: Sarah Bowen Savant’s Inaugural Lecture</title><link href="https://kitab-project-org.github.io/inaugural-lecture-sarah-bowen-savant/" rel="alternate" type="text/html" title="A Close and Distant Reading of Writerly Practices: Sarah Bowen Savant’s Inaugural Lecture" /><published>2022-05-20T00:00:00+01:00</published><updated>2022-05-20T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/inaugural-lecture-sarah-bowen-savant</id><content type="html" xml:base="https://kitab-project-org.github.io/inaugural-lecture-sarah-bowen-savant/">&lt;p&gt;On Thursday 5th of May 2022 Sarah Bowen Savant gave her inaugural lecture as full professor at the AKU-ISMC.&lt;/p&gt;
+
+&lt;p&gt;This is her personal account of the start of KITAB, and where she presents material that will appear in her next &lt;a href=&quot;https://kitab-project.org/research/books#sarah-savant-a-cultural-history-of-the-arabic-book-700-1500&quot;&gt;book&lt;/a&gt;, which treats book history.&lt;/p&gt;
+
+&lt;p&gt;This inaugural lecture tells the story of a set of written practices and cultural expectations that helped make the Arabic written tradition (ca. 700-1500) one of the largest written traditions up to its day. The growth of the tradition is often narrated in terms of the adoption of paper in the ninth and tenth centuries in the Middle East. Without denying the importance of this medium, Sarah Bowen Savant will emphasise practices that filled paper. This story, of practice, has not been told – or at least, it has not been told in ways that benefit from new and emerging digital methods.&lt;/p&gt;
+
+&lt;p&gt;The lecture focuses specifically on the many ways that authors reused earlier works to create news ones. This reuse occurred in many ways that fuelled the tradition’s growth, for example: new, updated versions of earlier works; many varieties of compilations relying on excerpts; commentaries; and abridgements and extensions. Such large-scale and inventive recycling generated new works, new ideas, and new memories. It also partially replaced earlier layers of writings and helps to explain the scant material evidence for books up until roughly the eleventh century C.E., the non-survival of books treating important topics, and the great variability of witnesses to individual works. More fundamentally, the widespread reuse of texts forces historians today to query earlier generations assumptions about authorship and the very nature of the book.&lt;/p&gt;
+
+&lt;p&gt;You can now watch the inaugural lecture online, below:&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/snrDcEYawCI&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+For more lectures and interviews from the KITAB project, please see &lt;a href=&quot;https://kitab-project.org/research/lectures&quot;&gt;our dedicated page&lt;/a&gt;&lt;/p&gt;</content><author><name> </name></author><category term="" /><category term="" /><category term="events" /><category term="news" /><summary type="html">On Thursday 5th of May 2022 Sarah Bowen Savant gave her inaugural lecture as full professor at the AKU-ISMC.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/blogs/2022-05-20/lecture-clip.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/blogs/2022-05-20/lecture-clip.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A ramble through the cluster data, part 1: from pairs to clusters.</title><link href="https://kitab-project-org.github.io/A-ramble-through-the-cluster-data-part/" rel="alternate" type="text/html" title="A ramble through the cluster data, part 1: from pairs to clusters." /><published>2022-05-19T00:00:00+01:00</published><updated>2022-05-19T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/A-ramble-through-the-cluster-data--part-</id><content type="html" xml:base="https://kitab-project-org.github.io/A-ramble-through-the-cluster-data-part/">&lt;p&gt;It should be no surprise to any reader of this blog that the KITAB project is primarily interested in studying Arabic text reuse. A large number of posts here, including several from myself, are concerned with the text reuse dataset produced by &lt;a href=&quot;https://kitab-project.org/methods/text-reuse&quot;&gt;passim&lt;/a&gt; and what it can tell us about Arabic book history. But what if I told you that passim produced two datasets and that our work has so far relied on one? If you read our pages on passim, or our blogs, you will see that this work focuses on the study of pairs of texts. That is, how text is reused between two books; where text reuse occurs in those books; how text is rearranged, etc. This post will introduce another dataset, the cluster dataset. It will be part of a series of posts that will follow my ramble&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; (more-or-less in real time) through the cluster data, giving some early insights into how it can be used to understand Arabic book history. This data set could be used to study a range of texts, but here I will take historiography as an example.&lt;/p&gt;
 
 &lt;h1 id=&quot;at-the-trailhead&quot;&gt;At the trailhead&lt;/h1&gt;
 
@@ -774,87 +788,4 @@ Institute for the Study of Muslim Civilisations, Aga Khan University, London&lt;
 
 &lt;p&gt;To cite this version please include the following information (the bibliographical export is available at the &lt;a href=&quot;https://zenodo.org/record/3891466&quot;&gt;publication page&lt;/a&gt;):&lt;/p&gt;
 
-&lt;p&gt;Lorenz Nigst, Maxim Romanov, Sarah Bowen Savant, Masoumeh Seydi and Peter Verkinderen, OpenITI: A Machine-Readable Corpus of Islamicate Texts (Version 2021.2.5) [data set] (October 2021), Zenodo, https://doi.org/10.5281/zenodo.5550338.&lt;/p&gt;</content><author><name>Masoumeh Seydi</name></author><category term="" /><category term="" /><category term="release" /><category term="corpus" /><category term="news" /><summary type="html">The KITAB team has released a new version (2021.2.5) of the OpenITI corpus at Zenodo. The release is open access. It is our fifth release (second release in 2021). You can also access the release through our GitHub repository.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/thumbs/releases.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/thumbs/releases.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dispatches from al-Tabari 6: Sources Common to All of al-Tabari’s Works</title><link href="https://kitab-project-org.github.io/Dispatches-from-al-Tabari-6-Sources-Com/" rel="alternate" type="text/html" title="Dispatches from al-Tabari 6: Sources Common to All of al-Tabari’s Works" /><published>2021-10-19T00:00:00+01:00</published><updated>2021-10-19T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/Dispatches-from-al-Tabari-6--Sources-Com</id><content type="html" xml:base="https://kitab-project-org.github.io/Dispatches-from-al-Tabari-6-Sources-Com/">&lt;p&gt;The argument we are advancing in these blog posts is that when al-Tabari (d. 310/923) created his &lt;em&gt;Taʾrikh al-rusul wa-l-muluk&lt;/em&gt;, &lt;em&gt;Jamiʿ al-bayan ʿan taʾwil ay al-Qurʾan&lt;/em&gt; (&lt;em&gt;Tafsir&lt;/em&gt;) and &lt;em&gt;Tahdhib al-athar&lt;/em&gt;, he relied on notes that were bound into notebooks of some kind, and we can reconstruct something of their contents.&lt;/p&gt;
-
-&lt;p&gt;We base our argument of the notebooks’ existence on practical evidence: the long interval between the time of writing and the time of his contact with the people he cites, the extensiveness of the citations (which would represent an astonishing feat of memory without written records) and the quick pace at which al-Tabari appears to have worked. There is also more direct evidence. This evidence consists of the citations themselves, including the ways in which they map onto probable notebooks, and of the alignments between all three books revealed by text reuse data.&lt;/p&gt;
-
-&lt;p&gt;A further point that emerges from our data set is the extent to al-Tabari appears to have gone back to the same sets of notes when composing each of his works. Let us look more closely at our data and numbers on this point.&lt;/p&gt;
-
-&lt;p&gt;Viewing all 849 names on our list of direct informants provides only a weak picture of sources common to the works. This list, as noted in an earlier post, contains many names that occur only once or twice in al-Tabari’s works, and the identities of many of them are uncertain. The list shows that al-Tabari relied on 347 direct informants for the &lt;em&gt;Taʾrikh&lt;/em&gt;, 543 for the &lt;em&gt;Tafsir&lt;/em&gt; and 342 for the &lt;em&gt;Tahdhib&lt;/em&gt;. Cross-checking pairs of these sub-lists shows that the &lt;em&gt;Taʾrikh&lt;/em&gt; and the &lt;em&gt;Tafsir&lt;/em&gt; have 139 direct informants in common, the &lt;em&gt;Taʾrikh&lt;/em&gt; and the &lt;em&gt;Tahdhib&lt;/em&gt; have 110 in common and the &lt;em&gt;Tahdhib&lt;/em&gt; and the &lt;em&gt;Tafsir&lt;/em&gt; have 229 in common. All three works share 104 direct informants. These figures seem to suggest that he drew on many different sources and mostly used different sources for each work.&lt;/p&gt;
-
-&lt;p&gt;But the picture becomes more interesting when we focus on the smaller number of people on whom al-Tabari relied intensively. Recall that 51% of all of al-Tabari’s citations in our data set came from just eight people; twenty people accounted for 79% and fifty people for 89% of citations. It is these relatively few direct informants who mattered most to al-Tabari.&lt;/p&gt;
-
-&lt;p&gt;By focusing on this small subset we get a clearer picture of al-Tabari’s working habits. Of the fifty direct informants cited most frequently, thirty-eight are cited in all three of his works. Of the top twenty, eighteen appear in all three, and each of the top ten is cited in each work. In other words, al-Tabari’s most important direct informants constituted his core source base for all three of his works.&lt;/p&gt;
-
-&lt;p&gt;Among these direct informants, there is a further subset consisting of people cited numerous times in each of the three works. The &lt;em&gt;Taʾrikh&lt;/em&gt; and the &lt;em&gt;Tafsir&lt;/em&gt; took years to complete, and in the drawn-out writing process, the notes from these informants were al-Tabari’s go-tos and trusted favourites. In their case it seems especially probable that he had at his disposal stable notes bound together for easy reference and citation.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Rank&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Died&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Tabari met in&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Total count&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Count in &lt;em&gt;Taʾrikh&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Count in &lt;em&gt;Tafsir&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;em&gt;*Count in *Tahdhib **&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Muhammad b. Humayd al-Razi&lt;/td&gt;
-      &lt;td&gt;248/862&lt;/td&gt;
-      &lt;td&gt;Rayy&lt;/td&gt;
-      &lt;td&gt;2879&lt;/td&gt;
-      &lt;td&gt;457&lt;/td&gt;
-      &lt;td&gt;2126&lt;/td&gt;
-      &lt;td&gt;296&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;6&lt;/td&gt;
-      &lt;td&gt;Muhammad b. Bashshar&lt;/td&gt;
-      &lt;td&gt;252/866&lt;/td&gt;
-      &lt;td&gt;Basra&lt;/td&gt;
-      &lt;td&gt;1644&lt;/td&gt;
-      &lt;td&gt;34&lt;/td&gt;
-      &lt;td&gt;1240&lt;/td&gt;
-      &lt;td&gt;370&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;Abu Kurayb&lt;/td&gt;
-      &lt;td&gt;248/862&lt;/td&gt;
-      &lt;td&gt;Kufa&lt;/td&gt;
-      &lt;td&gt;1609&lt;/td&gt;
-      &lt;td&gt;69&lt;/td&gt;
-      &lt;td&gt;1033&lt;/td&gt;
-      &lt;td&gt;507&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;11&lt;/td&gt;
-      &lt;td&gt;Muhammad b. al-Muthanna&lt;/td&gt;
-      &lt;td&gt;250/864&lt;/td&gt;
-      &lt;td&gt;Basra&lt;/td&gt;
-      &lt;td&gt;1081&lt;/td&gt;
-      &lt;td&gt;47&lt;/td&gt;
-      &lt;td&gt;649&lt;/td&gt;
-      &lt;td&gt;385&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Table 1: Four direct informants on whom al-Tabari relied heavily and whose material was likely preserved in well-organised notebooks.&lt;/p&gt;
-
-&lt;p&gt;Among al-Tabari’s informants, Muhammad b. Humayd al-Razi (d. 248/862), Muhammad b. Bashshar (d. 252/866), Ab Kurayb (d. 248/862) and Muhammad b. al-Muthanna (d. 250/864) stand out. It is not hard to see why al-Tabari saw these individuals’ works as particularly worthy of careful collation and frequent citation. Muhammad b. Humayd transmitted Ibn Ishaq’s &lt;em&gt;Sira&lt;/em&gt;, an important source both for history (&lt;em&gt;Taʾrikh&lt;/em&gt;) and for interpretation of the Qur’an (&lt;em&gt;Tafsir&lt;/em&gt;; he is also cited 296 times in the &lt;em&gt;Tahdhib&lt;/em&gt; within our data set).&lt;/p&gt;
-
-&lt;p&gt;The other figures are well-known Hadith scholars. Scott Lucas’s work on al-Tabari’s ‘teachers’ has shown that Hadiths from each of these three are cited in all six of the canonical Sunni Hadith collections (i.e. those of al-Bukhari, Muslim, Abu Dawud, al-Tirmidhi, al-Nasaʾi and Ibn Maja).&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; These numbers are of interest for our understanding of knowledge transmission in the third/ninth and fourth/tenth centuries and beyond. How did an author whose works mattered so much to posterity put together his very large works? Reliable materials mattered. And those that al-Tabari deemed reliable he returned to again and again in his works.&lt;/p&gt;
-
-&lt;p&gt;In our next post, we examine text reuse alignments between al-Tabari’s works, which also suggest a common source base.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Scott C. Lucas, &lt;em&gt;Selections from the Comprehensive Exposition of the Interpretations of the Verses of the Qurʾān&lt;/em&gt; (Cambridge: Royal Aal Al-Bayt Institute for Islamic Thought and Islamic Texts Society, 2017), esp. ii, 467–82 (‘Appendix B: Ṭabarī’s Teachers’). &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Sarah Savant and Masoumeh Seydi</name></author><category term="" /><category term="" /><summary type="html">The argument we are advancing in these blog posts is that when al-Tabari (d. 310/923) created his Taʾrikh al-rusul wa-l-muluk, Jamiʿ al-bayan ʿan taʾwil ay al-Qurʾan (Tafsir) and Tahdhib al-athar, he relied on notes that were bound into notebooks of some kind, and we can reconstruct something of their contents.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/thumbs/tabari_dispatches.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/thumbs/tabari_dispatches.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Lorenz Nigst, Maxim Romanov, Sarah Bowen Savant, Masoumeh Seydi and Peter Verkinderen, OpenITI: A Machine-Readable Corpus of Islamicate Texts (Version 2021.2.5) [data set] (October 2021), Zenodo, https://doi.org/10.5281/zenodo.5550338.&lt;/p&gt;</content><author><name>Masoumeh Seydi</name></author><category term="" /><category term="" /><category term="release" /><category term="corpus" /><category term="news" /><summary type="html">The KITAB team has released a new version (2021.2.5) of the OpenITI corpus at Zenodo. The release is open access. It is our fifth release (second release in 2021). You can also access the release through our GitHub repository.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/thumbs/releases.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/thumbs/releases.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
