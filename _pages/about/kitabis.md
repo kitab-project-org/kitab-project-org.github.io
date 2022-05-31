@@ -21,7 +21,12 @@ Sarah Bowen Savant is a professor at the Aga Khan University--Institute for the 
 
 ### Maxim Romanov
 ![Maxim Romanov](/images/kitab/maxim200px.jpg){: .align-left}
-Maxim Romanov’s research focuses on the social history of the premodern Islamic world, the history of the Arabic written tradition, and computational methods and approaches relevant for Islamicate studies. Until recently, he held a joint position as a senior research fellow at the KITAB Project (AKU-ISMC, London) and as a Universitätsassistent of Digital Humanities (University of Vienna). Currently, at the University of Hamburg, he is leading a research project titled “The Evolution of Islamic Societies (c.600-1600 CE): Algorithmic Analysis into Social History”, which is funded by the German Research Foundation (DFG) within the framework of the Emmy Noether Program.
+Maxim Romanov’s research focuses on the social history of the premodern Islamic world, the history of the Arabic written tradition, and computational methods and approaches relevant for Islamicate studies. Until recently, he held a joint position as a senior research fellow at the KITAB Project (AKU-ISMC, London) and as a Universitätsassistent of Digital Humanities (University of Vienna). Currently, at the University of Hamburg, he is leading a research project titled “The Evolution of Islamic Societies (c.600-1600 CE): Algorithmic Analysis into Social History”, which is funded by the German Research Foundation (DFG) within the framework of the Emmy Noether Program.
+
+### Hamid Reza Hakimi
+![Hamid Reza Hakimi](/images/kitab/Hamid-Reza-Hakimi.jpg){: .align-left}
+Hamid Reza Hakimi works as the annotator of Arabic texts in KITAB Project. Hamid’s general interest is in the social history of books, and specifically, he is interested in book production in the pre-modern Iranian world. His M.A thesis in Iranian Studies entitled “Cultural Patrons and Producing Books in the Age of the Seljuqs” tries to investigate all socio-political groups that patronized different kinds of writers (mainly poets, but also historians, scientists, etc.) during the Seljuqid era.
+
 ### Gowaart Van Den Bossche ![Gowaart Van Den Bossche](/images/kitab/Gowaart_200px.jpg){: .align-left}
 Gowaart Van Den Bossche is a postdoctoral research fellow with the KITAB project. He studied history and Arabic and Islamic studies at Ghent University and the Netherlands-Flemish Institute in Cairo. He obtained his PhD in history from Ghent University in January 2019 with a dissertation entitled 'The Past, Panegyric, and the Performance of Penmanship: Sultanic Biography and Social Practice in Late Medieval Egypt and Syria'. This dissertation won the 2020 British Association for Islamic Studies--De Gruyter Prize in the Study of Islam and the Muslim World. His research focuses on historiography, literature and manuscript culture in late medieval Egypt and Syria. He is generally interested in the narrative qualities of historiography and the ways in which authors made use of literary forms of expression in medieval Islamic written culture.
 ### Aslisho Qurboniev![Aslisho Qurboniev](/images/kitab/Aslisho_200px.jpg){: .align-left}
@@ -50,10 +55,6 @@ Sohail is responsible for managing the infrastructure and developing the applica
 ### Anjum Alam
 ![Anjum Alam](/images/kitab/Anjum-Alam.jpg){: .align-left}
 Anjum Alam is the project manager for KITAB. He received his MBA in human resource development and holds an undergraduate degree in information technology. In addition, he is a certified Project Management Professional using waterfall and agile methodologies. Before joining KITAB, Anjum worked with different Aga Khan Development Network (AKDN) agencies and other organisations. His main areas of expertise include project and budget management, operational management, elearning, and data protection and GDPR compliance.
-
-### Hamid Reza Hakimi
-![Hamid Reza Hakimi](/images/kitab/Hamid-Reza-Hakimi.jpg){: .align-left}
-Hamid Reza Hakimi works as the annotator of Arabic texts in KITAB Project. Hamid’s general interest is in the social history of books, and specifically, he is interested in book production in the pre-modern Iranian world. His M.A thesis in Iranian Studies entitled “Cultural Patrons and Producing Books in the Age of the Seljuqs” tries to investigate all socio-political groups that patronized different kinds of writers (mainly poets, but also historians, scientists, etc.) during the Seljuqid era.
 
 ### David Smith
 ![David Smith](/images/kitab/david200px.jpg){: .align-left}
