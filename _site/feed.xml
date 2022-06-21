@@ -1,4 +1,206 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://kitab-project-org.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kitab-project-org.github.io/" rel="alternate" type="text/html" /><updated>2022-05-31T16:55:58+01:00</updated><id>https://kitab-project-org.github.io/feed.xml</id><title type="html">KITAB</title><subtitle>The Website for the KITAB project</subtitle><author><name> </name></author><entry><title type="html">A Close and Distant Reading of Writerly Practices: Sarah Bowen Savant’s Inaugural Lecture</title><link href="https://kitab-project-org.github.io/inaugural-lecture-sarah-bowen-savant/" rel="alternate" type="text/html" title="A Close and Distant Reading of Writerly Practices: Sarah Bowen Savant’s Inaugural Lecture" /><published>2022-05-20T00:00:00+01:00</published><updated>2022-05-20T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/inaugural-lecture-sarah-bowen-savant</id><content type="html" xml:base="https://kitab-project-org.github.io/inaugural-lecture-sarah-bowen-savant/">&lt;p&gt;On Thursday 5th of May 2022 Sarah Bowen Savant gave her inaugural lecture as full professor at the AKU-ISMC.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://kitab-project-org.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kitab-project-org.github.io/" rel="alternate" type="text/html" /><updated>2022-06-21T10:11:28+01:00</updated><id>https://kitab-project-org.github.io/feed.xml</id><title type="html">KITAB</title><subtitle>The Website for the KITAB project</subtitle><author><name> </name></author><entry><title type="html">A Ramble Through the Cluster Data, Part 2: Quantifying and Visualising Clusters.</title><link href="https://kitab-project-org.github.io/A-ramble-through-the-cluster-data-part-2/" rel="alternate" type="text/html" title="A Ramble Through the Cluster Data, Part 2: Quantifying and Visualising Clusters." /><published>2022-06-21T00:00:00+01:00</published><updated>2022-06-21T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/A-ramble-through-the-cluster-data--part-2</id><content type="html" xml:base="https://kitab-project-org.github.io/A-ramble-through-the-cluster-data-part-2/">&lt;p&gt;In part 1, I introduced you to the cluster data set, a second &lt;a href=&quot;https://kitab-project.org/methods/text-reuse&quot;&gt;passim&lt;/a&gt; data set that is slightly different from the pairwise data set that the KITAB team use in their daily research. The cluster data set brings together the pairwise alignments that overlap by more than 80% into larger clusters containing multiple book milestones. These clusters can be used to explore stemmatic relationships between texts, or may even reveal how a set of texts rely on the same lost source text. I will be using this data set in my research for the ERC team’s &lt;a href=&quot;https://kitab-project.org/research/books#the-erc-team-memories-books-communities-making-and-re-making-the-past-in-the-arabic-textual-tradition&quot;&gt;forthcoming volume&lt;/a&gt;. However, before I engage in a closer study of individual clusters and their historical importance (I will begin to explore this in part 3), it is important to understand the nature of single-link clustering and its limitations and to explore the scale of the cluster data set in general. This will guide me in identifying clusters of interest and help to contextualise my findings later on.&lt;/p&gt;
+
+&lt;h1 id=&quot;understanding-the-scale-of-the-clusters-single-link-clustering-and-the-pre-modern-arabic-tradition&quot;&gt;Understanding the scale of the clusters: single-link clustering and the pre-modern Arabic tradition&lt;/h1&gt;
+
+&lt;p&gt;In the example in part 1 we moved from one pairwise alignment to a cluster of alignments. So far so simple. However, the difficulty comes with identifying relevant and useful clusters within the data set. The cluster dataset is enormous. There are three and a half million clusters. The smallest clusters are size 2 – these are the most common. The largest cluster (cluster number 1) contains 903302 milestones (found in 4960 books). That means that it contains multiple milestones from nearly every book in the corpus. If one studies the text of cluster 1, one will find that a lot of it appears unrelated. This is a weakness in single-link clustering. As a single-link with any other text fragment in the cluster is needed (that is, shared text above a threshold of 80%) to pull another alignment into a cluster and with the addition of each alignment new text is added, alignments added at the end of the cluster can be very different to those added at the start.&lt;/p&gt;
+
+&lt;p&gt;For ease of explanation, let us discuss an example in English. Consider these four alignments that each overlap by more than 50%:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt; The quick brown fox jumps &lt;/mark&gt; over the lazy dog&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark style=&quot;background-color:cornflowerblue&quot;&gt;In the very famous phrase,&lt;/mark&gt; &lt;mark style=&quot;background-color:chartreuse&quot;&gt; &quot;The &lt;/mark&gt; &lt;mark&gt; quick brown fox jumps...&quot;&lt;/mark&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark style=&quot;background-color:cornflowerblue&quot;&gt;In the very famous&lt;/mark&gt; &lt;mark style=&quot;background-color:deeppink&quot;&gt; phrase, &quot;The &lt;/mark&gt; &lt;mark style=&quot;background-color:indianred&quot;&gt;eagle has left the building&quot; &lt;/mark&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The phrase &lt;mark style=&quot;background-color:indianred&quot;&gt;&quot;The eagle has left the building&quot;&lt;/mark&gt; was originally used to disband crowds&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Alignment 1 does not have anything in common with alignments 3 and 4.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;For an example from the real cluster data, see figure 1. This gives a sample of pairwise alignments that belong to a cluster containing 15 milestones in total - I have only provided a sampling of the milestones, enough to illustrate how the cluster is linked together. Small but important similarities have led strong instances of text reuse to be clustered with much weaker alignments. The final table in the series shows how the last alignment in the sequence of the cluster is entirely unrelated to the first, apart from a few quite vague words. The pair of milestones 605 and 9310 illustrate how a weak link has led to other alignments being added to the cluster. There is strong text reuse between 605 and 9732, and between 9310 and 634. By comparison, 605 and 9310 are linked on the basis the phrase ‘Ibn Hibban said in the &lt;em&gt;Majruhin&lt;/em&gt;’ and on a shared citation of a text (the footnotes have yet to be removed from these two OpenITI texts).&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Thus in this case three strong clusters of texts have been drawn into one cluster by these weaker links. From this example it is easy to see how similarities in chains of transmission (isnads) in particular could lead to the creation of enormous clusters.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/blogs/2022-06-21/mathew_barber/media/image6.png&quot;&gt;&lt;img src=&quot;/images/blogs/2022-06-21/mathew_barber/media/image6.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/blogs/2022-06-21/mathew_barber/media/image5.png&quot;&gt;&lt;img src=&quot;/images/blogs/2022-06-21/mathew_barber/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/blogs/2022-06-21/mathew_barber/media/image1.png&quot;&gt;&lt;img src=&quot;/images/blogs/2022-06-21/mathew_barber/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/blogs/2022-06-21/mathew_barber/media/image3.png&quot;&gt;&lt;img src=&quot;/images/blogs/2022-06-21/mathew_barber/media/image3.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/blogs/2022-06-21/mathew_barber/media/image2.png&quot;&gt;&lt;img src=&quot;/images/blogs/2022-06-21/mathew_barber/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Figure 1: A selection of pairwise alignments from cluster 34359801867, which contains 15 book milestones in total, given as a series of tables. Each table in the series contains a milestone from the table above (for example, the second table contains ms605, which is also in the first table), and so they each represent a step in the creation of the cluster. This representation is somewhat artificial and it has been reconstructed after the fact, as passim’s output does not indicate the manner in which each cluster has been formed. These tables were produced using the &lt;a href=&quot;https://kitab-project.org/diffViewer/&quot;&gt;diff viewer&lt;/a&gt; developed by Peter Verkinderen.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lay-of-the-land-some-visualisations-and-statistics&quot;&gt;Lay of the land: some visualisations and statistics&lt;/h1&gt;
+
+&lt;p&gt;Even if we exclude extremely large clusters (for example, exclude all clusters that contain more than 500 milestones), the data set is still too large to be understood through one visualisation. Figure 2 gives an example of a graph drawn from the cluster data for books written before 900/1494. Each node (a dot) is an author in the corpus and each edge (that is, the line connecting two nodes) represents a cluster shared between two authors (using authors rather than books reduces the total number of nodes). Edges are weighted based on the number of clusters shared between two authors. To help distinguish the nodes, they have been coloured according to the author’s death date (darker nodes are later).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/blogs/2022-06-21/mathew_barber/media/image4.png&quot;&gt;&lt;img src=&quot;/images/blogs/2022-06-21/mathew_barber/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Figure 2: A graph of all authors in the corpus written who died before 900/1494 with edges weighted according to the number of clusters shared between authors.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Even though figure 2 has been drawn taking account of edge weight (that is, broadly, edges with lower weights are closer to the outside of the graph), it is impossible to derive any meaning from this graph. This is because nearly all of our authors are connected in some way by a cluster. In reality most connections are only very small (the median edge weight is 2 and the mode is 1), but some authors are very connected (the mean edge weight is 22 – so very large edge weights are pushing up the average).&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The largest edge in this graph is shared between Ibn ʿAskakir and Ibn Manzur al-Ifriqi, with 31855 clusters shared between these authors. This is not surprising as Ibn Manzur abbreviated Ibn ʿAsakir’s &lt;em&gt;Taʾrikh Madinat Dimashq&lt;/em&gt;, which is the largest pre-modern book in the corpus (lots of aligned milestones equals lots of clusters)&lt;em&gt;.&lt;/em&gt; However, even if we exclude all clusters with a weight of 2 from the count (that is, we exclude all clusters that represent only text reuse between these two texts), the cluster count is still 22219. This shows how Ibn ʿAsakir had himself reused material for his work, which might in turn have been reused by others.&lt;/p&gt;
+
+&lt;p&gt;In short, many pre-modern authors in the OpenITI corpus are connected by at least one cluster and a smaller number are connected by a significant number of clusters. Next, we should ask how large the clusters are. As noted above, the vast majority of clusters contain two books (that is, they represent only pairwise relationships). However, there is still a large number of clusters that contain 3 or more book milestones.&lt;/p&gt;
+
+&lt;p&gt;Figure 3 gives a histogram for the entirety of the cluster dataset, plotting the frequency of clusters according to their size. As can be seen in this figure , larger clusters are much less frequent in the dataset, but they do occur. There are two huge outliers (a cluster of 903,302 milestones and another of 2874). There are, however, a number of clusters that contain over 500 book milestones. It is very likely that these clusters are not meaningfully related, a consequence of the single-link clustering described above, but they would need closer investigation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/blogs/2022-06-21/mathew_barber/media/image8.png&quot;&gt;&lt;img src=&quot;/images/blogs/2022-06-21/mathew_barber/media/image8.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Figure 3: A histogram showing the frequencies of clusters at different sizes. In order to make the bars readable, both the x and y axis use log scales (the gaps between the values get larger the further along the axis you proceed). As a result, you should pay careful attention to the values on each axis when reading this graph.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We can be more certain that clusters that contain fewer than 20 milestones are more meaningfully related (although as the example in figure 1 above showed, even smaller clusters can become unrelated). Figure 4 graphs the frequencies of clusters by their size, up to size 20, and provides an additional bar for all those clusters that contain more than 20 milestones. Table 1 gives the frequencies and their percentage of the total data set.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/blogs/2022-06-21/mathew_barber/media/image7.png&quot;&gt;&lt;img src=&quot;/images/blogs/2022-06-21/mathew_barber/media/image7.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Figure 4: A barchart of the frequencies of clusters by their size (focussing on clusters that contain up to 20 book milestones, with all clusters above size 20 given in the final bar). In order to make the bars visible, a logarithmic scale has been used for the count on the y axis. For the values see table 4.&lt;/em&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Cluster Size&lt;/th&gt;
+      &lt;th&gt;Count&lt;/th&gt;
+      &lt;th&gt;Percentage&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2,321,187&lt;/td&gt;
+      &lt;td&gt;65.74&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;636,594&lt;/td&gt;
+      &lt;td&gt;18.03&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;246,287&lt;/td&gt;
+      &lt;td&gt;6.98&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;118,034&lt;/td&gt;
+      &lt;td&gt;3.34&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;64,988&lt;/td&gt;
+      &lt;td&gt;1.84&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;39,142&lt;/td&gt;
+      &lt;td&gt;1.11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;25,542&lt;/td&gt;
+      &lt;td&gt;0.72&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;17,258&lt;/td&gt;
+      &lt;td&gt;0.49&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;12,201&lt;/td&gt;
+      &lt;td&gt;0.35&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;8,996&lt;/td&gt;
+      &lt;td&gt;0.25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;6,808&lt;/td&gt;
+      &lt;td&gt;0.19&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;5,245&lt;/td&gt;
+      &lt;td&gt;0.15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;4,138&lt;/td&gt;
+      &lt;td&gt;0.12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;3,215&lt;/td&gt;
+      &lt;td&gt;0.09&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16&lt;/td&gt;
+      &lt;td&gt;2,625&lt;/td&gt;
+      &lt;td&gt;0.07&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17&lt;/td&gt;
+      &lt;td&gt;2,173&lt;/td&gt;
+      &lt;td&gt;0.06&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;18&lt;/td&gt;
+      &lt;td&gt;1,866&lt;/td&gt;
+      &lt;td&gt;0.05&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;19&lt;/td&gt;
+      &lt;td&gt;1,600&lt;/td&gt;
+      &lt;td&gt;0.05&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;20&lt;/td&gt;
+      &lt;td&gt;1,241&lt;/td&gt;
+      &lt;td&gt;0.04&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;gt;20&lt;/td&gt;
+      &lt;td&gt;11,621&lt;/td&gt;
+      &lt;td&gt;0.33&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Total clusters&lt;/td&gt;
+      &lt;td&gt;3,530,761&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Table 1: Frequencies of clusters of each size, and the percentage of the dataset that they represent.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As a percentage of the total dataset, clusters of 3 and bigger appear to be quite small, but in terms of absolute counts there are still a large number of clusters containing between 3 and 10 book milestones. It is clusters of this size that can be most fruitful for the study of historiography and its transmission and for comparing different accounts of the same event.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-next-waypoint&quot;&gt;The next waypoint&lt;/h1&gt;
+
+&lt;p&gt;In this blog post it was my aim to explore single-link clustering, its shortfalls and to analyse the scale of the cluster data set. Very large clusters appear to not be meaningfully related and the majority of the clusters are between 2 and 10 book milestones in size. Clusters of this size still contain a large number of book milestones and they, moreover, cover a variety of subjects – far beyond the historiography that I wish to study. The next blog post will, therefore, concern my attempts to search the clusters and identify those of interest to my research.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;I am grateful to Peter Verkinderen for suggesting this example, which helps greatly to clarify the problem. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;An example like this potentially illustrates the importance of cleaning OpenITI texts for this kind of analysis. Removing modern footnotes which contain repetitive phrasing and can cite similar books will help passim to build less noisy clusters. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;To clarify: these are different ways of calculating an average from the data. Median is the middle point of the data, when the values are ordered according to size. Mode is the value that appears most in the data set. The mean is the value that we typically think of when we speak of averages (calculated by adding all the values together and dividing that by the number of data points). To give an example: here is a list of 11 data points: ‘2, 4, 4, 4, 9, 9, 9, 9, 9, 9, 9’. In this data set, the median is 9 (the sixth data point in the list), the mode is 9 and the mean is 6.2. Notice how the median and mode take better account of the values that are more present in the data set, where the mean is lower because there are some very small (albeit less frequent) values in the data set. As infrequent but very large or very small values can bias the mean, it is not always the best way to take an average of a data set. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Mathew Barber</name></author><category term="" /><category term="" /><category term="text-reuse" /><category term="book-history" /><summary type="html">In part 1, I introduced you to the cluster data set, a second passim data set that is slightly different from the pairwise data set that the KITAB team use in their daily research. The cluster data set brings together the pairwise alignments that overlap by more than 80% into larger clusters containing multiple book milestones. These clusters can be used to explore stemmatic relationships between texts, or may even reveal how a set of texts rely on the same lost source text. I will be using this data set in my research for the ERC team’s forthcoming volume. However, before I engage in a closer study of individual clusters and their historical importance (I will begin to explore this in part 3), it is important to understand the nature of single-link clustering and its limitations and to explore the scale of the cluster data set in general. This will guide me in identifying clusters of interest and help to contextualise my findings later on.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/blogs/2022-06-21/mathew_barber/media/image7.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/blogs/2022-06-21/mathew_barber/media/image7.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Close and Distant Reading of Writerly Practices: Sarah Bowen Savant’s Inaugural Lecture</title><link href="https://kitab-project-org.github.io/inaugural-lecture-sarah-bowen-savant/" rel="alternate" type="text/html" title="A Close and Distant Reading of Writerly Practices: Sarah Bowen Savant’s Inaugural Lecture" /><published>2022-05-20T00:00:00+01:00</published><updated>2022-05-20T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/inaugural-lecture-sarah-bowen-savant</id><content type="html" xml:base="https://kitab-project-org.github.io/inaugural-lecture-sarah-bowen-savant/">&lt;p&gt;On Thursday 5th of May 2022 Sarah Bowen Savant gave her inaugural lecture as full professor at the AKU-ISMC.&lt;/p&gt;
 
 &lt;p&gt;This is her personal account of the start of KITAB, and where she presents material that will appear in her next &lt;a href=&quot;https://kitab-project.org/research/books#sarah-savant-a-cultural-history-of-the-arabic-book-700-1500&quot;&gt;book&lt;/a&gt;, which treats book history.&lt;/p&gt;
 
@@ -780,12 +982,4 @@ Institute for the Study of Muslim Civilisations, Aga Khan University, London&lt;
       &lt;p&gt;E.g., Franz Rosenthal, general introduction to al-Tabari, &lt;em&gt;The History of al-Ṭabarī&lt;/em&gt;, i: &lt;em&gt;General Introduction and From the Creation to the Flood&lt;/em&gt;, trans. Franz Rosenthal (Albany: State University of New York Press, 1989), 80–134 (where he combs the biographical sources). &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Sarah Savant and Masoumeh Seydi</name></author><category term="" /><category term="" /><category term="releases" /><summary type="html">Post 7: Text Reuse Alignments</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">OpenITI release 2021.2.5</title><link href="https://kitab-project-org.github.io/OpenITI-release-2021-2-5/" rel="alternate" type="text/html" title="OpenITI release 2021.2.5" /><published>2021-10-20T00:00:00+01:00</published><updated>2021-10-20T00:00:00+01:00</updated><id>https://kitab-project-org.github.io/OpenITI-release-2021-2-5</id><content type="html" xml:base="https://kitab-project-org.github.io/OpenITI-release-2021-2-5/">&lt;p&gt;The KITAB team has released a new version (2021.2.5) of the &lt;a href=&quot;https://github.com/OpenITI&quot;&gt;OpenITI&lt;/a&gt; corpus at &lt;a href=&quot;https://zenodo.org/record/5550338&quot;&gt;Zenodo&lt;/a&gt;. The release is open access. It is our fifth release (second release in 2021). You can also access the release through our &lt;a href=&quot;https://github.com/OpenITI/RELEASE&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The release features 10,342 books, including all versions and editions (2,050,063,811 words), of which 6,337 are unique books written by 2,636 authors. In the release, 181 new ids have been added that reflect either new books, including OCRed books, which are assigned a new unique id, or changes to existing ids and corresponding URIs (resulting in new ids). In terms of structural annotation, 120 books have a new status, of which eighty-two are fully available in structural OpenITI mARkdown with a .mARkdown extension. Currently, there are 353 books in mARkdown, which have been reviewed and vetted by the annotation team.&lt;/p&gt;
-
-&lt;p&gt;To access the major changes to the URIs as well as the statistics on the corpus, please see the release notes and the corresponding csv files at the &lt;a href=&quot;https://zenodo.org/record/5550338&quot;&gt;publication page&lt;/a&gt; and the &lt;a href=&quot;https://github.com/OpenITI/RELEASE/tree/master/release_notes&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To cite this version please include the following information (the bibliographical export is available at the &lt;a href=&quot;https://zenodo.org/record/3891466&quot;&gt;publication page&lt;/a&gt;):&lt;/p&gt;
-
-&lt;p&gt;Lorenz Nigst, Maxim Romanov, Sarah Bowen Savant, Masoumeh Seydi and Peter Verkinderen, OpenITI: A Machine-Readable Corpus of Islamicate Texts (Version 2021.2.5) [data set] (October 2021), Zenodo, https://doi.org/10.5281/zenodo.5550338.&lt;/p&gt;</content><author><name>Masoumeh Seydi</name></author><category term="" /><category term="" /><category term="release" /><category term="corpus" /><category term="news" /><summary type="html">The KITAB team has released a new version (2021.2.5) of the OpenITI corpus at Zenodo. The release is open access. It is our fifth release (second release in 2021). You can also access the release through our GitHub repository.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/thumbs/releases.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/thumbs/releases.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name>Sarah Savant and Masoumeh Seydi</name></author><category term="" /><category term="" /><category term="releases" /><summary type="html">Post 7: Text Reuse Alignments</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kitab-project-org.github.io/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png" /><media:content medium="image" url="https://kitab-project-org.github.io/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
