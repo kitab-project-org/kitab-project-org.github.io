@@ -110,8 +110,8 @@ research:
     children:
       - title: "Arabic Pasts"
         url: /research/events/arabic-pasts
-      #- title: "Latest Programme"
-      #  url: /research/events/programme
+      - title: "Latest Programme"
+        url: /research/events/programme-2022
       - title: "Call for Papers"
         url: /research/events/arabic-pasts-cfp
       - title: "Previous Programmes"

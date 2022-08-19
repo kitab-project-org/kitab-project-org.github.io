@@ -4,7 +4,7 @@ header:
   overlay_filter: 0.1
   caption: "A photo of a paper given at Arabic Pasts"
 title: Latest programme
-permalink: /research/events/programme
+permalink: /research/events/programme-2021
 layout: single
 toc: true
 toc_sticky: true
