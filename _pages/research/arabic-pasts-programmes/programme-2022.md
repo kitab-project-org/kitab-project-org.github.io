@@ -24,14 +24,21 @@ Click [here](https://www.eventbrite.co.uk/e/arabic-pasts-histories-and-historiog
 Thursday, 6 October 2022
 
 
-Welcome Address (1:00 – 1:30 pm)
+Welcome Address (1:00 – 1:30pm)\
 **Leif Stenberg and Sarah Bowen Savant**
 
 {% capture ses1 %}
-## Sessions dedicated to Digital Humanities research, prepared by the KITAB Project and the Invisible East programme (1:30-5:15pm)
-**Chairs: Hugh Kennedy, Arezou Azad**
-<br>
-<br>
+## Session 1: Materials (1:30 – 3:00pm)
+**Chair: John Haldon**
+
+Rulers as Shepherds\
+*Petra Sijpesteijn, Universiteit Leiden*
+
+Calculating the population of Samarra\
+*Alastair Northedge, Université de Paris I (emeritus)*
+
+Fortresses and Frontiers: Castles and Northern Syria in the Sultanate of Cairo\
+*Angus D. Stewart, University of St Andrews*
 
 {% endcapture %}
 
@@ -39,13 +46,35 @@ Welcome Address (1:00 – 1:30 pm)
 {{ ses1 | markdownify }}
 </div>
 
-**End of Day One**
+Coffee Break
+3:00 – 3:30pm
+
+{% capture ses10 %}
+## Session 2: Writings (3:30 – 5:00pm)
+**Chairs: Maaike van Berkel and Letizia Osti**
+
+He Reigned as Caliph, Then He Died: The Reigns of Caliphs Versified\
+*Geert Jan van Gelder, Oxford University (emeritus)*
+
+Hārūn al-Rashīd in Pre-Modern Arabic Literary Imaginary: Ideology of Monogamy, Harem Politics and Court Intrigues\
+*Wen-chi Ouyang, SOAS, University of London*
+
+What is the point of a Commentary on a Historical Text and how should it be done?\
+*Hugh Kennedy, University College, London and SOAS, University of London*
+{% endcapture %}
+
+<div class="notice">
+{{ ses10 | markdownify }}
+</div>
+
+Reception and End of Day 1\
+5:15 – 6:45pm
 
 # Day Two (Face-to-face and Online)
 Friday, 7 October 2022
 
 {% capture ses3 %}
-## Session 1: Boundary Negotiation (10:30-12:30am)
+## Session 1: Boundary Negotiation (10:30 - 12:30am)
 **Chair: Lorenz Nigst**
 
 Jewish Nahḍa Intellectuals and Historiography in Monarchic Egypt\
