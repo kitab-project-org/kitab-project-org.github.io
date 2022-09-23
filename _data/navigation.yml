@@ -23,8 +23,8 @@ about:
         url: /about/kitabis
       - title: "Our Projects"
         url: /about/our-projects
-      #- title: "Collaborations"
-      #  url: /about/collaborations
+      - title: "Collaborations"
+        url: /about/collaborations
       - title: "Funders"
         url: /about/funders
       - title: "Get involved"
@@ -110,8 +110,8 @@ research:
     children:
       - title: "Arabic Pasts"
         url: /research/events/arabic-pasts
-      #- title: "Latest Programme"
-      #  url: /research/events/programme
+      - title: "Latest Programme"
+        url: /research/events/programme-2022
       - title: "Call for Papers"
         url: /research/events/arabic-pasts-cfp
       - title: "Previous Programmes"
