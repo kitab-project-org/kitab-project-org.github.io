@@ -99,12 +99,12 @@ Lunch Break
 
 {% capture ses4 %}
 ## Session 2: Names Across Time and Place (2:00 – 3:00 pm)
-**Chair:  Peter Verkinderen**
+**Chair:  Jo Van Steenbergen**
 
 The Curious Case of Zein-Al-Din Ibn Naja: an Analysis of Elite Networks in the Age of Saladin\
 *Abdul Rahman Azzam & Mathew Barber, KITAB Project, Aga Khan University (International) London*
 
-Al-Sahmī’s Taʾrīkh Jurjān and the Genre of Local History\
+Al-Sahmī’s *Taʾrīkh Jurjān* and the Genre of Local History\
 *Andrew G. McLaren, Centro de Estudios de Asia y África El Colegio de México*
 
 {% endcapture %}
@@ -120,10 +120,10 @@ Coffee Break
 ## Session 3: Texts and their Journeys: Part 1 (3:30 – 4:30 pm)
 **Chair: Sarah Bowen Savant**
 
-Manuscripts and their Readers: Tracing the Career of the Sirr al-asrār\
+Manuscripts and their Readers: Tracing the Career of the *Sirr al-asrār*\
 *Neelam Hussain, Mingana Collection of Middle Eastern Manuscripts*
 
-Use and Reuse of a Well-known Treatise on Taxation:  Abū Yūsuf’s Kitāb al-Kharāj\
+Use and Reuse of a Well-known Treatise on Taxation:  Abū Yūsuf’s *Kitāb al-Kharāj*\
 *Noëmie Lucas, Caliphal Finances, European Research Council Project, University of Edinburgh*
 
 {% endcapture %}
@@ -163,7 +163,7 @@ Saturday, 8 October 2022
 The Memory of ʿUthmān b. ʿAffān and Marwanid Political Legitimacy \
 *Abdulla Hassan Haidar, University of Edinburgh*
 
-The Yemeni Zaydi sīra and its Function: the Case of Imam Yaḥyā Sharaf al-Dīn (d. 965/1557)\
+The Yemeni Zaydi *Sīra* and its Function: the Case of Imam Yaḥyā Sharaf al-Dīn (d. 965/1557)\
 *Ekaterina (Kate) Pukhovaia, The Van Leer Jerusalem Institute*
 
 {% endcapture %}
@@ -176,7 +176,7 @@ Coffee Break
 2:00 – 2:15 pm
 
 {% capture ses8 %}
-## Session 2: Shoring Up Authority: Part 2 (2:15 – 3:15 pm)
+## Session 2: Shoring Up Authority: Part 2 (2:15 – 3:45 pm)
 **Chair: Kevin Jaques**
 
 Discourses of Sovereignty in 9th/15th - Century Syro-Egyptian Historiography: between God’s Law and the Sultan’s Court\
@@ -185,30 +185,11 @@ Discourses of Sovereignty in 9th/15th - Century Syro-Egyptian Historiography: be
 The Hafsids in History: Ibn Khaldun on the Legitimacy of the Hafsid Caliphate \
 *Allen Fromherz, Middle East Studies Centre, Georgia State University, Atlanta.*
 
+Royal Women at the Fall of the Umayyad Dynasty and Arabic Historiography: The Evidence of the *Rasāʾil* (‘State Letters’)\
+*Andrew Marsham, Faculty of Asian and Middle Eastern Studies and Queens’ College, University of Cambridge*
+
 {% endcapture %}
 
 <div class="notice">
 {{ ses8 | markdownify }}
 </div>
-
-Coffee Break
-3:15: – 3:45 pm
-
-{% capture ses9 %}
-## Session 3: Preservation (3:45 – 4:45 pm)
-**Chair: Masoumeh Seydi**
-
-Royal Women at the Fall of the Umayyad Dynasty and Arabic Historiography: The Evidence of the Rasāʾil (‘State Letters’)\
-*Andrew Marsham, Faculty of Asian and Middle Eastern Studies and Queens’ College, University of Cambridge*
-
-Arabic as a Language of Political Organisation for Enslaved Peoples of Muslim Faith in Brazil\
-*Silvia Ferabolli and Luiz Antônio Araújo, Federal University of Rio Grande Do Sul*
-
-
-{% endcapture %}
-
-<div class="notice">
-{{ ses9 | markdownify }}
-</div>
-
-**End of Workshop**
