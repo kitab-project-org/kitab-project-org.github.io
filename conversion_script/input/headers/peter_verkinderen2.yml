@@ -1,0 +1,16 @@
+---
+header:
+  overlay_image: "/images/covers/banner_blog.jpg"
+  overlay_filter: 0.1
+  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  show_overlay_excerpt: false  
+title:	"OpenITI and the Fihrist: Methodology"		
+author:	peter_verkinderen	
+layout:		single
+categories:
+  - 
+  - 
+tags:
+  - corpus
+  - book-history
+---
