@@ -892,7 +892,12 @@ After that one more Next, Finish, and Git is installed!
 Download Git for Mac here:
 [https://sourceforge.net/projects/git-osx-installer/files/](https://sourceforge.net/projects/git-osx-installer/files/)
 
-Follow the prompts to install Git.
+Double-click the downloaded file and follow the prompts to install Git.
+
+NB: you might receive a warning that this application is from an unidentified developer. 
+If that is the case, please open Finder, locate the app (it may be in your Downloads folder, or in your Applications folder),
+control-click the app's icon in Finder and choose "Open" from the context menu. 
+(see the [Mac support website](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac#:~:text=Control%2Dclick%20the%20app%20icon,you%20can%20any%20registered%20app)).
 
 ##### On Linux
 
