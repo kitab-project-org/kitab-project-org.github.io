@@ -899,6 +899,16 @@ If that is the case, please open Finder, locate the app (it may be in your Downl
 control-click the app's icon in Finder and choose "Open" from the context menu. 
 (see the [Mac support website](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac#:~:text=Control%2Dclick%20the%20app%20icon,you%20can%20any%20registered%20app)).
 
+**Activating bash in Terminal on Mac**
+There are multiple command line systems, each with their own grammar and lexicon; these systems are often referred to as “shells.” We are going to use one such shell called bash.
+
+On older Mac operation systems (prior to MacOS Catalina (2019)), Terminal uses bash by default; for more recent operation systems, we will have to make bash the default.
+
+1. Open Terminal by opening Finder, and then clicking Applications > Utilities > Terminal (alternatively, you can use Spotlight to find Terminal: press the command and space keys on your keyboard and start typing Terminal; click Terminal in the search results to open the program).
+2. The Terminal program will open, containing two lines of text. The last character you see is called the “prompt”: it prompts you to write commands. If the prompt is the `$` character, you’re all set: Terminal is already using bash.
+3. If the prompt is the `%` character, you’ll have to type the following command after that `%`: `chsh -s /bin/bash` and then press Enter to execute the command. Terminal will ask you for your password; type it (you won’t see it appear, for security reasons) and press Enter again.
+Close and reopen Terminal; the prompt should now be a `$`
+
 ##### On Linux
 
 (instructions from
