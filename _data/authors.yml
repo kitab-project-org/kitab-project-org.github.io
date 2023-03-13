@@ -39,7 +39,7 @@ mathew_barber:
 peter_verkinderen:
   name             : "Peter Verkinderen"
   avatar           : "/images/kitab/Peter-1.jpg"
-  bio              : "Peter is a postdoctoral research fellow at the KITAB Project working on the central Islamic lands. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB in the development of the OpenITI corpus and tools for analyzing and visualizing textual data. "
+  bio              : "Peter Verkinderen is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC and a postdoctoral research fellow at the KITAB Project working on the central Islamic lands. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB in the development of the OpenITI corpus and tools for analyzing and visualizing textual data. "
   location         :
   email            :
   uri              :
@@ -363,6 +363,25 @@ sarah_savant_mathew_barber:
   avatar           : 
   bio              : "Sarah Bowen Savant is the Principle Investigator of the KITAB project. She is preparing a book, entitled, A Cultural History of the Arabic Book that explores the many ways that writers reused earlier texts to create new ones in the period spanning from 700-1500 CE.<br><br>Mathew is a historian working with the KITAB team to develop and improve their visualisations and applications. He specialises in Fatimid historiography (c. tenth-twelfth centuries), its later survival and broader history-writing practices in Egypt."
   location         : 
+  email            :
+  uri              :
+  flickr           :
+  facebook         :
+  github           :
+  google_plus      :
+  instagram        :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          :
+  masoumeh_seydi_peter_verkinderen:
+  name             : "Masoumeh Seydi and Peter Verkinderen"
+  avatar           : 
+  bio              : "Masoumeh Seydi is KITAB’s Digital Lead. She is pursuing her PhD degree in DH on processing and modeling pre-modern geographical descriptions.<br/><br/>Peter Verkinderen is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC and a postdoctoral research fellow at the KITAB Project working on the central Islamic lands. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB in the development of the OpenITI corpus and tools for analyzing and visualizing textual data."
+  location         :
   email            :
   uri              :
   flickr           :
