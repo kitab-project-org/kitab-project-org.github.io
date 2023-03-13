@@ -142,6 +142,8 @@ navigation.yml provides the structure of the website. The addresses used in this
 
 Changes to this file should only be made if a new page is added, or if a title needs to be changed in the top navigation or any of the sidebar navigation. Never change the field id 'main', and try to avoid changing other field ids (e.g. about, corpus) or url fields. Changes to these will cause the website to break if corresponding changes are not made in the headers of relevant pages. 
 
+(the third file, ui-text.yml, contains translations in many languages for buttons and other interface elements)
+
 ### _pages
 
 This folder contains all of the markdown files for the pages of the website. The folder structure is present to aid your navigation, but changes to this structure will not make any impact on the website itself. If you want to change the content of any pages of the website, you will be making the changes to the markdown pages in this folder. If you want to add a new page to the website, you will be adding that page to this folder (or potentially one of the subfolders).
@@ -242,7 +244,7 @@ Take the following steps to add a new page:
 1. cd into the GitHub repository for the website.
 1. run 
         ```
-        bundle exec jekyll serve
+        bundle exec jekyll serve --no-watch
         ```
 1. Open the browser and enter the address of the local server.
 1. Check that page appears in the expected place in the navigation and that you're happy with the content.
@@ -583,7 +585,7 @@ To use this script take the following steps:
         git pull origin master
         ```
         - to ensure your local repository is up-to-date with the remote
-1. add the .docx files for the new blogs to 'input/blogs' (only .docx is supported - multiple blogs can be uploaded at once) 
+1. add the .docx files for the new blogs to `conversion_script/input/blogs` (only .docx is supported - multiple blogs can be uploaded at once) 
 1. Blog post files should be named as follows: firstname_surname.blogtitle (e.g. 'mathew_barber.visualisations blog.docx'). The author code before the '.' will correspond to the author id in authors.yml (see the guide to the _data folder [above](#_data)). If there are multiple blogs by the same author, add a number to the surname (e.g. 'mathew_barber1.second visualisations blog.docx')
 1. copy the sample 'header_plain' file from the 'resources' folder into the 'input/headers' folder. Copy as many header_plain files into this folder as you have blog posts.
 1. Give each header file a name that matches its corresponding blog post, using the extension .yml (e.g. the header file for 'mathew_barber.visualisations blog.docx' would be 'mathew_barber.yml')
@@ -612,7 +614,7 @@ To use this script take the following steps:
 
 Once the files have been added, do the following:
 
-1. If the blog author has not authored for KITAB before, add the author to authors.yml. To do this, copy an existing author from this file and change the id, name and short bio. As noted above, the author id will match that given in the file name and author field in the header file.
+1. If the blog author has not authored for KITAB before, add the author to `_data/authors.yml`. To do this, copy an existing author from this file and change the id, name and short bio. As noted above, the author id will match that given in the file name and author field in the header file. For multiple authors, create a new entry in `_data/authors.yml` for the collection of authors (e.g., sarah_savant_masoumeh_seydi). 
 1. Open a python-enabled console.
 1. cd into the 'conversion_script' directory.
 1. run 
@@ -620,13 +622,13 @@ Once the files have been added, do the following:
          python docx_converter.py
          ```
 1. The script will run and state if it has suceeded.
-1. Navigate to the '_posts' directly to check the new blogs have been added.
+1. Navigate to the `_posts` folder directly to check the new blogs have been added.
 
-If the blogs have been added, do the follow:
+If the blogs have been added, do the following:
 1. open Ubuntu (or terminal in Mac or Linux) and cd into the repository
 1. run 
         ```
-        bundle exec jekyll serve
+        bundle exec jekyll serve --no-watch
         ```
 1. navigate to the local server and check the new blogs appear on the website
 
@@ -646,7 +648,7 @@ If the new blogs appear as expected on the website:
         git push origin master
         ```
 
-**If the blog posts do not add to the folder, or they do not appear as expected on the local website, do not push the changes back to GitHub. Instead submit an issue report on the respository specifying the problem**
+**If the blog posts are not added to the folder, or they do not appear as expected on the local website, do not push the changes back to GitHub. Instead submit an issue report on the respository specifying the problem**
 
 ## Manually adding blogs to the website
 
