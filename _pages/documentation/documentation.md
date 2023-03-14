@@ -1868,23 +1868,10 @@ but it works on Windows and Linux as well.
 
 #### On Windows: 
 
-* Download the highlighting scheme `OpenITImARkdown.xml` file by right-clicking on this [link](https://github.com/OpenITI/mARkdown_highlighting_Kate/raw/main/OpenITImARkdown.xml) and choosing "Save link as". 
-
-* In Windows Explorer, go to `C:/Users` and double-click the folder with your user name
-
-* In your user folder, find the folder `AppData`. This folder is sometimes hidden; to make it visible, you may have to go to the "View" tab in Windows Explorer, and check the box next to "Hidden items": 
-
-![make hidden files visible](/images/media/make_hidden_files_visible.png)
-
-* Enter the `AppData` folder, double-click the `Local` folder, and make a new directory in it: `org.kde.syntax-highlighting`
-
-* Within the new `org.kde.syntax-highlighting` folder, create another new folder: `syntax`. The full path to this folder should now be `C:\Users\<user_name>\AppData\Local\org.kde.syntax-highlighting\syntax`
-
-* Copy the `OpenITImARkdown.xml` file into the newly created `syntax` folder. 
-
-* Close the Kate editor if it was open, and open it again. 
-
-* You should now be able to find the OpenITImARkdown highlighting scheme in the list in the Tools > Highlighting > Markup menu: 
+1. Download the zip file https://github.com/OpenITI/mARkdown_highlighting_Kate/archive/refs/heads/main.zip
+2. Unzip the zip file
+3. Open the unzipped folder in Explorer, and double-click `install_on_windows.bat`. This will install the OpenITImARkdown.xml file in the folder `%LocalAppData%/org.kde.syntax-highlighting/syntax`
+4. Close Kate and (re-)open it. The OpenITImARkdown highlighting scheme should now be visible in Kate's menu: Tools > Highlighting > Markup
 
 ![OpenITImARkdown in Tools menu](/images/media/screenshot_kate_tools_highlighting.png)
 
@@ -1895,42 +1882,23 @@ And also in the dropdown menu in the bottom right of your Kate screen:
 #### On Mac: 
 
 
-1. Download the highlighting scheme `OpenITImARkdown.xml` file by right-clicking on this [link](https://github.com/OpenITI/mARkdown_highlighting_Kate/raw/main/OpenITImARkdown.xml) and choosing "Save link as". 
-2. Open Terminal (see [https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/](https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/))
-3. Create new subdirectories in the `~/Library/Application Support` folder by
-executing this command:
-
-```
-mkdir -p "$HOME/Library/Application Support/org.kde.syntax-highlighting/syntax"
-```
-
-  NB: the quotation marks are essential because there is a space in the path!
-
-4. Assuming the `OpenITImARkdown.xml` file is in the `Downloads` folder: 
-execute the following command to copy it to the newly created folder:
-
-```
-cp ~/Downloads/OpenITImARkdown.xml "$HOME/Library/Application Support/org.kde.syntax-highlighting/syntax"
-```
-
-Alternatively:
-
-2. Open Finder
-3. in the Finder menu, choose `Go > Go to folder...`, write `~/Library/Application Support/`, then click `Go`
-4. create a new folder using the combination command+shift+n, and call it `org.kde.syntax-highlighting`
-5. Move into that folder, and create another subfolder using command+shift+n, called `syntax`
-6. Copy the `OpenITImARkdown.xml` file into that folder
-
-
-Close the Kate editor if it was open, and open it again. 
-
-You should now be able to find the OpenITImARkdown highlighting scheme in the list in the Tools > Highlighting > Markup menu: 
+1. Download the zip file https://github.com/OpenITI/mARkdown_highlighting_Kate/archive/refs/heads/main.zip
+2. Unzip the zip file
+3. Open the unzipped folder in Finder, press down the Control key and click on `install_on_mac.sh`. Choose "Open" from the dialog. You'll see a popup asking whether you are sure you want to execute this program from an unidentified developer. Click `Open`. This will install the OpenITImARkdown.xml file in the folder `$HOME/Library/Application Support/org.kde.syntax-highlighting/syntax`
+4. Close Kate and (re-)open it. The OpenITImARkdown highlighting scheme should now be visible in Kate's menu: Tools > Highlighting > Markup
 
 ![OpenITImARkdown in Tools menu](/images/media/screenshot_kate_tools_highlighting.png)
 
 And also in the dropdown menu in the bottom right of your Kate screen: 
 
 ![OpenITImARkdown in dropdown menu](/images/media/screenshot_kate_highlighting_dropdown.png)
+
+#### On Linux: 
+
+1. Download the zip file https://github.com/OpenITI/mARkdown_highlighting_Kate/archive/refs/heads/main.zip
+2. Unzip the zip file
+3. Open the unzipped folder in your file manager, and double-click `install_on_linux.sh`. This will install the OpenITImARkdown.xml file in the folder `$HOME/.local/share/org.kde.syntax-highlighting/syntax/`
+4. Close Kate and (re-)open it. The OpenITImARkdown highlighting scheme should now be visible in Kate's menu: Tools > Highlighting > Markup
 
 ### Working with Kate
 
