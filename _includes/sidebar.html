@@ -10,10 +10,27 @@
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
-    {% endfor %}
+    {% endfor %}        
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
+  {% endif %}
+  {% if page.logos%}
+    <div class="logo"> 
+    {% for l in page.logos %}           
+      {% if l.logo[0].link %}
+        <a href = "{{ l.logo[0].link }}">
+        {% if l.logo[0].image %}
+          <img src = "{{ l.logo[0].image | relative_url }}">
+        {% endif %}
+       </a>      
+      {% else %}    
+      	{% if l.logo[0].image %}
+          <img src = "{{ l.logo[0].image | relative_url }}">
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    </div>
   {% endif %}
   </div>
 {% endif %}

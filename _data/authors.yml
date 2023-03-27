@@ -396,3 +396,22 @@ masoumeh_seydi_peter_verkinderen:
   steam            :
   tumblr           :
   twitter          :
+none:
+  name             : 
+  avatar           : 
+  bio              : 
+  location         :
+  email            :
+  uri              :
+  flickr           :
+  facebook         :
+  github           :
+  google_plus      :
+  instagram        :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          :

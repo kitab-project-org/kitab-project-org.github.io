@@ -3,7 +3,8 @@ header:
   overlay_image: "images/arabic-pasts/Arabic-Pasts-2023.png"
   overlay_filter: 0.1
   show_overlay_excerpt: false
-title:	"Call For Papers : Arabic Pasts 2023"			
+title:	"Call For Papers : Arabic Pasts 2023"
+author: none			
 layout:		single
 categories:
   - 
@@ -12,6 +13,16 @@ tags:
   - events
   - news
 image: "images/arabic-pasts/Arabic-Pasts-2023.png"
+sidebar:
+  - title: "Arabic Pasts"
+  - text: 'This annual exploratory and informal workshop co-hosted with SOAS University and the University of Oxford offers the opportunity to reflect on history writing in Arabic. For more, see the [Arabic Pasts page](/research/events/arabic-pasts).'
+logos:
+  - logo:
+      - image: "/images/funders/LOGO_ERC-FLAG_EU_.jpg"
+        link: "https://erc.europa.eu/homepage"
+  - logo:
+      - image: "/images/logos/SOAS-University-of-London.png"
+        link: "https://www.soas.ac.uk/"
 ---
 
 <p style="text-align: center">Arabic Pasts: Histories and Historiographies<br><br>

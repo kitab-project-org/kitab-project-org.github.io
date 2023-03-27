@@ -344,3 +344,17 @@
   }
 }
 
+.logo {
+  @include breakpoint($large) {
+    float: center;  
+    }
+  img {
+    
+    max-width: 150px;
+
+    @include breakpoint($large) {
+      padding: 5px;   
+    
+    }
+  }
+}
