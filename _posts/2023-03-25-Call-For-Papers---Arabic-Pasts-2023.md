@@ -15,7 +15,7 @@ tags:
 image: "images/arabic-pasts/Arabic-Pasts-2023.png"
 sidebar:
   - title: "Arabic Pasts"
-  - text: 'This annual exploratory and informal workshop co-hosted with SOAS University and the University of Oxford offers the opportunity to reflect on history writing in Arabic. For more, see the [Arabic Pasts page](/research/events/arabic-pasts).'
+  - text: 'This annual exploratory and informal workshop co-hosted with SOAS University offers the opportunity to reflect on history writing in Arabic. For more, see the [Arabic Pasts page](/research/events/arabic-pasts).'
 logos:
   - logo:
       - image: "/images/funders/LOGO_ERC-FLAG_EU_.jpg"
