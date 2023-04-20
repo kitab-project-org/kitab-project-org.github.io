@@ -59,4 +59,4 @@ Contributions are invited from scholars at all career levels, addressing any per
 
 Arabic Pasts is co-organized by Hugh Kennedy (SOAS), James McDougall (Oxford), Lorenz Nigst (AKU-ISMC), and Sarah Bowen Savant (AKU-ISMC).
 
-Please submit an abstract of 300 words or less in word document by Friday 21st April 2023 to [ArabicPastsConf@aku.edu](mailto:ArabicPastsConf@aku.edu).
+Please submit an abstract of 300 words or less in word document by Friday, 12 May 2023 to [ArabicPastsConf@aku.edu](mailto:ArabicPastsConf@aku.edu).
