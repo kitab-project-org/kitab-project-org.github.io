@@ -134,7 +134,7 @@ gowaart_van_den_bossche:
 masoumeh_seydi:
   name             : "Masoumeh Seydi"
   avatar           : "/images/kitab/s200_masoumeh.seydi_.jpg"
-  bio              : "Masoumeh Seydi is KITAB’s Digital Lead. She is pursuing her PhD degree in DH on processing and modeling pre-modern geographical descriptions."
+  bio              : "Masoumeh Seydi is KITAB’s Digital Lead. She holds a PhD in Computer Sciences from University of Leipzig. She has been working, since 2015, in a DH group, focusing on various computational methods to retrieve, analyse, and visualise geographical descriptions of premodern Arabic sources. She has been applying methods to annotate and extract various descriptive information, such as route networks and hierarchical divisions of a pre-modern society, and introducing models and visualisations for the geographical entities, comparative view of different descriptions, locating unknown places based on the contextual information."
   location         :
   email            :
   uri              :
@@ -248,7 +248,7 @@ ryan_muther:
 sarah_savant_masoumeh_seydi:
   name             : "Sarah Savant and Masoumeh Seydi"
   avatar           : # path of avatar image, e.g. ""
-  bio              : "Sarah Bowen Savant is the Principle Investigator of the KITAB project. She is preparing a book, entitled, A Cultural History of the Arabic Book that explores the many ways that writers reused earlier texts to create new ones in the period spanning from 700-1500 CE.<br><br> Masoumeh Seydi is KITAB’s Digital Lead. She is pursuing her PhD degree in DH on processing and modeling the pre-modern geographical descriptions."
+  bio              : "Sarah Bowen Savant is the Principle Investigator of the KITAB project. She is preparing a book, entitled, A Cultural History of the Arabic Book that explores the many ways that writers reused earlier texts to create new ones in the period spanning from 700-1500 CE.<br><br> Masoumeh Seydi is KITAB’s Digital Lead. She holds a PhD in Computer Sciences from University of Leipzig. She has been working, since 2015, in a DH group, focusing on various computational methods to retrieve, analyse, and visualise geographical descriptions of premodern Arabic sources. She has been applying methods to annotate and extract various descriptive information, such as route networks and hierarchical divisions of a pre-modern society, and introducing models and visualisations for the geographical entities, comparative view of different descriptions, locating unknown places based on the contextual information."
   email            :
   uri              :
   flickr           :
@@ -380,7 +380,7 @@ sarah_savant_mathew_barber:
 masoumeh_seydi_peter_verkinderen:
   name             : "Masoumeh Seydi and Peter Verkinderen"
   avatar           : 
-  bio              : "Masoumeh Seydi is KITAB’s Digital Lead. She is pursuing her PhD degree in DH on processing and modeling pre-modern geographical descriptions.<br/><br/>Peter Verkinderen is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC and a postdoctoral research fellow at the KITAB Project working on the central Islamic lands. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB in the development of the OpenITI corpus and tools for analyzing and visualizing textual data."
+  bio              : "Masoumeh Seydi is KITAB’s Digital Lead. She holds a PhD in Computer Sciences from University of Leipzig. She has been working, since 2015, in a DH group, focusing on various computational methods to retrieve, analyse, and visualise geographical descriptions of premodern Arabic sources. She has been applying methods to annotate and extract various descriptive information, such as route networks and hierarchical divisions of a pre-modern society, and introducing models and visualisations for the geographical entities, comparative view of different descriptions, locating unknown places based on the contextual information.<br/><br/>Peter Verkinderen is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC and a postdoctoral research fellow at the KITAB Project working on the central Islamic lands. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB in the development of the OpenITI corpus and tools for analyzing and visualizing textual data."
   location         :
   email            :
   uri              :
