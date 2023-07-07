@@ -36,7 +36,7 @@ Figure 1: Shia Online Library assigns the *Taʿliqa* to Saʿid al-Qummi despite 
 
 [![](/images/old_blogs/2020-09-30-Between-Manuscripts-and-Digital-Texts--Commentaries-on-Hadith-Raʾs-al-Jalut//media/image2.png)](/images/old_blogs/2020-09-30-Between-Manuscripts-and-Digital-Texts--Commentaries-on-Hadith-Raʾs-al-Jalut//media/image2.png)
 
-Figure 2: A screenshot of the OpenITI corpus metadata prior to correction. Now the application has Ruhollah Khomeini as the author, since we list the final author within the application (see the KITAB corpus Arabic metadata app at [https://kitab-corpus-metadata.azurewebsites.net](https://kitab-corpus-metadata.azurewebsites.net/)). Users can also report similar mistakes via the system.
+Figure 2: A screenshot of the OpenITI corpus metadata prior to correction. Now the application has Ruhollah Khomeini as the author, since we list the final author within the application (see the KITAB corpus Arabic metadata app at [https://kitab-project.org/metadata](https://kitab-project.org/metadata)). Users can also report similar mistakes via the system.
 
 [![](/images/old_blogs/2020-09-30-Between-Manuscripts-and-Digital-Texts--Commentaries-on-Hadith-Raʾs-al-Jalut//media/image3.jpg)](/images/old_blogs/2020-09-30-Between-Manuscripts-and-Digital-Texts--Commentaries-on-Hadith-Raʾs-al-Jalut//media/image3.jpg)
 

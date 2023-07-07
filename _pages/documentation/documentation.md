@@ -2081,7 +2081,7 @@ Installing bash/working through command line tool: see
 ### How can I find a text in OpenITI? 
 
 The easiest way to find a text in the OpenITI corpus is to use the metadata 
-application at [kitab-corpus-metadata.azurewebsites.net](https://kitab-corpus-metadata.azurewebsites.net/).
+application at [kitab-project.org/metadata](https://kitab-project.org/metadata).
 The search function of the app allows you to filter the books by 
 the author's name or year of death, the work's title, 
 a specific OpenITI version id, and/or tags. 
@@ -2292,7 +2292,7 @@ annotation
      Give your issue a title and fill in the form. Click the "Submit new issue" button.
 
 -   Alternatively, you can use the [metadata
-     application](https://kitab-corpus-metadata.azurewebsites.net/)
+     application](https://kitab-project.org/metadata)
      to create a selected categories of github issues on the existing
      texts in OpenITI. The issues will be assigned a proper label and
      the OpenITI development team will take care of the issue.

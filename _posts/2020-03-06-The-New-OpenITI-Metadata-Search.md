@@ -25,7 +25,7 @@ The text files are stored in GitHub repositories (folders) that represent twenty
 
 **We now have a new way to search for files in the OpenITI corpus:**
 
-[**https://kitab-corpus-metadata.azurewebsites.net/**](https://kitab-corpus-metadata.azurewebsites.net/)
+[**https://kitab-project.org/metadata**](https://kitab-project.org/metadata)
 
 [![](/images/old_blogs/2020-03-06-The-New-OpenITI-Metadata-Search//media/image3.png)](/images/old_blogs/2020-03-06-The-New-OpenITI-Metadata-Search//media/image3.png)
 

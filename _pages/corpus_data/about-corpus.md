@@ -3,7 +3,7 @@ excerpt:	""
 header:
   overlay_image: /images/covers/banner_corpus.png
   overlay_filter: rgba(40, 99, 165, 0.45)
-  caption: "A snapshot of KITAB's [corpus metadata search application](https://kitab-corpus-metadata.azurewebsites.net/)"
+  caption: "A snapshot of KITAB's [corpus metadata search application](https://kitab-project.org/metadata)"
 title:		"About the corpus"
 layout:		single
 sidebar:

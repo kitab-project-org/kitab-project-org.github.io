@@ -17,7 +17,7 @@ toc_sticky: true
 
 The KITAB corpus exists in two forms. On the one hand, there is the *ever-changing corpus* that reflects our ongoing work and that we manage via [GitHub](https://github.com/OpenITI). We constantly add new texts and/or metadata, annotate texts, occasionally rename or delete files, remove parts from our text files that do not belong to the text properly speaking, and so forth.
 
-It is this changing corpus whose texts and metadata files can be identified, accessed and downloaded individually both though OpenITI [GitHub](https://github.com/OpenITI) and through our [metadata search application](https://kitab-corpus-metadata.azurewebsites.net/).
+It is this changing corpus whose texts and metadata files can be identified, accessed and downloaded individually both though OpenITI [GitHub](https://github.com/OpenITI) and through our [metadata search application](https://kitab-project.org/metadata).
 
 This changing corpus furthermore constitutes the main interface and point of contact between KITAB and the public. Any user of our corpus with a GitHub account is able to [submit issues](https://github.com/OpenITI/Annotation/issues/new/choose) with regard to our text and metadata files.
 
@@ -159,7 +159,7 @@ The text and metadata files contained in the KITAB corpus can be accessed by eve
 
 First, files can be accessed through the twenty-five-year repositories available at [OpenITI GitHub](https://github.com/OpenITI) by navigating to the text or metadata file through the relevant folders and subfolders. This requires knowing the year of the author's death, as without that piece of information, the appropriate repository cannot be identified.
 
-Second, files can be accessed by using the [KITAB metadata application](https://kitab-corpus-metadata.azurewebsites.net/) (for further information, see [here]()). This second option is preferable, as it allows finding files in our corpus without knowing the author's death date.
+Second, files can be accessed by using the [KITAB metadata application](https://kitab-project.org/metadata) (for further information, see [here]()). This second option is preferable, as it allows finding files in our corpus without knowing the author's death date.
 
 KITAB's metadata app allows users to search for each of the components of a URI separately (i.e. the AuthorID, the BookID, and the VersionID).
 

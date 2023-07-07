@@ -22,7 +22,7 @@ metadata_app:
     alt: "placeholder image 2"
     title: "The Corpus metadata application"
     excerpt: 'Looking for a particular book to download in our corpus? Wanting to explore books by specific authors or in specific genres?<br><br> Search for books using the Corpus metadata search app.'
-    url: "https://kitab-corpus-metadata.azurewebsites.net/"
+    url: "https://kitab-project.org/metadata"
     btn_label: "Search our metadata"
     btn_class: "btn--primary"
 diff_viewer:

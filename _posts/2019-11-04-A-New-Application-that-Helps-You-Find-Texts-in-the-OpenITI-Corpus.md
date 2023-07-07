@@ -15,7 +15,7 @@ tags:
   - corpus data
   - 
 ---
-The **Open Islamicate Texts Initiative** [(**OpenITI**)](http://kitab-project.org/openiti/) is a multi-institutional effort to construct the first open-access machine-actionable scholarly corpus of premodern Islamicate texts. The co-PIs for the project are Maxim Romanov (University of Vienna), Sarah Bowen Savant (Aga Khan University-ISMC, London), and Matthew Miller (University of Maryland, College Park). Our corpus is now searchable online, using the following link: [https://kitab-corpus-metadata.azurewebsites.net.](https://kitab-corpus-metadata.azurewebsites.net/)
+The **Open Islamicate Texts Initiative** [(**OpenITI**)](http://kitab-project.org/openiti/) is a multi-institutional effort to construct the first open-access machine-actionable scholarly corpus of premodern Islamicate texts. The co-PIs for the project are Maxim Romanov (University of Vienna), Sarah Bowen Savant (Aga Khan University-ISMC, London), and Matthew Miller (University of Maryland, College Park). Our corpus is now searchable online, using the following link: [https://kitab-project.org/metadata.](https://kitab-project.org/metadata)
 
 [![](/images/old_blogs/2019-11-04-A-New-Application-that-Helps-You-Find-Texts-in-the-OpenITI-Corpus//media/image1.png)](/images/old_blogs/2019-11-04-A-New-Application-that-Helps-You-Find-Texts-in-the-OpenITI-Corpus//media/image1.png)
 
