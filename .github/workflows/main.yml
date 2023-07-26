@@ -3,7 +3,7 @@ name: Full Workflow - Convert blogs and deploy site
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   call-blog-converter:
