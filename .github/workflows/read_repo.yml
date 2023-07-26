@@ -21,4 +21,4 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Echo repo name
-    - run: echo github.repository
+      run: echo github.repository
