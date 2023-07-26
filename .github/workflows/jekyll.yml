@@ -12,7 +12,7 @@ on:
     - master
   # Runs on workflow call rather than push - so that we can upload new blogs prior website deployment
   workflow_run:
-    workflows: [Run python script to covert blogs in docx]
+    workflows: [Blogs Workflow]
     types:
       - completed
   
