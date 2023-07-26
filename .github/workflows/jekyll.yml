@@ -7,6 +7,9 @@
 name: Deploy Jekyll site to Pages
 
 on:
+  push:
+    branches:
+    - master
   # Runs on workflow call rather than push - so that we can upload new blogs prior website deployment
   workflow_call:
   
