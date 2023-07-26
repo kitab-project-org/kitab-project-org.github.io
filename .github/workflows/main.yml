@@ -2,9 +2,7 @@ name: Full Workflow - Convert blogs and deploy site
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
+
 
 jobs:
   call-blog-converter:
