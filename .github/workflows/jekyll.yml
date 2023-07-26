@@ -10,6 +10,7 @@ on:
   push:
     branches:
     - master
+    paths-ignore: 'conversion_script/'
   # Runs on workflow call rather than push - so that we can upload new blogs prior website deployment
   workflow_run:
     workflows: [Blogs Workflow]
