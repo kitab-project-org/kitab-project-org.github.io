@@ -14,6 +14,17 @@ from datetime import date
 from datetime import datetime
 import json
 
+# Load pandoc if needed
+if hasattr(pypandoc, 'ensure_pandoc_installed'):
+    # pylint: disable=E1101
+    pypandoc.ensure_pandoc_installed(quiet=True, delete_installer=True)
+else:
+    try:
+        pypandoc.get_pandoc_path()
+    except OSError:
+        pypandoc.download_pandoc()
+pypandoc.convert_file(source, to='html', outputfile=dest)
+
 # Getting main directory as script path
 
 abspath = os.path.abspath(sys.argv[0])
