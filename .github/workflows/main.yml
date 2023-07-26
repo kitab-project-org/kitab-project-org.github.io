@@ -1,4 +1,4 @@
-name: Full Workflow - Convert blogs and deploy site
+name: Blogs Workflow
 
 on:
   workflow_dispatch:
