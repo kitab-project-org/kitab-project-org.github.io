@@ -17,7 +17,7 @@ import json
 # Load pandoc if needed
 if hasattr(pypandoc, 'ensure_pandoc_installed'):
     # pylint: disable=E1101
-    pypandoc.ensure_pandoc_installed(quiet=True, delete_installer=True)
+    pypandoc.ensure_pandoc_installed(delete_installer=True)
 else:
     try:
         pypandoc.get_pandoc_path()
