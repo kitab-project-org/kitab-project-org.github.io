@@ -38,8 +38,8 @@ print(dname)
 # Setting directories
 docx_in = dname + "/input/blogs"
 header_in = dname + "/input/headers"
-image_out = parent + "/images/blogs/" + str(date.today()) + "/"
-blog_dir = parent + "/_posts/"
+image_out = "../images/blogs/" + str(date.today()) + "/"
+blog_dir = "../_posts/"
 glossary_path = dname + "/resources/glossary.json"
 
 header_plain = dname + "/resources/header_plain"
