@@ -46,7 +46,7 @@ My research is concerned with identifying cases of text reuse in order to unders
 
 Passim was run on the chosen pair of books, and tags were inserted identifying where passim had located passages of reuse.[^4] These tags are in pairs, constituting a beginning and an end tag with a shared unique identifier (UI) number (e.g. @ALIGN@B@2@ and @ALIGN@E@2@). The UI number is specific to the passage as it is tagged in both books. Figure 1 gives an example of the tags in parallel texts:
 
-[![](/images/old_blogs/2020-08-07-Adventures-in-Alignments--Training-an-Algorithm-to-Recognise-Text-Reuse//media/image1.png)](/images/old_blogs/2020-08-07-Adventures-in-Alignments--Training-an-Algorithm-to-Recognise-Text-Reuse//media/image1.png)
+[![]({{ "/images/old_blogs/2020-08-07-Adventures-in-Alignments--Training-an-Algorithm-to-Recognise-Text-Reuse//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2020-08-07-Adventures-in-Alignments--Training-an-Algorithm-to-Recognise-Text-Reuse//media/image1.png" | absolute_url }})
 
 Figure 1: A side-by-side view of corresponding automatic alignment tags in al-Maqrizi’s *Ittiʿaz* (left) and his *Muqaffa* (right). (The text files are open in EditPad Pro with a training-data annotation schema applied to facilitate the easy identification of tags.)
 
@@ -62,7 +62,7 @@ When doing this type of evaluation, I am asking three questions:
 
 Figure 2 gives an example of parallel texts with manually evaluated alignments:
 
-[![](/images/old_blogs/2020-08-07-Adventures-in-Alignments--Training-an-Algorithm-to-Recognise-Text-Reuse//media/image2.png)](/images/old_blogs/2020-08-07-Adventures-in-Alignments--Training-an-Algorithm-to-Recognise-Text-Reuse//media/image2.png)
+[![]({{ "/images/old_blogs/2020-08-07-Adventures-in-Alignments--Training-an-Algorithm-to-Recognise-Text-Reuse//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2020-08-07-Adventures-in-Alignments--Training-an-Algorithm-to-Recognise-Text-Reuse//media/image2.png" | absolute_url }})
 
 Figure 2: A side-by-side view of corresponding alignment tags with manual correction in al-Maqrizi’s *Ittiʿaz* (left) and his *Muqaffa* (right).
 

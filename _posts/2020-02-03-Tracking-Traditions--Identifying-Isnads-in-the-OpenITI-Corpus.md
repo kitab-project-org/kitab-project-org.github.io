@@ -28,7 +28,7 @@ Having discussed why this task is useful to undertake, we will turn our attentio
 
 The first approach relies on the idea that *isnad*s display a characteristic distribution of particular words, including ‘transmissive terms’ such as *haddathana* and *qala* and common name elements such as *ibn* that can be used to identify what parts of a text are likely to be *isnad*s. Since in other contexts these terms will have a different distribution, looking for regions of text which use language similar to that of known *isnad*s will be enough to reliably identify them. This is done by building two language models, which are trained on different kinds of text: one is trained on examples of *isnad*s and another is trained on examples of text which are not *isnads* (the latter is called the ‘background’). Examples of the training data for the *isnad* model can be seen in Figure 1 below. The data consists solely of a collection of *isnad*s provided by human annotators. The background model is trained on the entire corpus.
 
-[![](/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image1.png)](/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image1.png)
+[![]({{ "/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image1.png" | absolute_url }})
 
 Figure 1: Training data for the *isnad* model.
 
@@ -38,7 +38,7 @@ As sensible as this approach sounds, it actually performs quite poorly since it 
 
 To address these issues, we decided that instead of trying to tag entire spans of words as *isnad* or not, we would instead tag individual words as part of an *isnad* or not on the basis of other words that surround them within some fixed window. Using this alternative method, we would be able to give the model a more nuanced understanding of context and its effect on what the correct labels for the words should be. This process, unfortunately, involves much more labour-intensive manual annotation of texts to insert *isnad* markers, as in Figure 2 below. @Isnad\_Beg@ marks the beginning of an *isnad*, while @Isnad\_End@ marks its end.
 
-[![](/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image2.png)](/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image2.png)
+[![]({{ "/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image2.png" | absolute_url }})
 
 Figure 2: Manually annotated text with *isnad* markers used to train the word-tagging model. @Isnad\_Beg@ marks the beginning of an *isnad*, while @Isnad\_End@ concludes it.
 
@@ -46,7 +46,7 @@ This text is then converted into a list of words and the correct tags associated
 
 قال أخبرنا أبو محمد عبد الله بن مسلم بن قتيبة
 
-[![](/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image3.png)](/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image3.png)
+[![]({{ "/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image3.png" | absolute_url }})]( {{ "/images/old_blogs/2020-02-03-Tracking-Traditions--Identifying-Isnads-in-the-OpenITI-Corpus//media/image3.png" | absolute_url }})
 
 **Figure 3**: An example of tagged text and featurization with a window size of five words. Note that ‘بن’ occurs twice after the current word within the window, and that is reflected in the value for the ‘a\_بن’ feature.
 

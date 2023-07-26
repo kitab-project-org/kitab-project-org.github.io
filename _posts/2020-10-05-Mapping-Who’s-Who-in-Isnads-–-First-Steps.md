@@ -45,13 +45,13 @@ Table 1: Reconciling variations in names within *isnad*s that feature Muhammad b
 
 Seydi then used the Levenshtein distance algorithm to group together the most similar chains of names. Even with the reduction of the name variants to single versions, the data remained too extensive for patterns to be visible. So we filtered the total data set to look for only the most commonly occurring transmissive chains, and only those with six nodes, by far the most common length.[^4]
 
-[![](/images/old_blogs/2020-10-05-Mapping-Who’s-Who-in-Isnads-–-First-Steps//media/image1.jpg)](/images/old_blogs/2020-10-05-Mapping-Who’s-Who-in-Isnads-–-First-Steps//media/image1.jpg)
+[![]({{ "/images/old_blogs/2020-10-05-Mapping-Who’s-Who-in-Isnads-–-First-Steps//media/image1.jpg" | absolute_url }})]( {{ "/images/old_blogs/2020-10-05-Mapping-Who’s-Who-in-Isnads-–-First-Steps//media/image1.jpg" | absolute_url }})
 
 Table 2: The most frequently occurring six-person *isnad*s in the *TMD* that go back to Muhammad b. Saʿd. Pruning the data to get these transmission chains involved excluding 217 other six-person *isnad*s.
 
 Seydi then graphed the dramatically filtered data, which produced the following graph.
 
-[![](/images/old_blogs/2020-10-05-Mapping-Who’s-Who-in-Isnads-–-First-Steps//media/image2.png)](/images/old_blogs/2020-10-05-Mapping-Who’s-Who-in-Isnads-–-First-Steps//media/image2.png)
+[![]({{ "/images/old_blogs/2020-10-05-Mapping-Who’s-Who-in-Isnads-–-First-Steps//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2020-10-05-Mapping-Who’s-Who-in-Isnads-–-First-Steps//media/image2.png" | absolute_url }})
 
 Graph 1: A graphic representation of the subset of lines of transmission from Ibn Saʿd shown in Table 1.
 

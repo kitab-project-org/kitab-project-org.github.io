@@ -71,7 +71,7 @@ The person in the *isnad* with whom al-Tabari implies having had direct contact 
 
 Al-Tabari cites all but one (Abu Saʿid al-Ashajja) of these people in his works using the 'he told me' phrases. However, although al-Khaṭīb mentioned only ten names, al-Tabari seems to identify hundreds of direct contacts. Further, al-Khatib may well have been relying on the very same evidence as we are for identifying al-Tabari's direct informants. But even if he was, it would still be noteworthy that he interpreted the 'he told me' phrases in the same way as we do -- as indicators of direct contact.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image1.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image1.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image1.png" | absolute_url }})
 
 Graph 1: The frequency and location of the phrases 'he told me'/'he told us' as the first element of an *isnad* across al-Tabari's *Taʾrikh*. Graph designed by Peter Verkinderen and Masoumeh Seydi.
 
@@ -79,9 +79,9 @@ The frequency of this formula can be represented graphically. In Graph 1, the *T
 
 Of phrases that might point to direct transmission, the formula *haddathani*/*haddathana* is by far the most common. Al-Tabari does not use the phrase *samiʿtu* ('I heard'), for example, and the phrases *akhbarana* and *akhbarani* appear only rarely. Al-Tabari's use of the passive 'it is reported from', which does not reveal his direct informant, is concentrated in the final part of the work, a phenomenon discussed in detail elsewhere.[^8]
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image2.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image2.png)Graph 2: The frequency and location of the phrases 'he told me'/'he told us' as the first element of an *isnad* in al-Tabari's *Tafsir*.
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image2.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image2.png" | absolute_url }})Graph 2: The frequency and location of the phrases 'he told me'/'he told us' as the first element of an *isnad* in al-Tabari's *Tafsir*.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image3.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image3.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image3.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image3.png" | absolute_url }})
 
 Graph 3: The frequency and location of the phrases 'he told me'/'he told us' as the first element of an *isnad* in al-Tabari's *Tahdhib*.
 

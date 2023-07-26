@@ -56,10 +56,10 @@ corpus_search:
       {% if latest_post.image %}
       <img src = {{ latest_post.image }} </img>
       {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
       </div>
-      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url }}">read more</a></b>
+      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url | absolute_url }}">read more</a></b>
       
       
       
@@ -77,10 +77,10 @@ corpus_search:
       {% if latest_post.image %}
       <img src = {{ latest_post.image }} </img>
       {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
       </div>
-      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url }}">read more</a>
+      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url | absolute_url }}">read more</a>
       
       
       
@@ -98,10 +98,10 @@ corpus_search:
       {% if latest_post.image %}
       <img src = {{ latest_post.image }} </img>
       {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
       </div>
-      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url }}">read more</a>
+      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url | absolute_url }}">read more</a>
       
       
       
@@ -115,7 +115,7 @@ corpus_search:
      <article class = "archive__item">
       
       <div class = "archive__item-teaser">
-      <img src = "/images/kitab/mesa.jpg" > </img>
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       </div>
       <h2 class = "archive__item-title no_toc">Read more blogs </h2>
       <div class = "archive__item-excerpt">

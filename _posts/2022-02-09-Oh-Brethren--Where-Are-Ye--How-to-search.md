@@ -33,13 +33,13 @@ If you download the OpenITI corpus as a release, all author files will be in a s
 
 Once you have downloaded the corpus, launch the Kate app, click the \'Search and replace\' tab, which in Image 1 below is on the bottom left of the app (or use the keyboard shortcut Ctrl+Alt+F on Windows = Cmd+Alt+F on Mac). This will open a dialog box in which you can change the location where Kate will conduct the requested search: either in 'current file', in all 'open files\', or \'In Folder\'. It is this last option we will use to search through the whole OpenITI corpus.
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png" | absolute_url }})
 
 Image 1: The basic search window in Kate editor
 
 Once the \'In folder\' option has been marked, you only have to tell Kate where the folder you want it to look through is situated on your computer. For this you click the folder icon next to the Folder bar (see Image 2), which will open a pop-up where you can direct your computer to where you have stored the OpenITI folder. This should be a familiar procedure if you have ever opened a file from within a text editor like Word or added an attachment to an email
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image4.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image4.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image4.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image4.png" | absolute_url }})
 
 Image 2: Second step of the search in Kate editor -- directing Kate to the relevant folder
 
@@ -47,7 +47,7 @@ That's all! The next step is simply typing your search term or phrase into the \
 
 Kate will list all results, ordered alphabetically (which means chronologically due to how we name files in the corpus). It is possible to copy these results and paste them in a separate document: this will copy the filepath and the line number as well as the place where the result is found, but the results will not be clickable. In EditPad Pro you can do the same, but the result will be clickable. Once the results are displayed (see Image 3), you can click on one of the results and Kate will open the file and take you to the place where the search result is found in the text by highlighting it. As with Shamela, the search via Kate or EditPadPro is not as smart as Google or the passim software we use to detect text reuse. It will not locate words spelt differently than the way you have input it. The inclusion of works digitised by using OCR in newer releases of the corpus, many of which have not yet been closely proofread, as well as the preponderance of typos in texts from online libraries should also be taken into account. It thus remains important to closely check every search result, especially if they come from texts that do not bear the mARkdown tag (although that tag does not necessarily mean a text is entirely reliable or free from typos, only that it has been looked at by at least two different people and its problems/reliability have been assessed). One way to work around this is by using regular expressions (regex), which is useful to learn in general if you are interested in learning some computational skills.
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image5.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image5.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image5.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image5.png" | absolute_url }})
 
 Image 3: \'matches\' listed in the search window and highlighted in individual text files.
 
@@ -61,7 +61,7 @@ Another very early instance of the phrase, which for sure predates the encyclopa
 
 While I could write much more about the many different results I found, I will in the remainder of this blog continue to focus on a few further poetic usages. Such references are an understudied phenomenon which I believe has great potential for the study of the reception of the Ikhwanian corpus. Coming across one such poetic use initially urged me to conduct this search: on an important 7th/13th century manuscript manuscript of the *Rasaʾil ikhwan al-safaʾ* a reader wrote a line of poetry the flyleaf (see Image 4).
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image3.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image3.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image3.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image3.png" | absolute_url }})
 
 Image 4: poetic line on flyleaf of Süleymaniye Kütüphanesi MS Esad Efendi 3638
 
@@ -160,12 +160,12 @@ This is but a very small sampling of the 1694 matches for our phrase identified 
 
 In EditPad Pro: Use Ctrl+F to open the search-and-replace box, and write your search term in the Search field. In the EditPad Pro menu, go to Search \> Find on Disk; this will open a dialog box where you can select the folder you want to search.
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image1.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image1.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image1.png" | absolute_url }})
 
 Image 5: Search on Disk dialog in EditPad Pro. Pro tip: write \`\^\[01\].+(?\<!yml)\$\` in the Regular expression field, after ticking the 'regular expression' box: this way, only text files will be searched, and not metadata or other irrelevant files. (Note, this also works in Kate)
 
 If you click the OK button, EditPad Pro will start searching all files and subfolders within that folder. The search results will finally be displayed in a separate window. You can preview the lines that contain the matches inside the search results window; if you double-click on the line number, the text will open in the editor at that location.
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image2.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image2.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image2.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image2.png" | absolute_url }})
 
 Image 6: EditPad Pro search results

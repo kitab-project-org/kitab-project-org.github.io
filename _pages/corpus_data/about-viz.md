@@ -22,7 +22,7 @@ To access and use our applications and visualisations, please visit the [applica
 This application is designed for viewing text reuse between pairs of texts. Image 1 shows a screen grab from the main part of the visualisation.
 
 {% capture image1 %}
-[![Pairwise visualisation](/images/methods/pair-wise-Nujum-Kamil.png)](/images/methods/pair-wise-Nujum-Kamil.png)
+[![Pairwise visualisation]({{ "/images/methods/pair-wise-Nujum-Kamil.png" | absolute_url }})]( {{ "/images/methods/pair-wise-Nujum-Kamil.png" | absolute_url }})
 Image 1: A pairwise visualisation comparing Ibn Taghribirdi's *Nujum* (on the top) with Ibn al-Athir's *Kamil* (on the bottom).
 {% endcapture %}
 <div class="notice--primary">
@@ -33,7 +33,7 @@ Text passages that are common to both works are highlighted in red. Each of the 
 The yellow lines link the reused passages in the two works. For example, text found around milestone 700 of Ibn al-Athir's *Kamil* (the bottom graph) is reused at milestone 1 of Ibn Taghribirdi's *Nujum*. The yellow lines allow us to understand rearrangement of the text. In the case of Image 1, we can see that the text is reused in almost the same order, but in condensed form. As both works are chronicles, this is to be expected.
 Had the text been rearranged, more lines would cross over each other. See, for example, Image 2, which compares al-Tabari's *Taʾrikh* with Ibn Hanbal's (d. 855) *Musnad*. There we can see heavy reuse of the early parts of al-Tabari's work (the parts that cover the Prophet's life) by Ibn Hanbal, but because the *Musnad* is not a chronological account, the text has been rearranged and the lines cross over.
 {% capture image2 %}
-[![Another pairwise visualisation](/images/methods/pair-wise-Tarikh-Musnad.png)](/images/methods/pair-wise-Tarikh-Musnad.png)
+[![Another pairwise visualisation]({{ "/images/methods/pair-wise-Tarikh-Musnad.png" | absolute_url }})]( {{ "/images/methods/pair-wise-Tarikh-Musnad.png" | absolute_url }})
 
 Image 2: A pairwise visualisation comparing al-Tabari's *Taʾrikh* (on the top) with Ibn Hanbal's *Musnad* (on the bottom). {% endcapture %}
 <div class="notice--primary">

@@ -22,19 +22,19 @@ What do we need to build an OCR system?  Most of today’s systems use **superv
 
 What kinds of images should we use for training OCR? For many languages and applications, the answer was to employ isolated characters, as in the [MNIST database](https://en.wikipedia.org/wiki/MNIST_database) of images for handwritten digit recognition, a widely-used benchmark in computer vision.  
 
-[![](/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image1.png)](/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image1.png)
+[![]({{ "/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image1.png" | absolute_url }})
 
 For ten numerals, or writing systems with a few hundred letters and special characters, this might be an attractive strategy. For connected scripts like Arabic, however, training systems with isolated characters has some drawbacks. Even if we catalog variant initial, medial, and final forms in one typeface or manuscript hand, we would need to segment the images, as well, which is much more time consuming. Similar issues arise in speech recognition, where the distinct “phonemic” sounds of a language [change their sound depending on surrounding sounds](https://en.wikipedia.org/wiki/Sandhi) and our lips might be forming the next sound when our tongue is still tapping our teeth for the last.
 
 Instead, OCR (and speech recognition) systems can take advantage of algorithms that [align complete lines of writing with transcriptions of those lines](https://distill.pub/2017/ctc/). It is much easier to ask human annotators (and computer vision models) to mark full lines than to delimit where one cursive letter ends and the next begins. This is even more true in writing systems such as Arabic, where characters also overlap in the vertical dimension, as in this manuscript example:
 
-[![](/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image2.jpg)](/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image2.jpg)
+[![]({{ "/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image2.jpg" | absolute_url }})]( {{ "/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image2.jpg" | absolute_url }})
 
 In the [eScriptorium annotation tool](https://escripta.hypotheses.org/tag/escriptorium), the upper image highlights one line of the manuscript, which the user has transcribed in the lower panel. We can send this selected image region and transcribed text to the [Kraken OCR engine](http://kraken.re/) to train a new system.
 
 It’s convenient that we can avoid the tedium of segmenting one Arabic letter from the next—or even each word from the next—on a line of type. And it’s especially convenient that automatic line-segmentation models can break a page image into lines without much need for user correction. (The blue underlines in the image below show some of Ben Kiessling’s recent work on Kraken.) But what about the remaining task? It still sounds like a lot of work to type the contents of each line to tell the OCR system what output it should get from each input line image.
 
-[![](/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image3.jpg)](/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image3.jpg)
+[![]({{ "/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image3.jpg" | absolute_url }})]( {{ "/images/old_blogs/2020-07-16-OpenITI,-OCR,-and-Textual-Criticism//media/image3.jpg" | absolute_url }})
 
  
 

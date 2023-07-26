@@ -29,19 +29,19 @@ We ran [passim]({{ 'methods/text-reuse' | relative_url }}) – text reuse softwa
 
 In total, passim generated 1.03 million such files containing \~23 billion records (or instances of reuse) made up of 983 billion words. This means that 5.7% of the time, in comparing any book in the corpus to any other book in the corpus, it found at least one instance of common wording. This might seem remarkable. These books were comprehensively paired – the equivalent of comparing *Wuthering Heights* and *King Lear* – and 5.7% of the time passim found a common passage between such pairs. But, as with English greats, there are accidents of language, especially given the frequency of many Arabic names, words and phrases.
 
-[![](/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image1.jpg)](/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image1.jpg)
+[![]({{ "/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image1.jpg" | absolute_url }})]( {{ "/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image1.jpg" | absolute_url }})
 
 The above comparison represents an insignificant record of reuse. On the left is a passage from the [*Musnad*](https://github.com/OpenITI/0250AH/blob/master/data/0241IbnHanbal/0241IbnHanbal.Musnad/0241IbnHanbal.Musnad.JK000145-ara1) of Ahmad b. Hanbal (d. 241/855) and on the right a passage from the [*Kitab al-Tawhid*](https://github.com/OpenITI/0400AH/blob/master/data/0381IbnBabawayh/0381IbnBabawayh.Tawhid/0381IbnBabawayh.Tawhid.Shia001136-ara1) by Ibn Babawayh (d. 381/991–2). Passim detected this single instance of reuse between the two works, even though the *Musnad* totals \~1.7 million words and the *Kitab al-Tawhid* 140,000.
 
 When passim recorded only one such instance of reuse between two books, the substance of the reuse is virtually always of no interest and reveals no meaningful relationship between the books (e.g. no direct use or major common source). Similarly, two or three records of reuse are (most) often matters of pure accident. Of the \~1 million files, approximately 600,000 contain only three or fewer records.
 
-[![](/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image2.png)](/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image2.png)
+[![]({{ "/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image2.png" | absolute_url }})
 
 The graph above shows how much the data is dominated by files documenting, frankly, meaningless relationships. The y-axis tracks the number of files and the x-axis the number of records for a pair of compared books (specifically, 1 = at least one record in a file, 2 = at least two records, and so on). The number of files drops steeply as the number of records increases. There were \~18 million possible matches, and \~1 million times books match with at least one record. By contrast, the far right of the graph shows that there were about \~32,000 files with at least 100 matches.
 
 We do not know yet at what point in counting such instances we can assume two texts to have a historically meaningful relationship – and there was likely no specific tipping point at, say, four or five matches. But what is much more interesting is that most books in our corpus do have a significant relationship with at least one other book, and a very large number of them have a very substantial one. In other words, it is uncommon to find a book that is independent of all others. This is another way of slicing the same data.
 
-[![](/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image3.png)](/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image3.png)
+[![]({{ "/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image3.png" | absolute_url }})]( {{ "/images/old_blogs/2018-09-07-A-First-Look-at-KITAB’s-Data//media/image3.png" | absolute_url }})
 
 The above graph shows that many of our works have much in common with other works. The y-axis shows the number of books and the x-axis the number of records of reuse (specifically, 1 = at least one record in a file, 2 = at least two records, and so on). Of the 4,260 books analysed, 3,606 – or 85% – have at least twenty passages in common with another book. As you can see at the far right of the graph, of the 4,260 books, just over half (2,332) contain at least 100 records of passages shared with another book.
 

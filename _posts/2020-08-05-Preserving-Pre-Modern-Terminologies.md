@@ -23,7 +23,7 @@ Now, of course, we might simply call a zebra a black horse and ignore the white 
 
 To give a small but illustrative example: In the OpenITI/KITAB corpus, the term *takhrij* often occurs in the context of *mashyakhat* (sg. *mashyakha*), lists of an individual’s shaykhs, in the sense that a particular *mashyakha* is stated to be the ‘*mashyakha* of X, *takhrij* by Y’. For example, our corpus contains the *mashyakha* of Muhammad b. Ibrahim al-Bayani in the *takhrij* of Ibn Rafiʿ al-Sallami. This means that Ibn Rafiʿ al-Sallami contributed to the creation of the *mashyakha* of al-Bayani through an activity called *takhrij* (see below).
 
-[![](/images/old_blogs/2020-08-05-Preserving-Pre-Modern-Terminologies//media/image1.png)](/images/old_blogs/2020-08-05-Preserving-Pre-Modern-Terminologies//media/image1.png)
+[![]({{ "/images/old_blogs/2020-08-05-Preserving-Pre-Modern-Terminologies//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2020-08-05-Preserving-Pre-Modern-Terminologies//media/image1.png" | absolute_url }})
 
 Although there is variation with regard to their individual make-up, a *mashyakha* generally is a form of text which mentions the shaykhs of an individual and for each of the shaykhs mentioned adduces one or more Hadiths that were transmitted by him or her.
 
@@ -59,7 +59,7 @@ To an extent, this is what happens in contemporary library catalogues. Thus, wit
 
 This may be demonstrated by the two WorldCat entries for al-Bayani’s abovementioned *mashyakha*. In one entry, the work is attributed to Ibn Rafiʿ al-Sallami (i.e. the *mukharrij*); in the other entry, it is attributed to al-Bayani (= Ibn Imam al-Sakhra, i.e. the *mukharraj lahu*).
 
-[![](/images/old_blogs/2020-08-05-Preserving-Pre-Modern-Terminologies//media/image2.png)](/images/old_blogs/2020-08-05-Preserving-Pre-Modern-Terminologies//media/image2.png)
+[![]({{ "/images/old_blogs/2020-08-05-Preserving-Pre-Modern-Terminologies//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2020-08-05-Preserving-Pre-Modern-Terminologies//media/image2.png" | absolute_url }})
 
 At KITAB, we are convinced that such information must be recorded in our metadata in a consistent and machine-readable way*.* If our sources tell us that someone acted as a *mukharrij* for someone, we should *always* be able to retrieve the names of both *mukharrij* and *mukharraj lahu*, as well as the fact that they are linked through this particular relationship. We are convinced that being able to search our corpus metadata for information of this kind constitutes real progress in book history, and we are currently working out a system for how to *generally* preserve the premodern terminology we find in our texts and the various relations between texts and persons signified by terms such as *takhrij*, *mukharrij* and *mukharraj lahu*.
 
