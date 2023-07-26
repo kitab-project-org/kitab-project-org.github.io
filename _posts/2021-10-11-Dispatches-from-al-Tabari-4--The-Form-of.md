@@ -62,7 +62,7 @@ Aligning al-Tabari's Books
 
 Evidence of text reuse in al-Tabari's works indicates that he drew repeatedly on the same written sources in his writings.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi4/media/image1.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi4/media/image1.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi4/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi4/media/image1.png" | absolute_url }})
 
 Image 1. An excerpt from a longer alignment (displayed furthest to the right, with the excerpt circled in red) between passages based on Ibn Ishaq's *Sira* in al-Tabari's *Taʾrikh* (on the right; OpenITI, Shamela0009783, milestones 596--604) and in his *Tafsir* (on the left; OpenITI, Shamela0007798, milestones 9635--41). Text found only in the *Taʾrikh* is highlighted in green; text found only in the *Tafsir* is highlighted in blue. The long green block comes from Hisham b. Muhammad al-Kalbi. Alignment generated with Ryan Muther's adaptation of David Smith's passim software and fed into the OpenITI Diff viewer application (created by Peter Verkinderen, who also designed the way to visualise the location of the excerpt within the whole).
 

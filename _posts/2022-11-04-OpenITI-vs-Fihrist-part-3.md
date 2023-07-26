@@ -39,7 +39,7 @@ If we look at the books rather than the authors, the overlap between the OpenITI
 
 A visualisation may drive this point home more clearly than these rather abstract numbers:
 
-[![](/images/blogs/2022-11-04/peter_verkinderen3/media/image1.png)](/images/blogs/2022-11-04/peter_verkinderen3/media/image1.png)
+[![]({{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image1.png" | absolute_url }})
 
 Figure 1: The overlap of the authors and books in the OpenITI corpus (pre-400 AH) and the Fihrist. The red part of each bar represents books/authors found in the OpenITI corpus but not in the Fihrist, the blue part books/authors found only in the Fihrist but not in the OpenITI corpus, and the purple section books/authors found in both.
 
@@ -68,13 +68,13 @@ In the OpenITI corpus, the number of authors seems to grow steadily every centur
 
 The pattern becomes clearer if we break down the death date information by 25-year periods (Figure 2):
 
-[![](/images/blogs/2022-11-04/peter_verkinderen3/media/image2.png)](/images/blogs/2022-11-04/peter_verkinderen3/media/image2.png)
+[![]({{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image2.png" | absolute_url }})]( {{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image2.png" | absolute_url }})
 
 Figure 2: Percentages of OpenITI authors who died before 400 AH, in the Corpus (in red) vs. in the Fihrist (in blue), grouped by 25-year periods. The label on the X axis reflects the end of each 25-year period (that is, the bar at "100" reflects the percentage of authors who died between 75 and 100 AH). Note that the first bar from the left includes all pre-Islamic authors. Slightly less than 5% of the 741 pre-400 AH OpenITI authors predate the year 25 AH; and about the same percentage of the 255 pre-400 AH OpenITI authors mentioned in the Fihrist.
 
 The percentage of death dates of OpenITI authors in the Fihrist tops in the first quarter of the fourth century (bar labeled "325"), and then drops significantly for the next 75 years, which is presumably the period in which Ibn al-Nadim, who died around 380/990, wrote the Fihrist. This suggests that he included more "dead" authors than living ones. However, since we did not undertake this analysis for all authors in the Fihrist, but only for those who are also in the OpenITI, another interpretation is possible: if a work written before, say, the beginning of the 4^th^ century survived long enough and was spread widely enough to make it into Ibn al-Nadim's Fihrist, it is more likely that it survives to make it into the OpenITI corpus than a work written during Ibn al-Nadim's own lifetime.
 
-[![](/images/blogs/2022-11-04/peter_verkinderen3/media/image3.png)](/images/blogs/2022-11-04/peter_verkinderen3/media/image3.png)
+[![]({{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image3.png" | absolute_url }})]( {{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image3.png" | absolute_url }})
 
 Figure 3: Percentages of OpenITI books written by authors who died before 400 AH, in the Corpus (in red) vs. in the Fihrist (in blue), grouped by 25-year periods. The label on the X axis reflects the end of each 25-year period (that is, the bar at "100" reflects the percentage of authors who died between 75 and 100 AH). Note that the first bar, which includes all books written by pre-Islamic authors, is very small in comparison to the same bar in the authors' graph; this is because almost all of these authors are poets, and their collections have not been tagged as books in the Fihrist text. About 16% of the 741 pre-400 AH OpenITI authors died in the last quarter of the fourth century; but only about 5% of the 255 pre-400 AH OpenITI authors mentioned in the Fihrist.
 
@@ -87,25 +87,25 @@ As we have seen [before](https://kitab-project.org/OpenITI-vs-Fihrist-part-1), t
 
 If we count the authors and books [tagged](https://kitab-project.org/OpenITI-vs-Fihrist-part-2/#tagging-of-authors-and-books) in each chapter (*maqala*) in the Fihrist, we can observe that the numbers fluctuate heavily from chapter to chapter:
 
-[![](/images/blogs/2022-11-04/peter_verkinderen3/media/image4.png)](/images/blogs/2022-11-04/peter_verkinderen3/media/image4.png)
+[![]({{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image4.png" | absolute_url }})]( {{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image4.png" | absolute_url }})
 
 Figure 4: Number of authors (in blue) and books (in red) tagged in the different chapters (*maqala*s) of the Fihrist text (with tags \`\#\#\# \|+ \$\` and \`\#\#\# \$\$\`, respectively). For the key words assigned to each chapter, see [above](https://kitab-project.org/OpenITI-vs-Fihrist-part-2/#assigning-categorical-tags).
 
 Maqala 3, on history and related subjects, contains by far the largest number of tagged books (1687 books), while the smallest number of tagged books is found in chapter 9, on non-Muslim sects (only 86 books). Especially the first and last three chapters contain only small numbers of books and authors. In all chapters, the number of books is much higher than the number of authors (between 4 and 30 times higher), except for chapter 4, where Ibn al-Nadim lists collections of the poems of a specific poet only under the name of the poet, without book titles, and I have refrained from tagging references to such collections as books (see [above](https://kitab-project.org/OpenITI-vs-Fihrist-part-2/#identifying-authors-and-books)).
 
-[![](/images/blogs/2022-11-04/peter_verkinderen3/media/image5.png)](/images/blogs/2022-11-04/peter_verkinderen3/media/image5.png)
+[![]({{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image5.png" | absolute_url }})]( {{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image5.png" | absolute_url }})
 
 Figure 5: Sample from the poetry chapter, mentioning poets and how many pages of their poems are extant, but no direct mention of a book.
 
 In order to compare this Fihrist data to the OpenITI, I have added broad topic tags based on the Fihrist chapters to all pre-400AH books in the OpenITI corpus in a [spreadsheet](https://docs.google.com/spreadsheets/d/17VJ1YEnRrYXZnA7A7UwArAsZuvQxEW5vYpVQDiKMDak/edit?usp=sharing) (see the methodology)
 
-[![](/images/blogs/2022-11-04/peter_verkinderen3/media/image6.png)](/images/blogs/2022-11-04/peter_verkinderen3/media/image6.png)
+[![]({{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image6.png" | absolute_url }})]( {{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image6.png" | absolute_url }})
 
 Figure 6: pre-400 AH books in the OpenITI corpus, by topic tag. The first 10 tags agree with the Fihrist's chapters, the other tags were created for books that did not fit into these categories easily.
 
 In order to compare the genre distribution of the Fihrist and OpenITI, it is useful to put both into one graph:
 
-[![](/images/blogs/2022-11-04/peter_verkinderen3/media/image7.png)](/images/blogs/2022-11-04/peter_verkinderen3/media/image7.png)
+[![]({{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image7.png" | absolute_url }})]( {{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image7.png" | absolute_url }})
 
 Figure 7: Number of books for each topic in the Fihrist and the pre-400 AH OpenITI corpus. For the Fihrist, the chapters were taken as topic indicators; for the OpenITI, tags were manually attached to each book. Books that are in the Fihrist but not OpenITI are in red, OpenITI books not found in the Fihrist in blue. OpenITI books found in the Fihrist are in purple; the darker shade of purple indicates that the book was given the tag corresponding to the Fihrist chapter in the OpenITI spreadsheet, the lighter purple that another tag was given to the book in the OpenITI spreadsheet (for example, all Jahiz's books appear in the fifth chapter (THEOLOGY), but most were given the HISTORY tag in the OpenITI spreadsheet because that chapter in the Fihrist covers *adab* literature).
 
@@ -120,7 +120,7 @@ The regional background of the OpenITI vs. the Fihrist
 
 We can also break down the data on a regional level, based on the metadata on the primary geographical association of early authors in the OpenITI corpus [collected by Aslisho Qurboniev](https://kitab-project.org/b/) and stored in the OpenITI corpus' author metadata files. When we count the regions these authors are associated with, the data shows that the vast majority of authors that feature both in the Fihrist and the OpenITI came from Iraq or its neighbouring regions (187 out of the 234 identified locations, ca. 80%). The entire region to the West of Egypt is absent (apart from one author, Ibn Abi Zayd al-Qayrawani).
 
-[![](/images/blogs/2022-11-04/peter_verkinderen3/media/image8.png)](/images/blogs/2022-11-04/peter_verkinderen3/media/image8.png)
+[![]({{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image8.png" | absolute_url }})]( {{ "/images/blogs/2022-11-04/peter_verkinderen3/media/image8.png" | absolute_url }})
 
 Figure 8: regional distribution of the authors that feature both in the OpenITI and the Fihrist. In bold: Iraq and neighbouring regions.
 

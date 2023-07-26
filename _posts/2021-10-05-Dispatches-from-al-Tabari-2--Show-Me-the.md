@@ -36,7 +36,7 @@ We collected all *isnad*s from the *Taʾrikh*, the *Tafsir* and the *Tahdhib* th
 
 We put each *isnad* into a row in a CSV file.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi2/media/image1.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi2/media/image1.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi2/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi2/media/image1.png" | absolute_url }})
 
 Image 1: A section of al-Tabari's *Taʾrikh*, tagged with OpenITI mARkdown encoding (implemented in EditPad Pro), with a transmission chain featuring Muhammad b. Humayd al-Razi (d. 248/862) transmitting to al-Tabari from Jarīr b. ʿAbd al-Hamid (d. 188/804). Muhammad b. Humayd also transmitted material from Muhammad b. Ishaq's (d. 150/767) *Sira* to al-Tabari.
 

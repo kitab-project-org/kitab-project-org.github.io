@@ -39,7 +39,7 @@ What follows is a series of visualisations of six possible -- even likely -- col
 
 **Notebook 1: Bishr b. Muʿadh** (d. 245/859--60), cited 2,418 times, filtered to 2,387 chains of at least three transmitters.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png" | absolute_url }})
 
 Image 1: The possible structure of al-Tabari's notes on his lessons with Bishr b. Muʿadh in Basra.
 
@@ -51,7 +51,7 @@ Al-Tabari used this notebook mainly for the *Jāmiʿ al-bayān*, but he also pic
 
 **Notebook 2: Muhammad b. Humayd al-Razi** (d. 248/862), cited 2,879 times, filtered to 2,312 chains of at least three transmitters.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png" | absolute_url }})
 
 Image 2: The possible structure of al-Tabari's notes on his lessons with Muhammad b. Humayd in Rayy.
 
@@ -67,7 +67,7 @@ It would be worthwhile to compare the fragmentary Quran commentary attributed to
 
 **Notebook 3: Al-Muthanna b. Ibrahim al-Amuli** (d. unknown), cited 2,259 times, filtered to 1,973 chains of at least three people.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png" | absolute_url }})
 
 Image 3: The possible structure of al-Tabari's notes from his lessons with al-Muthanna in Rayy (possibly Amul also).
 
@@ -87,7 +87,7 @@ This hierarchy of prestige can be detected in al-Tabari's citations. Consider th
 
 **Notebooks 4 and 5:** **Ismaʿil b. ʿAbd al-Rahman al-Suddi** (d. ca. 127/745) via **Musa b. Harun al-Hamdani** (d. unknown) and **Muhammad b. al-Husayn** (d. 261/874), respectively.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png" | absolute_url }})
 
 Image 4: The possible structure of al-Tabari's notes from his lessons with Musa b. Harun al-Hamdani (d. unknown) and Muhammad b. al-Husayn (d. 261/874).
 
@@ -97,7 +97,7 @@ Examining these citations, G. H. A. Juynbol questioned the degree to which the m
 
 **Notebook 6: ʿAbd Allah b. al-ʿAbbas** (d. ca. 68/687--8) via Muhammad b. Saʿd (d. 276/889).
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png" | absolute_url }})
 
 Image 5: The possible structure of al-Tabari's notes on information received through a family *isnad* from Muhammad b. Saʿd (d. 276/889) in Baghdad.
 

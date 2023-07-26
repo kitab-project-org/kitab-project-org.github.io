@@ -24,7 +24,7 @@ On this page, we will provide a relatively detailed overview of how the automati
 The first step was to create training data for the model. A number of team members (the annotators) worked together to read a variety of OpenITI texts and insert two types of tags into the text: \@ISB@ to mark the beginning of an *isnad* and \@ISE@ to mark the end of an *isnad*. The annotators studied 2,000 lines in each text that they worked on, spreading their annotations throughout the text (for example, they might look at 200 lines, skip 1,000 lines, look at another 200 lines, and so on until they had looked at 2,000 lines in total). By logging the lines that they studied, the annotators provided both positive and negative feedback for the model. For example, if the annotator found no *isnads* in one set of 200 lines and did not add any *isnad* tags to it, the model would know that it should not identify any *isnad*s in that section.
 
 {% capture image1 %}
-[![Isnad tags in a text](/images/methods/isnads_tag.png)](/images/methods/isnads_tag.png)
+[![Isnad tags in a text]({{ "/images/methods/isnads_tag.png" | absolute_url }})]( {{ "/images/methods/isnads_tag.png" | absolute_url }})
 
 Image 1: A screenshot of Ibn Hisham's *Sira* in EditPad Pro with the beginnings and ends of *isnad*s annotated.
 {% endcapture %}
@@ -35,7 +35,7 @@ Image 1: A screenshot of Ibn Hisham's *Sira* in EditPad Pro with the beginnings 
 Once some texts had been tagged, Ryan Muther, the computer scientist working on the *isnad* classifier, used those texts and their tags to train the *isnad*-classifier model. The newly trained model was then used to identify *isnad*s in texts without tags, and this data was used to insert beginning and end tags into the text.
 The annotators subsequently evaluated the machine-inserted tags, moving, deleting or inserting tags as needed. At the same time, the annotators made observations about the positions of the machine-inserted tags and the general quality of the automatic detection. These observations helped guide the creation of more training data by, for example, prompting the annotators to tag more texts of a certain genre.
 {% capture flo_img %}
-[![The process of training a model](/images/methods/Isnad_process.png)](/images/methods/Isnad_process.png){: .align-center}
+[![The process of training a model]({{ "/images/methods/Isnad_process.png" | absolute_url }})]( {{ "/images/methods/Isnad_process.png" | absolute_url }}){: .align-center}
 Image 2: A flowchart illustrating the process of annotation and review used to train the *isnad* detector.
 {% endcapture %}
 <div class="notice--primary">{{ flo_img | markdownify}}
@@ -46,7 +46,7 @@ When training a model, it is important to know how difficult the task is for a h
 ### How does the algorithm work?
 Put simply, the algorithm learns to identify the position of *isnad*s by recognising the kinds of words that are common to *isnad*s and the kinds of words that are more commonly found outside of *isnad*s. In addition, it identifies words that commonly start *isnad*s. Table 1 illustrates how the model classifies sample words in the training data set.
 {% capture tags_table %}
-[![Table of isnad tags](/images/methods/Isnad-tags-table.png)](/images/methods/Isnad-tags-table.png)
+[![Table of isnad tags]({{ "/images/methods/Isnad-tags-table.png" | absolute_url }})]( {{ "/images/methods/Isnad-tags-table.png" | absolute_url }})
 Table 1: Examples of how the model would tag certain words in the training data. 'Out' means outside of an *isnad*, 'in' means inside an *isnad*, and 'beg' means the first word of an *isnad*.
 {% endcapture %}
 <div class="notice--primary">

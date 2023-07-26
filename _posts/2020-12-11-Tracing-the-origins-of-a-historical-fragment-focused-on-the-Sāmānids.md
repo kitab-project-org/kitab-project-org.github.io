@@ -24,7 +24,7 @@ The fragment seems likely to come from a text that is otherwise no longer extant
 
 Given the author’s familiarity with the city of Bukhara and his closeness to the events described, it seems possible that what we have comes from the original Arabic text of Narshakhi’s (d. unknown) *History of Bukhara*, which otherwise exists only in an abridged Persian translation from 522/1128, but more work is required to say for sure. In any event, we can be fairly sure that the text does not correspond to any known text in Arabic. The KITAB team ran a transcription of the manuscript (made by Kosar Mirrazi) through its text reuse software package and found no matches, which further supports our theory that this text has no surviving precedent.
 
-[![](/images/old_blogs/2020-12-11-Tracing-the-origins-of-a-historical-fragment-focused-on-the-Sāmānids//media/image1.png)](/images/old_blogs/2020-12-11-Tracing-the-origins-of-a-historical-fragment-focused-on-the-Sāmānids//media/image1.png)
+[![]({{ "/images/old_blogs/2020-12-11-Tracing-the-origins-of-a-historical-fragment-focused-on-the-Sāmānids//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2020-12-11-Tracing-the-origins-of-a-historical-fragment-focused-on-the-Sāmānids//media/image1.png" | absolute_url }})
 
 A folio from MS Heb. 8333.191=4, housed at the National Library of Israel. The image is from the full catalogue entry, which can be accessed [here](https://www.nli.org.il/en/manuscripts/NNL_ALEPH003924972/NLI).
 

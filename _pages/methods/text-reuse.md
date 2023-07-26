@@ -52,7 +52,7 @@ The result of the above process for any pair of texts is one csv (comma-separate
 This individual alignment file can then be viewed using KITAB's alignment reader (see Figure 1), which helps us visualise how text is shared between a pair of works.
 
 {% capture figure1 %}
-[![A comparison of the Nujum and Kamil](/images/methods/pair-wise-Nujum-Kamil.png)](/images/methods/pair-wise-Nujum-Kamil.png)
+[![A comparison of the Nujum and Kamil]({{ "/images/methods/pair-wise-Nujum-Kamil.png" | absolute_url }})]( {{ "/images/methods/pair-wise-Nujum-Kamil.png" | absolute_url }})
 
 Figure 1: A visualisation comparing Ibn Taghribirdi's (d. 874/1470) *Nujum al-zahira* on the top with Ibn al-Athir's (d. 630/1233) *al-Kamil fi al-taʾrikh* on the bottom. Yellow lines indicate reused text, and the red bars show the length of each instance of reuse. One can clearly see how Ibn Taghribirdi condensed the Ibn al-Athir's material when writing his chronicle, as both chronicles end with their author's lifetimes. For more on the visualisation, see [here]({{ "/data/viz" | relative_url }}).
 {% endcapture %}

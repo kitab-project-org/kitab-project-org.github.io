@@ -21,4 +21,4 @@ The British Association for Islamic Studies (BRAIS) and De Gruyter have announce
 
 Gowaart will be turning his dissertation into a monograph and plans to enrich it by including data from his ongoing work in the KITAB project.
 
-[![](/images/old_blogs/2020-11-19-KITAB-postdoc-Gowaart-Van-Den-Bossche-wins-BRAIS-De-Gruyter-dissertation-prize-–-2020//media/image1.jpg)](/images/old_blogs/2020-11-19-KITAB-postdoc-Gowaart-Van-Den-Bossche-wins-BRAIS-De-Gruyter-dissertation-prize-–-2020//media/image1.jpg)
+[![]({{ "/images/old_blogs/2020-11-19-KITAB-postdoc-Gowaart-Van-Den-Bossche-wins-BRAIS-De-Gruyter-dissertation-prize-–-2020//media/image1.jpg" | absolute_url }})]( {{ "/images/old_blogs/2020-11-19-KITAB-postdoc-Gowaart-Van-Den-Bossche-wins-BRAIS-De-Gruyter-dissertation-prize-–-2020//media/image1.jpg" | absolute_url }})

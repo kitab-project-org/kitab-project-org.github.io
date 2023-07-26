@@ -21,7 +21,7 @@ But just how much was the tradition in flux? Now that thousands of print edition
 
 A major task for the KITAB team is to work out just how much variation there is in titles. We have been doing this by comparing our text files to scanned versions of editions and, in some cases, physical books and recording differences in our GitHub repository (Table 1).
 
-[![](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image1.png)](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image1.png)
+[![]({{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image1.png" | absolute_url }})
 
 Table 1: The KITAB annotation team records issues while annotating texts. This work informs which version is labelled the ‘primary’ version in our corpus. Our statistics on corpus-wide text reuse rely on primary versions only.
 
@@ -43,7 +43,7 @@ The median is the more important number for reckoning the general state of the c
 
 We can also consider this data on a per-century basis.
 
-[![](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image2.png)](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image2.png)
+[![]({{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image2.png" | absolute_url }})
 
 Image 1: A boxplot graph showing the degree of matching between different versions of a work across the centuries.
 
@@ -55,7 +55,7 @@ Whichever way we look at the data, the median words-matched numbers indicate rat
 
 Then there are the outliers.
 
-[![](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image3.png)](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image3.png)
+[![]({{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image3.png" | absolute_url }})]( {{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image3.png" | absolute_url }})
 
 Image 2: A graph based on the same versioning data. The circled area in the visualisation represents 2,061, or 64%, of the comparisons of versions. The other 36% of compared version pairs show sharper – and sometimes very sharp – differences.
 
@@ -69,7 +69,7 @@ Both graphs show us outliers that require attention, though in different ways. T
 
 But what are these outliers – the texts whose versions differ significantly? As examples, let us consider three situations, labelled A–C in the table below, which summarises the relevant data:
 
-[![](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image4.png)](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image4.png)
+[![]({{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image4.png" | absolute_url }})]( {{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image4.png" | absolute_url }})
 
 Table 2: Differences within pairs of versions of three different works – Abu Hasan ʾIjli (d. 261/874-5), Ibn Saʿd (d. 230/845) and Abu al-Faraj al-Isfahani (d. after 360/971).
 
@@ -85,7 +85,7 @@ Some of these cases represent errors that are rather easily identified and remed
 
 When we align two books using one of KITAB’s data visualisations, we can often see what is happening. By way of example, see below:
 
-[![](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image5.png)](/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image5.png)
+[![]({{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image5.png" | absolute_url }})]( {{ "/images/old_blogs/2019-11-14-Judging-the-Differences-between-Arabic-Text-Versions-Mathematically//media/image5.png" | absolute_url }})
 
 **Image 3**: The top of the graph shows the short ‘version’ of Ibn Kathir’s *Bidaya wa-l-nihaya* (Shamela0023678), with the text, in 300-word chunks, running along the x-axis. The bottom shows a longer version (Shia003593Vols), also chunked in 300-word segments. The yellow lines represent alignments between the two texts. The scattered red lines in the bottom part of the graph likely indicate that the longer version is itself repetitive and matches more than one part of the short text.
 

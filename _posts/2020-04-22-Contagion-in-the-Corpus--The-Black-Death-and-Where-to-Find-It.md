@@ -29,13 +29,13 @@ To quote Maxim, the NgramReader+ ‘charts diachronic frequencies of words and p
 
 The Arabic sources confront us with two terms used somewhat interchangeably for the plague: *taʿun* and *wabaʾ*. This is no problem for our purposes, as the great thing about the NgramReader+ is that it allows you to run searches for up to five terms at once. I put both these terms into the Ngram prompt. What emerged is that neither *taʿun* nor *wabaʾ* have a very strong presence in our corpus, but that logical trends in their usage seem to be discernible. Logical, because the peaks of usage for these terms appear to follow the eighth/fourteenth and ninth/fifteenth centuries, when the pandemic hit repeatedly throughout the Middle East.
 
-[![](/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image1.png)](/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image1.png)
+[![]({{ "/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image1.png" | absolute_url }})
 
 Figure 1: The absolute frequency of *taʿun* and *wabaʾ* in the corpus by half-century.
 
 The graph in Figure 1 provides absolute numbers for term occurrence, showing that *taʿun* peaked in the late ninth/fifteenth and early tenth/sixteenth centuries, and that *wabaʾ* experienced a sharp drop-off after that period. One of the possible reasons for this is that the ninth/fifteenth century especially saw a huge boost in textual production, especially historiography, much of which would have been retrospective. Some of the richest sources on the eighth/fourteenth-century plague were produced not at the time of that pandemic but in the following century. Furthermore, the early Ottoman period also saw several pandemic periods.
 
-[![](/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image2.png)](/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image2.png)
+[![]({{ "/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image2.png" | absolute_url }})
 
 Figure 2: The relative frequency of *taʿun* and *wabaʾ* in the corpus by half-century.
 
@@ -49,7 +49,7 @@ As a further excursus into book history in its manuscript form, I would like to 
 
 Similarly, a manuscript of the same text from the Damascene Zahiriyya Library (number 62), of which a microfilm scan circulates online, showcases how the very pages of a manuscript could become an arena of scholarly debate: the margins and title page contain various reading notes elaborating on issues raised in the main text.
 
-[![](/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image3.png)](/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image3.png)
+[![]({{ "/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image3.png" | absolute_url }})]( {{ "/images/old_blogs/2020-04-22-Contagion-in-the-Corpus--The-Black-Death-and-Where-to-Find-It//media/image3.png" | absolute_url }})
 
 Figure 3: A scan of the title page of a Zahiriyya Library copy of *al-Badhl al-maʿun* with a rather extensive amount of annotation.
 

@@ -19,7 +19,7 @@ tags:
 ---
 With text reuse detection, we rely on the power, speed and memory of a computer to find common passages between texts.
 
-[![](/images/old_blogs/2018-05-02-Detecting-What-Authors-Took-from-Earlier-Works//media/image1.gif)](/images/old_blogs/2018-05-02-Detecting-What-Authors-Took-from-Earlier-Works//media/image1.gif)
+[![]({{ "/images/old_blogs/2018-05-02-Detecting-What-Authors-Took-from-Earlier-Works//media/image1.gif" | absolute_url }})]( {{ "/images/old_blogs/2018-05-02-Detecting-What-Authors-Took-from-Earlier-Works//media/image1.gif" | absolute_url }})
 
 In our data so far, we can already see hundreds, or even thousands, of cases that point to the liquidity of the written tradition. By ‘liquid’, I mean that texts were often reused to form new books. For readers, it was nothing unusual to access old texts through new ones. This was true in the earliest times (e.g. third/ninth century) and continued in different ways for centuries afterwards.
 
@@ -45,7 +45,7 @@ There are many cases to consider, such as an early collection attributed to Hamm
 
 We find many other cases with Ahmad’s *Musnad*. For example, Abu al-Qasim al-Tabarani (d. 360/961) reportedly travelled for some thirty years, learning and collecting Hadiths from a large number of masters in the course of a *riḥla fi talab al-ʿilm*.[^8] Our data reveals more than 3,700 records of common passages between his *Muʿjam al-kabir* and the *Musnad*, including many that occur in the same order, as our data visualisation shows.
 
-[![](/images/old_blogs/2018-05-02-Detecting-What-Authors-Took-from-Earlier-Works//media/image2.png)](/images/old_blogs/2018-05-02-Detecting-What-Authors-Took-from-Earlier-Works//media/image2.png)
+[![]({{ "/images/old_blogs/2018-05-02-Detecting-What-Authors-Took-from-Earlier-Works//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2018-05-02-Detecting-What-Authors-Took-from-Earlier-Works//media/image2.png" | absolute_url }})
 
 Graph 1: Ahmad b. Hanbal’s *Musnad* is laid out along the x-axis on the top in 100-word segments, and al-Tabarani’s *al-Muʿjam al-kabir* is laid out similarly in the bottom graph. The yellow lines show where our algorithm, passim, has detected shared passages of text. The consecutiveness of the reused passages suggests reuse of chunks of material.
 

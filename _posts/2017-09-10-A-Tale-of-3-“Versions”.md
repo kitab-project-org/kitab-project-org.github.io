@@ -45,13 +45,13 @@ All three of these transmissions were among those used by Dutton in his *The Ori
 
 The **first issue** has been generally known, but neither in full extent nor in full detail. It is that the wording of Yahya b. Yahya’s transmission is close to that of Abu Musʿab’s, but their order is significantly different. Our data visualisation below compares the two transmissions.
 
-[![](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image1.png)](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image1.png)
+[![]({{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image1.png" | absolute_url }})
 
 Graph 1: Yahya b. Yahya’s transmission is laid out along the x-axis on the top in 100-word segments, and Abu Musʿab’s is laid out similarly on the bottom. The red lines mark shared text passages (the longer the red line, the longer the passage). The yellow lines show where the shared passages fall in the two works.
 
 The difference in order can be seen clearly by looking at the yellow lines. When they cross, we can detect rearrangement, and there are at least seven parts of the text that have been rearranged:
 
-[![](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image1.png)](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image1.png)
+[![]({{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image1.png" | absolute_url }})
 
 Graph 2: As in graph 1, but the crossing over of the yellow lines indicate divergences in the sequence of common passages.
 
@@ -61,21 +61,21 @@ The **second issue** to become apparent is that it is very hard to consider al-S
 
 When represented graphically, in fact, al-Shaybani’s text looks a lot more like a commentary on the *Muwattaʾ* than a straightforward version of it.
 
-[![](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image2.png)](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image2.png)
+[![]({{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image2.png" | absolute_url }})
 
 Graph 3: Al-Shaybani’s text is laid out along the x-axis above, and the *Muwattaʾ* transmitted by Yahya is below.
 
-[![](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image3.png)](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image3.png)
+[![]({{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image3.png" | absolute_url }})]( {{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image3.png" | absolute_url }})
 
 Graph 4: Al-Shaybani’s text is again laid out along the x-axis above, now with the *Muwattaʾ* transmitted by Abu Musʿab below.
 
 I say that al-Shaybani’s text looks like a commentary because a commentator often reuses words from the commented text and accompanies them with his/her own words that explain it. So you would expect to see shared passages, but they would not be continuous. Graphically, a commentator’s words would result in white space on the graph. For example, in Graphs 5 and 6 below, we have comparisons of a self-proclaimed commentary on the *Muwattaʾ* – *al-Tamhid li-ma fi al-Muwattaʾ min al-maʿani wa-l-asanid* by the Cordovan Ibn ʿAbd al-Barr (d. 463/1070) – with the transmissions of the *Muwattaʾ* by Yahya and Abu Musʿab.
 
-[![](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image4.png)](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image4.png)
+[![]({{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image4.png" | absolute_url }})]( {{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image4.png" | absolute_url }})
 
 Graph 5: Yahya’s text of the *Muwattaʾ* is laid out along the x-axis above, with Ibn ʿAbd al-Barr’s commentary on the work below (OpenITI URI: 0463IbnCabdBarr.TamhidMuwatta.JK000585-ara1).
 
-[![](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image5.png)](/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image5.png)
+[![]({{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image5.png" | absolute_url }})]( {{ "/images/old_blogs/2017-09-10-A-Tale-of-3-“Versions”//media/image5.png" | absolute_url }})
 
 Graph 6: Abu Musʿab’s *Muwattaʾ* is shown in the top part of the graph, and Ibn ʿAbd al-Barr’s commentary is laid out below.
 

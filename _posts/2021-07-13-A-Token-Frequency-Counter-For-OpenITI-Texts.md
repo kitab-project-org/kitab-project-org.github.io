@@ -33,13 +33,13 @@ The tool can be found [here](https://openiti.github.io/tokenFrequency/).
 
  
 
- [![](/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image1.png)](/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image1.png)
+ [![]({{ "/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image1.png" | absolute_url }})]( {{ "/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image1.png" | absolute_url }})
 
  
 
 In its simplest form, you upload a text and get a table with token frequency counts in return. You can browse through the table online or download it as a csv file (by clicking ‘Download table as csv file’ at the top of the table) that you can import into a spreadsheet program.
 
-[![](/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image2.png)](/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image2.png)
+[![]({{ "/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image2.png" | absolute_url }})]( {{ "/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image2.png" | absolute_url }})
 
 An additional advantage of building such a tool yourself is that you can customise it to your own wishes. I added a number of options I would personally find useful:
 
@@ -51,7 +51,7 @@ An additional advantage of building such a tool yourself is that you can customi
 
 -   an option to split off a metadata header, so that words that are not really part of the text are not counted in. By default, the OpenITI metadata header is split off from the main body of the text, but you can also provide a regular expression of your own to split off headers that are delimited in another way.
 
-[![](/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image3.png)](/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image3.png)
+[![]({{ "/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image3.png" | absolute_url }})]( {{ "/images/old_blogs/2021-07-13-A-Token-Frequency-Counter-For-OpenITI-Texts//media/image3.png" | absolute_url }})
 
 This was a really quick build; if you would find more options useful, don’t hesitate to contact me!
 
