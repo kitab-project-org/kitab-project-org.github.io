@@ -1,0 +1,15 @@
+name: Full Workflow - Convert blogs and deploy site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-blog-converter:
+     uses: ./.github/workflows/convertBlogs.yml
+     secrets:
+       token: ${{secrets.ACTIONS_ACCESS}}
+  call-deploy-workflow:
+    needs: call-blog-converter
+    uses: ./.github/workflows/jekyll.yml
