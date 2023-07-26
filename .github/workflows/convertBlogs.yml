@@ -26,6 +26,6 @@ jobs:
         uses: Andro999b/push@v1.3
         with:
           github_token: ${{ secrets.token }}
-          branch: main
+          branch: master
           force: true
           message: 'Overwritten by Github Actions - ${date}'
