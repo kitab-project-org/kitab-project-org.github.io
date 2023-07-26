@@ -56,10 +56,10 @@ corpus_search:
       {% if latest_post.image %}
       <img src = {{ latest_post.image }} </img>
       {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
       </div>
-      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url }}">read more</a></b>
+      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url | absolute_url }}">read more</a></b>
       
       
       
