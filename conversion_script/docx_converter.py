@@ -23,7 +23,7 @@ else:
         pypandoc.get_pandoc_path()
     except OSError:
         pypandoc.download_pandoc()
-pypandoc.convert_file(source, to='html', outputfile=dest)
+
 
 # Getting main directory as script path
 
