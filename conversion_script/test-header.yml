@@ -1,0 +1,27 @@
+---
+author: peter_verkinderen
+categories:
+- null
+- null
+glossary:
+- text: '**mARkdown:** The annotation system used on OpenITI texts, see the documentation
+    for more details.<br><br>'
+  title: Glossary
+- text: Test text
+  title: Title 2
+- Text: text3
+  Title: title3
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2022-11-04/peter_verkinderen2/media/image1.png
+layout: single
+sidebar: null
+tags:
+- corpus
+- book-history
+title: 'OpenITI and the Fihrist: Methodology'
+---
