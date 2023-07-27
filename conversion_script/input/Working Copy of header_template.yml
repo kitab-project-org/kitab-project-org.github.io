@@ -1,15 +1,22 @@
----
 header:
   overlay_image: "/images/covers/banner_blog.jpg"
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title:			
-author:		
-layout:		single
+title:
+author: joe_bloggs
+layout: single
 categories:
   - 
   - 
 tags:
   - 
----
+docx: mathew.Reading_mARkdown_revised.docx
+new_author:
+  - name: "Joe Bloggs"
+    bio: "A biography for Joe Bloggs"
+glossary:
+  - term: "header"
+    def: "Headers are found in text"
+  - term: "Fatimids"
+    def: "A dynasty that opposed the Abbasids"

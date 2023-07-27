@@ -10,14 +10,15 @@ import pypandoc
 import re
 import os
 import sys
+import shutil
 from datetime import date
 from datetime import datetime
 import json
 import yaml
 from shared_utilities import set_directories
 from shared_utilities import clean_yml_to_dict
-from update_blog_gloss import fetch_gloss
-from update_blog_gloss import find_terms
+from update_blog_gloss import fetch_glossary
+from update_blog_gloss import find_terms_add_to_glossary
 from update_blog_gloss import update_blog_gloss
 
 
@@ -47,7 +48,7 @@ def docx_conv(root, name, images_path):
     return blog
 
 def update_glossary_dict(gloss_path, new_entries):
-  gloss = fetch_gloss(gloss_path)
+  gloss = fetch_glossary(gloss_path)
   
   # Loop through new entries and check they comply
   for entry in new_entries:
@@ -74,14 +75,74 @@ def update_glossary_dict(gloss_path, new_entries):
       with open(gloss_path, "w", encoding='utf-8') as f:
           f.write(json.dumps(gloss, indent = 1))
       
-    
-    
+def clean_md_update_image_routing(blog_text):
+      # Cleaning out uncessary md and tags from the final piece and converting images so they link to gallery view
+      blog_text = re.sub(r"\!\[.*?\]\(.*(/images/[^)]*)\)", r"[![](\1)](\1)", blog_text)
+      blog_text = re.sub(r"{width=.*?}", "", blog_text)
+      
+      # Fixing image and link routing - using absolute_path in liquid
+      blog_text = re.sub(r"(\[!?\[[^]]*\]\()([^)|]*)(\)\]\()([^)]*)(\))", r"\1{{ \2 | absolute_url }}\3{{ \4 | absolute_url }}\5", blog_text)
+      blog_text = re.sub(r"(\[[^]]*\]\()([^)|]*)(\))", r"\1{{ \2 | absolute_url }}\3", blog_text)
+
+      # Remove double underlines (sometimes added in conversion of hyperlinks)
+      blog_text = re.sub(r"\[<u>(.*)</u>\]", "", blog_text)
+      
+      blog_text = re.sub(r"\[([^\[\]]*)\]{\.ul}", r"\1", blog_text)
+      
+      # Fix footnotes to gfm standard
+      blog_text = re.sub(r"\[(\d{1,2}\])[^(]", r"[^\1", blog_text)
+      # This appears to cause a corruption
+      # blog_text = re.sub(r"(\n\[\^\d{1,2}\])[^(]", "\1:", blog_text)
+      
+      # Fix tables to gfm standard
+      blog_text = re.sub(r"\|\r\r\n", "|\n", blog_text)
+      blog_text = re.sub(r"(\| {3,})+\|", "", blog_text)
+      
+      # Remove rtl and ltr markers
+      blog_text = re.sub(r"\[([^\]]*)\]{dir=\"rtl\"}", r"\1", blog_text)
+      blog_text = re.sub(r"\[?\]?{dir=\"rtl\"}", "", blog_text)
+      blog_text = re.sub(r"\[?\]?{dir=\"ltr\"}", "", blog_text)
+      
+      # Change out non-gfm headings
+      blog_text = re.sub(r"(.*\r)\r\n.*-{3,40}", r"\1", blog_text)
+      
+      # Identify and replace any numbered list indentations
+      instances = re.findall(r"(\n\d+\..*([\r\n]+>.*)+)", blog_text)
+      for group1, group2 in instances:
+          new_instance = re.sub(r"\n>\s", "\n\t", group1)
+          print(new_instance)
+          blog_text = blog_text.replace(group1, new_instance)
+      
+      return blog_text
+
+def add_thumb_image(header_dict, blog_text):
+  images = re.findall(r"(/images/[^\"]*)", blog_text)
+  if len(images) > 0:
+      header_dict["image"] = images[0]
+  return header_dict
+
+def build_file_name(blog_dir, header_dict):
+   title = header_dict["title"]
+   title_s = re.sub(r"[\s:/.,]", "-", title[0])[:40]
+   
+  #  # Get existing titles and check the given title_s doesnt exist (having two blogs with same title creates issues) - if so, add a number to the end
+  #  # We have to relist the directories every time this function is run or we run the risk of not accounting for blog titles added during this upload process
+  # Commented out - because overwriting is desirable to avoid lots of copies of the same blog on reupload. Changed for a warning - to flag when a blog has the same title as an older blog.
+   existing_titles = os.listdir(blog_dir)
+   dateless_titles = ["-".join(x.split("-")[3:]) for x in existing_titles]
+   if title_s in dateless_titles:
+  #     title_s = title_s + "-2"
+        print("This blog has the same title as an existing blog - if this is not a reupload delete and change your blog title")
+   final_path = os.path.join(blog_dir, str(date.today()) + "-" + title_s + ".md")
+   return final_path
+
+       
 
 # Add a correctly labelled header to the blog
 def header_build (head_in, blog, glossary):
     # Sub in the submitted glossary -
     head_in = re.sub(r"\n---", glossary, head_in)
-    images = re.findall(r"\!\[.*?\]\(.*(/images/[^)]*)\)", blog)
+    images = re.findall(r"(/images/[^)]*)\)", blog)
     if len(images) >= 1:
         thumb = "\nimage: \"" + images[0] + "\"\n---\n"
         head_in = re.sub(r"\n---", thumb, head_in)
@@ -127,11 +188,12 @@ def find_yml_docx_data(file_list):
             out_dict["new_author"] = yml_dict["new_author"]
          del yml_dict["new_author"]
       
-      # Check if a new glossary entry is present - add to specific output
-      if "new_gloss" in yml_dict.keys():
-         if out_dict["new_gloss"] is not None:
-            out_gloss.extend(yml_dict["new_gloss"])
-         del yml_dict["new_gloss"]
+      # Check if a new glossary entry is present - add to specific output - allowing us to update the global glossary
+      if "glossary" in yml_dict.keys():
+         if out_dict["glossary"] is not None:
+            out_gloss.extend(yml_dict["glossary"])           
+            
+         
       
       # Add full header text to output dict
       out_dict["header"] = yml_dict
@@ -139,6 +201,33 @@ def find_yml_docx_data(file_list):
       out_list.append(out_dict)
   return out_list, out_gloss
 
+def add_new_author(author_yml_path, new_author_dict, header):   
+  if "name" in new_author_dict.keys():
+    author_id = header["author"]
+    print("Adding a new author {} with following details: {}".format(author_id, new_author_dict))
+    with open(author_yml_path) as f:
+        author_dict = yaml.safe_load(f)
+    if "bio" in new_author_dict.keys():
+       bio = new_author_dict["bio"]
+    else:
+       bio = ""   
+    author_dict[author_id] = {"name": new_author_dict["name"], "avatar": "", "bio": bio}
+    with open(author_yml_path, "w") as f:
+        yaml.dump(author_dict, f)
+  else:
+     print("Author dictionary invalid - it needs a 'name' field, you passed: {}".format(new_author_dict))
+  
+def clean_up_directories(in_dir, archive_dir, template_yaml_path):
+  for root, dirs, files in os.walk(in_dir):
+    for idx, name in enumerate(files):
+        source_file = os.path.join(root, name)
+        archive_dest = os.path.join(archive_dir, name)
+        shutil.move(source_file, archive_dest)
+    print("{} : file(s) moved to the archive".format(idx+1))
+  template_dest = os.path.join(in_dir, "new_header.yml")
+  shutil.copy(template_yaml_path, template_dest)
+  print("Clean-up done!")
+   
 
 def main():
 
@@ -146,7 +235,7 @@ def main():
   check_pypandoc()
 
   # Get all the main directories that will be used by the script
-  in_dir, header_template, archive_dir, image_out, blog_dir, glossary_path = set_directories()
+  in_dir, header_template, archive_dir, image_out, blog_dir, glossary_path, authors_yml = set_directories()
 
   # Get a list of directories in the input 
   files_in = os.listdir(in_dir)
@@ -160,133 +249,54 @@ def main():
      update_blog_gloss()
      
 
-  # Fetch the glossary for use in the conversion process
-  gloss = fetch_gloss(glossary_path)
+  # Fetch the glossary for use in the conversion process - this will be an updated glossary if an update has been run
+  gloss = fetch_glossary(glossary_path)
 
   docx_check = re.compile(".*\.docx")
   # Loop through the pairs run the conversion and build the output text
   for docx in docx_data_pairs:
+    # If we have new author - add the author's bio to the authors.yml
+    if "new_author" in docx.keys:
+       add_new_author(authors_yml, docx["new_author"], docx["header"])
     docx_path = docx["docx"]
-    # NEED TO ADD A CHECK THAT FILE EXISTS - AND REPORT AN ERROR
+    
     # Check we're dealing with a docx file - otherwise we'll trip up the converter
     if docx_check.match(docx_path):
         print(docx_path + " ...format correct")
-        blog_text = docx_conv(in_dir, docx_path)
+        blog_text = docx_conv(in_dir, docx_path, image_out)
 
         # Check that function has found the file - if not give an error - and skip - otherwise continue processing
         if blog_text is None:
            print("WARNING - {} - file not found - have you uploaded the corresponding docx file?".format(docx_path))
         else:
             # Run the glossary function and add the found entries to the header  
+            header = find_terms_add_to_glossary(gloss, blog_text, docx["header"], overwrite = False)            
 
-            # Take cleaning steps - build into function and use it here
+            # Clean the text using a function and update the image routing to ensure it will work on a fork
+            blog_text = clean_md_update_image_routing(blog_text)
 
+            # Add thumb image to the header
+            header = add_thumb_image(header, blog_text)
+
+            # Create the final_path for the blog
+            out_path = build_file_name(blog_dir, header)
+            
             # Use function to paste together the blog text and the header
-            final_text = header_build(docx["header"], blog_text, glossary)
+            final_text = header_build(docx["header"], blog_text)
+
+            # Write the final text to the out_path
+            with open(out_path, "w", encoding='utf-8') as f:
+               f.write(final_text)
 
         # Write out the final converted text
     else:
        print("WARNING - Incorrect format submitted - it must be docx - submitted file name: {}".format(docx_path))
+  
+  # Once all processing is done - clean-up - move all files in the input to the archive folder - add a fresh template for the next user
+  clean_up_directories(in_dir, archive_dir, header_template)
 
-
-
-
-
-# Getting main directory as script path
-
-
-
-parent = "\\".join(dname.split("\\")[:-1])
-print(parent)
-print(dname)
-
-# Setting directories
-docx_in = dname + "/input/blogs"
-header_in = dname + "/input/headers"
-image_out = "../images/blogs/" + str(date.today()) + "/"
-blog_dir = "../_posts/"
-glossary_path = dname + "/resources/glossary.json"
-
-header_plain = dname + "/resources/header_plain"
-
-docx = re.compile(".*\.docx")
-
-
-
-
-
-
-
-
-
-for root, dirs, files in os.walk(docx_in, topdown=False):
-    for name in files:
-        if docx.match(name):
-            print(name + " ...format correct")
-            blog, author = docx_conv(root,name, image_out)
-            header_path = header_in + "/" + author + ".yml"
-            glossary = find_terms(gloss, blog)
-            if os.path.exists(header_path):
-              final, title_s = header_build(header_path, name, blog, glossary)
-            else:
-              final, title_s = header_build(header_plain, name, blog, glossary)
-            
-            # Fixing conversion issues
-            # Cleaning out uncessary md and tags from the final piece and converting images so they link to gallery view
-            final = re.sub(r"\!\[.*?\]\(.*(/images/[^)]*)\)", r"[![](\1)](\1)", final)
-            final = re.sub(r"{width=.*?}", "", final)
-            
-            # Remove double underlines (sometimes added in conversion of hyperlinks)
-            final = re.sub(r"\[<u>(.*)</u>\]", "", final)
-            
-            final = re.sub(r"\[([^\[\]]*)\]{\.ul}", r"\1", final)
-            
-            # Fix footnotes to gfm standard
-            final = re.sub(r"\[(\d{1,2}\])[^(]", r"[^\1", final)
-            # This appears to cause a corruption
-            # final = re.sub(r"(\n\[\^\d{1,2}\])[^(]", "\1:", final)
-            
-            # Fix tables to gfm standard
-            final = re.sub(r"\|\r\r\n", "|\n", final)
-            final = re.sub(r"(\| {3,})+\|", "", final)
-            
-            # Remove rtl and ltr markers
-            final = re.sub(r"\[([^\]]*)\]{dir=\"rtl\"}", r"\1", final)
-            final = re.sub(r"\[?\]?{dir=\"rtl\"}", "", final)
-            final = re.sub(r"\[?\]?{dir=\"ltr\"}", "", final)
-            
-            # Change out non-gfm headings
-            final = re.sub(r"(.*\r)\r\n.*-{3,40}", r"\1", final)
-            
-            # Identify and replace any numbered list indentations
-            instances = re.findall(r"(\n\d+\..*([\r\n]+>.*)+)", final)
-            for group1, group2 in instances:
-                new_instance = re.sub(r"\n>\s", "\n\t", group1)
-                print(new_instance)
-                final = final.replace(group1, new_instance)
-   
-
-
-
-            # Create outpath - check that file doesn't already exist
-            title_s = re.sub(r"\s|\?|:|,", "-", title_s)
-            outpath = blog_dir + str(date.today()) + "-" + title_s + ".md"
-            file_no = 0
-            while os.path.isfile(outpath):
-                file_no = file_no + 1
-                outpath = blog_dir + str(date.today()) + "-" + title_s + str(file_no) + ".md"
-
-            # Write out final blog to correct destination
-            f = open(outpath, "w", newline="", encoding = "utf-8")
-            f.write(final)
-            f.close()
-            print(outpath + "...written to blog directory")
-
-
-        else:
-            print("error!:\n" + name + " is not correctly formatted. \n Use docx.")
-            continue
-
+if __name__ == "__main__":
+   main()
 
 ##!! ADD THIS REGEX SUB: "\[<u>(.*)</u>\]" TO GET RID OF DOUBLE UNDERLINES.
 ## ADD LINES FOR THUMBNAILS
