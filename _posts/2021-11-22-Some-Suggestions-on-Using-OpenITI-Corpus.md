@@ -10,8 +10,6 @@ glossary:
     analysis (primarily for passim), typically 300 words in length (about the length
     of a book page).
   term: milestone
-- def: Headers are found in text
-  term: header
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)

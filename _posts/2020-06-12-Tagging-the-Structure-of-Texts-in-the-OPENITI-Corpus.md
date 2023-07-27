@@ -3,9 +3,6 @@ author: hamid_reza_hakimi
 categories:
 - null
 - null
-glossary:
-- def: Headers are found in text
-  term: header
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
