@@ -11,6 +11,8 @@ glossary:
     in a table. Each row in the table starts on a new line, and columns are separated
     using a comma (sometimes another character like a tab).
   term: csv
+- def: Headers are found in text
+  term: header
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -25,6 +27,7 @@ tags:
 title: A Token Frequency Counter For OpenITI Texts
 
 ---
+
 
 
 

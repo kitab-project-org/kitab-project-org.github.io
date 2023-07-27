@@ -84,7 +84,7 @@ def update_blog_gloss(update_existing_entries = False):
     print("Updating glossaries for existing blogs")
 
     # Set the directories
-    in_dir, header_template, archive_dir, image_out, blog_dir, glossary_path = set_directories()
+    in_dir, header_template, archive_dir, image_out, blog_dir, glossary_path, authors_yml = set_directories()
 
     # Get list of directories
     blog_list = os.listdir(blog_dir)

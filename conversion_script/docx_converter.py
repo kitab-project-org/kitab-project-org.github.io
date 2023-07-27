@@ -17,6 +17,7 @@ import json
 import yaml
 from shared_utilities import set_directories
 from shared_utilities import clean_yml_to_dict
+from shared_utilities import append_header_blog
 from update_blog_gloss import fetch_glossary
 from update_blog_gloss import find_terms_add_to_glossary
 from update_blog_gloss import update_blog_gloss
@@ -38,7 +39,7 @@ def check_pypandoc():
 
 
 # Create string from docx formatted text except those in wrong format
-def docx_conv(root, name, images_path):        
+def docx_conv(root, name, images_path, author):        
     extract_img = "--extract-media=" + images_path + author
     full_path = os.path.abspath(os.path.join(root, name))
     if os.path.exists(full_path):
@@ -49,7 +50,7 @@ def docx_conv(root, name, images_path):
 
 def update_glossary_dict(gloss_path, new_entries):
   gloss = fetch_glossary(gloss_path)
-  
+  existing_terms = [x["term"] for x in gloss]
   # Loop through new entries and check they comply
   for entry in new_entries:
     term = False
@@ -57,7 +58,7 @@ def update_glossary_dict(gloss_path, new_entries):
     if "term" in entry.keys():
       term = True
       terms = True
-    else:
+    else:        
         print("Invalid new glossary in yml - {} - skipping..".format(entry))
         
     if "def" in entry.keys():
@@ -66,8 +67,11 @@ def update_glossary_dict(gloss_path, new_entries):
     else:
         print("Invalid new glossary in yml - {} - skipping..".format(entry))
         
-    if term and definition:         
-        gloss.append(entry)
+    if term and definition:
+        if entry["term"] in existing_terms:
+           print("Chosen term {} already in glossary.yml - if you wish to update the definition - update in this folder".format(entry["term"]))                 
+        else:
+          gloss.append(entry)
   
   # If new entries are written write one success message and write out file
   if terms and definitions:
@@ -76,12 +80,12 @@ def update_glossary_dict(gloss_path, new_entries):
           f.write(json.dumps(gloss, indent = 1))
       
 def clean_md_update_image_routing(blog_text):
-      # Cleaning out uncessary md and tags from the final piece and converting images so they link to gallery view
-      blog_text = re.sub(r"\!\[.*?\]\(.*(/images/[^)]*)\)", r"[![](\1)](\1)", blog_text)
-      blog_text = re.sub(r"{width=.*?}", "", blog_text)
+      # Cleaning out uncessary md and tags from the final piece and converting images so they link to gallery view - fix image routine with absolute_url
+    
+      blog_text = re.sub(r"{width=.*?}", "", blog_text)    
+      blog_text = re.sub(r"\!\[[^]]*\]\(\.\.(/images/[^\)]*)\)", r'[![]({{ "\1" | absolute_url }})]({{ "\1" | absolute_url }})', blog_text)
       
-      # Fixing image and link routing - using absolute_path in liquid
-      blog_text = re.sub(r"(\[!?\[[^]]*\]\()([^)|]*)(\)\]\()([^)]*)(\))", r"\1{{ \2 | absolute_url }}\3{{ \4 | absolute_url }}\5", blog_text)
+      # Cliean up links in the same way
       blog_text = re.sub(r"(\[[^]]*\]\()([^)|]*)(\))", r"\1{{ \2 | absolute_url }}\3", blog_text)
 
       # Remove double underlines (sometimes added in conversion of hyperlinks)
@@ -116,25 +120,29 @@ def clean_md_update_image_routing(blog_text):
       return blog_text
 
 def add_thumb_image(header_dict, blog_text):
-  images = re.findall(r"(/images/[^\"]*)", blog_text)
+  images = re.findall(r"(/images/[^\"]*)", blog_text)  
   if len(images) > 0:
       header_dict["image"] = images[0]
   return header_dict
 
 def build_file_name(blog_dir, header_dict):
    title = header_dict["title"]
-   title_s = re.sub(r"[\s:/.,]", "-", title[0])[:40]
-   
-  #  # Get existing titles and check the given title_s doesnt exist (having two blogs with same title creates issues) - if so, add a number to the end
-  #  # We have to relist the directories every time this function is run or we run the risk of not accounting for blog titles added during this upload process
-  # Commented out - because overwriting is desirable to avoid lots of copies of the same blog on reupload. Changed for a warning - to flag when a blog has the same title as an older blog.
-   existing_titles = os.listdir(blog_dir)
-   dateless_titles = ["-".join(x.split("-")[3:]) for x in existing_titles]
-   if title_s in dateless_titles:
-  #     title_s = title_s + "-2"
-        print("This blog has the same title as an existing blog - if this is not a reupload delete and change your blog title")
-   final_path = os.path.join(blog_dir, str(date.today()) + "-" + title_s + ".md")
-   return final_path
+   if title is None:
+      print("No title given - provide a title and try again. Exiting...")
+      exit()
+   else:
+      title_s = re.sub(r"[\s:/.,]", "-", title)[:40]
+      
+      #  # Get existing titles and check the given title_s doesnt exist (having two blogs with same title creates issues) - if so, add a number to the end
+      #  # We have to relist the directories every time this function is run or we run the risk of not accounting for blog titles added during this upload process
+      # Commented out - because overwriting is desirable to avoid lots of copies of the same blog on reupload. Changed for a warning - to flag when a blog has the same title as an older blog.
+      existing_titles = os.listdir(blog_dir)
+      dateless_titles = ["-".join(x.split("-")[3:]) for x in existing_titles]
+      if title_s in dateless_titles:
+      #     title_s = title_s + "-2"
+            print("This blog has the same title as an existing blog - if this is not a reupload delete and change your blog title")
+      final_path = os.path.join(blog_dir, str(date.today()) + "-" + title_s + ".md")
+      return final_path
 
        
 
@@ -164,44 +172,62 @@ def header_build (head_in, blog, glossary):
   
   
 
-def find_yml_docx_data(file_list):
+def find_yml_docx_data(in_dir, file_list):
   """Loop through a list of directories and find the yml files return a list of dictionaries pairing the yml header to the docx files"""
   out_list = []
   out_gloss = []
   yml = re.compile(".*\.yml")
-  for in_file in file_list:    
-    if yml.match(in_file):
+  for in_path in file_list:    
+    if yml.match(in_path):
       # Load yml as text file
+      in_file = os.path.join(in_dir, in_path)
       with open(in_file, encoding='utf-8-sig') as f:
-        yml_text = f.open()
+        yml_text = f.read()
       
       # Clean the text and read as dict
       yml_dict = clean_yml_to_dict(yml_text)
       
       # Get the docx path and add to the dictionary
-      out_dict = {"docx": yml_dict["docx"]} 
-      del yml_dict["docx"]
-      
-      # Check if a new author entry is present - add to out_dict
-      if "new_author" in yml_dict.keys():
-         if out_dict["new_author"] is not None:
-            out_dict["new_author"] = yml_dict["new_author"]
-         del yml_dict["new_author"]
-      
-      # Check if a new glossary entry is present - add to specific output - allowing us to update the global glossary
-      if "glossary" in yml_dict.keys():
-         if out_dict["glossary"] is not None:
-            out_gloss.extend(yml_dict["glossary"])           
+      if "docx" in yml_dict.keys():
+         if yml_dict["docx"] is not None:
+            out_dict = {"docx": yml_dict["docx"]} 
+            del yml_dict["docx"]
             
-         
-      
-      # Add full header text to output dict
-      out_dict["header"] = yml_dict
+            # Check if a new author entry is present - add to out_dict
+            if "new_author" in yml_dict.keys():
+              if yml_dict["new_author"] is not None:
+                  for item in yml_dict["new_author"]:
+                    if "name" in item.keys():
+                        if item["name"] is not None:
+                          out_dict["new_author"] = yml_dict["new_author"]
+              del yml_dict["new_author"]
+            
+            # Check if a new glossary entry is present - add to specific output - allowing us to update the global glossary - check that items are not null
+            empty_gloss=False
+            if "glossary" in yml_dict.keys():
+              if yml_dict["glossary"] is not None:
+                  for item in yml_dict["glossary"]:
+                    if "term" in item.keys():
+                        if item["term"] is not None:
+                          out_gloss.append(item)
+                          empty_gloss = False
+                        else:
+                          empty_gloss = True
+            if empty_gloss:
+              del yml_dict["glossary"]         
+                  
+              
+            
+            # Add full header text to output dict
+            out_dict["header"] = yml_dict
 
-      out_list.append(out_dict)
+            out_list.append(out_dict)
   return out_list, out_gloss
 
-def add_new_author(author_yml_path, new_author_dict, header):   
+def add_new_author(author_yml_path, new_author_list, header):   
+  part_1 = new_author_list[0]
+  new_author_dict = new_author_list[1]
+  new_author_dict.update(part_1)  
   if "name" in new_author_dict.keys():
     author_id = header["author"]
     print("Adding a new author {} with following details: {}".format(author_id, new_author_dict))
@@ -211,9 +237,12 @@ def add_new_author(author_yml_path, new_author_dict, header):
        bio = new_author_dict["bio"]
     else:
        bio = ""   
-    author_dict[author_id] = {"name": new_author_dict["name"], "avatar": "", "bio": bio}
-    with open(author_yml_path, "w") as f:
-        yaml.dump(author_dict, f)
+    if "author_id" not in author_dict.keys():
+      author_dict[author_id] = {"name": new_author_dict["name"], "avatar": None, "bio": bio}
+      with open(author_yml_path, "w") as f:
+          yaml.dump(author_dict, f)
+    else:
+       print("Author Id {} already exists - try another?".format(author_id))
   else:
      print("Author dictionary invalid - it needs a 'name' field, you passed: {}".format(new_author_dict))
   
@@ -241,7 +270,7 @@ def main():
   files_in = os.listdir(in_dir)
 
   # Convert that list of files into a list of yml_header docx pairs
-  docx_data_pairs, new_gloss_terms = find_yml_docx_data(files_in)
+  docx_data_pairs, new_gloss_terms = find_yml_docx_data(in_dir, files_in)
 
   # If there are new glossary terms - update the glossary - and use the updated glossary to update glossaries for the existing blogs
   if len(new_gloss_terms) > 0:
@@ -256,21 +285,21 @@ def main():
   # Loop through the pairs run the conversion and build the output text
   for docx in docx_data_pairs:
     # If we have new author - add the author's bio to the authors.yml
-    if "new_author" in docx.keys:
+    if "new_author" in docx.keys():
        add_new_author(authors_yml, docx["new_author"], docx["header"])
     docx_path = docx["docx"]
     
     # Check we're dealing with a docx file - otherwise we'll trip up the converter
     if docx_check.match(docx_path):
         print(docx_path + " ...format correct")
-        blog_text = docx_conv(in_dir, docx_path, image_out)
+        blog_text = docx_conv(in_dir, docx_path, image_out, docx["header"]["author"])
 
         # Check that function has found the file - if not give an error - and skip - otherwise continue processing
         if blog_text is None:
            print("WARNING - {} - file not found - have you uploaded the corresponding docx file?".format(docx_path))
         else:
             # Run the glossary function and add the found entries to the header  
-            header = find_terms_add_to_glossary(gloss, blog_text, docx["header"], overwrite = False)            
+            header, changed_entries = find_terms_add_to_glossary(gloss, blog_text, docx["header"], overwrite = False)            
 
             # Clean the text using a function and update the image routing to ensure it will work on a fork
             blog_text = clean_md_update_image_routing(blog_text)
@@ -282,7 +311,7 @@ def main():
             out_path = build_file_name(blog_dir, header)
             
             # Use function to paste together the blog text and the header
-            final_text = header_build(docx["header"], blog_text)
+            final_text = append_header_blog(header, blog_text)
 
             # Write the final text to the out_path
             with open(out_path, "w", encoding='utf-8') as f:

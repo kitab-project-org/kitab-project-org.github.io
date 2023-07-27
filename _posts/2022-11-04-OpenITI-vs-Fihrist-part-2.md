@@ -16,6 +16,8 @@ glossary:
 - def: The annotation system used on OpenITI texts, see the documentation for more
     details.
   term: mARkdown
+- def: Headers are found in text
+  term: header
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -31,6 +33,7 @@ tags:
 title: 'OpenITI and the Fihrist: Methodology'
 
 ---
+
 
 
 
