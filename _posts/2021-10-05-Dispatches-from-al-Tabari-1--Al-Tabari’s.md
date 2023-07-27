@@ -1,28 +1,40 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 1: Al-Tabari’s Direct Informants: Work on a New Data Set"
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
-tags:
-
+- null
+- null
 glossary:
-  - term: "**mARkdown:**"
-    def: "The annotation system used on OpenITI texts, see the documentation for more details."
-image: "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image1.png"
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: '**mARkdown:**'
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image1.png
+layout: single
+tags: null
+title: "Dispatches from al-Tabari 1: Al-Tabari\u2019s Direct Informants: Work on a\
+  \ New Data Set"
+
 ---
+
+
 
 
 In a series of eight blog posts, we share some results of experimental work on citations in three works by Muhammad b. Jarir al-Tabari (d. 310/923). These are his universal history, *Taʾrikh al-rusul wa-l-muluk*; his Quran commentary, *Jamiʿ al-bayan ʿan taʾwil ay al-Qurʾan* (*Tafsir*) and the *Tahdhib al-athar*, an incomplete work on traditions, arranged according to the last transmitter of the Hadiths and also according to the Prophet's Companions. All three are important works in their own fields and contain numerous citation chains (*isnad*s). These *isnad*s provide a fascinating and previously untried opportunity for historians to understand his working methods.[^1]
 
 What We Want
-------------
+
 
 In the three works, al-Tabari refers repeatedly to people who gave him information directly with the phrase 'he told me'/'he told us' (*haddathani*/*haddathana*). Our goal was to use these citations to build up a picture of his working methods relevant to Arabic book history. Our specific questions were the following:
 
@@ -57,7 +69,7 @@ For the advancement of the field, we should seek to discern such continuities in
 In this first blog post, we introduce our method; in the second, we present our data. Over the subsequent posts, we then consider each of the above questions as we demonstrate what al-Tabari's citation practices reveal about the working habits of a major author in the late third/ninth and early fourth/tenth centuries and the shape of the material on which he relied.
 
 Method
-------
+
 
 Al-Tabari uses several terms to denote transmission of information from other people, but only a few of these terms indicate direct, personal contact. The phrases 'he told me'/'he told us' (*haddathani*/*haddathana*) at the beginning of an *isnad* (citation chain) are by far the most common markers of such contact. We are most interested in the name that introduces the *isnād*, representing the transmitter closest to al-Tabari.
 
@@ -106,7 +118,7 @@ We analysed this data alongside text reuse data on overlaps between al-Tabari's 
 Our project is experimental and unfinished. We are able to obtain a lot of data relatively efficiently, but we know there is further evidence that can be harvested at a later point in time with refinements to our method.
 
 Previous Work
--------------
+-
 
 The data we have examined opens a window on al-Tabari's participation in a system involving students and teachers, speaking and note-taking, and the storage of material over decades. Our approach aims for the big picture. We want to determine how al-Tabari worked, to get a sense of the scale and likely form of his source base and to judge whether he used a common source base or relied on different direct informants for each of his works. Our overall goal is to expand and add nuance to our current understanding of book history in the third/ninth century.
 

@@ -1,23 +1,32 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 7: Text Reuse Alignments"
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
-tags:
-  - releases
-image : "/images/thumbs/releases.png"
+- null
+- null
 glossary:
-  - term: "**passim:**"
-    def: "A computer algorithm used to detect text reuse in the OpenITI Corpus."
-image: "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png"
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: '**passim:**'
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png
+layout: single
+tags:
+- releases
+title: 'Dispatches from al-Tabari 7: Text Reuse Alignments'
+
 ---
+
+
 
 
 **Post 7: Text Reuse Alignments**

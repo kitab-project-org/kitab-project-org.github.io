@@ -1,29 +1,38 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 4: The Form of al-Tabari’s Sources: His Probable Notebooks"
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
-
+- null
+- null
 glossary:
-  - term: "passim"
-    def: " A computer algorithm used to detect text reuse in the OpenITI Corpus."
-  - term: "mARkdown"
-    def: "The annotation system used on OpenITI texts, see the documentation for more details."
-image: "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi4/media/image1.png"
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2021-10-05/sarah_savant_masoumeh_seydi4/media/image1.png
+layout: single
+title: "Dispatches from al-Tabari 4: The Form of al-Tabari\u2019s Sources: His Probable\
+  \ Notebooks"
+
 ---
+
+
 
 
 In the preceding posts, we showed that al-Tabari (d. 310/923) used the phrases 'he told me' and 'he told us' (*haddathani*/*haddathana*) in the *Taʾrikh al-rusul wa-l-muluk*, the *Jamiʿ al-bayan ʿan taʾwil ay al-Qurʾan* (*Tafsir*) and the *Tahdhib al-athar* to indicate people from whom he had obtained information directly. He mentions hundreds of people in this manner -- but a very small subset of them accounts for the majority of his citations. Al-Tabari's three works contain a vast amount of material from direct informants, and most of that material came into his possession early in his life, a long time before he composed his books. It is our contention that al-Tabari made use of an extensive written record to preserve and organise his material over the decades.
 
 Why Notes?
-----------
+-
 
 This contention may be met with scepticism. One might argue that al-Tabari memorised the information he obtained from his informants and could recall it without the need for written aids. Memorisation of reports was a culturally valued skill in his time. However, there are five main reasons to think that he in fact drew on well-written and well-organised notes:
 
@@ -60,7 +69,7 @@ We believe that what is required for a more nuanced understanding of al-Tabari's
 This line of enquiry requires an openness to the many ways in which al-Tabari and his peers might have constructed and conceived of their own works. It could have the effect of demoting 'actual books' as the main, privileged carriers of information in the third/ninth and fourth/tenth centuries and beyond.[^6] Therefore, we would do well to broaden our understanding of authorship to include many forms of writing and writerly culture.
 
 Aligning al-Tabari's Books
---------------------------
+--
 
 Evidence of text reuse in al-Tabari's works indicates that he drew repeatedly on the same written sources in his writings.
 

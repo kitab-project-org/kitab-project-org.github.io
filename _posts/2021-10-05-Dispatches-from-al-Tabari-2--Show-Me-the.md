@@ -1,24 +1,37 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 2: Show Me the Data!"
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
-tags:
-
+- null
+- null
 glossary:
-  - term: "**passim:**"
-    def: "A computer algorithm used to detect text reuse in the OpenITI Corpus."
-  - term: "**mARkdown:**"
-    def: "The annotation system used on OpenITI texts, see the documentation for more details."
-image: "/images/thumbs/dispatches2.png"
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: '**passim:**'
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: '**mARkdown:**'
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/thumbs/dispatches2.png
+layout: single
+tags: null
+title: 'Dispatches from al-Tabari 2: Show Me the Data!'
+
 ---
+
+
 
 
 You have now entered the weeds.
@@ -28,7 +41,7 @@ Over the past months, we have been asking ourselves what we would need to tell t
 Our data set is based on al-Tabari's *Taʾrikh al-rusul wa-l-muluk*, *Jamiʿ al-bayan ʿan taʾwil ay al-Qurʾan* and *Tahdhib al-athar*, included in the [[2021.1.4 release]{.ul}](https://zenodo.org/record/4513723) of our data via Zenodo under the identifiers Shamela0009783BK1, Shamela0007798 and JK008250Vols, respectively. The books have been annotated with tags belonging to the OpenITI mARkdown scheme to identify certain structural and content features. The present study made use of these tags. We have used the structural tagging in the above release.
 
 Data Tables
------------
+--
 
 We produced five tables that display the data gleaned from al-Tabari's three books. We did not set out to create these five; rather, they emerged in the course of the work. What follows is an account of research in progress. We expect to improve on our method in the future.
 
@@ -57,7 +70,7 @@ Of the 32,115 *isnad*s with which we began, we omitted from our analysis 550 (1.
 In the Transmission Chains table, each *isnad* has its own row, and each transmitter is placed in a separate cell. The data set also contains a list of transmissive terms prepared by Kevin Jaques as well as a list of other words that appear in *isnad*s but do not belong to the names. We used these lists to ensure that only the transmitters' names were included in the table and that separate names were correctly demarcated.
 
 
-|------------------|------------------------------------------------------------------------------------------------------------------------|---------------------------|-------------------|--------------------|-----------------------------|------------------------|----------------------------------------------|------------|---------------------|
+||||-|--|--||-|||
 | **Milestone id** | **Isnad text**                                                                                                         | **Name in pos**[^2] **1** | **Name in pos 2** | **Name in pos 3**  | **Name in pos 4**           | **Name in pos 5**      | **Name in pos 6**                            | **Source** | **Number of names** |
 | ms0185           | حدثني ابن حميد قال حدثنا جرير عن مغيرة عن المسيب بن رافع عن أبي هريرة قال ما كذب ابراهيم ع غير ثلاث كذبات | ابن حميد     | جرير | مغيرة | المسيب بن رافع | أبي هريرة | ما كذب ابراهيم ع غير ثلاث كذبات | *Taʾrikh*  | 6                   |
 
@@ -70,7 +83,7 @@ At this point, we are only able to deal with relatively simple *isnad*s. We elim
 Next, we created an authorities list that reduced (normalised) variants of a name to a single Latin-script version, without diacritics. The table also provides biographical information, when available, for direct informants. In its present form, the table contains 4,920 individual names in their 'surface form', that is, the form in which they appear in the text, found in any position in an *isnad* in any of al-Tabari's works. Some of these surface forms in fact refer to the same individual, as in the following example, which demonstrates the need for name normalisation:
 
 
-|---------------------------------------------------|-------------------------------------|---------------------------|---------------------------|---------------------------|--------------------------------|
+||-||||--|
 | **Surface form (in Arabic)**                      | **Normalisation (transliteration)** | **Appears in position 1** | **Appears in position 2** | **Appears in position 3** | **Appears only in position 1** |
 | إبراهيم بن عبد الله العبسي           | Ibrahim b. \'AbdAllah b. Muhammad   | True                      | False                     | False                     | True                           |
 | إبراهيم بن عبد الله بن محمد العبسي   | Ibrahim b. \'Abd Allah b. Muhammad  | True                      | False                     | False                     | True                           |
@@ -84,7 +97,7 @@ The *isnad* positions in which particular names appear help us assess whether tw
 We then updated the Transmission Chains table with the normalised names.
 
 
-|------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------|------------------------|------------------------|------------------------|------------------------|------------|---------------------|
+|||-|||||||
 | **Milestone id** | **Isnad text**                                                                                                         | **Name in position 1**     | **Name in position 2** | **Name in position 3** | **Name in position 4** | **Name in position 5** | **Source** | **Number of names** |
 | ms0185           | حدثني ابن حميد قال حدثنا جرير عن مغيرة عن المسيب بن رافع عن أبي هريرة قال ما كذب ابراهيم ع غير ثلاث كذبات | Muhammad b. Humayd al-Razi | Jarir                  | Mughira                | al-Musayyib b. Rafi\'  | Abu Hurayra            | *Taʾrikh*  | 6                   |
 
@@ -95,7 +108,7 @@ Table 1b: Sample normalised transmission chain. The normalised names of transmit
 For the third table, we calculated the frequency with which each normalised name of a direct informant appears in each position within the *isnad*s (pos 1 = direct informant). Theoretically, the direct informants should only appear at position 1, but for a variety of reasons the names repeat at later positions (see below 'Data Challenges').
 
 
-|----------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|-|--|--|--|--|--|--|--|--|--||
 | **Name**                   | **Count in pos 1** | **Count in pos 2** | **Count in pos 3** | **Count in pos 4** | **Count in pos 5** | **Count in pos 6** | **Count in pos 7** | **Count in pos 8** | **Count in pos 9** | **Count in pos 10** |
 | Muhammad b. Humayd al-Razi | 2879               | 4                  | 13                 | 4                  | 1                  | 9                  | 21                 | 9                  | 8                  | 0                   |
 | Bishr b. Mu\'adh           | 2418               | 3                  | 1                  | 4                  | 2                  | 10                 | 5                  | 2                  | 0                  | 0                   |
@@ -112,7 +125,7 @@ This table allows us to identify the names of direct informats cited most freque
 We extend the Direct Informants Position Frequencies table. It includes the names of al-Tabari's direct informants and the number of times he cites them ('count') in position 1. The table also records the works in which they are cited as well as a cumulative total of the citations and the percentage they represent of all citations (revealing, for example, the portion of all citations accounted for by the top five or ten direct informants).
 
 
-|----------------------------|-----------|----------------------|---------------------------|------------------------|-------------------------------|------------------------|
+|-|--|-|||-||
 | **Name in position 1**     | **Count** | **Cumulative count** | **Cumulative percentage** | **Count in *Taʾrikh*** | **Count in *Jāmiʿ al-bayān*** | **Count in *Tahdhib*** |
 | Muhammad b. Humayd al-Razi | 2879      | 2879                 | 9.11855066                | 457                    | 2126                          | 296                    |
 | Bishr b. Mu\'adh           | 2418      | 5297                 | 16.776993                 | 31                     | 2383                          | 4                      |
@@ -129,7 +142,7 @@ It should be clear that we take these numbers as relative, not absolute, indicat
 Next, we counted how many direct informants al-Tabari cites in each of his works and how many of these informants are cited not just in one but in two or three of the works.
 
 
-|--------------------------------|----------------------------------|
+|--|-|
 | **Source**                     | **Count of names in position 1** |
 | *Taʾrikh* (total)              | 347                              |
 | *Tafsir* (total)               | 543                              |

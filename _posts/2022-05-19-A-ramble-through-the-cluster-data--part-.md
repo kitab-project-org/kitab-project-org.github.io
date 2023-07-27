@@ -1,29 +1,41 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false  
-title:	"A Ramble Through the Cluster Data, Part 1: From Pairs to Clusters."		
 author: mathew_barber
-layout:		single
 categories:
-  - 
-  - 
-tags:
-  - text-reuse
-  - book-history
+- null
+- null
 glossary:
-  - term: "passim"
-    def: "A computer algorithm used to detect text reuse in the OpenITI Corpus."
-  - term: "mARkdown:" 
-    def: "The annotation system used on OpenITI texts, see the documentation for more details."
-  - term: "csv"
-    def: "A csv ('Comma Separated Values') file is a plain text file containing data in a table. Each row in the table starts on a new line, and columns are separated using a comma (sometimes another character like a tab)."
-  - term: "milestone"
-    def: "The units into which OpenITI's texts are automatically divided into for computational analysis (primarily for passim), typically 300 words in length (about the length of a book page)."
-image: "images/thumbs/authors_graph_pre900.png"
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: 'mARkdown:'
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: a csv ('Comma Separated Values') file is a plain text file containing data
+    in a table. Each row in the table starts on a new line, and columns are separated
+    using a comma (sometimes another character like a tab).
+  term: csv
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: images/thumbs/authors_graph_pre900.png
+layout: single
+tags:
+- text-reuse
+- book-history
+title: 'A Ramble Through the Cluster Data, Part 1: From Pairs to Clusters.'
+
 ---
+
+
 
 It should be no surprise to any reader of this blog that the KITAB project is primarily interested in studying Arabic text reuse. A large number of posts here, including several from myself, are concerned with the text reuse dataset produced by [passim](https://kitab-project.org/methods/text-reuse) and what it can tell us about Arabic book history. But what if I told you that passim produced two datasets and that our work has so far relied on one? If you read our pages on passim, or our blogs, you will see that this work focuses on the study of pairs of texts. That is, how text is reused between two books; where text reuse occurs in those books; how text is rearranged, etc. This post will introduce another dataset, the cluster dataset. It will be part of a series of posts that will follow my ramble[^1] (more-or-less in real time) through the cluster data, giving some early insights into how it can be used to understand Arabic book history. This data set could be used to study a range of texts, but here I will take historiography as an example.
 
@@ -49,7 +61,7 @@ Through my study of a pair of histories (Ibn al-Athir's *al-Kamil fi-l-taʾrikh*
 
 
 |**0630IbnAthirCizzDin.Kamil JK000911-ara1.mARkdown.ms0810**|**0874IbnTaghribirdi.NujumZahira JK001330-ara1.completed.ms0017**|
-|---|---|
+|||
 |مريم جاثليق مصر ومعه الاسقف\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- بعثه المقوقس\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- لمنع بلادهم فلما \-\--نزل بهم عمرو قاتلوه فارسل اليهم لا تعجلونا حتي نعذر اليكم وترون رايكم بعد وليبرز الي ابو مريم وابو مريام فكفوا وخرجا \-\-\-\-\-\-\-\-\-\--اليه فدعاهما الي \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--الاسلام او\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- الجزية واخبرهما بوصية النبي باهل مصر بسبب هاجر ام اسماعيل\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- عليه السلام \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--فقالوا قرابة بعيدة لا يصل مثلها الا الانبياء \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--امنا حتي نرجع اليك فقال عمرو\-\-- مثلي لا يخدع ولكنني اءجلكما ثلاثا لتنظرا \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--فقالا زدنا فزادهم يوما فرجعا الي المقوقس فهم فابي ارطبون ان يجيبهما وامر بمناهدتهم فقال لاهل مصر اما نحن فسنجهد ان ندفع عنكم ولا نرجع اليهم\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- فلم يفجا عمرا الا البيات وهو علي عدة فلقوه فقتل ارطبون وكثير ممن معه وانهزم الباقون وسار عمرو والزبير الي عين الشمس وبها جمعهم وبعث الي فرما ابرهة بن الصباح فنزل عليها وبعث عوف بن مالك الي الاسكندرية فنزل عليها قيل وكان الاسكندر وفرما اخوين ونزل عمرو بعين الشمس فقال اهل مصر لملكهم ما تريد الا قتال يوم قوم هزموا كسري وقيصر وغلبوهم علي بلادهم فلا -| مريم جاثليق مصر ومعه الاسقف ابو مريام في اهل البنيات بعثه المقوقس صاحب الاسكندرية لمنع بلادهم فلما تصافوا قال عمرو بن العاص\-\-\-\-\-\-\-\-\-- لا تعجلو-ا حتي نعذر اليكم \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--ليبرز الي ابو مريم وابو مريام راهبا هذه البلاد فبرزا اليه فقال لهما عمرو انتما راهبا هذه البلاد فاسمعا ان الله بعث محمدا بالحق وامره به وامرنا به محمد وادي الينا كل الذي امر به ثم مضي وتركنا علي الواضحة وكان مما امرنا به الاعذار الي الناس فنحن ندعوكم الي الاسلام فمن اجابنا فمثلنا ومن لم يجبنا عرضنا عليه الجزية و\--بذلنا له المنعة وقد اعلمنا اننا مفتتحوكم واوصينا بكم حفظا لرحمنا منكم وان لكم ان اجبتمونا بذلك ذمة الي ذمة ومما عهد الينا اميرنا استوصوا بالقبطيين خيرا فان رسول الله صلي الله عليه وسلم اوصانا بالقبطيين خيرا لان لهم ذمة ورحما فقالوا قرابة بعيدة لا يصل مثلها الا الانبياء معروفة شريفة كانت ابنة ملكنا وكانت من اهل منف والملك منهم فاديل عليهم اهل عين شمس فقتلوهم وسلبوهم ملكهم واغربوا فلذلك صارت الي ابراهيم عليه السلام مرحبا به واهلا وامنا حتي نرجع اليك فقال عمرو ان مثلي لا يخدع ولك-ني اءجلكما ثلاثا لتنظرا ولتناظرا قومكما والا ناجزتكم قالا زدنا فزادهم يوما فقالا زدنا فزادهم يوما فرجعا الي المقوقس\-\-\-- فابي ارطبون ان يجيبهما وامر بمناهدتهم وقال لاهل مصر اما نحن فنجتهد ان ندفع عنكم ولا نرجع اليهم وقد بقيت اربعة ايام واشار عليهم بان يبيتوا المسلمين ف\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--قال الملا من\-\-\--هم ما تقاتلون من\-\-\-\-\-\-- قوم قتلوا كسري وقيصر وغلبوهم علي بلادهم فالح|
 
 *Table 1: A pairwise alignment between Ibn al-Athir's Kamil and Ibn Taghribirdi's Nujum. The hyphens indicate characters inserted in the other text (calculated through a Smith-Waterman alignment algorithm).*
@@ -59,7 +71,7 @@ From this alignment, one could search passim's cluster dataset for the two miles
 
 
 |**cluster**|**size**|**id**|
-|---|---|---|
+||||
 |68719610468|6|JK000911-ara1.mARkdown.ms0810|
 |**180388738305**|**7**|**JK000911-ara1.mARkdown.ms0810**|
 |**249108229347**|**2**|**JK000911-ara1.mARkdown.ms0810**|
@@ -79,7 +91,7 @@ The milestone in the *Kamil* belongs to six clusters and the one in the *Nujum* 
 
 
 |**Book and ms URI**|**Author and Title**|
-|---|---|
+|||
 |0310Tabari.Tarikh.Shamela0009783BK1-ara1.mARkdown.ms1606|Al-Tabarī, *Taʾrikh al-rusul wa-l-muluk*|
 |0597IbnJawzi.Muntazam.Shamela0012406-ara1.mARkdown.ms1039|Ibn al-Jawzi, *al-Muntaẓam fi taʾrikh al-muluk wa-l-umam*|
 |0630IbnAthirCizzDin.Kamil.JK000911-ara1.mARkdown.ms0810|Ibn al-Athir, *al-Kamil fi-l-taʾrikh*|

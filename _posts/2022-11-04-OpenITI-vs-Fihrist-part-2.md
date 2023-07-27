@@ -1,25 +1,31 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false  
-title:	"OpenITI and the Fihrist: Methodology"		
 author: peter_verkinderen
-layout:		single
 categories:
-  - 
-  - 
-tags:
-  - corpus
-  - book-history
-sidebar:
-
+- null
+- null
 glossary:
-  - term: "Glossary"
-    def: "**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
-image: "/images/blogs/2022-11-04/peter_verkinderen2/media/image1.png"
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: the name by which a person is best known
+  term: shuhra
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2022-11-04/peter_verkinderen2/media/image1.png
+layout: single
+sidebar: null
+tags:
+- corpus
+- book-history
+title: 'OpenITI and the Fihrist: Methodology'
+
 ---
+
+
 
 
 This is the second blog in a short series of blogs on the overlap between the OpenITI corpus and Ibn al-Nadim's Fihrist. Please refer to the [first part](https://kitab-project.org/OpenITI-vs-Fihrist-part-1/) for a statement of the problem and a very short introduction to the Fihrist; to the [next part](https://kitab-project.org/OpenITI-vs-Fihrist-part-3/) for the analysis and conclusions of this case study.
@@ -27,7 +33,7 @@ This is the second blog in a short series of blogs on the overlap between the Op
 In this blog, I will describe in detail the methodology I used to analyse the overlap between the OpenITI corpus and the Fihrist.
 
 A. Tagging of authors and books
--------------------------------
+-
 
 In a first step, I took the text of the Fihrist as it is in the OpenITI corpus ([0385IbnNadim.Fihrist.Shia003355-ara1](https://raw.githubusercontent.com/OpenITI/0400AH/master/data/0385IbnNadim/0385IbnNadim.Fihrist/0385IbnNadim.Fihrist.Shia003355-ara1.mARkdown) - this is the Rida Tajaddud edition,),[^1] and extended its structural annotation using the [OpenITI mARkdown scheme](https://alraqmiyyat.github.io/mARkdown/). The text had been annotated only two levels deep: the 10 chapters (*maqala*) mentioned [in the previous blog](https://kitab-project.org/OpenITI-vs-Fihrist-part-1/), and their primary subsections (*fann*). In many chapters, however, the text has a much more fine-grained structure, grouping authors together based on commonalities (e.g., generation, regional background, family relationship, student-teacher relationships, etc.) in a generally chronological order (see Shawkat Toorawa's analysis of the structure of the third *maqala*,[^2] and Devin Stewart's of the sixth *maqala*[^3]).
 
@@ -62,7 +68,7 @@ Persons and books mentioned by Ibn al-Nadim in passing within another section, w
 Figure3: Example of a book not tagged: mention of al-Jahshiyari's *Kitab al-Wuzara* in the introductory section on Persian literature.
 
 B. Identifying authors and books
---------------------------------
+--
 
 Each book and author in the OpenITI corpus has its own [Unique Resource Identifier (URI)](https://kitab-project.org/docs/openITI#uris--cts-like-folder-structure). An author URI consists of that author's approximate death date (in the hijri era) followed by a simplified version of his shuhra. For example, the URI for al-Tabari is 0310Tabari. The URI for a book consists of the URI of the author, followed by one or more words from the title. For example, the URI for al-Tabari's *Tarikh* is 0310Tabari.Tarikh.
 
@@ -93,7 +99,7 @@ Finally, I went through all the books that were titled "Diwan" or "Shiʿr" follo
 This way of tagging authors and books enable us to do different types of computational analysis: we can count the number of authors and books that have their own sections in the Fihrist (or in a specific *maqala* / *fann*); the URIs enable us to [calculate](https://kitab-project.org/OpenITI-vs-Fihrist-part-3#how-many-openiti-books-are-in-the-fihrist-and-vice-versa) how many OpenITI authors/books are in the Fihrist, and vice versa.
 
 C. Assigning categorical tags
------------------------------
+--
 
 As we have seen [before](https://kitab-project.org/OpenITI-vs-Fihrist-part-1/), the Fihrist is divided into 10 chapters that can be seen as roughly based on subject matter ("topic"). An author and his books are usually (with few exceptions) listed in only one chapter, even if his books cover multiple topics; so, if a book is listed in chapter X, it does not mean that that book itself is about topic X, only that Ibn al-Nadim associated its author mostly with this topic.
 
@@ -132,7 +138,7 @@ I then assigned these tags to all pre-400 AH books in the [OpenITI metadata spre
 This approach allows us to compare which topics (as defined by Ibn al-Nadim) are covered more heavily in the OpenITI corpus than in the Fihrist and vice versa.
 
 D. Geographical metadata
-------------------------
+
 
 In addition to variation in topics, I also wanted to compare the geographical distribution of the authors in the OpenITI and the Fihrist. Thanks to the efforts of Aslisho Qurboniev (see [this blog](https://kitab-project.org/b/)), the OpenITI metadata of every author who died before the year 500 AH now contains a record of his place and region of birth, in the form of URIs from the [Althurayya gazetteer](https://althurayya.github.io/). The OpenITI metadata also contains URIs for places and regions they visited, resided in or died in; but this information has not been used in this case study because it is currently only available for a small number of authors.
 
@@ -141,7 +147,7 @@ Using a Python script I extracted this data into a tsv file in which each author
 This allows us to count the number of OpenITI authors that come from each region, both in the pre-400 AH OpenITI corpus and in the Fihrist.
 
 E. Extracting the data
-----------------------
+-
 
 This type of tagging allows us to make precise counts of OpenITI books and authors in the Fihrist. Because the tags are in the text itself, it makes it easy for myself and others to check the decisions I made assigning a URI to a book or author.
 
@@ -156,7 +162,7 @@ To extract the data from the Fihrist text and OpenITI metadata spreadsheet, and 
 The outputs generated by the script were then used to create the graphs discussed in the [next blog](https://kitab-project.org/OpenITI-vs-Fihrist-part-3/).
 
 F. Caveats
-----------
+-
 
 As with many computational methods used in the humanities, the exact numbers generated by these scripts should be regarded only as approximate. There is a significant margin of error due to a number of uncertainties introduced at different steps in the process:
 

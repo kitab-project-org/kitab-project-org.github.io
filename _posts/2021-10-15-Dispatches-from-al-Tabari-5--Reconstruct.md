@@ -1,24 +1,43 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 5: Reconstructing al-Tabari’s Notebooks"
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
-tags:
-
+- null
+- null
 glossary:
-  - term: "**passim:**"
-    def: " A computer algorithm used to detect text reuse in the OpenITI Corpus."
-  - term: "**mARkdown:**"
-    def: "The annotation system used on OpenITI texts, see the documentation for more details."
-image: "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png"
+- def: ' A computer algorithm used to detect text reuse in the OpenITI Corpus.'
+  term: '**passim:**'
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: '**mARkdown:**'
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: a csv ('Comma Separated Values') file is a plain text file containing data
+    in a table. Each row in the table starts on a new line, and columns are separated
+    using a comma (sometimes another character like a tab).
+  term: csv
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+- def: the given name of a person
+  term: Ism
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png
+layout: single
+tags: null
+title: "Dispatches from al-Tabari 5: Reconstructing al-Tabari\u2019s Notebooks"
+
 ---
+
+
 
 
 In our previous blog post, we argued that al-Tabari (d. 310/923) had to hand an extensive written collection consisting of sets of well-written notes.
@@ -26,7 +45,7 @@ In our previous blog post, we argued that al-Tabari (d. 310/923) had to hand an 
 In this post, we demonstrate that the data we have collected helps us begin to visualise the notebooks that served as al-Tabari's 'data carriers'.[^1] Scholars have often mined al-Tabari's citations for evidence of earlier works. They have given the lion's share of their attention to reputed authors such as Mujahid and Sayf b. ʿUmar who lived two or more generations before al-Tabari. By contrast, our starting point is his direct informants and the material they passed on to al-Tabari. In some cases, they combined material from many different sources.
 
 Tree Maps
----------
+
 
 We visualise al-Tabari's notebooks using a tree map that was created from a subset of the *isnad*s introduced by the phrases 'he told me'/'he told us' (*haddathana*/*haddathani*) -- specifically, *isnad*s with at least three transmitters after al-Tabari. The tree map displays each person in an *isnad* as a rectangle; the size of the rectangle is proportional to the number of times the person is cited. Our main tree map contains four layers of rectangles: al-Tabari himself (dark pink), his direct informants (dark orange), their informants (light orange) and the latters' informants (yellow). For example, in the first notebook, Bishr b. Muʿadh's (d. 245/859--60) main source is Yazid b. Zariʿ (d. 182/798-9?). All but twenty of the 2,387 chains that contain three persons after al-Tabari run thus: Bishr b. Muʿadh \< Yazid b. Zariʿ \< Saʿid.
 
@@ -35,7 +54,7 @@ It is important to stress that our tree maps do not represent the entirety of th
 The images included here are excerpts from a larger set of tree maps that we will publish with our data set in a forthcoming print publication. Bibliographical information is collated from publications by Gilliot, Athari and Lucas,[^2] as well as from Ibn Nadim's *Fihrist* and the relevant *Encyclopaedia of Islam* articles. We have also consulted other sources.[^3]
 
 Six Sets of Notes
------------------
+--
 
 What follows is a series of visualisations of six possible -- even likely -- collections of notes used by al-Tabari.
 
