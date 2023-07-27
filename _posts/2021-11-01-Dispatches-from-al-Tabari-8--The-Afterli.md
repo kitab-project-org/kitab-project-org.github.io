@@ -12,9 +12,9 @@ categories:
   - 
 tags:
 
-sidebar:
-  - title: "Glossary"
-  - text: "**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
+glossary:
+  - term: "**mARkdown:**"
+    def: " The annotation system used on OpenITI texts, see the documentation for more details."
 image: "/images/thumbs/tabari_dispatches.png"
 ---
 

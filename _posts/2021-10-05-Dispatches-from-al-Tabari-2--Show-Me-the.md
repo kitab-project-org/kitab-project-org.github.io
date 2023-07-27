@@ -12,9 +12,11 @@ categories:
   - 
 tags:
 
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
+glossary:
+  - term: "**passim:**"
+    def: "A computer algorithm used to detect text reuse in the OpenITI Corpus."
+  - term: "**mARkdown:**"
+    def: "The annotation system used on OpenITI texts, see the documentation for more details."
 image: "/images/thumbs/dispatches2.png"
 ---
 

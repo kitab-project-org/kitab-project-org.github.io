@@ -1,5 +1,8 @@
 import os
 import yaml
+import re
+import sys
+from datetime import date
 
 def set_directories():
   """Set the directories for locating the files to convert and where to put those files when converted"""
@@ -21,3 +24,8 @@ def clean_yml_to_dict(yml_text):
     # Load the yaml
     yml_dict = yaml.safe_load(yml_text)
     return yml_dict
+
+def append_header_blog(header_dict, blog):
+  header_string = yaml.dump(header_dict)
+  string_out = "---\n{}\n---\n{}".format(header_string, blog)
+  return string_out

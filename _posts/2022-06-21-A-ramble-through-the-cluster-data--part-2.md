@@ -13,9 +13,11 @@ categories:
 tags:
   - text-reuse
   - book-history
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**milestone:** The units into which OpenITI's texts are automatically divided into for computational analysis (primarily for passim), typically 300 words in length (about the length of a book page).<br><br>"
+glossary:
+  - term: "passim"
+    def: " A computer algorithm used to detect text reuse in the OpenITI Corpus."
+  - term: "milestone"
+    def: "The units into which OpenITI's texts are automatically divided into for computational analysis (primarily for passim), typically 300 words in length (about the length of a book page)"
 image: "/images/blogs/2022-06-21/mathew_barber/media/image7.png"
 ---
 

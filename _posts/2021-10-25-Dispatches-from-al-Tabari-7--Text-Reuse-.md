@@ -13,9 +13,9 @@ categories:
 tags:
   - releases
 image : "/images/thumbs/releases.png"
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>"
+glossary:
+  - term: "**passim:**"
+    def: "A computer algorithm used to detect text reuse in the OpenITI Corpus."
 image: "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png"
 ---
 

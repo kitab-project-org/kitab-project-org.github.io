@@ -12,9 +12,9 @@ categories:
   - 
 tags:
 
-sidebar:
-  - title: "Glossary"
-  - text: "**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
+glossary:
+  - term: "**mARkdown:**"
+    def: "The annotation system used on OpenITI texts, see the documentation for more details."
 image: "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi1/media/image1.png"
 ---
 

@@ -13,9 +13,15 @@ categories:
 tags:
   - text-reuse
   - book-history
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>**csv:** a csv ('Comma Separated Values') file is a plain text file containing data in a table. Each row in the table starts on a new line, and columns are separated using a comma (sometimes another character like a tab).<br><br>**milestone:** The units into which OpenITI's texts are automatically divided into for computational analysis (primarily for passim), typically 300 words in length (about the length of a book page).<br><br>"
+glossary:
+  - term: "passim"
+    def: "A computer algorithm used to detect text reuse in the OpenITI Corpus."
+  - term: "mARkdown:" 
+    def: "The annotation system used on OpenITI texts, see the documentation for more details."
+  - term: "csv"
+    def: "A csv ('Comma Separated Values') file is a plain text file containing data in a table. Each row in the table starts on a new line, and columns are separated using a comma (sometimes another character like a tab)."
+  - term: "milestone"
+    def: "The units into which OpenITI's texts are automatically divided into for computational analysis (primarily for passim), typically 300 words in length (about the length of a book page)."
 image: "images/thumbs/authors_graph_pre900.png"
 ---
 

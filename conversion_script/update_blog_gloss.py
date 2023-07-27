@@ -1,10 +1,11 @@
 from shared_utilities import set_directories
 from shared_utilities import clean_yml_to_dict
-from docx_converter import append_header_blog
+from shared_utilities import append_header_blog
 import re
 import os
 import yaml
 import json
+from tqdm import tqdm
 
 
 def fetch_glossary(glossary_path):
@@ -19,26 +20,30 @@ def fetch_glossary(glossary_path):
 def find_terms_add_to_glossary(glossary, blog, header_dict):
   
   # Get the len of existing terms - if the len of the new glossary is no different- then we can choose not to overwrite it
-  if old_gloss_len in header_dict.keys():
+  if "glossary" in header_dict.keys():
+    blog_gloss = header_dict["glossary"]
     old_gloss_len = len(header_dict["glossary"])
   else:
     old_gloss_len = 0
+    blog_gloss = []
   
-  blog_gloss = []
   
   # Clean out website and image links that will create entries for file-type explanations in the glossary
   # Images embedded in links
-  blog = re.sub("\[!?\[[^]]*\]\([^)]+\)\]\([^)]+\)", "", blog)
+  blog = re.sub("\[!?\[([^]]*)\]\([^)]+\)\]\([^)]+\)", "\1", blog)
   # Simple images and links
-  blog = re.sub("!?\[[^]]*\]\([^)]+\)", "", blog)
+  blog = re.sub("!?\[([^]]*)\]\([^)]+\)", "\1", blog)
   
   # Loop through terms and add them to the blog's glossary if they are found
   found_term = False
   for term in glossary:
+    
     results = len(re.findall(term["term"], blog))
     if results > 0:
       found_term = True
-      blog_gloss.append(term)  
+      # If term not already in the glossary, append it
+      if not any(term["term"] in g.values() for g in glossary):
+        blog_gloss.append(term)  
   
   # Compare the old and new glossaries - if the length has changed - re-write them
   new_gloss_len = len(blog_gloss)
@@ -55,6 +60,8 @@ def find_terms_add_to_glossary(glossary, blog, header_dict):
 
 def update_blog_gloss(old_style_header = False):
 
+    print("Updating glossaries for existing blogs")
+
     # Set the directories
     in_dir, header_template, archive_dir, image_out, blog_dir, glossary_path = set_directories()
 
@@ -63,13 +70,13 @@ def update_blog_gloss(old_style_header = False):
     gloss = fetch_glossary(glossary_path)
 
     # Loop and load text
-    for blog in blog_list:
+    for blog in tqdm(blog_list):
         blog_path = os.path.join(blog_dir, blog)
         with open(blog_path, encoding='utf-8') as f:
-            blog_text = f.read()
-        blog_splits = blog.split("---")[1]
+            blog_text = f.read()        
+        blog_splits = blog_text.split("---")        
         header = blog_splits[1]
-        blog_text = blog_splits[2]
+        blog_text = "".join(blog_splits[2:])
         header_dict = clean_yml_to_dict(header)
         
         # If old_style_header is true - find the old style header in the sidebar field and strip it out
@@ -77,13 +84,15 @@ def update_blog_gloss(old_style_header = False):
             if "sidebar" in header_dict.keys():
                 sidebar_data = header_dict["sidebar"]
                 gloss_pos = None
-                for idx, item in enumerate(sidebar_data):
-                    if item["title"] == "Glossary":
-                        gloss_pos = idx
+                if sidebar_data is not None:
+                    for idx, item in enumerate(sidebar_data):
+                        if "title" in item.keys():
+                            if item["title"] == "Glossary":
+                                gloss_pos = idx
                 if gloss_pos is not None:
                     del header_dict["sidebar"][gloss_pos]
             
-        header_dict, changed_entries = find_terms_add_to_glossary(gloss, header_dict)
+        header_dict, changed_entries = find_terms_add_to_glossary(gloss, blog_text, header_dict)
 
         if changed_entries:
             blog_out = append_header_blog(header_dict, blog_text)

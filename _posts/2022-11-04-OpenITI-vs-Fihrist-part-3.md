@@ -13,9 +13,15 @@ categories:
 tags:
   - corpus
   - book-history
-sidebar:
-  - title: "Glossary"
-  - text: "**Shuhra*: the name by which a person is best known.<br><br>*Ism*: the given name of a person.<br><br>*Kunya*: teknonym, a name given to a person derived from the name of their (first) child; usually takes the form *Abu X* (Father of X) or *Umm X* (Mother of X).<br><br>*Nisba*: a name element derived usually from a person's geographical background.<br><br>"
+glossary:
+  - term: "*Shuhra*"
+    def: "The name by which a person is best known."
+  - term: "*Ism*"
+    def: "The given name of a person."
+  - term: "*Kunya*"
+    def: "Teknonym, a name given to a person derived from the name of their (first) child; usually takes the form *Abu X* (Father of X) or *Umm X* (Mother of X)."
+  - term: "*Nisba*" 
+    def: "A name element derived usually from a person's geographical background."
 image: "/images/blogs/2022-11-04/peter_verkinderen3/media/image1.png"
 ---
 
