@@ -5,7 +5,7 @@ categories:
 - null
 glossary:
 - def: the given name of a person
-  term: Ism
+  term: ism
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -28,6 +28,7 @@ tags:
 title: "Between Manuscripts and Digital Texts: Commentaries on Hadith Ra\u02BEs al-Jalut"
 
 ---
+
 
 
 For us as digital historians and corpus curators, faced with the complex history of reception and transmission as well as the distinct approach to learning and authorship, attributing authors to premodern Islamicate texts and representing this complexity within our corpus metadata is often a challenging task. Although it is especially daunting for composite texts, commentaries, and supercommentaries, the task is no less challenging when it comes to working with printed editions and online digital libraries, since we face the risk of reproducing editorial choices and biases, whether knowingly or unknowingly.

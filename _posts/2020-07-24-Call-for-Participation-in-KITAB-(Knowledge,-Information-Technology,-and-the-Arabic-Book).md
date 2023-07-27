@@ -24,6 +24,7 @@ title: Call for Participation in KITAB (Knowledge, Information Technology, and t
 ---
 
 
+
 The KITAB project is seeking researchers who are interested in collaborating to advance their own, distinct research projects. The aim is to build a small group of academics (six to eight) who will work with our corpus of 1.5 billion words of premodern Arabic texts (700–1500 CE) and our data sets (including those for text reuse especially). Members of the KITAB team will provide a week’s worth of training in the last week of February 2021. In July 2021, we will host a further meeting in which participants will present papers that are informed by their work with the project.
 
 

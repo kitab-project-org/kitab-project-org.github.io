@@ -25,6 +25,8 @@ title: OpenITI release 2021.1.4
 ---
 
 
+
+
 The KITAB team has released a new version (2021.1.4) of the [OpenITI](https://github.com/OpenITI) corpus at [Zenodo](https://zenodo.org/record/4513723). The release is open access and freely available. It is our fourth release (first release in 2021). You can also access the release through our [GitHub repository](https://github.com/OpenITI/RELEASE).
 
 

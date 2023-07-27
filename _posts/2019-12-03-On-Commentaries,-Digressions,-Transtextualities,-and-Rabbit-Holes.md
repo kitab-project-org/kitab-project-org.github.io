@@ -26,6 +26,8 @@ title: On Commentaries, Digressions, Transtextualities, and Rabbit Holes
 ---
 
 
+
+
 Running the passim algorithm on the OpenITI corpus allows us to identify a vast number of instances of text reuse, but the quality of these results from a historical point of view depends on the quality of the texts in the corpus. As the material was pulled from various, often inconsistently formatted digital corpora (mainly Shamela, al-Jamiʿ al-kabir, and Shia Online), the text quality of the books in our corpus needs to be properly assessed and harmonised as much as possible. One of our responsibilities as postdoctoral fellows with the KITAB project is evaluating the quality of a number of such texts as well as tagging their general structure. In this blog post I discuss some complexities of this job, especially as they relate to the larger research questions of text reuse, the many-sided ‘inter-’ and even ‘transtextualities’ (Gérard Genette) in our corpus and what we jokingly refer to as the rabbit holes you can fall into when doing this work.
 
 

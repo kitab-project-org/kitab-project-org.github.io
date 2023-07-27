@@ -28,6 +28,8 @@ title: 'When al-Tabari is Not (Just) al-Tabari: The Challenges Posed by Composit
 ---
 
 
+
+
 In the past few months the KITAB team members have been closely studying the issue of versioning and composite editions in the OpenITI corpus. The problem of versioning is the following: For many of the texts in the corpus we possess multiple versions, often based on various editions. Take, for example, al-Tabari’s *Taʾrikh*, of which there are five versions, based on three editions. A closer study of the data by Sarah Savant has shown that these versions sometimes vary greatly in length. Moreover, the passim outputs suggest that some of these versions vary hugely in content (in extreme cases, the passim results suggest that they might be entirely different works).
 
 

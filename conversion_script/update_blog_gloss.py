@@ -38,8 +38,10 @@ def find_terms_add_to_glossary(glossary, blog, header_dict, overwrite = True):
   found_term = False
   changed_entries = False
   for term in glossary:
+    # Wrap the term in spaces to avoid capturing parts of phrases
+    term_regex = r"\s" + term["term"] + r"\s"
     
-    results = len(re.findall(term["term"], blog))
+    results = len(re.findall(term_regex, blog, re.IGNORECASE))
     if results > 0:
       found_term = True
       # If term not already in the glossary, append it, if overwrite is set to true then remove the old verison and add the new one
@@ -69,7 +71,11 @@ def find_terms_add_to_glossary(glossary, blog, header_dict, overwrite = True):
   
 
 def update_blog_gloss(update_existing_entries = False):
-    """Using update_existing_entries will replace any existing entries in the glossary with new ones from the supplied glossary
+    """This function will loop through the existing blogs, search for the glossary terms in the blogs and update the entries for all blogs
+    This function is run by docx_converter.main() when an individual blog has prompted an update to the glossary. Otherwise we run this
+    when the glossary has been updated.
+    
+    Using update_existing_entries will replace any existing entries in the blog glossary with new ones from the main glossary.json
     Set this to true when running an updated glossary where the def of indiviudal entries has been changed and you would like that
     change to be reflected across all blogs"""
 

@@ -3,9 +3,6 @@ author: thomas_benfey
 categories:
 - null
 - null
-glossary:
-- def: the given name of a person
-  term: Ism
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -22,6 +19,7 @@ tags:
 title: Tracing the origins of a historical fragment focused on the Samanids
 
 ---
+
 
 
 At the Arabic Pasts conference this year, Hugh Kennedy and I presented a paper in the panel dedicated to the Invisible East programme, chaired by the programme’s PI Arezou Azad. The paper focused on a fragment from an as-yet-unknown Arabic historical text on the Samanid dynasty of the fourth/tenth century. The fragment is one of the manuscripts from the Bamiyan region of Afghanistan that were recently acquired by the National Library of Israel (the shelfmarks for the bifolios that make up the fragment are Heb. 8333.190=4 and Heb. 8333.191=4). This is among the very few literary texts in Arabic in this corpus; otherwise, it consists mostly of legal documents and letters in Persian. We plan to edit and publish this fragment in full, along with a translation and commentary.

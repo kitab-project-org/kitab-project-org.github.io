@@ -14,6 +14,10 @@ glossary:
 - def: The annotation system used on OpenITI texts, see the documentation for more
     details.
   term: mARkdown
+- def: a csv ('Comma Separated Values') file is a plain text file containing data
+    in a table. Each row in the table starts on a new line, and columns are separated
+    using a comma (sometimes another character like a tab).
+  term: csv
 - def: The units into which OpenITI's texts are automatically divided for computational
     analysis (primarily for passim), typically 300 words in length (about the length
     of a book page).
@@ -30,6 +34,8 @@ tags: null
 title: 'Dispatches from al-Tabari 2: Show Me the Data!'
 
 ---
+
+
 
 
 

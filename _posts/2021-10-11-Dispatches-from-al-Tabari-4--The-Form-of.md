@@ -4,11 +4,11 @@ categories:
 - null
 - null
 glossary:
-- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
-  term: passim
 - def: The annotation system used on OpenITI texts, see the documentation for more
     details.
   term: mARkdown
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
 - def: The units into which OpenITI's texts are automatically divided for computational
     analysis (primarily for passim), typically 300 words in length (about the length
     of a book page).
@@ -25,6 +25,8 @@ title: "Dispatches from al-Tabari 4: The Form of al-Tabari\u2019s Sources: His P
   \ Notebooks"
 
 ---
+
+
 
 
 

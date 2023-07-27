@@ -4,11 +4,18 @@ categories:
 - null
 - null
 glossary:
+- def: the name by which a person is best known
+  term: shuhra
+- def: the given name of a person
+  term: ism
+- def: teknonym, a name given to a person derived from the name of their (first) child;
+    usually takes the form Abu X (Father of X) or Umm X (Mother of X).
+  term: kunya
+- def: "a name element derived usually from a person\u2019s geographical background."
+  term: nisba
 - def: The annotation system used on OpenITI texts, see the documentation for more
     details.
   term: mARkdown
-- def: the name by which a person is best known
-  term: shuhra
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -24,6 +31,8 @@ tags:
 title: 'OpenITI and the Fihrist: Methodology'
 
 ---
+
+
 
 
 

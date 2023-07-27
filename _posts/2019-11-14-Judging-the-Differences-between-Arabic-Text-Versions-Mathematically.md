@@ -26,6 +26,8 @@ title: Judging the Differences between Arabic Text Versions Mathematically
 ---
 
 
+
+
 Researchers working on historical Arabic texts have long known about transmission practices that resulted in considerable differences between what were ostensibly versions of the same work. Scholars transmitted their works to many students and sometimes over long time spans; works were transmitted differently in terms of wording, structure and scope of contents. The afterlife of texts played a role too. Witness copies were dispersed over great distances. Parts were extracted and rebound with other texts. The result is that today’s print editions often produce an ideal text that never, in fact, existed.
 
 

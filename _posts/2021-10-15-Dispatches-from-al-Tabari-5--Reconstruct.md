@@ -22,8 +22,6 @@ glossary:
     analysis (primarily for passim), typically 300 words in length (about the length
     of a book page).
   term: milestone
-- def: the given name of a person
-  term: Ism
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -36,6 +34,8 @@ tags: null
 title: "Dispatches from al-Tabari 5: Reconstructing al-Tabari\u2019s Notebooks"
 
 ---
+
+
 
 
 

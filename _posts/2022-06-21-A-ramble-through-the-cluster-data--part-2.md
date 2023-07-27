@@ -27,6 +27,8 @@ title: 'A Ramble Through the Cluster Data, Part 2: Quantifying and Visualising C
 
 
 
+
+
 In part 1, I introduced you to the cluster data set, a second [passim](https://kitab-project.org/methods/text-reuse) data set that is slightly different from the pairwise data set that the KITAB team use in their daily research. The cluster data set brings together the pairwise alignments that overlap by more than 80% into larger clusters containing multiple book milestones. These clusters can be used to explore stemmatic relationships between texts, or may even reveal how a set of texts rely on the same lost source text. I will be using this data set in my research for the ERC team's [forthcoming volume](https://kitab-project.org/research/books#the-erc-team-memories-books-communities-making-and-re-making-the-past-in-the-arabic-textual-tradition). However, before I engage in a closer study of individual clusters and their historical importance (I will begin to explore this in part 3), it is important to understand the nature of single-link clustering and its limitations and to explore the scale of the cluster data set in general. This will guide me in identifying clusters of interest and help to contextualise my findings later on.
 
 Understanding the scale of the clusters: single-link clustering and the pre-modern Arabic tradition

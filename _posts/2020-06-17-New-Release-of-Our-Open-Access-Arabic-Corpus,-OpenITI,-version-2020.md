@@ -25,6 +25,7 @@ title: New Release of Our Open Access Arabic Corpus, OpenITI, version 2020.1.2
 ---
 
 
+
 A new version of the corpus used by the KITAB team is now available to download at [Zenodo](https://zenodo.org/record/3891466), an Open Science platform that supports open access. This is the second release developed by the OpenITI organisation. It is also accessible at [GitHub](https://github.com/OpenITI/RELEASE).
 
 

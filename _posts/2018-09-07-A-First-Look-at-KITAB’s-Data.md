@@ -22,6 +22,8 @@ title: "A First Look at KITAB\u2019s Data"
 ---
 
 
+
+
 The digital revolution is arriving rather late to Middle Eastern studies, but it is coming fast.
 
 

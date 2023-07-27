@@ -7,14 +7,12 @@ glossary:
 - def: The name by which a person is best known.
   term: '*Shuhra*'
 - def: The given name of a person.
-  term: '*Ism*'
+  term: 'ism'
 - def: Teknonym, a name given to a person derived from the name of their (first) child;
     usually takes the form *Abu X* (Father of X) or *Umm X* (Mother of X).
   term: '*Kunya*'
 - def: A name element derived usually from a person's geographical background.
   term: '*Nisba*'
-- def: the given name of a person
-  term: Ism
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -29,6 +27,7 @@ tags:
 title: 'OpenITI and the Fihrist: Analysis'
 
 ---
+
 
 
 

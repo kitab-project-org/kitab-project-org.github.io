@@ -31,6 +31,8 @@ title: "Dispatches from al-Tabari 1: Al-Tabari\u2019s Direct Informants: Work on
 
 
 
+
+
 In a series of eight blog posts, we share some results of experimental work on citations in three works by Muhammad b. Jarir al-Tabari (d. 310/923). These are his universal history, *Taʾrikh al-rusul wa-l-muluk*; his Quran commentary, *Jamiʿ al-bayan ʿan taʾwil ay al-Qurʾan* (*Tafsir*) and the *Tahdhib al-athar*, an incomplete work on traditions, arranged according to the last transmitter of the Hadiths and also according to the Prophet's Companions. All three are important works in their own fields and contain numerous citation chains (*isnad*s). These *isnad*s provide a fascinating and previously untried opportunity for historians to understand his working methods.[^1]
 
 What We Want

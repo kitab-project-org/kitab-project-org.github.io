@@ -7,11 +7,11 @@ glossary:
 - def: The annotation system used on OpenITI texts, see the documentation for more
     details.
   term: 'mARkdown:'
-- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
-  term: passim
 - def: The annotation system used on OpenITI texts, see the documentation for more
     details.
   term: mARkdown
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
 - def: a csv ('Comma Separated Values') file is a plain text file containing data
     in a table. Each row in the table starts on a new line, and columns are separated
     using a comma (sometimes another character like a tab).
@@ -34,6 +34,8 @@ tags:
 title: 'A Ramble Through the Cluster Data, Part 1: From Pairs to Clusters.'
 
 ---
+
+
 
 
 

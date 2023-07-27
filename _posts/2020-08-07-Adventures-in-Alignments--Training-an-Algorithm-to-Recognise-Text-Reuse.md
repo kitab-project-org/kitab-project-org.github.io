@@ -27,6 +27,8 @@ title: 'Adventures in Alignments: Training an Algorithm to Recognise Text Reuse'
 ---
 
 
+
+
 Text reuse is the term that we use to describe cases where one book shares verbatim material with another. Text reuse can be studied manually through the reading of texts in parallel, but it can also be detected computationally, using the passim algorithm. Computational approaches, which can compare thousands of books at once, can teach us many exciting things about Arabic book history that would be impossible to discover through manual study.[^1] In this blog post, I would like to make some observations about passim’s outputs at the level of individual alignments (the paired passages produced by passim) rather than larger book relationships and through them discuss how the human evaluation of passim’s outputs can improve the algorithm’s performance. A key point I would like to make here is that passim is powerful, but it cannot understand the content of texts, sometimes leading it to identify cases of similarity between texts that do not constitute meaningful reuse.
 
 

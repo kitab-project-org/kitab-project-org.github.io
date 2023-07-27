@@ -24,6 +24,7 @@ title: Detecting What Authors Took from Earlier Works
 ---
 
 
+
 With text reuse detection, we rely on the power, speed and memory of a computer to find common passages between texts.
 
 

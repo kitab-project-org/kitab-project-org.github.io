@@ -6,6 +6,8 @@ categories:
 glossary:
 - def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
   term: passim
+- def: the given name of a person
+  term: ism
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -22,6 +24,7 @@ tags:
 title: "A Tale of 3 \u201CVersions\u201D"
 
 ---
+
 
 
 ## Measuring variation in the early tradition

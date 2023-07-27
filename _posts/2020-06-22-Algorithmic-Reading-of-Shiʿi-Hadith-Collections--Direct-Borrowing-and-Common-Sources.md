@@ -4,14 +4,14 @@ categories:
 - null
 - null
 glossary:
+- def: the given name of a person
+  term: ism
 - def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
   term: passim
 - def: The units into which OpenITI's texts are automatically divided for computational
     analysis (primarily for passim), typically 300 words in length (about the length
     of a book page).
   term: milestone
-- def: the given name of a person
-  term: Ism
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -34,6 +34,8 @@ title: "Algorithmic Reading of Shi\u02BFi Hadith Collections: Direct Borrowing a
   \ Common Sources"
 
 ---
+
+
 
 
 It is not accidental that a large number of books in the OpenITI corpus belong to one important genre, prophetic Hadith – the sayings of the Prophet Muhammad and accounts of his practice. As a repository of the prophetic tradition (*sunna*), they are considered an authoritative source of law and moral guidance in Islam. When early Muslim religious scholars sought ‘knowledge’ (*ʿilm*), they often meant Hadith. In this blog post, I will briefly discuss what Shiʿi Hadith is and provide some preliminary ideas towards reconstructing early Hadith transmission through computational reading.

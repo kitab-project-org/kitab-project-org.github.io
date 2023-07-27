@@ -25,6 +25,7 @@ title: OpenITI release 2020.2.3
 ---
 
 
+
 A new version (version 2020.2.3) of the [OpenITI](https://github.com/OpenITI) corpus is available at [Zenodo](https://zenodo.org/record/4075046), an Open Science platform that supports open access. This is the third release (second release in 2020) developed by the OpenITI organisation. It is also accessible at [GitHub](https://github.com/OpenITI/RELEASE).
 
 

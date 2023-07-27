@@ -4,15 +4,6 @@ categories:
 - null
 - null
 glossary:
-- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
-  term: passim
-- def: The annotation system used on OpenITI texts, see the documentation for more
-    details.
-  term: mARkdown
-- def: a csv ('Comma Separated Values') file is a plain text file containing data
-    in a table. Each row in the table starts on a new line, and columns are separated
-    using a comma (sometimes another character like a tab).
-  term: csv
 - def: png ('Portable Network Graphics') is a widely supported open image format.
     It is raster-based (images are stored as columns and rows of pixels), which means
     that scaling it (reducing or increasing the image size or resolution) will reduce
@@ -23,6 +14,15 @@ glossary:
     can be scaled up or down without any loss in quality. You cannot use an svg image
     in a MS Word or Google Docs document.
   term: svg
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: a csv ('Comma Separated Values') file is a plain text file containing data
+    in a table. Each row in the table starts on a new line, and columns are separated
+    using a comma (sometimes another character like a tab).
+  term: csv
 - def: a visualization that shows the difference in magnitude of a phenomenon as a
     variation in color (hue or intensity).
   term: heat map
@@ -45,6 +45,8 @@ tags:
 title: New KITAB visualizations
 
 ---
+
+
 
 
 

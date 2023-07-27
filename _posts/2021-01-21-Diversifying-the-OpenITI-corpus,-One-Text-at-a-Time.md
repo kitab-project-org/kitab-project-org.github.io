@@ -4,11 +4,11 @@ categories:
 - null
 - null
 glossary:
-- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
-  term: passim
 - def: The annotation system used on OpenITI texts, see the documentation for more
     details.
   term: mARkdown
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -26,6 +26,8 @@ tags:
 title: Diversifying the OpenITI corpus, One Text at a Time
 
 ---
+
+
 
 
 The vast majority of texts in the OpenITI corpus were sourced from three major collections of digital texts originally prepared by organisations based in the Middle East (see Peter Verkinderen’s excellent blog post on the largest of them, [Shamela](http://kitab-project.org/2020/12/03/al-maktaba-al-shamila-a-short-history/)). These collections have proven invaluable to researchers, not least because they have facilitated digital forms of analysis, but they all entailed choices about which textual materials should belong on their platforms and which should not. Shamela, for example, did not originally include any poetry and focused largely on Sunni traditionalism. Another significant omission in each of these collections is the rich corpus of Arabic texts written by and for non-Muslims.
