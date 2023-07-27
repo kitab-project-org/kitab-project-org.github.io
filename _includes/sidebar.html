@@ -5,8 +5,8 @@
   {% if page.glossary %}
     <h3>Glossary:</h3>
     {% for g in page.glossary %}      
-      {% if g.title %}<h4>{{ g.title }}</h4>{% endif %}
-      {% if g.text %}{{ g.text | markdownify }}{% endif %}
+      {% if g.term %}<h4>{{ g.term }}</h4>{% endif %}
+      {% if g.def %}{{ g.def | markdownify }}{% endif %}
     {% endfor %}
   {% endif %}
   {% if page.sidebar %}
