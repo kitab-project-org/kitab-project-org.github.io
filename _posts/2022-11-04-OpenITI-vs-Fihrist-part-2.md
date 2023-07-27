@@ -14,8 +14,10 @@ tags:
   - corpus
   - book-history
 sidebar:
+
+glossary:
   - title: "Glossary"
-  - text: "**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
+    text: "**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
 image: "/images/blogs/2022-11-04/peter_verkinderen2/media/image1.png"
 ---
 
