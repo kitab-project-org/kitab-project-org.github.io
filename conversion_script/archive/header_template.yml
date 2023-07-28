@@ -3,18 +3,19 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title: 'A blog to test the pipeline'
+title: "Test for addition of new blog to new series"
 author: mathew_barber
 layout: single
-categories:
-  - 
-  - 
+series:
 tags:
   - 
 docx: mathew.Reading_mARkdown_revised.docx
 new_author:
   - name:
-  - bio:
+    bio:
 glossary:
   - term:
     def:
+new_series:
+  - label: new-series-test
+    title: "A test for addition of a new series"

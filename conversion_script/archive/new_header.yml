@@ -6,9 +6,7 @@ header:
 title:
 author:
 layout: single
-categories:
-  - 
-  - 
+series:
 tags:
   - 
 docx:
@@ -18,3 +16,6 @@ new_author:
 glossary:
   - term:
     def:
+new_series:
+  - label: 
+    title:

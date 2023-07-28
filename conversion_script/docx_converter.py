@@ -226,10 +226,11 @@ def find_yml_docx_data(in_dir, file_list):
             title = False
             if "new_series" in yml_dict.keys():
               if yml_dict["new_series"] is not None:
-                  for item in yml_dict["series"]:
+                  for item in yml_dict["new_series"]:
                     if "label" in item.keys():
-                        if item["label"] is not None:                          
-                          yml_dict["category"].append(item["label"])
+                        if item["label"] is not None:
+                          if item not in yml_dict["category"]:                          
+                            yml_dict["category"].append(item["label"])
                           series_dict = {"taxonomy": item["label"]}
                           label = True                          
                     if "title" in item.keys():
@@ -245,8 +246,10 @@ def find_yml_docx_data(in_dir, file_list):
             # Check series field and append any contents
             if "series" in yml_dict.keys():
               if yml_dict["series"] is not None:
-                for item in yml_dict:
-                  yml_dict["category"].append(item)
+                for item in yml_dict["series"]:
+                  if item not in yml_dict["category"]:
+                    yml_dict["category"].append(item)
+              del yml_dict["series"]
 
             # Add full header text to output dict
             out_dict["header"] = yml_dict

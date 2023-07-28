@@ -7,8 +7,6 @@ title:
 author:
 layout: single
 series:
-  - label: 
-    title:
 tags:
   - 
 docx:
@@ -18,3 +16,6 @@ new_author:
 glossary:
   - term:
     def:
+new_series:
+  - label: 
+    title:
