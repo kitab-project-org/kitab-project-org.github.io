@@ -19,6 +19,7 @@
 
 ## data.yml (author ids)
 | author_id | author name |
+| --- | --- |
 | abdul_rahman_azzam | Abdul Rahman Azzam |
 | anjum_alam | Anjum Alam |
 | aslisho_qurboniev | Aslisho Qurboniev |
