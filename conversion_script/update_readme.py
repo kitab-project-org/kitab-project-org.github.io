@@ -17,7 +17,7 @@ def update_authors_list(author_yml = "../_data/authors.yml", readMe = "readMe.md
         yml_text = f.read()
     
     yml_dict = clean_yml_to_dict(yml_text)
-    list_for_table = [] 
+    list_for_table = [["author_id", "author name"]] 
     for item in yml_dict.keys():    
         list_for_table.append([item, yml_dict[item]["name"]])
     

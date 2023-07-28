@@ -22,6 +22,8 @@ from update_blog_gloss import fetch_glossary
 from update_blog_gloss import find_terms_add_to_glossary
 from update_blog_gloss import update_blog_gloss
 from build_series_pages import build_series_page
+from update_readme import update_authors_list
+from update_readme import update_tags_categories_list
 
 
 
@@ -231,7 +233,8 @@ def find_yml_docx_data(in_dir, file_list):
                     if "label" in item.keys():
                         if item["label"] is not None:
                           if item not in yml_dict["category"]:                          
-                            yml_dict["category"].append(item["label"])
+                            yml_dict["categories"].append(item["label"])
+                            yml_dict["tags"].append(item["label"])
                           series_dict = {"taxonomy": item["label"]}
                           label = True                          
                     if "title" in item.keys():
@@ -320,7 +323,8 @@ def main():
   for docx in docx_data_pairs:
     # If we have new author - add the author's bio to the authors.yml
     if "new_author" in docx.keys():
-       add_new_author(authors_yml, docx["new_author"], docx["header"])   
+       add_new_author(authors_yml, docx["new_author"], docx["header"])
+       update_authors_list() 
     
     docx_path = docx["docx"]
     
@@ -362,6 +366,9 @@ def main():
     else:
        print("WARNING - Incorrect format submitted - it must be docx - submitted file name: {}".format(docx_path))
   
+  # Once all new blogs have been added - update the existing category and tag lists on the readme for user
+  update_tags_categories_list()
+
   # Once all processing is done - clean-up - move all files in the input to the archive folder - add a fresh template for the next user
   clean_up_directories(in_dir, archive_dir, header_template)
 
