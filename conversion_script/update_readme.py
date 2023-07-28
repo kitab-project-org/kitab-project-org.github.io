@@ -6,7 +6,7 @@ from shared_utilities import clean_yml_to_dict
 def list_to_md_table(list_of_lists):
     row_list = []
     for sub_list in list_of_lists:
-        row = " | " + " | ".join(sub_list) + " | "
+        row = "| " + " | ".join(sub_list) + " |"
         row_list.append(row)
     md_table = "\n".join(row_list)
     return md_table
