@@ -1,0 +1,33 @@
+name: Run python script to covert blogs in docx
+
+on:
+  workflow_call:
+    secrets:
+      token:
+        required: true
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+         python -m pip install --upgrade pip
+         pip install pypandoc
+         pip install pyyaml
+         pip install tqdm
+      
+      - name: Run Python Script
+        run: python conversion_script/docx_converter.py
+            
+      - name: Commit & Push
+        uses: Andro999b/push@v1.3
+        with:
+          github_token: ${{ secrets.token }}
+          branch: master
+          force: true
+          message: 'Overwritten by Github Actions - ${date}'

@@ -1,21 +1,25 @@
 ---
-header:
-  overlay_image: "/images/old_blogs/2020-10-05-Mapping-Who’s-Who-in-Isnads-–-First-Steps/media/image2.png"
-  overlay_filter: 0.5
-  caption: "A citation network drawn from *isnad*s in Ibn ʿAsakir's *Taʾrikh Madinat Dimashq*. [Click here to learn more](https://kitab-project.org/Mapping-Who-s-Who-in-Isnads-First-Steps/)." 
-  show_overlay_excerpt: false  
-title:	"Call for Papers: A Workshop on Citation (25th-26th July 2022)"		
 author: sarah_savant_mathew_barber
-layout:		single
 categories:
-  - 
-  - 
+- null
+- null
+header:
+  caption: "A citation network drawn from *isnad*s in Ibn \u02BFAsakir's *Ta\u02BE\
+    rikh Madinat Dimashq*. [Click here to learn more](https://kitab-project.org/Mapping-Who-s-Who-in-Isnads-First-Steps/)."
+  overlay_filter: 0.5
+  overlay_image: "/images/old_blogs/2020-10-05-Mapping-Who\u2019s-Who-in-Isnads-\u2013\
+    -First-Steps/media/image2.png"
+  show_overlay_excerpt: false
+image: /images/methods/isnads_tag.png
+layout: single
 tags:
-  - events
-  - news
-  - citation
-image: "/images/methods/isnads_tag.png"
+- events
+- news
+- citation
+title: 'Call for Papers: A Workshop on Citation (25th-26th July 2022)'
+
 ---
+
 
 # Modeling Attribution and Acknowledgement in the Digital Humanities: Citation Practices and the Pre-Modern Arabic Book.
 A two-day workshop, 25th - 26th July 2022\

@@ -7,10 +7,16 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
-
+    branches:
+    - master
+    paths-ignore: 'conversion_script/**'
+  # Runs on workflow call rather than push - so that we can upload new blogs prior website deployment
+  workflow_run:
+    workflows: [Blogs Workflow]
+    types:
+      - completed
+  
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -24,7 +30,7 @@ permissions:
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   # Build job

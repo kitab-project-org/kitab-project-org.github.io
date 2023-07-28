@@ -1,24 +1,54 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false  
-title:	"New KITAB visualizations"		
 author: peter_verkinderen
-layout:		single
 categories:
-  - 
-  - 
+- null
+- null
+glossary:
+- def: png ('Portable Network Graphics') is a widely supported open image format.
+    It is raster-based (images are stored as columns and rows of pixels), which means
+    that scaling it (reducing or increasing the image size or resolution) will reduce
+    the sharpness of the image.
+  term: png
+- def: svg ('Scalabla Vector Graphics') is an image format that is based on vectors
+    (shapes and lines) rather than pixels. This has the advantage that svg images
+    can be scaled up or down without any loss in quality. You cannot use an svg image
+    in a MS Word or Google Docs document.
+  term: svg
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: a csv ('Comma Separated Values') file is a plain text file containing data
+    in a table. Each row in the table starts on a new line, and columns are separated
+    using a comma (sometimes another character like a tab).
+  term: csv
+- def: a visualization that shows the difference in magnitude of a phenomenon as a
+    variation in color (hue or intensity).
+  term: heat map
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2021-12-03/peter_verkinderen/media/image10.png
+layout: single
 tags:
-  - viz
-  - passim
-  - 
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>**csv:** a csv ('Comma Separated Values') file is a plain text file containing data in a table. Each row in the table starts on a new line, and columns are separated using a comma (sometimes another character like a tab).<br><br>**png:** png ('Portable Network Graphics') is a widely supported open image format. It is raster-based (images are stored as columns and rows of pixels), which means that scaling it (reducing or increasing the image size or resolution) will reduce the sharpness of the image.<br><br>**svg:** svg ('Scalabla Vector Graphics') is an image format that is based on vectors (shapes and lines) rather than pixels. This has the advantage that svg images can be scaled up or down without any loss in quality. You cannot use an svg image in a MS Word or Google Docs document.<br><br>**heat map:** a visualization that shows the difference in magnitude of a phenomenon as a variation in color (hue or intensity).<br><br>"
-image: "/images/blogs/2021-12-03/peter_verkinderen/media/image10.png"
+- viz
+- passim
+- null
+title: New KITAB visualizations
+
 ---
+
+
+
+
 
 
 Much of our work at KITAB involves comparing books in order to understand their relationships. Our main tool for this is the [passim](https://kitab-project.org/methods/text-reuse) software, which detects passages two texts have in common (here are some of our blogs about passim: [1](https://kitab-project.org/Dispatches-from-al-Tabari-7-Text-Reuse/), [2](https://kitab-project.org/a/), [3](https://kitab-project.org/Adventures-in-Alignments-Training-an-Algorithm-to-Recognise-Text-Reuse/), [4](https://kitab-project.org/A-Tale-of-3-Versions/)). passim produces a lot of data about each pair of passages, including where exactly in both books these passages are found, and how many words and characters the shared passage contains in either book.
@@ -40,7 +70,7 @@ This is how you read this visualization (see Figure 2): imagine that we write ou
 The red lines give us an impression of how much of the book is reused in the other book, while the yellow lines help us see whether the common passages occur in the same order in both books. In the example in Figures 1 and 2, the red lines show that much of al-Istakhri's work is reused in Ibn Hawqal's, and the absence of red lines in some sections of the book shows that Ibn Hawqal did not reuse some sections but added his own information there. (People who know the books will immediately suspect that the large blank section in the first quarter of Ibn Hawqal's book must be his description of the Maghrib, which is entirely independent from al-Istakhri's). Meanwhile, the fact that the yellow lines all run nicely parallel shows us that Ibn Hawqal faithfully followed the structure of al-Istakhri's book. For examples where this is not the case, see Sarah Savant's [blog](https://kitab-project.org/A-Tale-of-3-Versions/) on the different versions of Malik's al-Muwatta.
 
 KITAB DiffViewer
-----------------
+-
 
 The scroll visualization is very useful for comparing books at a high level. For fine-grained comparisons of the differences and similarities between passages identified by passim as text reuse, we until recently used an online tool called [Diffchecker](https://www.diffchecker.com/).
 
@@ -95,7 +125,7 @@ Finally, you can download the diff as an image file by clicking the 'Download pn
 In the future, we would also like to provide an option by which you can create a permalink to your diff output, which you can then link to in a publication. This has not yet been implemented, however.
 
 Reuse heat map
---------------
+--
 
 On the other end of the spectrum, we would sometimes like to be able to visualize all reuse one text has in common with all other texts in the corpus (or a selection).
 
@@ -128,14 +158,14 @@ This visualization is generated using a Python script; the heatmaps it outputs a
 In the coming months, we will build a publicly available online app to build such heatmaps, to be released when the KITAB data becomes available.
 
 Bibliography
-------------
+
 
 Heckel, Paul, '[A Technique for Isolating Differences Between Files](http://documents.scribd.com/docs/10ro9oowpo1h81pgh1as.pdf)', *Communications of the ACM* 21/4 (1978), 264-268.
 
 Savant, Sarah Bowen, 'Al-Ṭabarī's Unacknowledged Debt to Ibn Abī Ṭāhir Ṭayfūr', forthcoming.
 
 Appendix
---------
+--
 
 The wikEd-diff code is an implementation of an algorithm consisting of six steps, first described by Paul Heckel in his 1978 article '[A Technique for Isolating Differences Between Files](http://documents.scribd.com/docs/10ro9oowpo1h81pgh1as.pdf)'. The algorithm tries to find the most likely steps by which one string (s1) was turned into another string (s2) by three different types of actions: insertion, deletion, moving. The idea is simple: both strings (s1 and s2) are split into tokens, and tokens that appear exactly once in each string are used as anchors. Next, the tokens before and after those anchors are compared in a number of further steps. The end result is that each token in s2 is marked as either common to both strings, or inserted / deleted / moved to another position in s2 as compared to s1.
 

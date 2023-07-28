@@ -1,0 +1,14 @@
+name: Blogs Workflow
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  call-blog-converter:
+     uses: ./.github/workflows/convertBlogs.yml
+     secrets:
+       token: ${{secrets.ACTIONS_ACCESS}}
+#   call-deploy-workflow:
+#     needs: call-blog-converter
+#     uses: ./.github/workflows/jekyll.yml

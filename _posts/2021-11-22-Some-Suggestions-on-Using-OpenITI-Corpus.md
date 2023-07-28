@@ -1,27 +1,44 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false  
-title: "Some Suggestions on Using OpenITI Corpus to Present Enhanced Digital Versions of Large Collections: The Case of al-Dhari‘a Ila Tasanif al-Shi‘a"			
 author: hamid_reza_hakimi
-layout:		single
 categories:
-  - 
-  - 
-tags:
-  - viz
-  - markdown
-  - corpus
+- null
+- null
+glossary:
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2021-11-22/hamid_reza_hakimi/media/image2.png
+layout: single
 sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
-image: "/images/blogs/2021-11-22/hamid_reza_hakimi/media/image2.png"
+- title: Glossary
+- text: '**passim:** A computer algorithm used to detect text reuse in the OpenITI
+    Corpus.<br><br>**mARkdown:** The annotation system used on OpenITI texts, see
+    the documentation for more details.<br><br>'
+tags:
+- viz
+- markdown
+- corpus
+title: "Some Suggestions on Using OpenITI Corpus to Present Enhanced Digital Versions\
+  \ of Large Collections: The Case of al-Dhari\u2018a Ila Tasanif al-Shi\u2018a"
+
 ---
 
 
-Tagging the structure of the texts in OpenITI corpus is an important step towards the ultimate goal of the [KITAB project](https://kitab-project.org/)---Studying the Arabic textual tradition using text reuse detection (for a detailed description of the tagging process, see my other blog post [here](https://kitab-project.org/Tagging-the-Structure-of-Texts-in-the-OPENITI-Corpus/)). However, its application goes much beyond the aims set for this project. In the first place, it creates a corpus of manually-tagged texts, annotated by human annotators and reviewed by second annotators, to which readers have access, with an interactive space enabling them to suggest corrections for any problem in the tags or in any part of the text itself through the [issues](https://github.com/OpenITI/Annotation/issues) reporting mechanism on our GitHub page. Besides, with a touch of creativity, such a corpus developed by spending so much time on preparing each single text can be freely used as a base by specialists who decide to work on specific texts in their area of specialty. In this blog post, I will try to explain how our annotated texts can be used to present enhanced versions of the texts, especially large biographical/bibliographical collections. By enhanced version, I mean a digital (and preferably online) version modified in order to facilitate using the content of the text for readers and also facilitate doing research on the text (or even more broadly on the genre of the text) for specialists. The text I will use here as an example is the famous Shiʿi bibliographical collection [*al-Dhari'a ila tasanif al-shi'a*](https://github.com/OpenITI/1400AH/tree/master/data/1389AghaBuzurgTihrani/1389AghaBuzurgTihrani.DharicaIlaTasanifShica). Nevertheless, the suggestions and methods presented here are by no means limited to this text and can be applied to any other tagged bibliographical/biographical text on our corpus. To show how our tagged texts can be used for this purpose, first I will briefly explain what I, as the annotator, have done on it and will make some preliminary suggestions to improve the quality of the text; then I will show a few possibilities for the corpus which can be helpful for a wider audience interested in the text.
+
+
+
+
+
+Tagging the structure of the texts in OpenITI corpus is an important step towards the ultimate goal of the [KITAB project](https://kitab-project.org/)Studying the Arabic textual tradition using text reuse detection (for a detailed description of the tagging process, see my other blog post [here](https://kitab-project.org/Tagging-the-Structure-of-Texts-in-the-OPENITI-Corpus/)). However, its application goes much beyond the aims set for this project. In the first place, it creates a corpus of manually-tagged texts, annotated by human annotators and reviewed by second annotators, to which readers have access, with an interactive space enabling them to suggest corrections for any problem in the tags or in any part of the text itself through the [issues](https://github.com/OpenITI/Annotation/issues) reporting mechanism on our GitHub page. Besides, with a touch of creativity, such a corpus developed by spending so much time on preparing each single text can be freely used as a base by specialists who decide to work on specific texts in their area of specialty. In this blog post, I will try to explain how our annotated texts can be used to present enhanced versions of the texts, especially large biographical/bibliographical collections. By enhanced version, I mean a digital (and preferably online) version modified in order to facilitate using the content of the text for readers and also facilitate doing research on the text (or even more broadly on the genre of the text) for specialists. The text I will use here as an example is the famous Shiʿi bibliographical collection [*al-Dhari'a ila tasanif al-shi'a*](https://github.com/OpenITI/1400AH/tree/master/data/1389AghaBuzurgTihrani/1389AghaBuzurgTihrani.DharicaIlaTasanifShica). Nevertheless, the suggestions and methods presented here are by no means limited to this text and can be applied to any other tagged bibliographical/biographical text on our corpus. To show how our tagged texts can be used for this purpose, first I will briefly explain what I, as the annotator, have done on it and will make some preliminary suggestions to improve the quality of the text; then I will show a few possibilities for the corpus which can be helpful for a wider audience interested in the text.
 
 *Al-Dhari'a* is the largest bibliographical collection indexing the Shiʿi written tradition in Arabic and Persian (and occasionally Turkish and Urdu) in 29 printed volumes and around 55000 entries, compiled by [Agha Buzurg al-Tihrani](http://dx.doi.org/10.1163/1573-3912_islam_SIM_7548) (1293/1876-1389/1970) in a span of 60 years searching through around 60 libraries in several countries from Iran and Iraq to Syria and Egypt (find the PDF [here](https://archive.org/details/alzariah)). The text has a very clear structure with numbered entries which are the titles of the texts (manuscripts or published) sorted alphabetically according to the first letter. There are also cross-references which are not numbered. So, as the first step, I tagged all the entries as simple entries (### \$), and cross-references with an asterisk (### \$ \*), and then I checked the sequentiality of the numbered entries through a Python script. Hundreds of numbers were typed incorrectly in our digital version, which I corrected manually. Entries that did not have a number or had duplicate numbers in the printed edition, I tagged with a ##\# \$ + (see Figure 1) (however, it is not known whether such numbering problems should be attributed to the original manuscript or to the typists of the printed edition). In an enhanced digital version, the cross-references would be linked to their main entries, and a secondary numbering system could be set up to correct the incorrect numbers in the printed edition.
 
@@ -55,10 +72,10 @@ Preparing the text's indexes (list of the names of people, places, etc.) will be
 
 ## Text Reuse Data
 
-The KITAB team's text reuse data could enrich an enhanced digital version. The team uses the [passim](https://github.com/dasmiq/passim) algorithm to compare all texts in the corpus with each other and find instances where a pair of texts have passages in common. This data could be used to find out which parts of the text are drawn from previous texts and which parts are repeated in subsequent texts---a process which not only helps in any research about the text, but also in editing the text or reconstructing its lost sections (see Figure 6). Since large texts are more likely to extensively quote previous sources and be quoted in later sources, running passim on them will most probably bring very helpful results (for a general description of passim see [here](https://kitab-project.org/methods/text-reuse). There are some other blog posts on our website about it: [1](https://kitab-project.org/a/), [2](https://kitab-project.org/Adventures-in-Alignments-Training-an-Algorithm-to-Recognise-Text-Reuse/), [3](https://kitab-project.org/Algorithmic-Reading-of-Shi%CA%BFi-Hadith-Collections-Direct-Borrowing-and-Common-Sources/), [4](https://kitab-project.org/On-Commentaries,-Digressions,-Transtextualities,-and-Rabbit-Holes/)).
+The KITAB team's text reuse data could enrich an enhanced digital version. The team uses the [passim](https://github.com/dasmiq/passim) algorithm to compare all texts in the corpus with each other and find instances where a pair of texts have passages in common. This data could be used to find out which parts of the text are drawn from previous texts and which parts are repeated in subsequent textsa process which not only helps in any research about the text, but also in editing the text or reconstructing its lost sections (see Figure 6). Since large texts are more likely to extensively quote previous sources and be quoted in later sources, running passim on them will most probably bring very helpful results (for a general description of passim see [here](https://kitab-project.org/methods/text-reuse). There are some other blog posts on our website about it: [1](https://kitab-project.org/a/), [2](https://kitab-project.org/Adventures-in-Alignments-Training-an-Algorithm-to-Recognise-Text-Reuse/), [3](https://kitab-project.org/Algorithmic-Reading-of-Shi%CA%BFi-Hadith-Collections-Direct-Borrowing-and-Common-Sources/), [4](https://kitab-project.org/On-Commentaries,-Digressions,-Transtextualities,-and-Rabbit-Holes/)).
 
 
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|||
 | [![]({{ "/images/blogs/2021-11-22/hamid_reza_hakimi/media/image7.png" | absolute_url }})]( {{ "/images/blogs/2021-11-22/hamid_reza_hakimi/media/image7.png" | absolute_url }}) |
 
 **Figure 6**: A list of 25 texts written by authors who died before Agha Buzurg for which passim has detected the most cases of text reuse with *al-Dhari'a* on the left, and a list of the texts written by authors who died after Agha Buzurg for which passim has detected one or more cases of text reuse with *al-Dhari'a* on the right (the columns on the right side of both lists show the number of instances of text reuse between the text and *al-Dhari'a*).
@@ -77,7 +94,7 @@ Passim can also be run on a pair of texts to find similar passages. Figure 8 is 
 
 **Figure 9**: Graphical representation of the information in Figure 8, showing the distribution of the reused passages of *al-Fihrist* (on the bottom) in *al-Dhari'a* (on the top). As it is evident, the cases of reuse are very sparse in comparison with the texts at the top of the table in Figure 6. However, for a detailed analysis of the text, they could still be of importance.
 
-After finding similar passages in a pair of texts, it will also be possible to observe the differences between them using our text-comparing app [OpenITI Diff viewer](https://pverkind.github.io/OpenITIdiffViewer/) (see Figure 10). The app can also be used for a second function. The OpenITI corpus contains different digital versions of the same texts ---sometimes different digitisations of the same paper edition, and sometimes of different printed editions. Thus, most folders contain more than one edition of the text (this is not the case about *al-Dhari'a* which is a recent compilation most of which was published while the author was still alive). So, the app also enables specialist scholars (those who intend to present a newer edition of the text, for example) to compare different printed editions and easily observe the differences between them. This will save a lot of time and energy that close reading of the texts for comparison would require.
+After finding similar passages in a pair of texts, it will also be possible to observe the differences between them using our text-comparing app [OpenITI Diff viewer](https://pverkind.github.io/OpenITIdiffViewer/) (see Figure 10). The app can also be used for a second function. The OpenITI corpus contains different digital versions of the same texts sometimes different digitisations of the same paper edition, and sometimes of different printed editions. Thus, most folders contain more than one edition of the text (this is not the case about *al-Dhari'a* which is a recent compilation most of which was published while the author was still alive). So, the app also enables specialist scholars (those who intend to present a newer edition of the text, for example) to compare different printed editions and easily observe the differences between them. This will save a lot of time and energy that close reading of the texts for comparison would require.
 
 [![]({{ "/images/blogs/2021-11-22/hamid_reza_hakimi/media/image11.png" | absolute_url }})]( {{ "/images/blogs/2021-11-22/hamid_reza_hakimi/media/image11.png" | absolute_url }})
 

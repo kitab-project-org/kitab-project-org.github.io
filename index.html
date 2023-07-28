@@ -54,7 +54,7 @@ corpus_search:
       {% assign latest_post = site.posts[0]%}
       <div class = "archive__item-teaser">
       {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
+      <img src = {{ latest_post.image | absolute_url }} </img>
       {% else %}
       <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
@@ -75,7 +75,7 @@ corpus_search:
       {% assign latest_post = site.posts[1]%}
       <div class = "archive__item-teaser">
       {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
+      <img src = {{ latest_post.image | absolute_url }} </img>
       {% else %}
       <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
@@ -96,7 +96,7 @@ corpus_search:
       {% assign latest_post = site.posts[2]%}
       <div class = "archive__item-teaser">
       {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
+      <img src = {{ latest_post.image | absolute_url }} </img>
       {% else %}
       <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
@@ -131,11 +131,96 @@ corpus_search:
 
 </div>
 
-<! end of code block for latest blog posts !>
+<!-- Liquid based code that locates all of the pages with a layout category (which correspond to blog series on our website) and gives the most recent on the homepage-->
+
+<h1> Our latest blog series </h1>
+<br>  
+<div class = "feature__wrapper">
+
+
+{% assign category_list = site.pages | where: "layout", "category" | sort: "date" | reverse %}
+
+  
+<div class = "grid__item">
+     <article class = "archive__item">      
+      {% assign category_page = category_list[0]%}
+      {% assign taxonomy = category_page.taxonomy %}
+      {% assign first_post = site.posts | find :"categories", taxonomy %}         
+      <div class = "archive__item-teaser">
+      {% if first_post.image %}
+      <img src = {{ first_post.image | absolute_url }} </img>
+      {% else %}
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+      {% endif %}
+      </div>
+      <h2 class = "archive__item-title no_toc">{{ category_page.title | truncate: 50 }} </h2> <a href="{{ category_page.permalink | absolute_url }}">read more</a></b>
+      
+      </article>
+      
+      
+</div>
+
+<div class = "grid__item">
+  <article class = "archive__item">      
+   {% assign category_page = category_list[1]%}
+   {% assign taxonomy = category_page.taxonomy %}
+   {% assign first_post = site.posts | find :"categories", taxonomy %}         
+   <div class = "archive__item-teaser">
+   {% if first_post.image %}
+   <img src = {{ first_post.image | absolute_url }} </img>
+   {% else %}
+   <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+   {% endif %}
+   </div>
+   <h2 class = "archive__item-title no_toc">{{ category_page.title | truncate: 50 }} </h2> <a href="{{ category_page.permalink | absolute_url }}">read more</a></b>
+   
+   </article>
+   
+   
+</div>
+
+<div class = "grid__item">
+  <article class = "archive__item">      
+   {% assign category_page = category_list[2]%}
+   {% assign taxonomy = category_page.taxonomy %}
+   {% assign first_post = site.posts | find :"categories", taxonomy %}         
+   <div class = "archive__item-teaser">
+   {% if first_post.image %}
+   <img src = {{ first_post.image | absolute_url }} </img>
+   {% else %}
+   <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+   {% endif %}
+   </div>
+   <h2 class = "archive__item-title no_toc">{{ category_page.title | truncate: 50 }} </h2> <a href="{{ category_page.permalink | absolute_url }}">read more</a></b>
+   
+   </article>
+   
+   
+</div>
+
+<div class = "grid__item">
+
+     <article class = "archive__item">
+      
+      <div class = "archive__item-teaser">
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+      </div>
+      <br>
+      <p> <a href="{{ '/categories' | relative_url }}" class="btn btn--primary">See all blog series</a></p>
+      
+      </article>
+      
+
+</div>
+
+</div>
+
+
+<!-- end of code block for latest blog posts -->
 
  {% include feature_row id="corpus_search" type="right" %}
 
-<!Code block for the twitter embed and sharing - do not change!>
+<!-- Code block for the twitter embed and sharing - do not change-->
 
 <div class="feature__wrapper">
 

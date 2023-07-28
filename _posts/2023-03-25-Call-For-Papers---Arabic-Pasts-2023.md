@@ -1,29 +1,33 @@
 ---
-header:
-  overlay_image: "images/arabic-pasts/Arabic-Pasts-2023.png"
-  overlay_filter: 0.1
-  show_overlay_excerpt: false
-title:	"Call For Papers : Arabic Pasts 2023"
-author: none			
-layout:		single
+author: none
 categories:
-  - 
-  - 
-tags:
-  - events
-  - news
-image: "images/arabic-pasts/Arabic-Pasts-2023.png"
-sidebar:
-  - title: "Arabic Pasts"
-  - text: 'This annual exploratory and informal workshop co-hosted with SOAS University offers the opportunity to reflect on history writing in Arabic. For more, see the [Arabic Pasts page](/research/events/arabic-pasts).'
+- null
+- null
+header:
+  overlay_filter: 0.1
+  overlay_image: images/arabic-pasts/Arabic-Pasts-2023.png
+  show_overlay_excerpt: false
+image: images/arabic-pasts/Arabic-Pasts-2023.png
+layout: single
 logos:
-  - logo:
-      - image: "/images/funders/LOGO_ERC-FLAG_EU_.jpg"
-        link: "https://erc.europa.eu/homepage"
-  - logo:
-      - image: "/images/logos/SOAS-University-of-London.png"
-        link: "https://www.soas.ac.uk/"
+- logo:
+  - image: /images/funders/LOGO_ERC-FLAG_EU_.jpg
+    link: https://erc.europa.eu/homepage
+- logo:
+  - image: /images/logos/SOAS-University-of-London.png
+    link: https://www.soas.ac.uk/
+sidebar:
+- title: Arabic Pasts
+- text: This annual exploratory and informal workshop co-hosted with SOAS University
+    offers the opportunity to reflect on history writing in Arabic. For more, see
+    the [Arabic Pasts page](/research/events/arabic-pasts).
+tags:
+- events
+- news
+title: 'Call For Papers : Arabic Pasts 2023'
+
 ---
+
 
 <p style="text-align: center">Arabic Pasts: Histories and Historiographies<br><br>
 

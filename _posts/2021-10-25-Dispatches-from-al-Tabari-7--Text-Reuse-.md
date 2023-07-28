@@ -1,23 +1,38 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 7: Text Reuse Alignments"
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
+- tabari
+- null
+glossary:
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: '**passim:**'
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: a csv ('Comma Separated Values') file is a plain text file containing data
+    in a table. Each row in the table starts on a new line, and columns are separated
+    using a comma (sometimes another character like a tab).
+  term: csv
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png
+layout: single
 tags:
-  - releases
-image : "/images/thumbs/releases.png"
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>"
-image: "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png"
+- releases
+title: 'Dispatches from al-Tabari 7: Text Reuse Alignments'
+
 ---
+
+
+
+
 
 
 **Post 7: Text Reuse Alignments**

@@ -8,7 +8,7 @@ title: "Dispatches from al-Tabari 3: How Many People Did al-Tabari Talk To?"
 author: sarah_savant_masoumeh_seydi
 layout:	single
 categories:
-  - 
+  - tabari
   - 
 tags:
 

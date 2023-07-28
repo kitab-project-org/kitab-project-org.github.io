@@ -1,23 +1,32 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false  
-title:	"A Ramble Through the Cluster Data, Part 2: Quantifying and Visualising Clusters."		
 author: mathew_barber
-layout:		single
 categories:
-  - 
-  - 
+- clusters
+- null
+glossary:
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2022-06-21/mathew_barber/media/image7.png
+layout: single
 tags:
-  - text-reuse
-  - book-history
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**milestone:** The units into which OpenITI's texts are automatically divided into for computational analysis (primarily for passim), typically 300 words in length (about the length of a book page).<br><br>"
-image: "/images/blogs/2022-06-21/mathew_barber/media/image7.png"
+- text-reuse
+- book-history
+title: 'A Ramble Through the Cluster Data, Part 2: Quantifying and Visualising Clusters.'
+
 ---
+
+
+
 
 
 In part 1, I introduced you to the cluster data set, a second [passim](https://kitab-project.org/methods/text-reuse) data set that is slightly different from the pairwise data set that the KITAB team use in their daily research. The cluster data set brings together the pairwise alignments that overlap by more than 80% into larger clusters containing multiple book milestones. These clusters can be used to explore stemmatic relationships between texts, or may even reveal how a set of texts rely on the same lost source text. I will be using this data set in my research for the ERC team's [forthcoming volume](https://kitab-project.org/research/books#the-erc-team-memories-books-communities-making-and-re-making-the-past-in-the-arabic-textual-tradition). However, before I engage in a closer study of individual clusters and their historical importance (I will begin to explore this in part 3), it is important to understand the nature of single-link clustering and its limitations and to explore the scale of the cluster data set in general. This will guide me in identifying clusters of interest and help to contextualise my findings later on.
@@ -81,7 +90,7 @@ We can be more certain that clusters that contain fewer than 20 milestones are m
 *Figure 4: A barchart of the frequencies of clusters by their size (focussing on clusters that contain up to 20 book milestones, with all clusters above size 20 given in the final bar). In order to make the bars visible, a logarithmic scale has been used for the count on the y axis. For the values see table 4.*
 
 | Cluster Size   | Count     | Percentage |
-|----------------|-----------|------------|
+|-|--||
 | 2              | 2,321,187 | 65.74      |
 | 3              | 636,594   | 18.03      |
 | 4              | 246,287   | 6.98       |

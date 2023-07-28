@@ -1,22 +1,31 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 8: The Afterlife of al-Tabari in Quotations "
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
-tags:
+- tabari
+- null
+glossary:
+- def: ' The annotation system used on OpenITI texts, see the documentation for more
+    details.'
+  term: '**mARkdown:**'
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
 
-sidebar:
-  - title: "Glossary"
-  - text: "**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
-image: "/images/thumbs/tabari_dispatches.png"
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/thumbs/tabari_dispatches.png
+layout: single
+tags: null
+title: 'Dispatches from al-Tabari 8: The Afterlife of al-Tabari in Quotations '
+
 ---
+
+
+
 
 
 In this series of blog posts, we have argued for the imperative to rethink writerly culture in ways that allow for a more meaningful exploration of al-Tabari's (d. 310/923) sources. We have also advanced a more general argument about the nature of writing in the period in which al-Tabari lived. The question that we should be asking is not whether a particular piece of writing constituted a published, redacted book but rather what forms writing took, what evidence we have of these forms in the works that survive, and how ideas about writing itself might have contributed to the evolution of the tradition -- including the loss and oblivion of many of its layers.
@@ -36,7 +45,7 @@ For al-Tabari, and also his immediate readers, the *Taʾrikh* therefore might ha
 What authorized breaking books up? A significant factor would have been knowledge of their assembly, as was the case with the *Taʾrikh* - both of the individual reports and also of the larger segments (e.g., the *qatʿayn*/*qatʿan*).
 
 Citing al-Tabari
-----------------
+-
 
 We should not assume that al-Tabari's words were conveyed onwards in the form of published works, in the sense described by Schoeler. Nor should we assume that a person who passed on information from one of al-Tabari's books necessarily had access to the whole work; we know that later authors did not, and even early users of his oeuvre may not have had the complete texts at their disposal. In the long term, the manuscript evidence points even more strongly to the partial transmission of al-Tabari's works. For example, there is a not a single complete manuscript witness of the *Taʾrikh*. Our text reuse data shows, furthermore, just how extensively the works were excerpted and reused at an early date and for centuries afterwards.
 
@@ -77,7 +86,7 @@ In both Ibn ʿAsakir's text and the *Taʾrikh* itself, al-Tabari's direct inform
 In this process, books were rendered doubly invisible. First, al-Tabari copied material from Ibn Zuhayr's writings (which he obtained directly from the author) into his own *Taʾrikh*. Then, what al-Tabari wrote was converted back into note format for several generations (as witnessed in the *isnad*). Finally, the material was absorbed into Ibn ʿAsakir's *Taʾrikh madinat Dimashq*, with the identities of its previous book-form carriers -- the writings of Aḥmad b. Zuhayr and al-Tabari -- erased. In Ibn ʿAsakir's work, these other writings have become invisible as books. Each of the people involved in this and similar chains of writing has gone to the trouble of creating a work. But it is as if each person afterwards has reserves credit for authoring a book only to himself.
 
 Concluding Remarks
-------------------
+
 
 The data for these blog posts was collected over several weeks during the Covid-19 pandemic. It was an extraordinary time to be buried in spreadsheets, doing this sort of intensive work. Perhaps it would have seemed less interesting in a different time. We did not set out to write eight posts, only two. But as we immersed ourselves in the data, we came to see the potential for gathering more data to address different aspects of the questions outlined at the start. In the months to come, we hope to publish our work in a peer-reviewed journal with additional reflections, data and corrections.
 

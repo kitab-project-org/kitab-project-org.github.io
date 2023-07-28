@@ -1,6 +1,19 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  <!--Additional lines of code for parsing and adding sidebar info-->
+  {% if page.glossary %}    
+    <h3>Glossary:</h3>
+    <p>
+    {% for g in page.glossary -%}      
+     {% if g.term %}
+        {% if g.def %}
+          <strong>{{ g.term | markdownify | remove : '<p>' | remove : '</p>'}}: </strong>{{ g.def | markdownify | remove : '<p>' | remove : '</p>'}}<br>
+        {% endif %}
+      {% endif %}
+    {% endfor -%}  
+    </p>
+    {% endif %} 
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
