@@ -34,7 +34,7 @@ new_series:
 At an absolute minimum, you must fill out the title, author, and docx fields.
 
 ### What each field is used for
-
+#### header
 ```
 header:
   overlay_image: "/images/covers/banner_blog.jpg"
@@ -44,6 +44,7 @@ header:
 ```
 This is a preset field and it sets the image that appears in the banner at the top of the page. If you change this, you will need to upload the corresponding image, set in 'overlay_image' to the images folder. It is recommended to put it in the 'covers' folder, if you do so.
 
+#### title
 ```
 title:
 ```
@@ -51,7 +52,7 @@ The title of the blog between quotation marks (remember when uploading your docx
 ```
 title: 'Dispatches from al-Tabari part 1'
 ```
-
+#### Author
 ```
 author:
 ```
@@ -59,12 +60,12 @@ The author of the blog. This is specified using an id code. The list of current 
 ```
 author: sarah_savant
 ```
-
+#### layout
 ```
 layout: single
 ```
 This specifies the layout used by the website. **DO NOT CHANGE THIS**
-
+#### series
 ```
 series:
 ```
@@ -72,6 +73,7 @@ If the blog belongs to an existing blog series, specify here. See below for a li
 ```
 series: tabari
 ```
+#### tags
 ```
 tags:
 ```
@@ -82,6 +84,7 @@ tags:
  - book-history
  - author-practice
 ```
+#### docx
 ```
 docx:
 ```
@@ -89,6 +92,7 @@ Provide here the exact name of the docx file that is being uploaded into the inp
 ```
 docx: tabari_blog1.docx
 ```
+#### new_author
 ```
 new_author:
   - name:
@@ -106,7 +110,7 @@ new_author: joe_bloggs_sam_smith
   - name: 'Joe Bloggs and Sam Smith'
     bio: 'A short biography of the first author... <br> A short biography of the second author'
 ```
-
+#### glossary
 ```
 glossary:
   - term:
@@ -120,7 +124,7 @@ glossary:
   - term: 'scatter graph'
     def: 'A type of graph that is used to study the correlation between variables.'
 ```
-
+#### new_series
 ```
 new_series:
   - label: 
