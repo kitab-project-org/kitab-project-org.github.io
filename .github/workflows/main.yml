@@ -8,7 +8,7 @@ jobs:
   call-blog-converter:
      uses: ./.github/workflows/convertBlogs.yml
      secrets:
-       token: ${{secrets.ACTIONS_ACCESS}}
+       token: ${{secrets.BLOG_UPLOAD}}
 #   call-deploy-workflow:
 #     needs: call-blog-converter
 #     uses: ./.github/workflows/jekyll.yml
