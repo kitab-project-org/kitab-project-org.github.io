@@ -54,7 +54,7 @@ corpus_search:
       {% assign latest_post = site.posts[0]%}
       <div class = "archive__item-teaser">
       {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
+      <img src = {{ latest_post.image | absolute_url }} </img>
       {% else %}
       <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
@@ -75,7 +75,7 @@ corpus_search:
       {% assign latest_post = site.posts[1]%}
       <div class = "archive__item-teaser">
       {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
+      <img src = {{ latest_post.image | absolute_url }} </img>
       {% else %}
       <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
@@ -96,7 +96,7 @@ corpus_search:
       {% assign latest_post = site.posts[2]%}
       <div class = "archive__item-teaser">
       {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
+      <img src = {{ latest_post.image | absolute_url }} </img>
       {% else %}
       <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
@@ -148,7 +148,7 @@ corpus_search:
       {% assign first_post = site.posts | find :"categories", taxonomy %}         
       <div class = "archive__item-teaser">
       {% if first_post.image %}
-      <img src = {{ first_post.image }} </img>
+      <img src = {{ first_post.image | absolute_url }} </img>
       {% else %}
       <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
@@ -167,7 +167,7 @@ corpus_search:
    {% assign first_post = site.posts | find :"categories", taxonomy %}         
    <div class = "archive__item-teaser">
    {% if first_post.image %}
-   <img src = {{ first_post.image }} </img>
+   <img src = {{ first_post.image | absolute_url }} </img>
    {% else %}
    <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
    {% endif %}
@@ -186,7 +186,7 @@ corpus_search:
    {% assign first_post = site.posts | find :"categories", taxonomy %}         
    <div class = "archive__item-teaser">
    {% if first_post.image %}
-   <img src = {{ first_post.image }} </img>
+   <img src = {{ first_post.image | absolute_url }} </img>
    {% else %}
    <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
    {% endif %}
