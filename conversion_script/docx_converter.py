@@ -49,6 +49,7 @@ def docx_conv(root, name, images_path, author):
       blog = None
     return blog
 
+# Function to update the main glossary with new entries
 def update_glossary_dict(gloss_path, new_entries):
   gloss = fetch_glossary(gloss_path)
   existing_terms = [x["term"] for x in gloss]
@@ -143,7 +144,7 @@ def build_file_name(blog_dir, header_dict):
       #     title_s = title_s + "-2"
             print("This blog has the same title as an existing blog - if this is not a reupload delete and change your blog title")
       final_path = os.path.join(blog_dir, str(date.today()) + "-" + title_s + ".md")
-      return final_path
+      return title_s, final_path
 
        
 
@@ -319,25 +320,28 @@ def main():
   for docx in docx_data_pairs:
     # If we have new author - add the author's bio to the authors.yml
     if "new_author" in docx.keys():
-       add_new_author(authors_yml, docx["new_author"], docx["header"])
+       add_new_author(authors_yml, docx["new_author"], docx["header"])   
     
-    # If we have any data for series - that is a new_series - run the function to create a series page
-    if "series_data" in docx.keys():
-      series_path = "../_pages/blog-series/"
-      for series_dict in docx["series_data"]:
-        build_series_page(series_dict, series_path)
-
     docx_path = docx["docx"]
     
     # Check we're dealing with a docx file - otherwise we'll trip up the converter
     if docx_check.match(docx_path):
         print(docx_path + " ...format correct")
-        blog_text = docx_conv(in_dir, docx_path, image_out, docx["header"]["author"])
+        # Create the final_path and short title for the blog (short title is to be used in the image path)
+        title_s, out_path = build_file_name(blog_dir, docx["header"])
+        images_path = os.path.join(image_out, title_s)
+        blog_text = docx_conv(in_dir, docx_path, images_path, docx["header"]["author"])
 
         # Check that function has found the file - if not give an error - and skip - otherwise continue processing
         if blog_text is None:
            print("WARNING - {} - file not found - have you uploaded the corresponding docx file?".format(docx_path))
         else:
+            # If we have any data for series - that is a new_series - run the function to create a series page
+            if "series_data" in docx.keys():
+              series_path = "../_pages/blog-series/"
+              for series_dict in docx["series_data"]:
+                build_series_page(series_dict, series_path)
+
             # Run the glossary function and add the found entries to the header  
             header, changed_entries = find_terms_add_to_glossary(gloss, blog_text, docx["header"], overwrite = False)            
 
@@ -345,10 +349,7 @@ def main():
             blog_text = clean_md_update_image_routing(blog_text)
 
             # Add thumb image to the header
-            header = add_thumb_image(header, blog_text)
-
-            # Create the final_path for the blog
-            out_path = build_file_name(blog_dir, header)
+            header = add_thumb_image(header, blog_text)            
             
             # Use function to paste together the blog text and the header
             final_text = append_header_blog(header, blog_text)

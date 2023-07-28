@@ -13,7 +13,7 @@ def set_directories():
   in_dir = dname + "/input"
   header_template = dname + "/resources/header_template.yml"
   archive_dir = dname + "/archive"
-  image_out = "../images/blogs/" + str(date.today()) + "/"
+  image_out = "../images/blogs/" 
   blog_dir = "../_posts/"
   glossary_path = dname + "/resources/glossary.json"
   authors_path = "../_data/authors.yml"

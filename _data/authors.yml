@@ -148,10 +148,6 @@ hamid_reza_hakimi:
   tumblr: null
   twitter: null
   uri: null
-joe_bloggs:
-  avatar: null
-  bio: A biography for Joe Bloggs
-  name: Joe Bloggs
 karen_bauer:
   avatar: /images/kitab/karen_bauer_200px.jpg
   bio: "Dr. Bauer's research centres on the Qur\xCA\xBEan and its reception history,\
@@ -296,25 +292,6 @@ maxim_romanov:
   linkedin: null
   location: null
   name: Maxim Romanov
-  pinterest: null
-  soundcloud: null
-  stackoverflow: null
-  steam: null
-  tumblr: null
-  twitter: null
-  uri: null
-none:
-  avatar: null
-  bio: null
-  email: null
-  facebook: null
-  flickr: null
-  github: null
-  google_plus: null
-  instagram: null
-  linkedin: null
-  location: null
-  name: null
   pinterest: null
   soundcloud: null
   stackoverflow: null

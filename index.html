@@ -133,7 +133,7 @@ corpus_search:
 
 <!-- Liquid based code that locates all of the pages with a layout category (which correspond to blog series on our website) and gives the most recent on the homepage-->
 
-<h1> Our latest series </h1>
+<h1> Our latest blog series </h1>
 <br>  
 <div class = "feature__wrapper">
 
@@ -205,11 +205,8 @@ corpus_search:
       <div class = "archive__item-teaser">
       <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       </div>
-      <h2 class = "archive__item-title no_toc">See all series</h2>
-      <div class = "archive__item-excerpt">      
-
-      </div>
-      <p> <a href="{{ '/categories' | relative_url }}" class="btn btn--primary">Go to series</a></p>
+      <br>
+      <p> <a href="{{ '/categories' | relative_url }}" class="btn btn--primary">See all blog series</a></p>
       
       </article>
       
@@ -219,11 +216,11 @@ corpus_search:
 </div>
 
 
-<! end of code block for latest blog posts !>
+<!-- end of code block for latest blog posts -->
 
  {% include feature_row id="corpus_search" type="right" %}
 
-<!Code block for the twitter embed and sharing - do not change!>
+<!-- Code block for the twitter embed and sharing - do not change-->
 
 <div class="feature__wrapper">
 
