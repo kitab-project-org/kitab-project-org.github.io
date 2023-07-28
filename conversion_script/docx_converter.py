@@ -21,6 +21,7 @@ from shared_utilities import append_header_blog
 from update_blog_gloss import fetch_glossary
 from update_blog_gloss import find_terms_add_to_glossary
 from update_blog_gloss import update_blog_gloss
+from build_series_pages import build_series_page
 
 
 
@@ -146,27 +147,27 @@ def build_file_name(blog_dir, header_dict):
 
        
 
-# Add a correctly labelled header to the blog
-def header_build (head_in, blog, glossary):
-    # Sub in the submitted glossary -
-    head_in = re.sub(r"\n---", glossary, head_in)
-    images = re.findall(r"(/images/[^)]*)\)", blog)
-    if len(images) >= 1:
-        thumb = "\nimage: \"" + images[0] + "\"\n---\n"
-        head_in = re.sub(r"\n---", thumb, head_in)
-    # else:
-    #     thumb = "\nimage: \"/images/kitab/mesa.jpg\"\n---\n"
+# # Add a correctly labelled header to the blog
+# def header_build (head_in, blog, glossary):
+#     # Sub in the submitted glossary -
+#     head_in = re.sub(r"\n---", glossary, head_in)
+#     images = re.findall(r"(/images/[^)]*)\)", blog)
+#     if len(images) >= 1:
+#         thumb = "\nimage: \"" + images[0] + "\"\n---\n"
+#         head_in = re.sub(r"\n---", thumb, head_in)
+#     # else:
+#     #     thumb = "\nimage: \"/images/kitab/mesa.jpg\"\n---\n"
     
     
-    final = head_in + "\n\n" + blog
-    title = re.findall("title:.*\"(.*)\"", head_in)
+#     final = head_in + "\n\n" + blog
+#     title = re.findall("title:.*\"(.*)\"", head_in)
 
-    if len(title) > 0 and title[0] != "":
-        title_s = re.sub(r"[\s:/.,]", "-", title[0])[:40]
-    else:
-        title_s = str(datetime.now().microsecond)[:3]
+#     if len(title) > 0 and title[0] != "":
+#         title_s = re.sub(r"[\s:/.,]", "-", title[0])[:40]
+#     else:
+#         title_s = str(datetime.now().microsecond)[:3]
 
-    return (final, title_s)
+#     return (final, title_s)
 
 
   
@@ -214,10 +215,39 @@ def find_yml_docx_data(in_dir, file_list):
                         else:
                           empty_gloss = True
             if empty_gloss:
-              del yml_dict["glossary"]         
+              del yml_dict["glossary"]
+
+            # Building the category fields for use in series
+            yml_dict["category"] = []
+
+            # Check if series data is present - append it to the final list
+            series_data = []
+            label = False
+            title = False
+            if "new_series" in yml_dict.keys():
+              if yml_dict["new_series"] is not None:
+                  for item in yml_dict["series"]:
+                    if "label" in item.keys():
+                        if item["label"] is not None:                          
+                          yml_dict["category"].append(item["label"])
+                          series_dict = {"taxonomy": item["label"]}
+                          label = True                          
+                    if "title" in item.keys():
+                        if item["title"] is not None:
+                          series_dict["title"] = item["title"]
+                          title = True
+                    if label and title:
+                      series_data.append(series_dict)
+              del yml_dict["new_series"]      
                   
-              
+            out_dict["series_data"] = series_data
             
+            # Check series field and append any contents
+            if "series" in yml_dict.keys():
+              if yml_dict["series"] is not None:
+                for item in yml_dict:
+                  yml_dict["category"].append(item)
+
             # Add full header text to output dict
             out_dict["header"] = yml_dict
 
@@ -287,6 +317,13 @@ def main():
     # If we have new author - add the author's bio to the authors.yml
     if "new_author" in docx.keys():
        add_new_author(authors_yml, docx["new_author"], docx["header"])
+    
+    # If we have any data for series - that is a new_series - run the function to create a series page
+    if "series_data" in docx.keys():
+      series_path = "../_pages/blog-series/"
+      for series_dict in docx["series_data"]:
+        build_series_page(series_dict, series_path)
+
     docx_path = docx["docx"]
     
     # Check we're dealing with a docx file - otherwise we'll trip up the converter

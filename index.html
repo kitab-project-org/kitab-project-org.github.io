@@ -131,6 +131,99 @@ corpus_search:
 
 </div>
 
+<!-- Liquid based code that locates all of the pages with a layout category (which correspond to blog series on our website) and gives the most recent on the homepage-->
+
+<h1> Our latest series </h1>
+<br>  
+<div class = "feature__wrapper">
+
+
+{% assign category_list = site.pages | where: "layout", "category" | sort: "date" | reverse %}
+
+  
+<div class = "grid__item">
+     <article class = "archive__item">
+      
+      {% assign latest_post = category_list[0]%}
+      <div class = "archive__item-teaser">
+      {% if latest_post.image %}
+      <img src = {{ latest_post.image }} </img>
+      {% else %}
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+      {% endif %}
+      </div>
+      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.permalink | absolute_url }}">read more</a></b>
+      
+      
+      
+      </article>
+      
+      
+</div>
+
+<div class = "grid__item">
+
+     <article class = "archive__item">
+      
+      {% assign latest_post = category_list[1]%}
+      <div class = "archive__item-teaser">
+      {% if latest_post.image %}
+      <img src = {{ latest_post.image }} </img>
+      {% else %}
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+      {% endif %}
+      </div>
+      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.permalink | absolute_url }}">read more</a>
+      
+      
+      
+      </article>
+      
+     
+</div>
+
+<div class = "grid__item">
+
+     <article class = "archive__item">
+      
+      {% assign latest_post = category_list[2]%}
+      <div class = "archive__item-teaser">
+      {% if latest_post.image %}
+      <img src = {{ latest_post.image }} </img>
+      {% else %}
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+      {% endif %}
+      </div>
+      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.permalink | absolute_url }}">read more</a>
+      
+      
+      
+      </article>
+      
+     
+</div>
+
+<div class = "grid__item">
+
+     <article class = "archive__item">
+      
+      <div class = "archive__item-teaser">
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+      </div>
+      <h2 class = "archive__item-title no_toc">See all series</h2>
+      <div class = "archive__item-excerpt">      
+
+      </div>
+      <p> <a href="{{ '/categories' | relative_url }}" class="btn btn--primary">Go to series</a></p>
+      
+      </article>
+      
+
+</div>
+
+</div>
+
+
 <! end of code block for latest blog posts !>
 
  {% include feature_row id="corpus_search" type="right" %}
