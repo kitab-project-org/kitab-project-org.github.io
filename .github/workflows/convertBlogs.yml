@@ -18,8 +18,7 @@ jobs:
         run: |
          python -m pip install --upgrade pip
          pip install pypandoc
-         pip install pyyaml
-         pip install shutil
+         pip install pyyaml       
       
       - name: Run Python Script
         run: python conversion_script/docx_converter.py
