@@ -1,7 +1,7 @@
 ---
 author: sarah_savant_masoumeh_seydi
 categories:
-- null
+- tabari
 - null
 glossary:
 - def: A computer algorithm used to detect text reuse in the OpenITI Corpus.

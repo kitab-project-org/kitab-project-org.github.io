@@ -142,19 +142,18 @@ corpus_search:
 
   
 <div class = "grid__item">
-     <article class = "archive__item">
-      
-      {% assign latest_post = category_list[0]%}
+     <article class = "archive__item">      
+      {% assign category_page = category_list[0]%}
+      {% assign taxonomy = category_page.taxonomy %}
+      {% assign first_post = site.posts | find :"categories", taxonomy %}         
       <div class = "archive__item-teaser">
-      {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
+      {% if first_post.image %}
+      <img src = {{ first_post.image }} </img>
       {% else %}
       <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       {% endif %}
       </div>
-      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.permalink | absolute_url }}">read more</a></b>
-      
-      
+      <h2 class = "archive__item-title no_toc">{{ category_page.title | truncate: 50 }} </h2> <a href="{{ category_page.permalink | absolute_url }}">read more</a></b>
       
       </article>
       
@@ -162,45 +161,41 @@ corpus_search:
 </div>
 
 <div class = "grid__item">
-
-     <article class = "archive__item">
-      
-      {% assign latest_post = category_list[1]%}
-      <div class = "archive__item-teaser">
-      {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
-      {% else %}
-      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
-      {% endif %}
-      </div>
-      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.permalink | absolute_url }}">read more</a>
-      
-      
-      
-      </article>
-      
-     
+  <article class = "archive__item">      
+   {% assign category_page = category_list[1]%}
+   {% assign taxonomy = category_page.taxonomy %}
+   {% assign first_post = site.posts | find :"categories", taxonomy %}         
+   <div class = "archive__item-teaser">
+   {% if first_post.image %}
+   <img src = {{ first_post.image }} </img>
+   {% else %}
+   <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+   {% endif %}
+   </div>
+   <h2 class = "archive__item-title no_toc">{{ category_page.title | truncate: 50 }} </h2> <a href="{{ category_page.permalink | absolute_url }}">read more</a></b>
+   
+   </article>
+   
+   
 </div>
 
 <div class = "grid__item">
-
-     <article class = "archive__item">
-      
-      {% assign latest_post = category_list[2]%}
-      <div class = "archive__item-teaser">
-      {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
-      {% else %}
-      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
-      {% endif %}
-      </div>
-      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.permalink | absolute_url }}">read more</a>
-      
-      
-      
-      </article>
-      
-     
+  <article class = "archive__item">      
+   {% assign category_page = category_list[2]%}
+   {% assign taxonomy = category_page.taxonomy %}
+   {% assign first_post = site.posts | find :"categories", taxonomy %}         
+   <div class = "archive__item-teaser">
+   {% if first_post.image %}
+   <img src = {{ first_post.image }} </img>
+   {% else %}
+   <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+   {% endif %}
+   </div>
+   <h2 class = "archive__item-title no_toc">{{ category_page.title | truncate: 50 }} </h2> <a href="{{ category_page.permalink | absolute_url }}">read more</a></b>
+   
+   </article>
+   
+   
 </div>
 
 <div class = "grid__item">

@@ -1,7 +1,7 @@
 ---
 author: sarah_savant_masoumeh_seydi
 categories:
-- null
+- tabari
 - null
 glossary:
 - def: ' The annotation system used on OpenITI texts, see the documentation for more

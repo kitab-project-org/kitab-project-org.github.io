@@ -1,7 +1,7 @@
 ---
 author: mathew_barber
 categories:
-- null
+- clusters
 - null
 glossary:
 - def: The annotation system used on OpenITI texts, see the documentation for more

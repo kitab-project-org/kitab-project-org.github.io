@@ -1,7 +1,7 @@
 ---
 author: mathew_barber
 categories:
-- null
+- clusters
 - null
 glossary:
 - def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
