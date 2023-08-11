@@ -232,7 +232,9 @@ def find_yml_docx_data(in_dir, file_list):
                   for item in yml_dict["new_series"]:
                     if "label" in item.keys():
                         if item["label"] is not None:
-                          if item not in yml_dict["category"]:                          
+                          if "categories" not in yml_dict.keys:
+                            yml_dict["categories"] = []
+                          if item not in yml_dict["categories"]:                          
                             yml_dict["categories"].append(item["label"])
                             yml_dict["tags"].append(item["label"])
                           series_dict = {"taxonomy": item["label"]}
