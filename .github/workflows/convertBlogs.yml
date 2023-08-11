@@ -22,7 +22,8 @@ jobs:
          pip install tqdm
       
       - name: Run Python Script
-        run: python conversion_script/docx_converter.py
+        working-directory: ./conversion_script
+        run: python docx_converter.py
             
       - name: Commit & Push
         uses: Andro999b/push@v1.3
