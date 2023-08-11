@@ -7,11 +7,10 @@ from datetime import date
 def set_directories():
   """Set the directories for locating the files to convert and where to put those files when converted"""
   
-  # abspath = os.path.abspath(sys.argv[0])
-  # print(abspath)
-  dname = os.getcwd()
-  # os.chdir(dname)
-  print(dname)
+  abspath = os.path.abspath(sys.argv[0])
+  print(abspath)
+  dname = os.path.dirname(abspath)
+  os.chdir(dname)
   
 
   in_dir = dname + "/input"
