@@ -178,35 +178,38 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 - tabari
 - clusters
 - fihrist
+- IbnAsakir
 
 ## Existing tags
-- text-reuse
-- book-history
-- author-practice
-- news
-- author-practice data, book-history
-- events
-- release
-- corpus
-- news release
-- corpus data
-- viz
-- book-forms
-- dispersed-texts
 - machine-learning
 - citation
+- text-reuse
+- events
+- viz
+- markdown
+- corpus
+- book-history
+- author-practice
+- reg-east
+- book-forms
+- dispersed-texts
+- scholar-network
+- khurasan
+- iran
+- releases
+- release
+- news release
+- news
+- search
 - news corpus, release
+- reg-syr-arab
+- prolific-authors
+- cultural-memory
+- IbnAsakir
+- passim
+- corpus data
+- author-practice data, book-history
 - reg-west
 - reg-egypt
-- cultural-memory
-- iran
-- scholar-network
-- reg-syr-arab
-- reg-east
-- khurasan
-- releases
-- markdown
-- passim
-- search
 
 #

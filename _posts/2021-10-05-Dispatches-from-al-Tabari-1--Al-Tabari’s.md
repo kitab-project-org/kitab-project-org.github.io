@@ -14,6 +14,8 @@ glossary:
     analysis (primarily for passim), typically 300 words in length (about the length
     of a book page).
   term: milestone
+- def: A person whom an author cites as an informant, often within an <i>isnad</i>
+  term: direct informant
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -27,6 +29,7 @@ title: "Dispatches from al-Tabari 1: Al-Tabari\u2019s Direct Informants: Work on
   \ New Data Set"
 
 ---
+
 
 
 
