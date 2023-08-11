@@ -39,13 +39,13 @@ The machine-readable file of Ibn ʿAsākir's list of teachers (*Muʿjam al-shuy�
 
 To obtain information from Ṭalāl b. Saʿūd al-Daʿjānī's *Mawārid Ibn ʿAsākir*, we OCR'd volume 1 of the printed text[^3] with a Kraken model (version 3.0.0.0b21.dev6) and then extracted a list of author names and book titles to be searched for in the *TMD*. The OCR'd text was lightly checked and corrected against a PDF of the printed text by Hamid Reza Hakimi, who also tagged the author and title names in the text.
 
-# Isnāds 
+# *Isnāds* 
 
 We relied on paragraph markers in the *TMD* to identify the beginnings of *isnād*s and took the next fifty word tokens following each beginning to constitute the *isnād*. We thus extracted 79,470 *isnād*s. We gave each a unique identification number, recorded the milestone in the text at which it was located and assembled all the *isnād*s in a table.
 
 We then split each *isnād* into names within cells, using transmission terms. In the example in Table 2.1, we used the words in square brackets to split the *isnād* string, which then gave us the list of names shown in the table.
 
-[*\]*أنبأنا\] أبو الحسن عبد الغافر بن إسماعيل \[أنا\] محمد بن يحيى بن إبراهيم \[أنا\] أبو عبد الرحمن السلمي \[قال سمعت\] الحسين بن أحمد \[يقول سمعت\] الدقي \[يقول سمعت\] أبا عبد الله
+\[أنبأنا\] أبو الحسن عبد الغافر بن إسماعيل \[أنا\] محمد بن يحيى بن إبراهيم \[أنا\] أبو عبد الرحمن السلمي \[قال سمعت\] الحسين بن أحمد \[يقول سمعت\] الدقي \[يقول سمعت\] أبا عبد الله
 
 | name_5                    | name_4             | name_3                      | name_2                             | name_1                               | name_0                                       |
 |------------|------------|------------|------------|------------|------------|
