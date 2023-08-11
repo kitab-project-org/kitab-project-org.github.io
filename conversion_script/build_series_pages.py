@@ -16,7 +16,10 @@ def build_series_page(series_dict, series_path):
         header_text = page_split[1]
         header_dict = clean_yml_to_dict(header_text)
         header_dict["date"] = date.today()
-        page_content = page_split[3]
+        if len(page_split) == 4:
+          page_content = page_split[3]
+        else:
+          page_content = ""
     else:   
         # Otherwise create a new page
         header_dict ={
