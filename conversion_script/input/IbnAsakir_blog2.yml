@@ -1,0 +1,27 @@
+header:
+  overlay_image: "/images/covers/banner_blog.jpg"
+  overlay_filter: 0.1
+  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  show_overlay_excerpt: false  
+title: "Post 2: Ibn ʿAsākir and His History of Damascus, the Data Set"
+author: sarah_savant_masoumeh_seydi
+layout: single
+series: IbnAsakir
+tags:
+- book-history
+- author-practice
+- scholar-network
+- reg-syr-arab
+- text-reuse
+- prolific-authors
+- cultural-memory
+docx: "Post2_IbnAsakir.docx"
+new_author:
+  - name:
+    bio:
+glossary:
+  - term: 
+    def: 
+new_series:
+  - label: 
+    title:
