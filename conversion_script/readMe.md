@@ -177,8 +177,8 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 ## Existing categories
 - tabari
 - clusters
-- fihrist
 - IbnAsakir
+- fihrist
 
 ## Existing tags
 - machine-learning
@@ -201,10 +201,10 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 - news release
 - news
 - search
-- news corpus, release
 - reg-syr-arab
 - prolific-authors
 - cultural-memory
+- news corpus, release
 - IbnAsakir
 - passim
 - corpus data
