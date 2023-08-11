@@ -6,9 +6,12 @@ from datetime import date
 
 def set_directories():
   """Set the directories for locating the files to convert and where to put those files when converted"""
+  
   abspath = os.path.abspath(sys.argv[0])
+  print(abspath)
   dname = os.path.dirname(abspath)
   os.chdir(dname)
+  
 
   in_dir = dname + "/input"
   header_template = dname + "/resources/header_template.yml"
