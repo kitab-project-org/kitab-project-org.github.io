@@ -90,7 +90,7 @@ def clean_md_update_image_routing(blog_text):
       blog_text = re.sub(r"\!\[[^]]*\]\(\.\.(/images/[^\)]*)\)", r'[![]({{ "\1" | absolute_url }})]({{ "\1" | absolute_url }})', blog_text)
       
       # Cliean up links in the same way
-      blog_text = re.sub(r"(\[[^]]*\]\()([^)|]*)(\))", r"\1{{ \2 | absolute_url }}\3", blog_text)
+      blog_text = re.sub(r"(\[[^]]*\]\()([^)|:]*)(\))", r"\1{{ \2 | absolute_url }}\3", blog_text)
 
       # Remove double underlines (sometimes added in conversion of hyperlinks)
       blog_text = re.sub(r"\[<u>(.*)</u>\]", "", blog_text)
