@@ -31,7 +31,7 @@ Digital humanists often say they would like to read more work in progress. Our b
 
 For detailed information on the data and the files contained therein, please see the [data set](https://zenodo.org/record/8233103) released with these posts. What follows is a summary of the data on which our work on Ibn ʿAsākir is based.
 
-The book files
+# The book files
 
 For the *TMD*, we used the 1995--2001 Dār al-Fikr edition of ʿUmar al-ʿAmrawī and ʿAlī Shīrī. The edition consists of eighty volumes, with volumes 71--74 representing a *mustadrak*, or supplement, added by the editors (including additional biographical entries) and volumes 75--80 containing indexes. This is the first modern scholarly edition of the *TMD*, and it was completed only in 2001, reflecting the challenges the work posed to editors. There was no complete manuscript, and the work's sheer size and the complexity of its *isnād*s created formidable obstacles. Judging by Ibn Manẓūr's *Mukhtaṣar*, which substantially reproduces the *TMD* but without *isnād*s, the edition and the manuscript tradition on which it is based contain lacunae.[^1]
 
@@ -39,13 +39,13 @@ The machine-readable file of Ibn ʿAsākir's list of teachers (*Muʿjam al-shuy�
 
 To obtain information from Ṭalāl b. Saʿūd al-Daʿjānī's *Mawārid Ibn ʿAsākir*, we OCR'd volume 1 of the printed text[^3] with a Kraken model (version 3.0.0.0b21.dev6) and then extracted a list of author names and book titles to be searched for in the *TMD*. The OCR'd text was lightly checked and corrected against a PDF of the printed text by Hamid Reza Hakimi, who also tagged the author and title names in the text.
 
-*Isnād*s
+# *Isnād*s
 
 We relied on paragraph markers in the *TMD* to identify the beginnings of *isnād*s and took the next fifty word tokens following each beginning to constitute the *isnād*. We thus extracted 79,470 *isnād*s. We gave each a unique identification number, recorded the milestone in the text at which it was located and assembled all the *isnād*s in a table.
 
 We then split each *isnād* into names within cells, using transmission terms. In the example in Table 2.1, we used the words in square brackets to split the *isnād* string, which then gave us the list of names shown in the table.
 
-\][أنبأنا\] أبو الحسن عبد الغافر بن إسماعيل \[أنا\] محمد بن يحيى بن إبراهيم \[أنا\] أبو عبد الرحمن السلمي \[قال سمعت\] الحسين بن أحمد \[يقول سمعت\] الدقي \[يقول سمعت\] أبا عبد الله
+[أنبأنا\] أبو الحسن عبد الغافر بن إسماعيل \[أنا\] محمد بن يحيى بن إبراهيم \[أنا\] أبو عبد الرحمن السلمي \[قال سمعت\] الحسين بن أحمد \[يقول سمعت\] الدقي \[يقول سمعت\] أبا عبد الله
 
 | name_5                    | name_4             | name_3                      | name_2                             | name_1                               | name_0                                       |
 |------------|------------|------------|------------|------------|------------|
@@ -55,7 +55,7 @@ Table 2.1: An example *isnād* split into names.
 
 We filtered out any *isnād*s that lacked a name in position 0 (that is, the name of a direct informant) as well as *isnād*s that forked, meaning that Ibn ʿAsākir introduced an additional name with another transmission chain after naming his direct informant. Applying these filters left us with 77,231 *isnād*s.
 
-Name List
+# Name List
 
 Ibn ʿAsākir refers to a lot of people. From the *TMD*'s *isnād*s we compiled a list of over 9,238 'surface forms' of names (that is, names as they appear in a text), which mapped to 3,885 distinct identities. As we explain later, we did not map all surface forms -- far from it. For comparison, al-Ṭabarī's three works contained 4,921 surface forms mapped to 3,787 identities. Both Ibn ʿAsākir and al-Ṭabarī sometimes use the same surface form for different people and different surface forms for the same people.
 
@@ -65,7 +65,7 @@ To decide on the normalised form to be used, we looked for patterns, searching, 
 
 Although Ibn ʿAsākir uses thousands of different surface forms, and many for the same person, he refers to his most important direct informants typically in a consistent way. Readers may wish to investigate the data closely on this point.[^4]
 
-Transmission terms
+# Transmission terms
 
 Our list of transmission terms in the *TMD* built on an earlier version of such a list initiated by R. Kevin Jaques and expanded for our work on al-Ṭabarī. We augmented the list with additional terms found at the beginnings of paragraphs in the *TMD*. We also created a list of words to remove from the cells once we had split them.
 
@@ -73,13 +73,13 @@ We then grouped semantically related transmission terms together and decided to 
 
 We also searched within *isnād*s for other transmission terms that Ibn ʿAsākir uses in conjunction with the six to explain his method. These include the adverbial modifiers *idhnan*, *munāwalatan*, *lafẓan, ʿāliyan*, *shifāhan*, *qirāʾatan* and *ijāzatan*, as well as references to a person's writing (*fī kitābihi*). We chose the terms on the basis of their frequency within the *isnād*s.
 
-Author names and titles of works
+# Author names and titles of works
 
 We assembled a list of persons whom modern scholars credit with authoring books on which Ibn ʿAsākir relied. We gave each author a unique ID and used these IDs throughout our data set. There are 238 such authors. However, their ID numbers, assigned before normalisation was complete and thus before variant names for the same individual were identified, run to 241. We refrained from renumbering the authors to avoid disrupting links within our data.
 
 To identify the authors, we drew (as noted above) on the works of Scheiner, Mourad and al-Daʿjānī, who gave us other important information, including the titles of the authors' works (which we used for searches) and the dates of their deaths. We complemented this information with details from the OpenITI and occasionally the third edition of the *Encyclopaedia of Islam*.
 
-Search terms and results
+# Search terms and results
 
 We searched within *isnād*s for titles used in conjunction with author names. This was not very successful.
 
@@ -87,7 +87,7 @@ We also did some general searches -- Underwood's Boolean fishing expeditions. We
 
 Three terms proved illuminating about Ibn ʿAsākir's working methods and the character of his sources. The term *tasmiya* refers to a type of written source that Ibn ʿAsākir used in preparing the *TMD* (and indeed, the full title of the *TMD* contains the term *tasmiya*). *Qaraʾtu bi-khaṭṭ* denotes his reading of his predecessors' handwritten text. He introduces written texts, and some books, with the term *dhakara*. We believe that these three terms offer a good representation of the nature of Ibn ʿAsākir's sources, and we will argue that they merit more attention than they have received.
 
-Text reuse data
+# Text reuse data
 
 We identified thirty-nine texts within the OpenITI corpus that Scheiner cited as sources for Ibn ʿAsākir. We then compared these files with the *TMD* to detect text reuse. We collated the results and graphed them with Power BI software in order to reveal the general pattern of reuse for each work.
 
@@ -97,11 +97,11 @@ We also noted the milestone for each *isnād* in our *isnād* listing. This allo
 
 The data we present here has not yet been carefully studied. But our general impression is that there is less correlation between citation and reuse than modern scholars might assume.
 
-Challenges
+# Challenges
 
 This work was highly iterative. We ran into challenges and then addressed them.
 
-Paragraph markers
+## Paragraph markers
 
 The text of the *TMD* in the OpenITI corpus had been annotated previously by team members, but the annotation procedure does not normally involve checking paragraph tags, as this is very time-consuming and is not required for text reuse detection or other corpus-wide studies we are undertaking. We thus felt some light editing would be useful. Hamid Reza Hakimi spent more than ten hours correcting paragraph markers. We know additional work in this area could be done.
 
@@ -111,13 +111,13 @@ To address this issue, we tagged secondary *isnād*s separately, using \# and ##
 
 Our final table excludes *isnād*s that contain secondary *isnād*s, as it proved difficult to collect statistics using such data. But we have examined the excluded *isnād*s and provide them in the data set. We do not believe that excluding them alters our conclusions.
 
-Errors
+## Errors
 
 Many problems were rooted in the long history of the text, encompassing both manuscripts and the modern edition. For example, copyists surprisingly often confused Ḥasans and Ḥusayns. The process of transferring the text to print also gave rise to inconsistencies that challenged our methodology. A common issue was spacing: the same pair of words in a name might be written separately or as one word (for example, Abu al-Barakat was sometimes rendered without a space between Abu and al-), which generated two different surface forms of the name.
 
 Our normalisation process addressed such spacing issues, tracing names with divergent spacings to the correct individual. We were generally conservative with normalisation. On rare occasions, we would add an al-, for example, where the text did not have one. And in a handful of cases, we accepted minor variation in author names (e.g. when all major elements of a name were the same) and normalised the variant forms to one and the same name so we could search for author names as expansively as possible. Otherwise, we accepted the text as it was and reckoned its state as a limitation on what we may conclude from it. Ḥasan in Arabic script is normalised as Hasan, even when we suspected that the copyist had made a mistake and that the name should in fact be Ḥusayn. This means that if Ḥusayn was in fact the intended person, we are perpetuating the error and have an invented person on our Name List. In the future, the data set will benefit enormously from the use of natural language processing tools to weed out such errors.[^5]
 
-Many surface forms
+## Many surface forms
 
 The normalisation process entailed many difficulties. We often wondered what Ibn ʿAsākir might have been thinking when he referred to the same person in many ways -- was he assuming the knowledge of his audience?
 
@@ -131,11 +131,11 @@ A particular problem is posed by *isnād*s that contain two distinct names in po
 
 We are satisfied with our Name List for now, as it serves our current purposes. But we anticipate developing better methods for refining it in the future. Ryan Muther has been working on parallel problems, and his work will be helpful. We also expect work on NLP to be useful. For example, names might be extracted from *isnād*s through the use of an automatic parser such as those that exist now for English and other languages. Though various projects are developing such tools for Arabic,[^9] we have only begun testing them for historical Arabic.
 
-Uncertainty
+## Uncertainty
 
 In a very few cases, we have normalised different surface forms to a common short name, even when examination of the elements in longer forms of the name seems to point to two distinct persons. For example, Ibn ʿAsākir often cites two transmitters called Umm al-Mujtaba and Umm al-Baha\'. He also occasionally names them together, as 'Umm al-Mujtabāʾ Fāṭima bt. Nāṣir' and 'Umm al-Bahāʾ Fāṭima bt. Muḥammad'. Somewhere along the way, however, the genealogies of the two Fāṭimas got mixed up, so the *TMD* sometimes refers to Umm al-Mujtaba as Fāṭima bt. Muḥammad and to Umm al-Baha\' as Fāṭima bt. Nāṣir (and also as Fāṭima bt. Muḥammad b. Aḥmad or Fāṭima bt. Muḥammad b. ʿAbd Allāḥ). Given that Ibn ʿAsākir often mentions the two names together, it seems clear that they identify two separate women, so we felt we could safely refer to them by their shortened names and ignore the confusion about their genealogies. This seemed a good route especially in cases in which the short-form names were not themselves very common; the situation would have been very different with, say, an Abū al-Ḥasan or an Abū al-Ḥusayn.
 
-Conventions
+# Conventions
 
 We cite our data set throughout the posts that follow, sometimes using the *isnād* number within the data set. We also give milestones for *isnād*s. We use the normalised forms of informants' names but often refer to authors by their better-known, transliterated names. When translating passages from the text, we give the surface form as it appears in the text, followed by the normalised form in square brackets. Readers can recognise normalised names by their lack of diacritics. Normally, OpenITI blog posts lack diacritics, but for this series, we found them necessary.
 
