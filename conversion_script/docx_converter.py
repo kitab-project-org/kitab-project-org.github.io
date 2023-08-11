@@ -220,8 +220,7 @@ def find_yml_docx_data(in_dir, file_list):
             if empty_gloss:
               del yml_dict["glossary"]
 
-            # Building the category fields for use in series
-            yml_dict["category"] = []
+
 
             # Check if series data is present - append it to the final list
             series_data = []
@@ -252,9 +251,11 @@ def find_yml_docx_data(in_dir, file_list):
             # Check series field and append any contents
             if "series" in yml_dict.keys():
               if yml_dict["series"] is not None:
+                if type(yml_dict["series"] != list:
+                  yml_dict["series"] = [yml_dict["series"]
                 for item in yml_dict["series"]:
-                  if item not in yml_dict["category"]:
-                    yml_dict["category"].append(item)
+                  if item not in yml_dict["categories"]:
+                    yml_dict["categories"].append(item)                
               del yml_dict["series"]
 
             # Add full header text to output dict
