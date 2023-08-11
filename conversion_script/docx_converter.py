@@ -253,6 +253,8 @@ def find_yml_docx_data(in_dir, file_list):
               if yml_dict["series"] is not None:
                 if type(yml_dict["series"]) != list:
                   yml_dict["series"] = [yml_dict["series"]]
+                if "categories" not in yml_dict.keys():
+                  yml_dict["categories"] = []
                 for item in yml_dict["series"]:
                   if item not in yml_dict["categories"]:
                     yml_dict["categories"].append(item)                
