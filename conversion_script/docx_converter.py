@@ -251,7 +251,7 @@ def find_yml_docx_data(in_dir, file_list):
             # Check series field and append any contents
             if "series" in yml_dict.keys():
               if yml_dict["series"] is not None:
-                if type(yml_dict["series"] != list:
+                if type(yml_dict["series"]) != list:
                   yml_dict["series"] = [yml_dict["series"]
                 for item in yml_dict["series"]:
                   if item not in yml_dict["categories"]:
