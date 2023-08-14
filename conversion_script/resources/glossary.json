@@ -46,5 +46,9 @@
  {
   "term": "nisba",
   "def": "a name element derived usually from a person\u2019s geographical background."
+ },
+ {
+  "term": "direct informant",
+  "def": "A person whom an author cites as an informant, often within an <i>isnad</i>"
  }
 ]
