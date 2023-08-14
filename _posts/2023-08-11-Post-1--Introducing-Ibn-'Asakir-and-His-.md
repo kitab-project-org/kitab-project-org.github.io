@@ -81,7 +81,7 @@ Within today's research landscape, we believe that our work on the compositional
 
 Our final argument boils down to a call to take Ibn ʿAsākir's documentation practices seriously. The story of the *TMD*'s composition reveals this aspect of his project in great detail. We can now see more clearly than we could previously what he was doing and how it mattered to him.
 
-Going beyond search
+# Going beyond search
 
 Much current work on writerly practices that relies on digital methods leans heavily on searches. But searching texts such as the *TMD* can seem like a Boolean fishing expedition, in which a researcher tests hypotheses as true or false. Did authors describe cities using particular terms? Did later writers cite an earlier author often? Did an author cite a particular work? Such research looks for relevant terms or citations of a particular work in a database.
 
@@ -93,7 +93,7 @@ In what follows, we undertake a forensic investigation. We will work at two wide
 
 Readers will have to wait until Post 5 ('Ibn ʿAsākir's Citation of Author Names in *Isnād*s') to hear about our searches for author names and until Post 6 ('Searches for References to Written Materials outside of *Isnād*s') for a search for titles in the *TMD*. First, we will focus on what Ibn ʿAsākir himself cared most about: direct informants who told him things and whom he cited in his *isnād*s. This discussion will involve many names of individuals who are little known today but who mattered as sources to Ibn ʿAsākir.
 
-A bit about Ibn ʿAsākir and the *TMD*
+# A bit about Ibn ʿAsākir and the *TMD*
 
 Ibn ʿAsākir belonged to the elite of Damascus amidst what is often termed 'the Sunni revival' of the eleventh and twelfth centuries. In this period, beginning with ʿImād al-Dīn Zangī (r. 521--41/1127--46), the father of Ibn ʿAsākir's patron (Nūr al-Dīn b. Zangī), Sunni Muslim states launched attacks on Shi\'i dynasties in Syria, Iraq and Egypt as well as a Counter-Crusade against Christian kingdoms in Edessa, Antioch, Tripoli and Jerusalem. Nūr al-Dīn himself subsequently played a major role in both the Sunni revival and the Counter-Crusade, fending off the second Crusade's attack on Damascus in 543/1148 and, after major battles at Inab and Banyas, uniting Syria under his rule. Nūr al-Dīn -- as well as the later Zengids, Ayyubids and Mamlūks -- linked the threats posed by Fāṭimid Egypt and the Crusaders within a religious and political ideology centred on *jihād*. In addition to completing his long-term project, the *TMD*, Ibn ʿAsākir penned for Nūr al-Dīn a famous collection of forty Hadith on inciting *jihād*, as well as a work on the merits of Ashkelon, which was then in the hands of the Crusaders.[^22] Given this wider context, many scholars have assumed that Ibn ʿAsākir sought to show the holiness of the entire Syrian region through the *TMD* by collecting and presenting within it renowned representatives of Islamic learning focused on Syria.[^23]
 
@@ -111,7 +111,7 @@ The work itself has spawned a continuous tradition of scholarship on Damascus --
 
 Scholars have also used the *TMD* as a sourcebook for Hadith and mined it for historical anecdotes and biographical information. The work's alphabetical ordering makes it easy to look someone up. In the twentieth century, Ibn ʿAsākir became a model for Syrian nationalism and its various reform movements, including pan-Arab and pan-Islamic nationalism.[^31] Scholars of Islamic history, wherever they are based, have also found the *TMD* useful as a data source for addressing a great number of questions relating to earlier periods up to his own day.
 
-Outline of what lies ahead
+# Outline of what lies ahead
 
 In the blog posts that follow, we address the four main questions outlined above concerning Ibn ʿAsākir's citation practices in the *TMD*. These build up to a new picture of Ibn ʿAsākir's working methods and specifically of his reliance on people as opposed to books as his sources.
 
@@ -129,7 +129,7 @@ Post 6, 'Searches for References to Written Materials outside of *Isnād*s', foc
 
 Post 7, 'People, Connections and Memory', draws together the conclusions of this series of posts.
 
-Acknowledgements
+# Acknowledgements
 
 We gratefully acknowledge our reliance on the important recent work of scholars such as Mourad and Davidson as well as Jens Scheiner, who has sought to reconstruct Ibn ʿAsākir's library. Although we will argue that such a reconstruction is problematic on many levels, Scheiner's painstaking work on the transmission chains provided us with important metadata, including author names, death dates, name variants and book titles associated with particular authors. Scheiner relied on two earlier works, which we have also consulted. These are the 'Maṣādir' of Aḥmad M. Nūr Sayf and the *Mawārid* of Ṭalāl b. Saʿūd al-Daʿjānī. We also consulted Paula Manstetten's PhD thesis, which contains many important insights on the growth of Islamic education in the period, Damascus's status as a centre for learning during Ibn ʿAsākir's lifetime, the role of the madrasa, Ibn ʿAsākir's place in historiography and the nature of *isnād*s themselves.
 
