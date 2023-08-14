@@ -55,7 +55,7 @@ Table 2.1: An example *isnād* split into names.
 
 We filtered out any *isnād*s that lacked a name in position 0 (that is, the name of a direct informant) as well as *isnād*s that forked, meaning that Ibn ʿAsākir introduced an additional name with another transmission chain after naming his direct informant. Applying these filters left us with 77,231 *isnād*s.
 
-# Name List
+# Name list
 
 Ibn ʿAsākir refers to a lot of people. From the *TMD*'s *isnād*s we compiled a list of over 9,238 'surface forms' of names (that is, names as they appear in a text), which mapped to 3,885 distinct identities. As we explain later, we did not map all surface forms -- far from it. For comparison, al-Ṭabarī's three works contained 4,921 surface forms mapped to 3,787 identities. Both Ibn ʿAsākir and al-Ṭabarī sometimes use the same surface form for different people and different surface forms for the same people.
 
