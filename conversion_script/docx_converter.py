@@ -316,7 +316,9 @@ def main():
      
 
   # Fetch the glossary for use in the conversion process - this will be an updated glossary if an update has been run
-  gloss = fetch_glossary(glossary_path)
+  if os.path.exists(glossary_path):
+    gloss = fetch_glossary(glossary_path)
+    gloss_found = True
 
   docx_check = re.compile(".*\.docx")
   # Loop through the pairs run the conversion and build the output text
@@ -346,8 +348,11 @@ def main():
               for series_dict in docx["series_data"]:
                 build_series_page(series_dict, series_path)
 
-            # Run the glossary function and add the found entries to the header  
-            header, changed_entries = find_terms_add_to_glossary(gloss, blog_text, docx["header"], overwrite = False)            
+            header = docx["header"]
+            # Run the glossary function and add the found entries to the header if there is a glossary file in the conversion dict  
+            if gloss_found:
+              header, changed_entries = find_terms_add_to_glossary(gloss, blog_text, header, overwrite = False)
+              
 
             # Clean the text using a function and update the image routing to ensure it will work on a fork
             blog_text = clean_md_update_image_routing(blog_text)
