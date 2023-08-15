@@ -21,10 +21,10 @@ abdul_rahman_azzam:
   uri: null
 anjum_alam:
   avatar: /images/kitab/Anjum-Alam.jpg
-  bio: "Anjum Alam is the Project Manager for KITAB\xE2\u20AC\u2039. He has done his\
+  bio: "Anjum Alam is the Project Manager for KITAB. He has done his\
     \ MBA in Human Resource Development and holds an undergraduate degree in Information\
-    \ Technology. Besid\xE2\u20AC\u2039es, \xE2\u20AC\u2039he is also a certified\
-    \ Project Man\xE2\u20AC\u2039agem\xE2\u20AC\u2039ent Professional using waterfall\
+    \ Technology. Besides, 9he is also a certified\
+    \ Project Management Professional using waterfall\
     \ and agile methodologies."
   email: null
   facebook: null
@@ -84,10 +84,8 @@ claire_savina:
   uri: null
 david_smith:
   avatar: /images/kitab/david200px.jpg
-  bio: "David Smith is an associate professor in Northeastern University\xE2\u20AC\
-    \u2122s College of Computer and Information Science. He is a founding member of\
-    \ the NULab for Texts, Maps, and Networks (neu.edu/nulab), Northeastern\xE2\u20AC\
-    \u2122s center for research in the digital humanities and computational social\
+  bio: "David Smith is an associate professor in Northeastern University's College of Computer and Information Science. He is a founding member of\
+    \ the NULab for Texts, Maps, and Networks (neu.edu/nulab), Northeastern's center for research in the digital humanities and computational social\
     \ sciences."
   email: null
   facebook: null
@@ -150,11 +148,11 @@ hamid_reza_hakimi:
   uri: null
 karen_bauer:
   avatar: /images/kitab/karen_bauer_200px.jpg
-  bio: "Dr. Bauer's research centres on the Qur\xCA\xBEan and its reception history,\
+  bio: "Dr. Bauer's research centres on the Qur'an and its reception history,\
     \ the history of emotions in Islam, and gender in Islamic history and thought.\
     \ Although she is mostly known as a medievalist, she occasionally ventures into\
     \ modern territory, such as when she interviewed religious scholars in Iran and\
-    \ Syria for her book *Gender Hierarchy in the Qur\xE2\u20AC\u2122an: Medieval\
+    \ Syria for her book *Gender Hierarchy in the Qur'an: Medieval\
     \ Interpretations, Modern Responses* (Cambridge University Press, 2015), which\
     \ detailed the history of tafs\xC4\xABr through interpretations of verses on women,\
     \ and was runner up for the BKFS Book Prize 2016."
@@ -181,7 +179,7 @@ kevin_jaques:
     \ Islamic biography, Islamic law, and theology as well as religious hermeneutics\
     \ and comparative religions. He has written two books,  Authority, Conflict, and\
     \ the Transmission of Diversity in Medieval Islamic Law (Brill, 2006) and Ibn\
-    \ H\xCC\xA3ajar al-\xCA\xBFAsqala\xCC\u201Eni\xCC\u201E (Oxford, 2010), as well\
+    \ Hajar al-Asqalani (Oxford, 2010), as well\
     \ as numerous articles."
   email: null
   facebook: null
@@ -221,15 +219,7 @@ lorenz_nigst:
   uri: null
 masoumeh_seydi:
   avatar: /images/kitab/s200_masoumeh.seydi_.jpg
-  bio: "Masoumeh Seydi is KITAB\xE2\u20AC\u2122s Digital Lead. She holds a PhD in\
-    \ Computer Sciences from University of Leipzig. She has been working, since 2015,\
-    \ in a DH group, focusing on various computational methods to retrieve, analyse,\
-    \ and visualise geographical descriptions of premodern Arabic sources. She has\
-    \ been applying methods to annotate and extract various descriptive information,\
-    \ such as route networks and hierarchical divisions of a pre-modern society, and\
-    \ introducing models and visualisations for the geographical entities, comparative\
-    \ view of different descriptions, locating unknown places based on the contextual\
-    \ information."
+  bio: "Masoumeh Seydi is KITAB’s Digital Lead. She holds a PhD in Computer Science from the University of Leipzig. She works on computational methods relevant to geography in pre-modern Arabic sources as well as on various forms of data mining relevant to the Digital Humanities and Arabic-script languages. She is working on a book project with Sarah Bowen Savant treating Digital Humanities for Arabic-script languages."
   email: null
   facebook: null
   flickr: null
@@ -248,15 +238,7 @@ masoumeh_seydi:
   uri: null
 masoumeh_seydi_peter_verkinderen:
   avatar: null
-  bio: "Masoumeh Seydi is KITAB\xE2\u20AC\u2122s Digital Lead. She holds a PhD in\
-    \ Computer Sciences from University of Leipzig. She has been working, since 2015,\
-    \ in a DH group, focusing on various computational methods to retrieve, analyse,\
-    \ and visualise geographical descriptions of premodern Arabic sources. She has\
-    \ been applying methods to annotate and extract various descriptive information,\
-    \ such as route networks and hierarchical divisions of a pre-modern society, and\
-    \ introducing models and visualisations for the geographical entities, comparative\
-    \ view of different descriptions, locating unknown places based on the contextual\
-    \ information.<br/><br/>Peter Verkinderen is Assistant Professor in the Centre\
+  bio: "Masoumeh Seydi is KITAB’s Digital Lead. She holds a PhD in Computer Science from the University of Leipzig. She works on computational methods relevant to geography in pre-modern Arabic sources as well as on various forms of data mining relevant to the Digital Humanities and Arabic-script languages. She is working on a book project with Sarah Bowen Savant treating Digital Humanities for Arabic-script languages.<br/><br/>Peter Verkinderen is Assistant Professor in the Centre\
     \ for Digital Humanities at AKU-ISMC and a postdoctoral research fellow at the\
     \ KITAB Project working on the central Islamic lands. His main expertise is in\
     \ the geographical and historiographical literature of the 3rd-5th/9th-11th C.\
@@ -280,7 +262,7 @@ masoumeh_seydi_peter_verkinderen:
   uri: null
 maxim_romanov:
   avatar: /images/kitab/maxim200px.jpg
-  bio: "Maxim Romanov\xE2\u20AC\u2122s research focuses on the social history of the\
+  bio: "Maxim Romanov's research focuses on the social history of the\
     \ premodern Islamic world, the history of the Arabic written tradition, and computational\
     \ methods and approaches relevant for Islamicate studies."
   email: null
@@ -345,10 +327,7 @@ ryan_muther:
   uri: null
 sarah_savant:
   avatar: /images/kitab/sarah_savant.jpg
-  bio: Sarah Bowen Savant is the Principle Investigator of the KITAB project. She
-    is preparing a book, entitled, A Cultural History of the Arabic Book that explores
-    the many ways that writers reused earlier texts to create new ones in the period
-    spanning from 700-1500 CE.
+  bio: Sarah Bowen Savant is the Principle Investigator of the KITAB project. She is preparing a book entitled A Cultural History of the Arabic Book that explores the many ways that writers reused earlier texts to create new ones in the period spanning from 700-1500 CE. She is also working on a book project with Masoumeh Seydi treating Digital Humanities for Arabic-script languages.
   email: null
   facebook: null
   flickr: null
@@ -367,18 +346,7 @@ sarah_savant:
   uri: null
 sarah_savant_masoumeh_seydi:
   avatar: null
-  bio: "Sarah Bowen Savant is the Principle Investigator of the KITAB project. She\
-    \ is preparing a book, entitled, A Cultural History of the Arabic Book that explores\
-    \ the many ways that writers reused earlier texts to create new ones in the period\
-    \ spanning from 700-1500 CE.<br><br> Masoumeh Seydi is KITAB\xE2\u20AC\u2122s\
-    \ Digital Lead. She holds a PhD in Computer Sciences from University of Leipzig.\
-    \ She has been working, since 2015, in a DH group, focusing on various computational\
-    \ methods to retrieve, analyse, and visualise geographical descriptions of premodern\
-    \ Arabic sources. She has been applying methods to annotate and extract various\
-    \ descriptive information, such as route networks and hierarchical divisions of\
-    \ a pre-modern society, and introducing models and visualisations for the geographical\
-    \ entities, comparative view of different descriptions, locating unknown places\
-    \ based on the contextual information."
+  bio: "Sarah Bowen Savant is the Principle Investigator of the KITAB project. She is preparing a book entitled A Cultural History of the Arabic Book that explores the many ways that writers reused earlier texts to create new ones in the period spanning from 700-1500 CE. She is also working on a book project with Masoumeh Seydi treating Digital Humanities for Arabic-script languages.<br><br> Masoumeh Seydi is KITAB’s Digital Lead. She holds a PhD in Computer Science from the University of Leipzig. She works on computational methods relevant to geography in pre-modern Arabic sources as well as on various forms of data mining relevant to the Digital Humanities and Arabic-script languages. She is working on a book project with Sarah Bowen Savant treating Digital Humanities for Arabic-script languages."
   email: null
   facebook: null
   flickr: null
@@ -386,7 +354,7 @@ sarah_savant_masoumeh_seydi:
   google_plus: null
   instagram: null
   linkedin: null
-  name: Sarah Savant and Masoumeh Seydi
+  name: Sarah Bowen Savant and Masoumeh Seydi
   pinterest: null
   soundcloud: null
   stackoverflow: null
@@ -396,10 +364,7 @@ sarah_savant_masoumeh_seydi:
   uri: null
 sarah_savant_mathew_barber:
   avatar: null
-  bio: Sarah Bowen Savant is the Principle Investigator of the KITAB project. She
-    is preparing a book, entitled, A Cultural History of the Arabic Book that explores
-    the many ways that writers reused earlier texts to create new ones in the period
-    spanning from 700-1500 CE.<br><br>Mathew is a historian working with the KITAB
+  bio: Sarah Bowen Savant is the Principle Investigator of the KITAB project. She is preparing a book entitled A Cultural History of the Arabic Book that explores the many ways that writers reused earlier texts to create new ones in the period spanning from 700-1500 CE. She is also working on a book project with Masoumeh Seydi treating Digital Humanities for Arabic-script languages.<br><br>Mathew is a historian working with the KITAB
     team to develop and improve their visualisations and applications. He specialises
     in Fatimid historiography (c. tenth-twelfth centuries), its later survival and
     broader history-writing practices in Egypt.

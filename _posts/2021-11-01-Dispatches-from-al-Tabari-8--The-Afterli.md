@@ -10,7 +10,8 @@ glossary:
 - def: The annotation system used on OpenITI texts, see the documentation for more
     details.
   term: mARkdown
-
+- def: A person whom an author cites as an informant, often within an <i>isnad</i>
+  term: direct informant
 header:
   caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
     Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
@@ -23,6 +24,7 @@ tags: null
 title: 'Dispatches from al-Tabari 8: The Afterlife of al-Tabari in Quotations '
 
 ---
+
 
 
 
