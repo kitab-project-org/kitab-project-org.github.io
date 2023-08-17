@@ -27,7 +27,7 @@ Ibn ʿAsākir names many persons from whom he acquired information for the *TMD*
 
 For what follows, we also consulted Ibn ʿAsākir's *Muʿjam al-shuyūkh*, as well as two major biographical works containing entries for the period: Yāqūt al-Ḥamawī's biographical dictionary *Muʿjam al-udabāʾ* and al-Dhahabī's *Siyar aʿlām al-nubalāʾ*.
 
-The Pareto distribution
+# The Pareto distribution
 
 Ibn ʿAsākir cites many people as his direct informants -- hundreds or possibly thousands. The number of Ibn ʿAsākir's direct informants far exceeds that of al-Ṭabarī's. However, like al-Ṭabarī, he relies extensively on a much smaller number of people, with twenty or fewer persons responsible for over 60% of all information and 100 people responsible for 88%. He cites these persons repeatedly across the *TMD*, and he also provides biographies for many of them in the *TMD* and includes entries for them in his *Muʿjam al-shuyūkh*.
 
@@ -104,7 +104,7 @@ If we think in human terms, this makes utter sense. There was inevitably a limit
 
 To understand Ibn ʿAsākir's overall transmission methods, we need to focus on the people he cites most often. This is because in the transfer of information, the frequently cited direct informants are the highways, whereas those rarely cited are the country lanes.
 
-Ibn ʿAsākir's youthful information gathering
+# Ibn ʿAsākir's youthful information gathering
 
 When we examine the biographies of the people Ibn ʿAsākir cites most often, one detail jumps out. Given their death dates, he would have to have been very young to have acquired information personally from them.
 
@@ -165,7 +165,7 @@ We might expect to find clarification on Ibn ʿAsākir's methods of accessing an
 
 Still, the reports for both Abu \'Ali al-Haddad and Abu al-Ghana\'im in the *Muʿjam al-shuyūkh* indicate that he acquired the information he quotes from them via a written source. For Abu \'Ali al-Haddad, the sample *isnād* refers specifically to a written work: Ibn ʿAsākir writes, 'Al-Ḥasan b. Aḥmad b. al-Hasan b. Mihra Abū ʿAlī al-Ḥaddād al-Muqriʾ al-Iṣbahānī \[Abu \'Ali al-Haddad\] informed us (*akhbaranā*) more than once in his writing (*kitābihi*) ...'[^14] For Abu al-Ghana\'im, the sample *isnād* reads, 'Muḥammad b. ʿAlī b. Maymūn Abū al-Ghanāʾim al-Kūfī al-Narsī, known as Abū al-Ḥāfiẓ \[Abu al-Ghana\'im\], informed us via an *ijāza *...'[^15]
 
-Top five transmitters
+# Top five transmitters
 
 What do we learn about the people from whom Ibn ʿAsākir quotes most often and Ibn ʿAsākir's transmission generally, when we delve more deeply into our data?
 
@@ -235,7 +235,7 @@ That said, it is noteworthy that Ibn ʿAsākir generally quotes Abu al-Qasim al-
 
 A major question in interpreting *isnād*s is what Ibn ʿAsākir means when he cites several people together as direct informants for a single report -- something he does frequently, including with Abu al-Qasim al-Samarqandi. Since not all names in the *TMD* have been normalised, we cannot know precisely how common such citations are. We employed two ways of estimating the number of joint citations of Abu al-Qasim al-Samarqandi, and although both are prone to undercounting, they can yield a rough idea. First, we selected the most common surface form of his name and counted how many times it appeared with other names (478 times). And second, we counted instances in which a verified reference to Abu al-Qasim al-Samarqandi accompanied a reference to a second direct informant (at least 352 cases). One possible explanation for these citations is that Ibn ʿAsākir possessed multiple parallel *isnād*s for the quoted material, each through a different direct informant -- but see below for further discussion of how we might interpret these *isnād*s.
 
-2.  Abu Ghalib
+# 2.  Abu Ghalib {: .text-center}
 
 <table>
 <colgroup>
@@ -367,7 +367,7 @@ When Ibn ʿAsākir cites Abu Ghalib jointly with another person, the other infor
 
 Ibn ʿAsākir quotes at least forty-six authors on Abu Ghalib's authority. The most frequently mentioned of these authors is al-Zubayr b. Bakkar (d. 256/870, cited 653 times), followed by Ibn Sa\'d (d. 230/845, 627 times). The other forty-four authors he cites appear less frequently, and together, citations of these authors make up only about half of all of his author references.
 
-3.  Abu al-Barakat
+# 3.  Abu al-Barakat {: .text-center}
 
 | Born                                                                                             | 462/1069--70                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |----------------------|--------------------------------------------------|
@@ -413,7 +413,7 @@ Al-Samʿānī goes on to say, as quoted by al-Dhahabī:
 
 Ibn ʿAsākir mentions several authors in *isnād*s for which Abu al-Barakat is the direct informant; they include Ibn Sa\'d, but not al-Khatib. The author whose name appears most often Abu al-Barakat's *isnād*s (388 times) is Ibn Abi Shayba. But none of these citations refers to a work by him.
 
-4.  Abu Muhammad al-Akfani
+# 4.  Abu Muhammad al-Akfani {: .text-center}
 
 | Born                                                                                             | 444                                                                                                                                   |
 |------------------------------------|------------------------------------|
@@ -459,7 +459,7 @@ Our data model assumes that whichever author mentioned in an *isnād* as the clo
 
 This case illustrates the complexities of authorship in the period in question and the challenge these pose for our data collection. Scheiner classifies Abu Muhammad al-Akfani as an author on the basis of a work ascribed to him entitled *Tasmiyat quḍāt Dimashq*. However, as we discuss in Post 6, the term *tasmiya* is used widely in the *TMD* for written collations that often do not fit the model of a composed book (separate pieces but also sections of larger works). If authorship of a *tasmiya* makes an individual an author, the *TMD* contains far more authors than hitherto reckoned. Looking closely at the data set, we find that Abu Muhammad al-Akfani passed on quotations from several (other) authors on our list, including al-Khatib (in 309 *isnād*s). Ibn ʿAsākir's frequent use of *tasmiya*s suggests that these works mediated his access to the materials conveyed in them.
 
-5.  Abu Muhammad al-Sulami
+# 5.  Abu Muhammad al-Sulami {: .text-center}
 
 | Born                                                                                             | ?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------|--------------------------------------------------|
@@ -498,7 +498,7 @@ Al-Dhahabī calls Abu Muhammad al-Sulami a *musnid*, like Abu Ghalib and Abu al-
 
 Forty-five percent of Abu Muhammad al-Sulami's citations in the data set contain the name of an author -- a relatively high percentage. One might hypothesise a connection with his mode of citation: perhaps the transmission term *qaraʾtu ʿalā* goes back to an author-informant more often than do other modes of citation. When we surveyed all *isnād*s that cite authors, we did not find this to be generally the case. *Isnād*s that include authors do not begin with *qaraʾtu ʿalā* more often than other *isnād*s do. However, in the specific case of Abu Muhammad al-Sulami, there does seem to be a correlation between the term *qaraʿtu ʿalā* and material obtained from an author. Of Abu Muhammad's *isnād*s that feature authors, 57% begin with *qaraʾtu ʿalā* (831 out of 1,466 *isnād*s). In 539 *isnād*s, Abu Muhammad al-Sulami is preceded in the chain by Ibn Makula (d. 485/1092), who is credited with authoring books, and all but nine of these start with the formula *qaraʾtu ʿalā*.
 
-A few more observations about the top five informants
+# A few more observations about the top five informants
 
 Each of the five persons whom Ibn ʿAsākir cites most frequently as his direct sources represents a unique case, but they enable some general observations.
 
@@ -514,7 +514,7 @@ Each of the five informants transmits reports that contain authors' names, but o
 
 In general, the data set yields a complex picture of citation. We accept Ibn ʿAsākir's implicit insistence that the *isnād*s are signifiers, but decoding them is not straightforward.
 
-Citing people jointly
+# Citing people jointly
 
 Ibn ʿAsākir repeatedly asserts that he acquired material while in a group. He employs a variety of transmission terms to indicate that an informant relayed information to 'us'. In our data, he rarely says that a direct informant provided information to him alone ('to me'), unless an explicitly written method of transmission is involved.
 
