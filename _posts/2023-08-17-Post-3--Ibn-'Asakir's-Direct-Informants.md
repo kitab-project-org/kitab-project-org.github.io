@@ -169,7 +169,8 @@ Still, the reports for both Abu \'Ali al-Haddad and Abu al-Ghana\'im in the *Mu�
 
 What do we learn about the people from whom Ibn ʿAsākir quotes most often and Ibn ʿAsākir's transmission generally, when we delve more deeply into our data?
 
-1.  Abu al-Qasim al-Samarqandi
+## 1.  Abu al-Qasim al-Samarqandi
+{: .text-center}
 
 | Born                                                                                             | 444/1052--3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------|--------------------------------------------------|
@@ -235,7 +236,7 @@ That said, it is noteworthy that Ibn ʿAsākir generally quotes Abu al-Qasim al-
 
 A major question in interpreting *isnād*s is what Ibn ʿAsākir means when he cites several people together as direct informants for a single report -- something he does frequently, including with Abu al-Qasim al-Samarqandi. Since not all names in the *TMD* have been normalised, we cannot know precisely how common such citations are. We employed two ways of estimating the number of joint citations of Abu al-Qasim al-Samarqandi, and although both are prone to undercounting, they can yield a rough idea. First, we selected the most common surface form of his name and counted how many times it appeared with other names (478 times). And second, we counted instances in which a verified reference to Abu al-Qasim al-Samarqandi accompanied a reference to a second direct informant (at least 352 cases). One possible explanation for these citations is that Ibn ʿAsākir possessed multiple parallel *isnād*s for the quoted material, each through a different direct informant -- but see below for further discussion of how we might interpret these *isnād*s.
 
-# 2.  Abu Ghalib 
+## 2.  Abu Ghalib 
 {: .text-center}
 
 <table>
@@ -368,7 +369,7 @@ When Ibn ʿAsākir cites Abu Ghalib jointly with another person, the other infor
 
 Ibn ʿAsākir quotes at least forty-six authors on Abu Ghalib's authority. The most frequently mentioned of these authors is al-Zubayr b. Bakkar (d. 256/870, cited 653 times), followed by Ibn Sa\'d (d. 230/845, 627 times). The other forty-four authors he cites appear less frequently, and together, citations of these authors make up only about half of all of his author references.
 
-# 3.  Abu al-Barakat 
+## 3.  Abu al-Barakat 
 {: .text-center}
 
 | Born                                                                                             | 462/1069--70                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -415,7 +416,7 @@ Al-Samʿānī goes on to say, as quoted by al-Dhahabī:
 
 Ibn ʿAsākir mentions several authors in *isnād*s for which Abu al-Barakat is the direct informant; they include Ibn Sa\'d, but not al-Khatib. The author whose name appears most often Abu al-Barakat's *isnād*s (388 times) is Ibn Abi Shayba. But none of these citations refers to a work by him.
 
-# 4.  Abu Muhammad al-Akfani 
+## 4.  Abu Muhammad al-Akfani 
 {: .text-center}
 
 | Born                                                                                             | 444                                                                                                                                   |
@@ -462,7 +463,7 @@ Our data model assumes that whichever author mentioned in an *isnād* as the clo
 
 This case illustrates the complexities of authorship in the period in question and the challenge these pose for our data collection. Scheiner classifies Abu Muhammad al-Akfani as an author on the basis of a work ascribed to him entitled *Tasmiyat quḍāt Dimashq*. However, as we discuss in Post 6, the term *tasmiya* is used widely in the *TMD* for written collations that often do not fit the model of a composed book (separate pieces but also sections of larger works). If authorship of a *tasmiya* makes an individual an author, the *TMD* contains far more authors than hitherto reckoned. Looking closely at the data set, we find that Abu Muhammad al-Akfani passed on quotations from several (other) authors on our list, including al-Khatib (in 309 *isnād*s). Ibn ʿAsākir's frequent use of *tasmiya*s suggests that these works mediated his access to the materials conveyed in them.
 
-# 5.  Abu Muhammad al-Sulami 
+## 5.  Abu Muhammad al-Sulami 
 {: .text-center}
 
 | Born                                                                                             | ?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
