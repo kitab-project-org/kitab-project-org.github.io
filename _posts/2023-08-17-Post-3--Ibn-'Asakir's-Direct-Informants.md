@@ -111,6 +111,7 @@ Ibn ʿAsākir was born in the month of Muharram in the year 499/September or Oct
 Table 3.5 lists the twenty individuals whom Ibn ʿAsākir cites most often in the *TMD*. Quotations from them account for more than 60% of all *isnād*s in our data set.[^5]
 
 | **Name**                           | **Died** | **Number of citations** |
+|---|---|
 | Abu al-Qasim al-Samarqandi         | 536/1142 | 8,858                   |
 | Abu Ghalib                         | 527/1133 | 4,871                   |
 | Abu al-Barakat                     | 538/1143 | 3,449                   |
