@@ -31,4 +31,4 @@ jobs:
           github_token: ${{ secrets.token }}
           branch: master
           force: true
-          message: 'Overwritten by Github Actions - ${date}'
+          message: 'Overwritten by Github Actions - ${{  github.event.repository.updated_at }}'
