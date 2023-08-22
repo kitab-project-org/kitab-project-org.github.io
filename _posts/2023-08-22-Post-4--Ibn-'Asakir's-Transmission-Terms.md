@@ -33,7 +33,7 @@ We collected *isnād* citations by splitting the text using the \# paragraph mar
 |----------------------|-------------------------|-------|-------------------|
 | أخبرنا            | he informed us                          | 53,841    | \<1%                         |
 | أنبأنا            | he communicated to us                   | 8,462     | \<1%                         |
-| [ح\[تحويل/حيلولة\] | transition \[to a new set of *isnād*s\] | 6,195     | 3%                           |
+| ح\[تحويل/حيلولة\] | transition \[to a new set of *isnād*s\] | 6,195     | 3%                           |
 | قرأت على          | I read/recited to                       | 5,949     | 90%                          |
 | حدثنا             | he transmitted to us                    | 1,244     | 33%                          |
 | كتب إلي           | he wrote to me                          | 1,001     | 100%                         |
