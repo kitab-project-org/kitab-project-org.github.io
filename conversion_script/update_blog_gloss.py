@@ -78,50 +78,53 @@ def update_blog_gloss(update_existing_entries = False):
     Using update_existing_entries will replace any existing entries in the blog glossary with new ones from the main glossary.json
     Set this to true when running an updated glossary where the def of indiviudal entries has been changed and you would like that
     change to be reflected across all blogs"""
-
-    change_counter = 0
-
-    print("Updating glossaries for existing blogs")
-
     # Set the directories
     in_dir, header_template, archive_dir, image_out, blog_dir, glossary_path, authors_yml = set_directories()
+    
+    if os.path.exists(glossary_path):
 
-    # Get list of directories
-    blog_list = os.listdir(blog_dir)
-    gloss = fetch_glossary(glossary_path)
+      change_counter = 0
 
-    # Loop and load text
-    for blog in tqdm(blog_list):
-        blog_path = os.path.join(blog_dir, blog)
-        with open(blog_path, encoding='utf-8') as f:
-            blog_text = f.read()        
-        blog_splits = blog_text.split("---")        
-        header = blog_splits[1]
-        blog_text = "".join(blog_splits[2:])
-        header_dict = clean_yml_to_dict(header)
-        
-        # If old_style_header is true - find the old style header in the sidebar field and strip it out
-        # if old_style_header:
-        #     if "sidebar" in header_dict.keys():
-        #         sidebar_data = header_dict["sidebar"]
-        #         gloss_pos = None
-        #         if sidebar_data is not None:
-        #             for idx, item in enumerate(sidebar_data):
-        #                 if "title" in item.keys():
-        #                     if item["title"] == "Glossary":
-        #                         gloss_pos = idx
-        #         if gloss_pos is not None:
-        #             del header_dict["sidebar"][gloss_pos]
-            
-        header_dict, changed_entries = find_terms_add_to_glossary(gloss, blog_text, header_dict, overwrite=update_existing_entries)
+      print("Updating glossaries for existing blogs")
 
-        if changed_entries:
-            change_counter = change_counter + 1            
-            blog_out = append_header_blog(header_dict, blog_text)
 
-            with open(blog_path, "w", encoding='utf-8') as f:
-               f.write(blog_out)
-    print("{} blogs updated following change to glossary".format(change_counter))
+
+      # Get list of directories
+      blog_list = os.listdir(blog_dir)
+      gloss = fetch_glossary(glossary_path)
+
+      # Loop and load text
+      for blog in tqdm(blog_list):
+          blog_path = os.path.join(blog_dir, blog)
+          with open(blog_path, encoding='utf-8') as f:
+              blog_text = f.read()        
+          blog_splits = blog_text.split("---")        
+          header = blog_splits[1]
+          blog_text = "".join(blog_splits[2:])
+          header_dict = clean_yml_to_dict(header)
+          
+          # If old_style_header is true - find the old style header in the sidebar field and strip it out
+          # if old_style_header:
+          #     if "sidebar" in header_dict.keys():
+          #         sidebar_data = header_dict["sidebar"]
+          #         gloss_pos = None
+          #         if sidebar_data is not None:
+          #             for idx, item in enumerate(sidebar_data):
+          #                 if "title" in item.keys():
+          #                     if item["title"] == "Glossary":
+          #                         gloss_pos = idx
+          #         if gloss_pos is not None:
+          #             del header_dict["sidebar"][gloss_pos]
+              
+          header_dict, changed_entries = find_terms_add_to_glossary(gloss, blog_text, header_dict, overwrite=update_existing_entries)
+
+          if changed_entries:
+              change_counter = change_counter + 1            
+              blog_out = append_header_blog(header_dict, blog_text)
+
+              with open(blog_path, "w", encoding='utf-8') as f:
+                f.write(blog_out)
+      print("{} blogs updated following change to glossary".format(change_counter))
 
 if __name__ == "__main__":
    # When the function is called directly from this script we update the entries by default - this is because we will only run this action independently of an
