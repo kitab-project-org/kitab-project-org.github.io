@@ -24,7 +24,7 @@ tags:
 - text-reuse
 - prolific-authors
 - cultural-memory
-title: "Post 2: Ibn ''Asakir and His <i>History of Damascus</i>, the Data Set"
+title: "Post 2: Ibn 'Asakir and His <i>History of Damascus</i>, the Data Set"
 
 ---
 Digital humanists often say they would like to read more work in progress. Our blog posts represent such work. We worked intensively over months to create and interpret this data. There was much back and forth. The data presented here offers a snapshot of our work at a specific point in time.
