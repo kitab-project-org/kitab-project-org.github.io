@@ -127,8 +127,9 @@ Table 6.3: The five informants Ibn ʿAsākir cites most frequently using this ph
 
 5.  Mourad credits Abu al-Faraj Ghayth (d. 509/1115) with teaching three books to Ibn ʿAsākir: the *Kitāb al-Kharāj* of Qudāma b. Jaʿfar (d. 337/948) plus two others whose authors Mourad does not name, *Taʾrīkh Ṣūr* and *Kitāb fī akhbār al-Kaʿba wa-faḍāʾiluha wa-asmāʾ al-mudun wa-l-buldān wa-akhbāruhā*. Ibn ʿAsākir says that Abu al-Faraj was a close friend of Ibn ʿAsākir's father and lived with the ʿAsākir family until his death after leaving Tyre (Ṣūr), where he had been chief preacher at the Friday mosque; he had fled the city out of fear of being captured by the Franks (Tyre fell to them in 518/1124). He taught Ibn ʿAsākir Hadiths on *jihād*.[^19] Of Qudāma b. Jaʿfar's (d. 337/948) book, Ibn ʿAsākir says:
 
-	I \[Ibn ʿAsākir\] read in the handwriting of our teacher Abū al-Faraj Ghayth b. ʿAlī b. ʿAbd al-Sallām al-Ṣūrī, who said: 'I read in the *Book on the Kharāj* \[land tax\] composed by the scribe Abū al-Faraj Qudāma b. Jaʿfar that "The 'date' of anything should be reckoned as its final point ...".'
-	> This quotation, connected to the calculation of tax, reached Ibn ʿAsākir through two mediations: the writing of his teacher (whom he quotes 261 times throughout the *TMD*) and, through it, Qudāma b. Jaʿfar's *Kitāb al-Kharāj*. Ibn ʿAsākir does not claim direct access to this latter book itself.
+	> I \[Ibn ʿAsākir\] read in the handwriting of our teacher Abū al-Faraj Ghayth b. ʿAlī b. ʿAbd al-Sallām al-Ṣūrī, who said: 'I read in the *Book on the Kharāj* \[land tax\] composed by the scribe Abū al-Faraj Qudāma b. Jaʿfar that "The 'date' of anything should be reckoned as its final point ...".'
+
+	This quotation, connected to the calculation of tax, reached Ibn ʿAsākir through two mediations: the writing of his teacher (whom he quotes 261 times throughout the *TMD*) and, through it, Qudāma b. Jaʿfar's *Kitāb al-Kharāj*. Ibn ʿAsākir does not claim direct access to this latter book itself.
 
 On 171 of the 1,342 occasions on which Ibn ʿAsākir says he read something in the handwriting of someone else, the term *tasmiya* also appears nearby. The two phrases occur together most often in citations involving Naja\' b. Ahmad. These *tasmiya* works seem to have been pre-existing compilations that Ibn ʿAsākir could mine for the *TMD*.
 
