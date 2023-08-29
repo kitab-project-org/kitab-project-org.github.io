@@ -20,7 +20,7 @@ tags:
 - text-reuse
 - prolific-authors
 - cultural-memory
-title: 'Post 6: Searches for References to written materials outside of <i>Isnad</>s'
+title: 'Post 6: Searches for References to written materials outside of <i>Isnad</i>s'
 
 ---
 As noted in the last post, we struggled to verify book citations in the *TMD*, both within and outside of *isnād*s. We believe that our struggles reflect the challenging nature of the task as much as it does a need to work further on the problem.[^1]
