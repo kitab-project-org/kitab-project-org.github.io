@@ -119,18 +119,12 @@ Table 6.3: The five informants Ibn ʿAsākir cites most frequently using this ph
 
 1.  Scheiner identifies Rasha\' b. Nazif, the person whose handwriting Ibn ʿAsākir cites most often, as Abū al-Ḥasan Rashaʾ b. Naẓīf b. Mashāʾ Allāh (d. 444/1052). According to Scheiner, Rasha\' is a transmitter of a 'book' by Muḥammad b. Yusūf al-Kindī (d. 360/971; author no. 64 in our data set, normalised as Muhammad b. Yusuf al-Kindi) called *Tasmiyat mawālī ahl al-Miṣr*, or 'List of the *mawālī* among the people of Egypt'.[^14] This title appears three times in our search results for the term *tasmiya*, and it also turned up in our author/title searches.[^15] Another search found Ibn ʿAsākir referring to al-Kindi and his *Kitāb Mawālī ahl Miṣr*.[^16] Rasha\''s name appears within *isnād*s that mention the title. Still, Ibn ʿAsākir's citation establishes only a weak link between Rasha\', his handwriting and al-Kindi's book given the infrequent mention of the book and the much more frequent mention of Rasha\' in *isnād*s (as well as the more frequent references to his handwriting).
 
-```{=html}
-<!-- -->
-```
 2.  Ibn ʿAsākir cites Abu al-Husayn al-Razi and his handwriting 145 times. He may well be the Abū al-Ḥusayn al-Rāzī (d. 347/958) to whom Scheiner attributes three *tasmiya* works (and who thus appears as no. 59 in our list of authors). The three works are *Tasmiyat kuttāb umarāʾ Dimashq* ('List of the scribes of the emirs of Damascus') and *Tasmiyat umarāʾ* (or *wulāt*) *Dimashq* ('List of the rulers of Damascus') -- both via Ibn Ṣābir al-Sulamī (d. 511/1117--18) -- and *Tasmiyat man kutiba ʿanhu bi-Dimashq* ('List of those from whom people copied in Damascus') via Abū al-Ḥasan Najā b. Naẓīf b. Aḥmad b. ʿAṭṭār al-Shāhid (d. 469/1076--7).[^17]
 
 3.  Ibn ʿAsākir cites Naja\' b. Ahmad 126 times.[^18] Scheiner identifies what appears to be the same person as a transmitter of Abū al-Ḥusayn al-Rāzī's *Tasmiyat man kutiba ʿanhu bi-Dimashq* (both mentioned above).
 
 4.  Quotations from Abu Muhammad al-Akfani constitute a significant portion of the *TMD* overall. Ibn ʿAsākir cites him across the *TMD* using a variety of transmission terms (see Post 3).
 
-```{=html}
-<!-- -->
-```
 5.  Mourad credits Abu al-Faraj Ghayth (d. 509/1115) with teaching three books to Ibn ʿAsākir: the *Kitāb al-Kharāj* of Qudāma b. Jaʿfar (d. 337/948) plus two others whose authors Mourad does not name, *Taʾrīkh Ṣūr* and *Kitāb fī akhbār al-Kaʿba wa-faḍāʾiluha wa-asmāʾ al-mudun wa-l-buldān wa-akhbāruhā*. Ibn ʿAsākir says that Abu al-Faraj was a close friend of Ibn ʿAsākir's father and lived with the ʿAsākir family until his death after leaving Tyre (Ṣūr), where he had been chief preacher at the Friday mosque; he had fled the city out of fear of being captured by the Franks (Tyre fell to them in 518/1124). He taught Ibn ʿAsākir Hadiths on *jihād*.[^19] Of Qudāma b. Jaʿfar's (d. 337/948) book, Ibn ʿAsākir says:
 
 	I \[Ibn ʿAsākir\] read in the handwriting of our teacher Abū al-Faraj Ghayth b. ʿAlī b. ʿAbd al-Sallām al-Ṣūrī, who said: 'I read in the *Book on the Kharāj* \[land tax\] composed by the scribe Abū al-Faraj Qudāma b. Jaʿfar that "The 'date' of anything should be reckoned as its final point ...".'
