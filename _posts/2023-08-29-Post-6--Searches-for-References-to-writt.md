@@ -129,11 +129,11 @@ Table 6.3: The five informants Ibn ʿAsākir cites most frequently using this ph
 
 	> I \[Ibn ʿAsākir\] read in the handwriting of our teacher Abū al-Faraj Ghayth b. ʿAlī b. ʿAbd al-Sallām al-Ṣūrī, who said: 'I read in the *Book on the Kharāj* \[land tax\] composed by the scribe Abū al-Faraj Qudāma b. Jaʿfar that "The 'date' of anything should be reckoned as its final point ...".'
 
-	This quotation, connected to the calculation of tax, reached Ibn ʿAsākir through two mediations: the writing of his teacher (whom he quotes 261 times throughout the *TMD*) and, through it, Qudāma b. Jaʿfar's *Kitāb al-Kharāj*. Ibn ʿAsākir does not claim direct access to this latter book itself.
+This quotation, connected to the calculation of tax, reached Ibn ʿAsākir through two mediations: the writing of his teacher (whom he quotes 261 times throughout the *TMD*) and, through it, Qudāma b. Jaʿfar's *Kitāb al-Kharāj*. Ibn ʿAsākir does not claim direct access to this latter book itself.
 
 On 171 of the 1,342 occasions on which Ibn ʿAsākir says he read something in the handwriting of someone else, the term *tasmiya* also appears nearby. The two phrases occur together most often in citations involving Naja\' b. Ahmad. These *tasmiya* works seem to have been pre-existing compilations that Ibn ʿAsākir could mine for the *TMD*.
 
-*Dhakara*
+### *Dhakara*
 
 Ibn ʿAsākir uses *dhakara* (so-and-so 'stated') 1,654 times at the start of a paragraph in our text.[^20] This is an alternative to citing with an *isnād* and sometimes points to a written work he consulted. In 1,057 cases, we were able to match the person cited to a name on our Name List. The other cases represented challenges to our method of splitting citations; *dhakara* often was not followed by a name but rather by a quote or other non-name material.
 
