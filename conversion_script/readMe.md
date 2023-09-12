@@ -175,9 +175,9 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 | mathew_barber | Mathew Barber |
 
 ## Existing categories
+- IbnAsakir
 - fihrist
 - clusters
-- IbnAsakir
 - tabari
 
 ## Existing tags
@@ -185,17 +185,17 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 - citation
 - events
 - corpus
-- news
 - book-history
-- viz
+- author-practice
+- reg-syr-arab
 - text-reuse
+- prolific-authors
+- cultural-memory
+- news
+- viz
 - release
 - news release
 - machine-learning
-- author-practice
-- reg-syr-arab
-- prolific-authors
-- cultural-memory
 - author-practice data, book-history
 - passim
 - IbnAsakir
