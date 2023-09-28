@@ -25,18 +25,18 @@ Thursday, 5 October 2023
 
 
 Welcome Address (10:00 – 10:30am)\
-**Leif Stenberg and Sarah Bowen Savant**
+**Sarah Bowen Savant and James McDougall**
 
 {% capture ses1 %}
 ## Session 1: Administering Justice (10:30 – 12:00pm)
 **Chair: Arezou Azad, Oxford University**
 
+How to Be a Bad Ruler in Tenth Century Baghdad\
+*Hugh Kennedy, SOAS University of London*
+
 Between a Rock and Hard Arabic: Epigraphy & the Public Letters of ʿAbd alHamid (d. 750)\
 *Nicholas Kyle Longworth, Department of Near Eastern Languages & Civilisations,
 University of Chicago*
-
-How to Be a Bad Ruler in Tenth Century Baghdad\
-*Hugh Kennedy, SOAS University of London*
 
 ‘And to Our Master, the Illustrious Caliph, Belongs the Lofty Resolution Regarding This, If God Wills’: Written Petitions and the Administration of Justice
 in Fatimid Egypt.\
@@ -89,11 +89,11 @@ Modes of Temporality in Islamicate Collective Biographies: A Comparative Study o
 </div>
 
 Coffee Break
-5:30 – 5:45 pm
+4:15 – 4:30 pm
 
 {% capture ses4 %}
 ## Session 4: Exploring Commemorations and Memorialisations (4:30–5:30 pm)
-**Chair: TBC**
+**Chair: Masoumeh Seydi**
 
 ‘Picture His Torment Before Your Eyes’: Narrative Imagination in Shīʿī
 Commemorative Ritual\
@@ -112,7 +112,7 @@ Coffee Break
 5:30 – 5:45 pm
 
 {% capture ses5 %}
-## Book Launch: Gowaart Van Den Bossche (5:45 - 6:30pm)
+## Book Launch 'Literary Spectacles of Sultanship': Gowaart Van Den Bossche (5:45 - 6:30pm)
 
 {% endcapture %}
 
@@ -151,14 +151,15 @@ Lunch Break
 ## Session 2: Representations, Emulations, and Consolations (1:30 - 3:00 pm)
 **Chair: James McDougall, Oxford University**
 
-Finding Zaynab in Al Rashad: Incarceration, Collective Memory, and Sectarian Identity in Ba’athist Iraq\
-*Noor Zehra Zaidi, University of Maryland, Baltimore County*
+The Reader Between Loyalty and Faith: Mūsā al-Kāẓim in Imāmī Shī‘ī Historiography\
+*Najam Iftikhar Haider, Department of Religion, Barnard College*
 
 Fatima as a Motif of Contention and Suffering in Islamic Sources\
 *Vinay Khetia, Shia Research Institute, Toronto*
 
-The Reader Between Loyalty and Faith: Mūsā al-Kāẓim in Imāmī Shī‘ī Historiography\
-*Najam Iftikhar Haider, Department of Religion, Barnard College*
+Finding Zaynab in Al Rashad: Incarceration, Collective Memory, and Sectarian Identity in Ba’athist Iraq\
+*Noor Zehra Zaidi, University of Maryland, Baltimore County*
+
 
 {% endcapture %}
 
@@ -176,8 +177,8 @@ Coffee Break
 The Islamist Approach in Contemporary Arabic Historical Writing: Al-Sallabi’s Narrative on Ottoman History as an Example\
 *Muna Asenwar, Near and Middle Eastern Studies at the University of Basel*
 
-Convening a new Cultural History of the Middle East and North Africa: The challenges of bridging disciplines to collaboratively rewrite 1620 years of history\
-*Hilary Kalmbach, University of Sussex*
+The Divine in Action: A Comparative Study of Miracles in Early Abbasid and Byzantine Hagiography\
+*Zhicheng Ye, SOAS University of London*
 
 {% endcapture %}
 
@@ -189,14 +190,11 @@ Coffee Break
 4:15 – 4:30 pm
 
 {% capture ses9 %}
-## Session 4: Reconstructing the Past (4:30 – 6:00 pm)
+## Session 4: Reconstructing the Past (4:30 – 5:30 pm)
 **Chair: Kevin Jaques, University of Indiana**
 
 Hagiography as Autobiography: al-Baydhaq’s Akhbār al-Mahdī\
 *Daniel Walting, Claremont McKenna College*
-
-The Decline and Fall of the Rasulid Dynasty of Yemen: All Sides of the Story\
-*Rex Smith, University of Manchester*
 
 Historical Providence in View of a Godforsaken Foe: Pious Execration of the Portuguese Encroachment on the Indian Ocean Islamic Ecumene in Sixteenth-Century Arabic Chronicles\
 *Gabriel Mathias Soares, University of São Paulo*
@@ -208,17 +206,17 @@ Historical Providence in View of a Godforsaken Foe: Pious Execration of the Port
 </div>
 
 Coffee Break
-6:00 – 6:15 pm
+5:30 – 5:45 pm
 
 {% capture ses11 %}
-## Session 5: Continuities (6:15 – 7:15 pm)
-**Chair: Alex Bellem, AKU-ISMC**
+## Session 5: Continuities (5:45 – 6:45 pm)
+**Chair: Jonas Otterbeck, AKU-ISMC**
 
 Patronage and Households in the Qur’an\
-*Karen Bauer, Senior Research Associate, Qur’anic Studies, Institute of Ismaili Studies Feras Hamza, Head of the School of Humanities and Social Sciences, University of Wollongong in Dubai; Senior Research Fellow, Qur’anic Studies, Institute of Ismaili Studies*
+*Karen Bauer, Senior Research Associate, Qur’anic Studies, Institute of Ismaili Studies and Feras Hamza, Head of the School of Humanities and Social Sciences, University of Wollongong in Dubai; Senior Research Fellow, Qur’anic Studies, Institute of Ismaili Studies*
 
-The Divine in Action: A Comparative Study of Miracles in Early Abbasid and Byzantine Hagiography\
-*Zhicheng Ye, SOAS University of London*
+Convening a new Cultural History of the Middle East and North Africa: The challenges of bridging disciplines to collaboratively rewrite 1620 years of history\
+*Hilary Kalmbach, University of Sussex*
 
 {% endcapture %}
 
