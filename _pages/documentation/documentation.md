@@ -1830,8 +1830,8 @@ but it works on Windows and Linux as well.
 #### Installation on Windows
 
 * Download the most recent installation file here:   
-  [https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/](https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/) ; 
-  go to the **Pipeline Kate_Release_win64** section on that page and download the file that ends with `_64-cl.exe`.
+  [https://cdn.kde.org/ci-builds/utilities/kate/master/windows/](https://cdn.kde.org/ci-builds/utilities/kate/master/windows/) ; 
+  download the exe file to install.
 
 * Once the file was downloaded, double-click the installation file and follow the instructions (you can keep all the default settings the installer proposes)
  
@@ -1840,10 +1840,11 @@ but it works on Windows and Linux as well.
 
 #### Installation on Mac
 
-* Download the `.dmg` file here: 
-  [https://binary-factory.kde.org/view/MacOS/job/Kate_Release_macos/](https://binary-factory.kde.org/view/MacOS/job/Kate_Release_macos/)
-  (choose the file that ends with `.dmg`, the other file is a 
-  [checksum](https://www.howtogeek.com/363735/what-is-a-checksum-and-why-should-you-care/))
+* Download the `.dmg` file here:
+  - if your Mac has an ARM chipset: [https://cdn.kde.org/ci-builds/utilities/kate/master/macos-arm64/](https://cdn.kde.org/ci-builds/utilities/kate/master/macos-arm64/)
+  - if your Mac has an x86 chipset: [https://cdn.kde.org/ci-builds/utilities/kate/master/macos-x86_64/](https://cdn.kde.org/ci-builds/utilities/kate/master/macos-x86_64/)
+
+  ((If you don't know if your Mac has ARM or x86 chips: see here: [https://www.quora.com/Is-my-Mac-ARM-or-x64](https://www.quora.com/Is-my-Mac-ARM-or-x64))
 
 * Once downloaded click on the .dmg file, double click on the “kate” icon or drag it to the Applications folder 
 
