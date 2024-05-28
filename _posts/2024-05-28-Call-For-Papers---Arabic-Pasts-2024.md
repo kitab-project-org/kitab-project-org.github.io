@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.1
   overlay_image: images/arabic-pasts/Arabic-Pasts-2023.png
   show_overlay_excerpt: false
-image: images/arabic-pasts/Arabic-Pasts-2024.png
+image: images/arabic-pasts/Arabic-Pasts-2023.png
 layout: single
 logos:
 - logo:
@@ -18,7 +18,7 @@ logos:
     link: https://www.soas.ac.uk/
 sidebar:
 - title: Arabic Pasts
-- text: This annual exploratory and informal workshop is co-convened by Hugh Kennedy (SOAS), James McDougall (Oxford), Lorenz Nigst (AKU-ISMC), and Sarah Bowen Savant (AKU-ISMC).. For more, see
+- text: This annual exploratory and informal workshop is co-convened by Hugh Kennedy (SOAS), James McDougall (Oxford), Lorenz Nigst (AKU-ISMC), and Sarah Bowen Savant (AKU-ISMC). For more, see
     the [Arabic Pasts page](/research/events/arabic-pasts).
 tags:
 - events
