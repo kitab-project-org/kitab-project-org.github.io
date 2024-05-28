@@ -58,4 +58,5 @@ Arabic Pasts is co-convened by Hugh Kennedy (SOAS), James McDougall (Oxford), Lo
 Please submit an abstract of 300 words or less in word document by Friday, 31 May 2024 to [ArabicPastsConf@aku.edu](mailto:ArabicPastsConf@aku.edu).
 
 **The workshop dates: 3-5 October 2024**
+
 **The workshop is held in English.** 
