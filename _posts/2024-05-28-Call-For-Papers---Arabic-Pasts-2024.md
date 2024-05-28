@@ -24,7 +24,7 @@ tags:
 - events
 - news
 title: 'Call For Papers : Arabic Pasts 2024'
-
+permalink: /Call-For-Papers-Arabic-Pasts-2024/
 ---
 
 
