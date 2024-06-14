@@ -175,41 +175,41 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 | mathew_barber | Mathew Barber |
 
 ## Existing categories
-- tabari
-- fihrist
 - IbnAsakir
 - clusters
+- fihrist
+- tabari
 
 ## Existing tags
-- text-reuse
+- corpus
+- markdown
+- search
+- release
+- news release
 - book-history
 - author-practice
-- book-forms
-- dispersed-texts
 - scholar-network
-- citation
-- corpus
+- reg-syr-arab
+- text-reuse
+- prolific-authors
+- cultural-memory
+- news
 - viz
+- events
+- news corpus, release
+- releases
+- iran
+- citation
+- dispersed-texts
+- book-forms
+- corpus data
+- passim
 - reg-west
 - machine-learning
-- events
-- passim
-- news
-- cultural-memory
-- iran
-- markdown
-- corpus data
-- author-practice data, book-history
-- release
 - reg-egypt
-- releases
-- reg-syr-arab
-- prolific-authors
 - IbnAsakir
-- news corpus, release
+- author-practice data, book-history
 - reg-east
 - khurasan
-- news release
-- search
 
 #

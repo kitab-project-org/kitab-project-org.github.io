@@ -3,14 +3,13 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title: 'New Release of the KITAB’s Open Access Text Reuse Data, version 2023.1.8'
-author: masoumeh_seydi
+title:
+author:
 layout: single
 series:
 tags:
-  - releases
-  - news
-docx: 'KITAB-Textreuse-Data_blog_v8.docx'
+  - 
+docx:
 new_author:
   - name:
     bio:
