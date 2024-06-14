@@ -15,7 +15,7 @@ layout: single
 tags:
 - releases
 - news
-title: "New Release of the KITAB\u2019s Open Access Text Reuse Data, version 2023.1.8"
+title: "Text Reuse Data Release, version 2023.1.8"
 
 ---
 A new version of KITAB's text reuse data is now available to download at [Zenodo](https://zenodo.org/records/11501559), an Open Science platform that supports Open Access. The current release features 1,641,766 CSV files of pairwise (book-to-book) text reuse alignments with a total of 51,491,084 alignments between 8,600 books, authored by 3,306 authors. The release also features book-to-book statistics.
@@ -26,4 +26,4 @@ Not all of the text reuse statistics are loaded into the application at present,
 
 To access the release notes, citation information, and data, please use the information on the [publication page](https://zenodo.org/records/11501559).
 
-Are you interested in using our data in your research? Do you have a research question related to the text reuse data, but are unsure how to proceed? At 2.30pm BST on July 23rd 2024, we will be holding our first KITAB open house. Save the date and look out for an announcement in the coming weeks.
+Are you interested in using our data in your research? Do you have a research question related to the text reuse data, but are unsure how to proceed? At 2.30pm BST on July 23rd 2024, we will be holding our first KITAB Open House. Save the date and look out for an announcement in the coming weeks.
