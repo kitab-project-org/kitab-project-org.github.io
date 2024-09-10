@@ -12,7 +12,7 @@ sidebar:
   nav: "research"
 ---
 
-Arabic Pasts 2023 is happening from 3rd - 4th of October. 
+Arabic Pasts 2024 is happening from 3rd - 4th of October. 
 
 This annual exploratory and informal workshop co-hosted with SOAS University and the University of Oxford offers the opportunity to reflect on history writing in Arabic.
 
