@@ -28,7 +28,7 @@ Welcome Address (10:00 – 10:15am)\
 
 {% capture ses1 %}
 ## Session 1: Comparing Narrations (10:15 – 11:45pm)
-** Chair: Hugh Kennedy, School of Oriental and African Studies**
+**Chair: Hugh Kennedy, School of Oriental and African Studies**
 
 Shibli’s Ride: The Production of a Druze Hero of Nineteenth-Century Syria\
 *Peter Hill, Northumbria University*
