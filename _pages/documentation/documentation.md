@@ -1729,7 +1729,6 @@ A full description of OpenITI mARkdown can be found here:
 
 ## 5. Software (versions and installation)
 
-
 OpenITI is designed not to depend on specific software. However, a
 number of software packages are especially useful for interacting with
 the corpus.
@@ -1737,90 +1736,18 @@ the corpus.
 OpenITI text files are plain text files, and they can be read and edited
 using any text editing program. However, some text editors do not handle
 text in right-to-left languages like Arabic and Persian well; and others
-don't handle large files well.
+have problems displaying large files.
 
-Our text editor of choice is EditPad Pro because it can handle very
-large texts and supports right-to-left languages well. Moreover, it
-offers custom highlighting schemes that allow highlighting of OpenITI
-mARkdown tags. Unfortunately, EditPad Pro works only on Windows. 
-You can get it to work on most Mac computers as well, using a Windows 
-emulator, but not on the most recent Mac operating systems. 
+Our text editor of choice is currently [Kate editor](#kate-editor), a free text editor that works
+on all major platforms (Mac, Windows, Linux), supports right-to-left languages, 
+can handle rather large texts and allows search in entire directories. 
+Moreover, it offers custom highlighting schemes that allow highlighting of OpenITI
+mARkdown tags. Kate does struggle sometimes with the very largest texts in the corpus.
 
-Another good editor for OpenITI texts, which does work on all platforms, 
-is Kate editor. The downside of Kate is that it does struggle sometimes 
-with the very largest texts in the corpus. 
+On Windows, a good alternative to Kate is [EditPad Pro](#editpad-pro), 
+which handles very large texts better than Kate.
 
-
-### EditPad Pro
-
-EditPad Pro is a powerful text editor with good support for
-right-to-left text and large files. 
-
-The free (trial) version of the software can be downloaded here:
-[download.jgsoft.com/editpad/SetupEditPadProDemo.exe](http://download.jgsoft.com/editpad/SetupEditPadProDemo.exe)
-. The trial version is fully functional for the needs of working with
-OpenITI texts.
-
-NB: EditPad Pro works on Windows only. If you use a Mac or Linux
-computer, you can still run the program using an emulator software like
-Wine ([winehq.org/](https://www.winehq.org/)),
-which makes it possible to use Windows programs on Mac and Linux. For
-Mac, see:
-[wiki.winehq.org/MacOS](https://wiki.winehq.org/MacOS).
-Alternatively, you can install a virtual machine on your computer that
-runs Windows:
-
--   Parallels (commercial): [parallels.com/products/desktop/](https://www.parallels.com/products/desktop/)
-
--   VirtualBox (free): [virtualbox.org/](https://www.virtualbox.org/)
-
-Once you have downloaded and installed EditPad Pro, take the following
-steps to install the **OpenITI mARkdown highlighting schema** (see
-[github.com/OpenITI/mARkdown\_scheme](https://github.com/OpenITI/mARkdown_scheme)
-for more detail):
-
--   VERY IMPORTANT: Make sure that EditPad Pro is fully closed. Do not
-     close it using the "X" in the upper right corner (which will not
-     fully close the program) but go to 'file \> exit' in Edit Pad Pro.
-
--   Download [https://github.com/OpenITI/mARkdown\_scheme/archive/master.zip](https://github.com/OpenITI/mARkdown_scheme/archive/master.zip)
-
--   Unzip the downloaded file.
-
--   The unzipped folder contains two zip files; one for EditPad Pro
-     Version 7 and one for EditPad Pro version 8. Unzip the file for
-     your version of EditPad Pro.
-
--   Open the unzipped folder, and copy all of the files
-
--   Within the unzipped folder, double click on the link
-     `__Follow_this_link_to_paste_mARkdownScheme7.lnk`. This
-     link takes you to the location where EditPad Pro was installed on
-     your computer (`%APPDATA%/JGsoft/EditPad Pro 7` in case of
-     EditPadPro7 and `%APPDATA%/JGsoft/EditPad Pro 8` in case of
-     EditPadPro 8)
-
--   Paste the files into this folder
-
--   Now, open EditPadPro. If you have done everything correctly, the
-     background in EditPadPro should be of yellowish color. If the
-     background is still white, you need to repeat the whole procedure;
-     now, make absolutely sure to shut down EditPadPro (not just click
-     on the x in the top right corner, but shut it down through FILE \>
-     Exit), then repeat all steps from the beginning of this section.
-
--   The scheme is automatically activated in EditPad Pro by the first
-     line in the file, which must be: `#####OpenITI#` (called "magic
-     value" in EditPad Pro)
-
--   Open a file in EditPad Pro and check if the schema works. It should
-     look like this: 
-     
-     ![](/images//media/image21.png)
-
-NB: EditPad Pro was upgraded from version 7 to version 8 in 2020.
-Currently we provide highlighting schemas for both versions, but 7 will
-be phased out in future updates.
+For instructions on installing [Kate](#kate-editor) and [EditPad Pro](#editpad-pro), see below.
 
 ### Kate editor
 
@@ -1846,9 +1773,9 @@ but it works on Windows and Linux as well.
 
   ((If you don't know if your Mac has ARM or x86 chips: see here: [https://www.quora.com/Is-my-Mac-ARM-or-x64](https://www.quora.com/Is-my-Mac-ARM-or-x64))
 
-* Once downloaded click on the .dmg file, double click on the “kate” icon or drag it to the Applications folder 
+* Once downloaded, click on the .dmg file, and drag the Kate icon to the Applications folder. 
 
-    NB: You will most likely get a message like 
+    NB: When you now click the Kate icon in the applications folder, you will most likely get a message like 
 
     ```
     “kate” can’t be opened because Apple cannot check it for malicious software. 
@@ -1856,7 +1783,7 @@ but it works on Windows and Linux as well.
     ```
 
     This is because recent Mac instances do not allow you to install apps from non-verified developers. There is however a way to override this security measure:
-    - Go to “system preferences” => “security & privacy” => under “general” you will see a note saying `"Kate" was blocked from use because it is not from an identified developer`
+    - Go to “System Settings” => “privacy & security” => scroll down, under “Security” you will see a note saying `"Kate" was blocked from use because it is not from an identified developer`
     - click “open anyway”
     - a new pop up will appear where you will have to consent again, and then the app should launch 
     
@@ -1883,18 +1810,25 @@ And also in the dropdown menu in the bottom right of your Kate screen:
 #### On Mac: 
 
 
-1. Download the zip file https://github.com/OpenITI/mARkdown_highlighting_Kate/archive/refs/heads/main.zip
+1. Download the [zip file](https://github.com/OpenITI/mARkdown_highlighting_Kate/archive/refs/heads/main.zip)
 2. Unzip the zip file
-3. Open the unzipped folder in Finder, press down the Control key and click on `install_on_mac.sh`. Choose "Open" from the dialog. You'll see a popup asking whether you are sure you want to execute this program from an unidentified developer. Click `Open`. This will install the OpenITImARkdown.xml file in the folder `$HOME/Library/Application Support/org.kde.syntax-highlighting/syntax`.
-NB: if this doesn't work (Choosing "Open" opens the file in TextEdit, for example): use this alternative approach:
-In Terminal, cd into the unzipped folder and write the following command: `bash ./install_on_mac.sh`. This will then install the OpenITImARkdown.xml file in the folder `$HOME/Library/Application Support/org.kde.syntax-highlighting/syntax`
-4. Close Kate and (re-)open it. The OpenITImARkdown highlighting scheme should now be visible in Kate's menu: Tools > Highlighting > Markup
+3. Open the unzipped folder in Finder
+4. Choose View > Show Path Bar
+   
+   ![Finder: Show Path Bar](/images/media/Finder_show_path_bar.png)
+   
+5. Finder should now display the path to the current folder (mARkdown_highlighting_Kate) at the bottom of the window. Control-click the folder in the path bar, then choose "Open in Terminal":
+   
+   ![Finder: Open in Terminal](/images/media/Finder_open_in_Terminal_.png)
+   
+6. The Terminal window opens. In it, write the following command: `bash ./install_on_mac.sh`. This will then install the OpenITImARkdown.xml file in the folder `$HOME/Library/Application Support/org.kde.syntax-highlighting/syntax`
+7. Close Kate and (re-)open it. The OpenITImARkdown highlighting scheme should now be visible in Kate's menu: Tools > Highlighting > Markup
 
 ![OpenITImARkdown in Tools menu](/images/media/screenshot_kate_tools_highlighting.png)
 
 And also in the dropdown menu in the bottom right of your Kate screen: 
 
-![OpenITImARkdown in dropdown menu](/images/media/screenshot_kate_highlighting_dropdown.png)
+![OpenITImARkdown in dropdown menu](/images/media/Kate_highlighting_Dropdown_Mac.png)
 
 #### On Linux: 
 
@@ -1904,6 +1838,13 @@ And also in the dropdown menu in the bottom right of your Kate screen:
 4. Close Kate and (re-)open it. The OpenITImARkdown highlighting scheme should now be visible in Kate's menu: Tools > Highlighting > Markup
 
 ### Working with Kate
+
+#### Forcing an entire text file to be displayed from right to left:
+
+By default, Kate automatically determines the reading direction of each line of text separately;
+the first character with a specific direction (right-to-left or left-to-right) determines the direction of the line.
+
+To force Kate to display all lines in a text file from right to left, go to the View menu and choose "Force RTL direction".
 
 #### Activating the OpenITI mARkdown highlighting scheme 
 
@@ -1928,16 +1869,26 @@ list in the Tools > Highlighting > Markup menu:
 
 ![OpenITImARkdown in Tools menu](/images/media/screenshot_kate_tools_highlighting.png)
 
+#### Setting OpenITI mARkdown as the default highlighting scheme
+
+Go to the Settings menu and select "Configure Kate..."
+
+![Configure Kate settings](/images/media/Kate_configure_settings.png)
+
+Then choose Open/Save > Modes & Filetypes > Filetype: Markup/OpenITI mARkdown > File extensions: add `*.*`
+
+![Make mARkdown the default highlighting scheme](/images/media/Kate_mARkdown_default.png)
+
 #### Folding sections
 
 One of the most useful features of Kate and OpenITI mARkdown is that it allows
-you to fold all sections, displaying only their headers. 
+you to fold all sections, displaying only their headers - a kind of table of contents. 
 
 In the menu, go to `View > Code Folding > Fold Toplevel Nodes` to collapse all
 sections, and `View > Code Folding > Unfold Toplevel Nodes` to make them visible
 in their entirety again. 
 
-![](/images/media/Kate_fold.png)
+![Folding in Kate](/images/media/Kate_fold.png)
 
 You can also use the following key combinations: 
 
@@ -1971,7 +1922,6 @@ To make the `Search and replace` bar visible, go to `Edit > Find`:
 ![](/images/media/Kate_edit_replace_menu.png)
 
 You can also use the `Ctrl+F` key shortcut.
-
 
 This opens up a basic search bar, in which you cannot use regular expressions:
 
@@ -2062,6 +2012,78 @@ You can add buttons to the toolbar in the `Settings > Configure Toolbars`.
 Go to `Settings > Configure Kate` to change the font, font size and other settings:
 
 ![](/images/media/Kate_settings.png)
+
+
+### EditPad Pro
+
+EditPad Pro is a powerful text editor with good support for
+right-to-left text and large files. 
+
+The free (trial) version of the software can be downloaded here:
+[download.jgsoft.com/editpad/SetupEditPadProDemo.exe](http://download.jgsoft.com/editpad/SetupEditPadProDemo.exe)
+. The trial version is fully functional for the needs of working with
+OpenITI texts.
+
+NB: EditPad Pro works on Windows only. If you use a Mac or Linux
+computer, you can still run the program using an emulator software like
+Wine ([winehq.org/](https://www.winehq.org/)),
+which makes it possible to use Windows programs on Mac and Linux. For
+Mac, see:
+[wiki.winehq.org/MacOS](https://wiki.winehq.org/MacOS).
+Alternatively, you can install a virtual machine on your computer that
+runs Windows:
+
+-   Parallels (commercial): [parallels.com/products/desktop/](https://www.parallels.com/products/desktop/)
+
+-   VirtualBox (free): [virtualbox.org/](https://www.virtualbox.org/)
+
+Once you have downloaded and installed EditPad Pro, take the following
+steps to install the **OpenITI mARkdown highlighting schema** (see
+[github.com/OpenITI/mARkdown\_scheme](https://github.com/OpenITI/mARkdown_scheme)
+for more detail):
+
+-   VERY IMPORTANT: Make sure that EditPad Pro is fully closed. Do not
+     close it using the "X" in the upper right corner (which will not
+     fully close the program) but go to 'file \> exit' in Edit Pad Pro.
+
+-   Download [https://github.com/OpenITI/mARkdown\_scheme/archive/master.zip](https://github.com/OpenITI/mARkdown_scheme/archive/master.zip)
+
+-   Unzip the downloaded file.
+
+-   The unzipped folder contains two zip files; one for EditPad Pro
+     Version 7 and one for EditPad Pro version 8. Unzip the file for
+     your version of EditPad Pro.
+
+-   Open the unzipped folder, and copy all of the files
+
+-   Within the unzipped folder, double click on the link
+     `__Follow_this_link_to_paste_mARkdownScheme7.lnk`. This
+     link takes you to the location where EditPad Pro was installed on
+     your computer (`%APPDATA%/JGsoft/EditPad Pro 7` in case of
+     EditPadPro7 and `%APPDATA%/JGsoft/EditPad Pro 8` in case of
+     EditPadPro 8)
+
+-   Paste the files into this folder
+
+-   Now, open EditPadPro. If you have done everything correctly, the
+     background in EditPadPro should be of yellowish color. If the
+     background is still white, you need to repeat the whole procedure;
+     now, make absolutely sure to shut down EditPadPro (not just click
+     on the x in the top right corner, but shut it down through FILE \>
+     Exit), then repeat all steps from the beginning of this section.
+
+-   The scheme is automatically activated in EditPad Pro by the first
+     line in the file, which must be: `#####OpenITI#` (called "magic
+     value" in EditPad Pro)
+
+-   Open a file in EditPad Pro and check if the schema works. It should
+     look like this: 
+     
+     ![](/images//media/image21.png)
+
+NB: EditPad Pro was upgraded from version 7 to version 8 in 2020.
+Currently we provide highlighting schemas for both versions, but 7 will
+be phased out in future updates.
 
 
 
