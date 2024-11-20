@@ -18,12 +18,12 @@ corpus_app:
     btn_label: "Corpus App - coming soon..."
     btn_class: "btn--primary"
 metadata_app:
-  - image_path: /images/covers/search_app.png
+  - image_path: /images/covers/web_app.png
     alt: "placeholder image 2"
-    title: "The Corpus metadata application"
-    excerpt: 'Looking for a particular book to download in our corpus? Wanting to explore books by specific authors or in specific genres?<br><br> Search for books using the Corpus metadata search app.'
-    url: "https://kitab-project.org/metadata"
-    btn_label: "Search our metadata"
+    title: "The KITAB web application"
+    excerpt: 'Looking for a particular book to download in our corpus? Wanting to explore text reuse? <br><br> Search for books and view text reuse visualisations using the KITAB web application.'
+    url: "https://kitab-project.org/explore"
+    btn_label: "Explore the corpus"
     btn_class: "btn--primary"
 diff_viewer:
   - image_path: /images/apps/diff_square_cropped.png
