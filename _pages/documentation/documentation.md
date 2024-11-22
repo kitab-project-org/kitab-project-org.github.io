@@ -1438,9 +1438,9 @@ quality problems, etc. Each issue related to a specific text (or author)
 contains its URI in the title.
 
 The easiest way to raise text-related issues is through the issue links 
-in our [metadata app](http://kitabapp-v5.azurewebsites.net/visualise):
+in our [web application](https://kitab-project.org/explore/):
 
-![Raising issues in the metadata app](/images//media/metadata-app-issues.png)
+![Raising issues in the metadata app](/images//media/web-app-issues.png)
 
 Clicking one of these issue links will bring you to a pre-formatted 
 issue on GitHub that contains the URI of your author / book / version
