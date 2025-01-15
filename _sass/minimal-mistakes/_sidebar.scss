@@ -89,6 +89,12 @@
       position: sticky;
       top: 2em;
       float: right;
+      /* make it scrollable: see https://github.com/mmistakes/minimal-mistakes/pull/2874*/
+      overflow-y: auto;
+      /* calculate height of nav list
+         viewport height - nav height - masthead x-padding
+      */
+      max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
 
