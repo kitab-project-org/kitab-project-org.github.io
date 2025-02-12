@@ -14,6 +14,16 @@ tags:
 - null
 title: 'Repetition That Does Not Get Boring: Expressing Devotion in Druze Religious
   Poetry'
+ms_gallery_1:
+  - url: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image1.jpg
+    image_path: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image1.jpg
+    title: 'BSB, cod.arab. 230, 144v'
+  - url: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image2.jpg
+    image_path: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image2.jpg
+    title: 'SBB, or. oct. 164, 214v'
+  - url: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image3.jpg
+    image_path: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image3.jpg
+    title: 'SBB, or. oct. 164, 13r'
 
 ---
 Some might know the 1945 Buddy Kaye and Ted Mossman song *Till the End of Time,* made famous by [[Perry Como]{.underline}](https://www.youtube.com/watch?v=kVE-_7wbvLA). The beginning of the lyrics run like this:
@@ -45,6 +55,8 @@ Druze religious poems contain other grammatical structures with analogous functi
 [![]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image1.jpg" | absolute_url }})]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image1.jpg" | absolute_url }})[![]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image2.jpg" | absolute_url }})]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image2.jpg" | absolute_url }})[![]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image3.jpg" | absolute_url }})]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image3.jpg" | absolute_url }})
 
 BSB, cod.arab. 230, 144v SBB, or. oct. 164, 214v SBB, or. oct. 164, 13r
+
+{% include ms_gallery_1 caption="From left to right manuscripts BSB, cod.arab. 230, 144v; SBB, or. oct. 164, 214v; and SBB, or. oct. 164, 13r" %}
 
 In Druze religious poetry, such phrases are extremely common and characteristically occur in the context of prayers and in sections of devotion and praise, and it readily makes sense that, regardless of whether the particular instance involves the notion of 'as long as,' 'whenever,' or 'as often as,' such phrases produce the effect of *doubling down in terms of devotion.* In fact, such phrases consistently function as a form of emphatically wishing entities of the Druze religious system, and most notably the five Druze luminaries or *ḥudūd* (sg. *ḥadd*), a term which in Druze contexts refers both to a hierarchy of cosmic principles and to the historical figures as which they have taken human form at the time of the 11th century CE Druze mission, the best and of expressing one's lasting loyalty and love for them; one's steadfast devotion and the intensity and sincerity of it. Reflecting this devotional context, they often occur in combination with optative perfect forms such as *ṣallā* 'may the good Lord bless' such as in *ṣallā ʿalayhi llāh mā ṭāra ṭāʾir* 'may the good Lord bless him for as long as birds will fly.' Their occurrence in devotional sections also explains why they mostly occur towards the end of poems where such devotional sections tend to be found.
 
