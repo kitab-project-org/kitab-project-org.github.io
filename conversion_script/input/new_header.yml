@@ -3,13 +3,14 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title:
-author:
+title: DRZCRPS: Towards a Corpus of Druze Poetry
+author: lorenz_nigst
 layout: single
 series:
 tags:
-  - 
-docx:
+  - corpus
+  - manuscripts
+docx: Druze_poems_blog.docx
 new_author:
   - name:
     bio:
@@ -17,5 +18,5 @@ glossary:
   - term:
     def:
 new_series:
-  - label: 
-    title:
+  - label: druze-corpus
+    title: The Druze Corpus
