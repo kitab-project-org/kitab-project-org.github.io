@@ -24,6 +24,13 @@ ms_gallery_1:
   - url: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image3.jpg
     image_path: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image3.jpg
     title: 'SBB, or. oct. 164, 13r'
+ms_gallery_2:
+  - url: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image5.jpg
+    image_path: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image5.jpg
+    title: 'SBB, Wetzstein II, 227, 161r'
+  - url: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image6.jpg
+    image_path: /images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image6.jpg
+    title: 'SBB, Wetzstein II, 227, 161v'
 
 ---
 Some might know the 1945 Buddy Kaye and Ted Mossman song *Till the End of Time,* made famous by [[Perry Como]{.underline}](https://www.youtube.com/watch?v=kVE-_7wbvLA). The beginning of the lyrics run like this:
@@ -51,10 +58,6 @@ One such characteristic element in Druze religious poems is grammatical structur
 In light of its linguistic function of expressing perpetuity and duration, this usage of *mā* normally is referred to as *mā al-daymūma* in Arabic grammar (see W. M. Wright, vol. 1, p. 294). This function has occasionally been explained by pre-modern authors, for example, by Ibn Juzayy (d. 741 AH/1340 CE) in his *Tashīl li-ʿulūm al-tanzīl* (vol. 1, p. 406) (*'yakūn ʿibāra ʿan al-taʾbīd ka-qawl al-ʿArab mā lāḥa kawkab wa-mā nāḥa al-ḥamām wa-shibh dhālika mimmā yuqṣad bihi l-dawām'*), ʿAbd al-Raḥmān al-Thaʿālibī (d. 873 AD/1468 CE) in his *Jawāhir al-ḥisān* (vol. 3, p. 302), or Nūr al-dīn al-Ḥalabī (d. 1044 AD/1635 CE) in his *Sīra al-ḥalabiyya* (vol. 1, p. 24) (*'al-murād min dhālika l-abad'*). These structures occur in Druze poetry with a great variety of images (see below).
 
 Druze religious poems contain other grammatical structures with analogous functions and in similar positions expressing the notions of 'whenever' and 'as often as,' most notably [*[kullamā]{.underline}*](https://docs.google.com/spreadsheets/d/1uX8k1jLKKYuhk0dl-MOf_DhxEfC5Fd2T/edit?usp=sharing&ouid=114710645320974058526&rtpof=true&sd=true) plus a perfect form such as *kullamā habbat al-ṣabā* 'whenever the north wind blows' as well as structures built around the lexeme [[ʿ*adad*]{.underline}](https://docs.google.com/spreadsheets/d/13eV4z9JXOe4bPsEq5r--HD6SDIWwIZDl/edit?usp=sharing&ouid=114710645320974058526&rtpof=true&sd=true) such as *ʿadad mā* 'as often as'/'in such numbers as there are' or *ʿalā ʿadad* 'as often as.' For example, *ʿadad mā fī l-buḥūr amwāj* 'in such numbers as there are waves in the seas.' Last, but not least, there are a few instances where the lexeme *madā* is used such as in *madā l-zamān mā qad dharra shāriq* 'for as long as time itself will last, for as long as the sun will rise'.
-
-[![]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image1.jpg" | absolute_url }})]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image1.jpg" | absolute_url }})[![]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image2.jpg" | absolute_url }})]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image2.jpg" | absolute_url }})[![]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image3.jpg" | absolute_url }})]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image3.jpg" | absolute_url }})
-
-BSB, cod.arab. 230, 144v SBB, or. oct. 164, 214v SBB, or. oct. 164, 13r
 
 {% include gallery id="ms_gallery_1" caption="From left to right: BSB, cod.arab. 230, 144v; SBB, or. oct. 164, 214v; and SBB, or. oct. 164, 13r" %}
 
@@ -162,9 +165,7 @@ If such phrases are woven into the fabric of Druze religious poems over and over
 
 Towards the end, we find a number of such devotional *mā-*phrases as described further above: 'may the good Lord bless you as long as a breeze of north wind blows over the flowers blooming on the hills' (*mā ṣāfaḥat zahr al-rawābī nasamat shamʾal*), 'as long as the hills give off their scent' (*mā fāḥa ʿiṭr al-rubā*), and so forth. The verses feel thoroughly Druze. However, with minute differences, they also occur in a poem found in Shams al-dīn al-Bakrī's (d. 994 AH/[1585--1586 CE]{.mark}) *Tarjumān al-asrār*:
 
-[![]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image5.jpg" | absolute_url }})]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image5.jpg" | absolute_url }}) [![]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image6.jpg" | absolute_url }})]({{ "/images/blogs/2025-02-12/Repetition-That-Does-Not-Get-Boring--Explorenz_nigst/media/image6.jpg" | absolute_url }})
-
-SBB, Wetzstein II, 227, 161r--161v
+{% include gallery id='ms_gallery_2' caption='SBB, Wetzstein II, 227, 161r--161v' %}
 
 While it is unclear how these verses ended up in the particular manuscript, they certainly *do* fit into a Druze devotional context.
 
