@@ -33,7 +33,7 @@ ms_gallery_2:
     title: 'SBB, Wetzstein II, 227, 161v'
 
 ---
-Some might know the 1945 Buddy Kaye and Ted Mossman song *Till the End of Time,* made famous by [[Perry Como]{.underline}](https://www.youtube.com/watch?v=kVE-_7wbvLA). The beginning of the lyrics run like this:
+Some might know the 1945 Buddy Kaye and Ted Mossman song *Till the End of Time,* made famous by [Perry Como](https://www.youtube.com/watch?v=kVE-_7wbvLA). The beginning of the lyrics run like this:
 
 > Till the end of time
 >
@@ -53,7 +53,7 @@ Some might know the 1945 Buddy Kaye and Ted Mossman song *Till the End of Time,*
 
 Strikingly similar expressions of love are at work in the historical Druze religious poetry which I have been transcribing over the past years for an ongoing side project of mine. As always happens when we spend more than just a fleeting moment with something -- a methodologically important point -- patterns begin to emerge, and characteristic elements start to appear over and over again.
 
-One such characteristic element in Druze religious poems is grammatical structures that express the notion of 'as long as,' and which are formed of the Arabic conjunction *mā* plus a perfect form such as *mā rannama l-ṭayr* 'as long as birds sing,' *mā halla hilāl wa-bāna* 'as long as the crescent moon will show and appear,' or *mā nāḥa qumrī ʿalā l-aghṣān* 'as long as doves will mourn on branches.' (A non-exhaustive inventory of the instances found in the poems I have transcribed can be found [[here]{.underline}](https://docs.google.com/spreadsheets/d/1TwC15jmz727FEscTwJcKUmBOS5b9ycCQ/edit?usp=sharing&ouid=114710645320974058526&rtpof=true&sd=true).)
+One such characteristic element in Druze religious poems is grammatical structures that express the notion of 'as long as,' and which are formed of the Arabic conjunction *mā* plus a perfect form such as *mā rannama l-ṭayr* 'as long as birds sing,' *mā halla hilāl wa-bāna* 'as long as the crescent moon will show and appear,' or *mā nāḥa qumrī ʿalā l-aghṣān* 'as long as doves will mourn on branches.' (A non-exhaustive inventory of the instances found in the poems I have transcribed can be found [here]({{ /assets/data/druze-corpus/ma_phrases_blog.csv | absolute_url }}).)
 
 In light of its linguistic function of expressing perpetuity and duration, this usage of *mā* normally is referred to as *mā al-daymūma* in Arabic grammar (see W. M. Wright, vol. 1, p. 294). This function has occasionally been explained by pre-modern authors, for example, by Ibn Juzayy (d. 741 AH/1340 CE) in his *Tashīl li-ʿulūm al-tanzīl* (vol. 1, p. 406) (*'yakūn ʿibāra ʿan al-taʾbīd ka-qawl al-ʿArab mā lāḥa kawkab wa-mā nāḥa al-ḥamām wa-shibh dhālika mimmā yuqṣad bihi l-dawām'*), ʿAbd al-Raḥmān al-Thaʿālibī (d. 873 AD/1468 CE) in his *Jawāhir al-ḥisān* (vol. 3, p. 302), or Nūr al-dīn al-Ḥalabī (d. 1044 AD/1635 CE) in his *Sīra al-ḥalabiyya* (vol. 1, p. 24) (*'al-murād min dhālika l-abad'*). These structures occur in Druze poetry with a great variety of images (see below).
 
