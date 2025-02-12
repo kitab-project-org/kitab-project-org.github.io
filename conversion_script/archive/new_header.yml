@@ -3,15 +3,14 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title: 'The DNA of a Book: Reading al-Nuwayrī’s (d. 733/1333) *Nihāyat al-arab fī funūn al-adab*'
-
-author: sarah_savant_masoumeh_seydi
+title: 'DRZCRPS: Towards a Corpus of Druze Poetry'
+author: lorenz_nigst
 layout: single
 series:
 tags:
-  - release
-  - data
-docx: Masoumeh-Sarah-Blog.docx
+  - corpus
+  - manuscripts
+docx: Druze_poems_blog.docx
 new_author:
   - name:
     bio:
@@ -19,5 +18,5 @@ glossary:
   - term:
     def:
 new_series:
-  - label: 
-    title:
+  - label: druze-corpus
+    title: 'The Druze Corpus'
