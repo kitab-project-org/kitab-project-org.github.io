@@ -178,8 +178,8 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 - tabari
 - IbnAsakir
 - fihrist
-- clusters
 - druze-corpus
+- clusters
 
 ## Existing tags
 - text-reuse
