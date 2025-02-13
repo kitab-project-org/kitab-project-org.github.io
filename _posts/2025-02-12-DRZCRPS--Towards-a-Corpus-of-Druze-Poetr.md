@@ -16,7 +16,7 @@ tags:
 title: 'DRZCRPS: Towards a Corpus of Druze Poetry'
 
 ---
-Over the past few years, I have become quite interested in historical Druze religious poetry (from about the 17^th^--18^th^ century CE onwards). Stumbling across it from time to time in Druze sources during the course of other work, I decided to search for this poetry and related prose material more systematically and, over time, have put together a corpus of relevant machine-actionable texts.
+Over the past few years, I have become quite interested in historical Druze religious poetry (from about the 17<sup>th</sup>--18<sup>th</sup> century CE onwards). Stumbling across it from time to time in Druze sources during the course of other work, I decided to search for this poetry and related prose material more systematically and, over time, have put together a corpus of relevant machine-actionable texts.
 
 I have spoken about this undertaking on several occasions, most recently, at the online symposium organised by Rami Zeedan from the University of Kansas in the context of the launch of the *Druze Studies Journal* in November 2023.
 
