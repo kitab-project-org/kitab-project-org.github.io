@@ -199,7 +199,8 @@ kevin_jaques:
   uri: null
 lorenz_nigst:
   avatar: /images/kitab/Lorenz.jpg
-  bio: Lorenz Nigst is an Arabist and a research associate at the KITAB Project. He
+  bio: Lorenz Nigst is Assistant Professor in the Centre for Digital Humanities
+    at AKU-ISMC and is an Arabist. He
     is responsible for the management of the KITAB corpus.
   email: null
   facebook: null
@@ -432,7 +433,7 @@ thomas_benfey:
 mathew_barber:
   name             : "Mathew Barber"
   avatar           : "/images/kitab/Mathew_200px.jpg"
-  bio              : "Mathew is a historian working with the KITAB team to develop and improve their visualisations and applications. He specialises in Fatimid historiography (c. tenth-twelfth centuries), its later survival and broader history-writing practices in Egypt. "
+  bio              : "Mathew is is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC. He is  a historian working with the KITAB team to develop and improve their visualisations and applications. He specialises in Fatimid historiography (c. tenth-twelfth centuries), its later survival and broader history-writing practices in Egypt. "
   location         :
   email            :
   uri              :
