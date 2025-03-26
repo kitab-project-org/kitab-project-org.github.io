@@ -886,18 +886,16 @@ After that one more Next, Finish, and Git is installed!
 
 ##### On Mac
 
-(instructions from
-[https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git))
+The easiest way to install git on Mac is by using homebrew, a package installer for Mac. 
 
-Download Git for Mac here:
-[https://sourceforge.net/projects/git-osx-installer/files/](https://sourceforge.net/projects/git-osx-installer/files/)
+1. Open Terminal by opening Finder, and then clicking Applications > Utilities > Terminal (alternatively, you can use Spotlight to find Terminal: press the command and space keys on your keyboard and start typing Terminal; click Terminal in the search results to open the program)
+2. write the following command in the Terminal: `brew install git`
+3. now also install the git credential manager using this command: `brew install --cask git-credential-manager` . The script may ask you for your (Mac) password. Provide it to proceed with the installation
 
-Double-click the downloaded file and follow the prompts to install Git.
+NB: If you do not have homebrew yet, install it first (instructions from [here](https://docs.brew.sh/Installation): 
 
-NB: you might receive a warning that this application is from an unidentified developer. 
-If that is the case, please open Finder, locate the app (it may be in your Downloads folder, or in your Applications folder),
-control-click the app's icon in Finder and choose "Open" from the context menu. 
-(see the [Mac support website](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac#:~:text=Control%2Dclick%20the%20app%20icon,you%20can%20any%20registered%20app)).
+Paste this command into your terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+The script explains what it will do and then pauses before it does it. You should now be able to use homebrew to install git, as described above.
 
 **Activating bash in Terminal on Mac**
 There are multiple command line systems, each with their own grammar and lexicon; these systems are often referred to as “shells.” We are going to use one such shell called bash.
@@ -980,7 +978,7 @@ Useful commands:
 
 If you are a Mac user, you are probably familiar with the standard Mac
 command line tool, Terminal. You can use Terminal to interact with Git,
-or install a dedicated command line tool for Git, called Git Bash:
+or install a dedicated command line tool for Git:
 
 To open Terminal, do one of the following:
 
@@ -989,10 +987,7 @@ To open Terminal, do one of the following:
      search field, then click "Terminal".
 
 -   In the Finder ![](/images//media/image42.png), open the /Applications/Utilities
-     folder, then double-click "Termina"l.
-
-To install Git Bash: download it from here:
-[https://downloads.digitaltrends.com/git/mac](https://downloads.digitaltrends.com/git/mac)
+     folder, then double-click "Terminal".
 
 ##### On Linux
 
