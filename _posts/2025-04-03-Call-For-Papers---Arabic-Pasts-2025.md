@@ -28,7 +28,7 @@ Research workshop<br><br>
 
 Aga Khan University, Institute for the Study of Muslim Civilisations<br><br>
 
-October 09 - 10, 2024<br>
+October 09 - 10, 2025<br>
 
 London</p>
 
