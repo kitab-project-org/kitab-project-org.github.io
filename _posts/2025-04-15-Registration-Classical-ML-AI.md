@@ -29,15 +29,15 @@ We are excited to announce the upcoming hands-on workshop, "From Classical ML to
 This workshop is designed to equip participants with the necessary skills to apply both classical machine learning techniques and the latest AI technologies in the study of Arabic and Islamic texts. Participants will gain practical experience and theoretical knowledge, enabling them to harness these cutting-edge technologies in their research. A working knowledge of Python is required. We will use Arabic texts from the OpenITI Corpus as our data.
 
 This event is ideal for researchers in the fields of Arabic and Islamic studies who are eager to integrate the latest technologies into their work and to make bold contributions to the evolving landscape of humanistic research in our fast-paced digital age.
-<br />
-<br />
+
+##
 Application Deadline: April 30
 
 Notification of Acceptance: First week of May
 
 We are pleased to offer partial financial support for some participants. For more details or to address any inquiries, please contact Alicia Gonzalez at [alicia.gonzalez@uni-hamburg.de](alicia.gonzalez@uni-hamburg.de).
-<br />
-<br />
+
+##
 Organizers: EIS1600 Team—Alicia Gonzalez Martinez, Hamid Reza Hakimi, and Maxim Romanov, University of Hamburg
 
 Instructors: Tariq Yousef, University of Southern Denmark; Maroussia Bednarkiewicz, IE University
