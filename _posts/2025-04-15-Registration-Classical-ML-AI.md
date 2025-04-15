@@ -30,14 +30,14 @@ This workshop is designed to equip participants with the necessary skills to app
 
 This event is ideal for researchers in the fields of Arabic and Islamic studies who are eager to integrate the latest technologies into their work and to make bold contributions to the evolving landscape of humanistic research in our fast-paced digital age.
 
-## 
+## <br>
 Application Deadline: April 30
 
 Notification of Acceptance: First week of May
 
 We are pleased to offer partial financial support for some participants. For more details or to address any inquiries, please contact Alicia Gonzalez at [alicia.gonzalez@uni-hamburg.de](alicia.gonzalez@uni-hamburg.de).
 
-## 
+## <br>
 Organizers: EIS1600 Team—Alicia Gonzalez Martinez, Hamid Reza Hakimi, and Maxim Romanov, University of Hamburg
 
 Instructors: Tariq Yousef, University of Southern Denmark; Maroussia Bednarkiewicz, IE University
