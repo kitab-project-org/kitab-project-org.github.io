@@ -10,14 +10,10 @@ header:
   caption: 'Image Credit: Muḥammad Amīn al-Suwaydī, Silk al-dhahab fī maʿrifat qabāʾil al-ʿArab, BnF Arabe 6199, 33v (part)'
 image: images/arabic-pasts/Arabic-Pasts-2023.png
 layout: single
-sidebar:
-- title: Arabic Pasts
-- text: This annual exploratory and informal workshop is co-convened by  is co-convened by Anna Chrysostomides (Queen Mary), Yossi Rapoport (Queen Mary), Hugh Kennedy (SOAS), Lorenz Nigst (AKU-ISMC), and Sarah Bowen Savant (AKU-ISMC). For more, see
-    the [Arabic Pasts page](/research/events/arabic-pasts).
 tags:
 - events
 - news
-title: 'Register Now - Workshop: Classical ML to AI in Arabic and Islamic Studies'
+title: 'Workshop: Classical ML to AI in Arabic and Islamic Studies'
 
 ---
 
