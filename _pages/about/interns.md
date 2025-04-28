@@ -20,7 +20,7 @@ Every year we give interns an opportunity to work with the KITAB team, and gain 
 
 ### Hussain Hashim Dallal (2024)
 
-![Hussain Hashim Dallal](/images/kitab/Hussain-Hashim-Dallal.jpg){: width="30%"}{: .align-left}
+![Hussain Hashim Dallal](/images/kitab/Hussain-Hashim-Dallal.jpeg){: width="30%"}{: .align-left}
 Hussain Hashim Dallal was a research intern at the KITAB project in the Spring of 2024. He worked on digitizing texts using eScriptorium.
 
 ### Fatima Ali Aqiil (2023)
