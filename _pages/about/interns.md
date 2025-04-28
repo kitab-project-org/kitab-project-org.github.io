@@ -18,6 +18,11 @@ permalink: /about/interns
 
 Every year we give interns an opportunity to work with the KITAB team, and gain experience using the OpenITI corpus and digital methods. Look out for blog posts advertising internships in the future. 
 
+### Hussain Hashim Dallal (2024)
+
+![Hussain Hashim Dallal](/images/kitab/Hussain-Hashim-Dallal.jpg){: width="30%"}{: .align-left}
+Hussain Hashim Dallal was a research intern at the KITAB project in the Spring of 2024. He worked on digitizing texts using eScriptorium.
+
 ### Fatima Ali Aqiil (2023)
 ![Fatima Ali Aqiil](/images/kitab/Fatima-Aqiil.jpg){: width="30%"}{: .align-left} 
 Fatima Ali Aqiil is a research intern at the KITAB project working on both compiling meta data files and the transcription and segmentation of medieval Arabic texts. Fatima has a BA in English and History from Queen Mary University of London and a PGCE in English from UCL Institute of Education. She is currently studying Qur’anic Arabic at SOAS and reading for a Masters in History at Queen Mary University of London specialising in the Medieval Islamic world. Her dissertation thesis is focused on the Zanji rebellion and the concept of race in Early Islamic history. Fatima is also a teacher and has prior experience teaching both English and History in Secondary education. 
