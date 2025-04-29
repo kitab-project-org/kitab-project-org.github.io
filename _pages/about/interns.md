@@ -21,7 +21,7 @@ Every year we give interns an opportunity to work with the KITAB team, and gain 
 ### Hussain Hashim Dallal (2024)
 
 ![Hussain Hashim Dallal](/images/kitab/Hussain-Hashim-Dallal.jpeg){: width="30%"}{: .align-left}
-Hussain Hashim Dallal was a research intern at the KITAB project in the Spring of 2024. He worked on digitizing texts using eScriptorium.
+Hussain Hashim Dallal was a research intern at the KITAB project in the Spring of 2024. He worked on digitizing texts using eScriptorium. He recently joined his alma mater, Aljamea-tus-Saifiyah, as a researcher where he focuses on developing a module about the advent of Islam in Africa, with particular attention to the East African coast and the critical role trade played in its spread.
 
 ### Fatima Ali Aqiil (2023)
 ![Fatima Ali Aqiil](/images/kitab/Fatima-Aqiil.jpg){: width="30%"}{: .align-left} 
