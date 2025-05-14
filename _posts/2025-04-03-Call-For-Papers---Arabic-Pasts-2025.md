@@ -51,5 +51,5 @@ Prior to the workshop, we will also run a hands-on workshop on digital methods f
 
 Arabic Pasts is co-convened by Anna Chrysostomides (Queen Mary), Yossi Rapoport (Queen Mary), Hugh Kennedy (SOAS), Lorenz Nigst (AKU-ISMC), and Sarah Bowen Savant (AKU-ISMC).
 
-Please submit an abstract of 300 words or less in word document by Friday, 16 May 2025 to ArabicPastsConf@aku.edu. Also please be in touch if you would like to join the digital methods workshop.
+Please submit an abstract of 300 words or less in word document by Friday, 30 May 2025 to ArabicPastsConf@aku.edu. Also please be in touch if you would like to join the digital methods workshop.
 
