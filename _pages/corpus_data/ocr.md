@@ -10,7 +10,7 @@ sidebar:
   nav: "corpus"
 permalink: /corpus/ocr
 ---
-KITAB uses Optical Character Recognition (OCR) tools to further build the OpenITI/KITAB corpus. OCR now forms an integral part of OpenITI's corpus expansion, with a large number of texts (nearly 2000) soon to enter the corpus through OCR. OpenITI and KITAB are now working intensively on the development of models for Handwritten Text Recognition (HTR), see further on the [OpenITI website](https://openiti.org/).
+KITAB uses Optical Character Recognition (OCR) tools to further build the OpenITI/KITAB corpus. OCR now forms an integral part of OpenITI's corpus expansion, with a large number of texts (more than 2000) soon to enter the corpus through OCR. OpenITI and KITAB are now working intensively on the development of models for Handwritten Text Recognition (HTR). Read further on the [OpenITI website](https://openiti.org/).
 
 # eScriptorium
 
@@ -41,5 +41,6 @@ For example, Ibn ʿArabi's *Fusus al-hikam* was added to the OpenITI/KITAB corpu
 The specific version of Kraken as well as the segmentation and transcription models used during the OCR process are documented in the [version yml files of the OCR'd text](https://github.com/OpenITI/0650AH/blob/master/data/0638IbnCarabi/0638IbnCarabi.FususHikam/0638IbnCarabi.FususHikam.Kraken21042913-ara1.yml).
 
 For a parallel of an OpenITI file exported from eScriptorium, see: [0334Azdi.TarikhMawsil.EScr202211221604-ara1](https://github.com/OpenITI/0350AH/blob/master/data/0334Azdi/0334Azdi.TarikhMawsil/0334Azdi.TarikhMawsil.EScr202211221604-ara1.yml)
+
 
 
