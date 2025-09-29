@@ -10,15 +10,17 @@ sidebar:
   nav: "corpus"
 permalink: /corpus/ocr
 ---
-KITAB uses Optical Character Recognition (OCR) tools to further build the OpenITI/KITAB corpus. OCR now forms an integral part of OpenITI's corpus expansion, with a large number of texts (more than 2000) soon to enter the corpus through OCR. OpenITI and KITAB are now working intensively on the development of models for Handwritten Text Recognition (HTR). Read further on the [OpenITI website](https://openiti.org/).
+KITAB uses Optical Character Recognition (OCR) tools to further build the OpenITI/KITAB corpus. OCR now forms an integral part of OpenITI's corpus expansion, with a large number of texts (more than 2000) soon to enter the corpus through OCR. OpenITI and KITAB are now working intensively on the development of models for Handwritten Text Recognition (HTR) - for further details, see various pages on the [OpenITI website](https://openiti.org/).
 
 # eScriptorium
 
-[eScriptorium](https://escripta.hypotheses.org/escriptorium-video-gallery) has been at the centre of OpenITI's efforts to expand the corpus. It provides an open source environment for running [Kraken](http://kraken.re/), and performing post-correction. The team uses it to evaluate the performance of current models, produce data, and train models. During the second phase of the Mellon funded [Arabic-script OCR Catalyst Project (AOCP)](https://openiti.org/projects/OpenITI%20AOCP%20Phase%20Two.html), hundreds of pages of corrected transcription have been produced in eScriptorium for Arabic, Persian, Urdu and Ottoman Turkish and used to train models and prepare digital editions. During this phase of the grant, OpenITI also worked to expand the use of eScriptorium within the field. Coupled with the improving performance of Kraken models for Arabic script, eScriptorium is being increasingly adopted as a tool for Arabic-script OCR and HTR.
+[eScriptorium](https://escripta.hypotheses.org/escriptorium-video-gallery) has been at the centre of OpenITI's efforts to expand the corpus. It provides an open source environment for running [Kraken](http://kraken.re/) and performing post-correction. The team uses it to evaluate the performance of current models, produce data, and train models. 
+
+During the second phase of the Mellon funded [Arabic-script OCR Catalyst Project (AOCP)](https://openiti.org/projects/OpenITI%20AOCP%20Phase%20Two.html), hundreds of pages of corrected transcription have been produced in eScriptorium for Arabic, Persian, Urdu and Ottoman Turkish and used to train models and prepare digital editions. During this phase of the grant, OpenITI also worked to expand the use of eScriptorium within the field. Coupled with the improving performance of Kraken models for Arabic script, eScriptorium is being increasingly adopted as a tool for Arabic-script OCR and HTR.
 
 # KITAB's OCR Pipeline
 
-For larger batch OCR, KITAB also uses an internal pipeline. KITAB'S own OCR pipeline is based on [Kraken](http://kraken.re/) and uses transcription models that we are training in close collaboration with the University of Maryland, Northeastern University and Harvard University.
+For larger batch OCR, KITAB also uses an internal pipeline. KITAB's OCR pipeline is based on [Kraken](http://kraken.re/) and uses transcription models that we are training in close collaboration with the University of Maryland, Northeastern University and Harvard University.
 
 In its most recent version, KITAB's OCR pipeline uses Kraken version 3.0.0.0b21.dev6, the Kraken default segmentation model and the 04-01-2021_ArabPersGeneralized.mlmodel transcription model.
 
@@ -41,6 +43,7 @@ For example, Ibn ʿArabi's *Fusus al-hikam* was added to the OpenITI/KITAB corpu
 The specific version of Kraken as well as the segmentation and transcription models used during the OCR process are documented in the [version yml files of the OCR'd text](https://github.com/OpenITI/0650AH/blob/master/data/0638IbnCarabi/0638IbnCarabi.FususHikam/0638IbnCarabi.FususHikam.Kraken21042913-ara1.yml).
 
 For a parallel of an OpenITI file exported from eScriptorium, see: [0334Azdi.TarikhMawsil.EScr202211221604-ara1](https://github.com/OpenITI/0350AH/blob/master/data/0334Azdi/0334Azdi.TarikhMawsil/0334Azdi.TarikhMawsil.EScr202211221604-ara1.yml)
+
 
 
 
