@@ -28,9 +28,9 @@ SBB, Wetzstein II 1577, 229v:
 
 قبضته من أهل مملكته من العلماء بتعبير الرؤيا وأمرهم
 
-أن <style style = "color: red"> يصنفوا</style> مختصرا في تعبير الرؤيا في غاية الاختصار بحيث يكون
+أن <span style = "color: red"> يصنفوا</span> مختصرا في تعبير الرؤيا في غاية الاختصار بحيث يكون
 
-ورقة واحدة لا بفارقه سفرا ولا حضرا فاجتمعوا كلهم و<code style = "color: red">صنفوا</code> هذه
+ورقة واحدة لا بفارقه سفرا ولا حضرا فاجتمعوا كلهم و<span style = "color: red">صنفوا</span> هذه
 
 المقدمة التي لا يوجد مثلها وهي على حروف المعجم فإذا رأى النائم مناما يأخذ
 
@@ -48,9 +48,9 @@ Princeton, Garrett no. 550Hq, 42v:
 
 القول على تعبير الرؤيا المصحح وما دل عليه ذلك نقل عن الثقات الأخيار أن الملك محمد بن خوارزم
 
-شاه جمع من كان تحت يده من العلماء بتعبير الرؤيا وأن <code style = "color: red">يضعوا له</code> مختصرا في تعبير الرؤيا إلى غاية الاختصار
+شاه جمع من كان تحت يده من العلماء بتعبير الرؤيا وأن <span style = "color: red">يضعوا له</span> مختصرا في تعبير الرؤيا إلى غاية الاختصار
 
-حيث يكون في ورقة واحدة لا تفارقه في حضره ولا في سفره فأجمعوا كلهم و<code style = "color: red">ألفوا</code> هذه المقدمة التي لم يسمع بمثلها
+حيث يكون في ورقة واحدة لا تفارقه في حضره ولا في سفره فأجمعوا كلهم و<span style = "color: red">ألفوا</span> هذه المقدمة التي لم يسمع بمثلها
 
 وهي على حروف المعجم حتى إذا رأى النائم في منامه فيأخذ أول حرف من الذي رأى مثاله إن يرى النائم كأنه في ماء
 
@@ -60,8 +60,8 @@ Princeton, Garrett no. 550Hq, 42v:
 
 ب تدل على رفعة جاهه
 
-<style dir='rtl'>[\...\]</style>
+<span dir='rtl'>[\...\]</span>
 
-[![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})[![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})
+[![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})   [![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})
 
-[SBB, Wetzstein II 1577, 229v Princeton, Garrett no. 550Hq, 42v]{.mark}
+SBB, Wetzstein II 1577, 229v (left) Princeton, Garrett no. 550Hq, 42v (right
