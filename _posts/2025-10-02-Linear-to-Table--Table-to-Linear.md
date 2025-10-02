@@ -60,7 +60,7 @@ Princeton, Garrett no. 550Hq, 42v:
 
 ب تدل على رفعة جاهه
 
-<span style='direction: rtl'>[\...\]</span>
+‏[\...\]‏
 
 [![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})      [![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})
 
