@@ -22,7 +22,7 @@ I have come across two manuscripts which contain said narrative, one held by the
 Such formal transformations are a reminder that texts can be reused in strikingly different ways which may include layout changes that, not least, represent an interesting challenge for automated text reuse detection.
 
 SBB, Wetzstein II 1577, 229v:
-<code style = "color: red"> </code>
+
 
 نقل عن محمد خوارزم شاه أنه جمع من كان تحت
 
