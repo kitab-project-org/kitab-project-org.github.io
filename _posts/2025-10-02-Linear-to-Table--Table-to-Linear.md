@@ -21,7 +21,7 @@ I have come across two manuscripts which contain said narrative, one held by the
 
 Such formal transformations are a reminder that texts can be reused in strikingly different ways which may include layout changes that, not least, represent an interesting challenge for automated text reuse detection.
 
-[![The Texts Compared]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/KITAB-diff-dreams3.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/KITAB-diff-dreams3.png" | absolute_url }})‏
+[![The Texts Compared]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/KITAB-diff-dreams.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/KITAB-diff-dreams.png" | absolute_url }})‏
 
 [![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})      [![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})
 
