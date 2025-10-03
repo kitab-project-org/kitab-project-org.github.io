@@ -182,38 +182,38 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 - clusters
 
 ## Existing tags
+- releases
 - text-reuse
 - book-history
-- author-practice
+- author-practice data, book-history
+- viz
+- passim
+- release
 - corpus
-- reg-syr-arab
-- book-forms
+- news release
+- author-practice
 - scholar-network
-- citation
-- machine-learning
+- reg-syr-arab
 - prolific-authors
 - cultural-memory
-- release
-- news
-- corpus data
-- events
-- viz
 - IbnAsakir
-- releases
+- news
+- citation
+- book-forms
 - dispersed-texts
 - markdown
-- search
-- news corpus, release
+- machine-learning
 - reg-egypt
+- manuscripts
+- druze-corpus
+- events
+- data
+- reg-west
 - reg-east
 - khurasan
 - iran
-- data
-- news release
-- author-practice data, book-history
-- reg-west
-- manuscripts
-- druze-corpus
-- passim
+- news corpus, release
+- corpus data
+- search
 
 #
