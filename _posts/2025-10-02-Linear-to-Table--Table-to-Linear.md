@@ -21,51 +21,7 @@ I have come across two manuscripts which contain said narrative, one held by the
 
 Such formal transformations are a reminder that texts can be reused in strikingly different ways which may include layout changes that, not least, represent an interesting challenge for automated text reuse detection.
 
-| SBB, Wetzstein II 1577, 229v: | Princeton, Garrett no. 550Hq, 42v: |
-|---|---|
-|‏ قل عن محمد خوارزم شاه أنه جمع من كان تحت<br>قبضته من أهل مملكته من العلماء بتعبير الرؤيا وأمرهم<br>أن <span style = "color: red"> يصنفوا</span> مختصرا في تعبير الرؤيا في غاية الاختصار بحيث يكون<br>ورقة واحدة لا بفارقه سفرا ولا حضرا فاجتمعوا كلهم و<span style = "color: red">صنفوا</span> هذه<br>المقدمة التي لا يوجد مثلها وهي على حروف المعجم فإذا رأى النائم مناما يأخذ<br>أول حرف رؤياه مثاله رأى كأنه راكب فرسا يأخذ حرف الفاء وهذا الألف تدل<br>على قضاء الحاجة الباء تدل على رفعة وجاه والله أعلم التاء تدل على النصر<br>والتأييد والثاء تدل على قضاء الحاجة والله أعلم الجيم تدل على تعب<br>من جهة ملك الحاء تدل على الرياسة والجاه \[...\] ‏|‏ القول على تعبير الرؤيا المصحح وما دل عليه ذلك نقل عن الثقات الأخيار أن الملك محمد بن خوارزم<br>شاه جمع من كان تحت يده من العلماء بتعبير الرؤيا وأن <span style = "color: red">يضعوا له</span> مختصرا في تعبير الرؤيا إلى غاية الاختصار<br>حيث يكون في ورقة واحدة لا تفارقه في حضره ولا في سفره فأجمعوا كلهم و<span style = "color: red">ألفوا</span> هذه المقدمة التي لم يسمع بمثلها<br>وهي على حروف المعجم حتى إذا رأى النائم في منامه فيأخذ أول حرف من الذي رأى مثاله إن يرى النائم كأنه في ماء<br>فيأخذ حرف الميم أو يرى كأنه راكب فرس فيأخذ حرف الفاء وبالله التوفيق<br>أ يدل على قضا الحاجة<br>ب تدل على رفعة جاهه<br>‏[\...\]‏ | 
-
-
- SBB, Wetzstein II 1577, 229v:
-
-
-نقل عن محمد خوارزم شاه أنه جمع من كان تحت
-
-قبضته من أهل مملكته من العلماء بتعبير الرؤيا وأمرهم
-
-أن <span style = "color: red"> يصنفوا</span> مختصرا في تعبير الرؤيا في غاية الاختصار بحيث يكون
-
-ورقة واحدة لا بفارقه سفرا ولا حضرا فاجتمعوا كلهم و<span style = "color: red">صنفوا</span> هذه
-
-المقدمة التي لا يوجد مثلها وهي على حروف المعجم فإذا رأى النائم مناما يأخذ
-
-أول حرف رؤياه مثاله رأى كأنه راكب فرسا يأخذ حرف الفاء وهذا الألف تدل
-
-على قضاء الحاجة الباء تدل على رفعة وجاه والله أعلم التاء تدل على النصر
-
-والتأييد والثاء تدل على قضاء الحاجة والله أعلم الجيم تدل على تعب
-
-من جهة ملك الحاء تدل على الرياسة والجاه \[...\]
-
-Princeton, Garrett no. 550Hq, 42v:
-
-
-
-القول على تعبير الرؤيا المصحح وما دل عليه ذلك نقل عن الثقات الأخيار أن الملك محمد بن خوارزم
-
-شاه جمع من كان تحت يده من العلماء بتعبير الرؤيا وأن <span style = "color: red">يضعوا له</span> مختصرا في تعبير الرؤيا إلى غاية الاختصار
-
-حيث يكون في ورقة واحدة لا تفارقه في حضره ولا في سفره فأجمعوا كلهم و<span style = "color: red">ألفوا</span> هذه المقدمة التي لم يسمع بمثلها
-
-وهي على حروف المعجم حتى إذا رأى النائم في منامه فيأخذ أول حرف من الذي رأى مثاله إن يرى النائم كأنه في ماء
-
-فيأخذ حرف الميم أو يرى كأنه راكب فرس فيأخذ حرف الفاء وبالله التوفيق
-
-أ يدل على قضا الحاجة
-
-ب تدل على رفعة جاهه
-
-‏[\...\]‏
+[![The Texts Compared]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/KITAB-diff-dreams3.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/KITAB-diff-dreams3.png" | absolute_url }})‏
 
 [![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image1.png" | absolute_url }})      [![]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})]({{ "/images/2025-10-02/Linear-to-Table--Table-to-Linearlorenz_nigst/media/image2.png" | absolute_url }})
 
