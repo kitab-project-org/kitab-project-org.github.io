@@ -46,7 +46,7 @@ def docx_conv(root, name, images_path, author):
     extract_img = "--extract-media=" + images_path + author
     full_path = os.path.abspath(os.path.join(root, name))
     if os.path.exists(full_path):
-      blog = pypandoc.convert_file(full_path, 'markdown-simple_tables-multiline_tables-grid_tables', extra_args =["--wrap=none", extract_img])
+      blog = pypandoc.convert_file(full_path, 'gfm+footnotes', extra_args =["--wrap=none", "--markdown-headings=atx", extract_img])
     else:
       blog = None
     return blog
@@ -111,27 +111,29 @@ def clean_md_update_image_routing(blog_text):
       # blog_text = re.sub(r"\[?\]?{dir=\"rtl\"}", "", blog_text)
       # blog_text = re.sub(r"\[?\]?{dir=\"ltr\"}", "", blog_text)
 
-      # Convert pandoc dir spans to HTML spans so Jekyll honours RTL/LTR (conversions from ChatGPT)
+      # Strip Pandoc RTL/LTR spans (we rely on the browser's BiDi instead - ChatGPT)
       blog_text = re.sub(
-          r"\[([^\]]+)\]{dir=\"rtl\"}",
-          r'<span dir="rtl">\1</span>',
-          blog_text
+          r'<span\s+dir="rtl">(.*?)</span>',
+          r'\1',
+          blog_text,
+          flags=re.DOTALL
       )
       blog_text = re.sub(
-          r"\[([^\]]+)\]{dir=\"ltr\"}",
-          r'<span dir="ltr">\1</span>',
-          blog_text
+          r'<span\s+dir="ltr">(.*?)</span>',
+          r'\1',
+          blog_text,
+          flags=re.DOTALL
       )
   
-      # If pandoc ever emits bare {dir="rtl"} after a token, wrap that token
+      # If Pandoc ever uses dir directly on other inline elements, drop just the attribute
       blog_text = re.sub(
-          r"(\S+)\s*{dir=\"rtl\"}",
-          r'<span dir="rtl">\1</span>',
+          r'\sdir="rtl"',
+          '',
           blog_text
       )
       blog_text = re.sub(
-          r"(\S+)\s*{dir=\"ltr\"}",
-          r'<span dir="ltr">\1</span>',
+          r'\sdir="ltr"',
+          '',
           blog_text
       )
       
