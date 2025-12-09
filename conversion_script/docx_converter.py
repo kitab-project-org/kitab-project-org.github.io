@@ -111,29 +111,31 @@ def clean_md_update_image_routing(blog_text):
       # blog_text = re.sub(r"\[?\]?{dir=\"rtl\"}", "", blog_text)
       # blog_text = re.sub(r"\[?\]?{dir=\"ltr\"}", "", blog_text)
 
-      # Convert pandoc dir spans to HTML spans so Jekyll honours RTL/LTR - (conversions from ChatGPT)
-      # blog_text = re.sub(
-      #     r"\[([^\]]+)\]{dir=\"rtl\"}",
-      #     r'<span dir="rtl">\1</span>',
-      #     blog_text
-      # )
-      # blog_text = re.sub(
-      #     r"\[([^\]]+)\]{dir=\"ltr\"}",
-      #     r'<span dir="ltr">\1</span>',
-      #     blog_text
-      # )
+      # Strip Pandoc RTL/LTR spans (we rely on the browser's BiDi instead - ChatGPT)
+      blog_text = re.sub(
+          r'<span\s+dir="rtl">(.*?)</span>',
+          r'\1',
+          blog_text,
+          flags=re.DOTALL
+      )
+      blog_text = re.sub(
+          r'<span\s+dir="ltr">(.*?)</span>',
+          r'\1',
+          blog_text,
+          flags=re.DOTALL
+      )
   
-      # # If pandoc ever emits bare {dir="rtl"} after a token, wrap that token
-      # blog_text = re.sub(
-      #     r"(\S+)\s*{dir=\"rtl\"}",
-      #     r'<span dir="rtl">\1</span>',
-      #     blog_text
-      # )
-      # blog_text = re.sub(
-      #     r"(\S+)\s*{dir=\"ltr\"}",
-      #     r'<span dir="ltr">\1</span>',
-      #     blog_text
-      # )
+      # If Pandoc ever uses dir directly on other inline elements, drop just the attribute
+      blog_text = re.sub(
+          r'\sdir="rtl"',
+          '',
+          blog_text
+      )
+      blog_text = re.sub(
+          r'\sdir="ltr"',
+          '',
+          blog_text
+      )
       
       # Change out non-gfm headings
       blog_text = re.sub(r"(.*\r)\r\n.*-{3,40}", r"\1", blog_text)
