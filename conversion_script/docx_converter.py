@@ -46,7 +46,7 @@ def docx_conv(root, name, images_path, author):
     extract_img = "--extract-media=" + images_path + author
     full_path = os.path.abspath(os.path.join(root, name))
     if os.path.exists(full_path):
-      blog = pypandoc.convert_file(full_path, 'markdown-simple_tables-multiline_tables-grid_tables', extra_args =["--wrap=none", extract_img])
+      blog = pypandoc.convert_file(full_path, 'gfm+footnotes', extra_args =["--wrap=none", "--markdown-headings=atx", extract_img])
     else:
       blog = None
     return blog
