@@ -3,16 +3,14 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title: A test blog post
-author: mathew_barber
+title: "Arabic Pasts 2025"
+author: "anjum_alam"
 layout: single
 series:
-tags:
-  - 
-docx: Sample-blog-post-a.docx
+docx:  "APmarketingblog.docx"
 new_author:
   - name:
-    bio: 
+    bio:
 glossary:
   - term:
     def:
