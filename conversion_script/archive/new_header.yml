@@ -3,12 +3,14 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title: "Arabic Pasts 2025"
-author: "anjum_alam"
+title: "Digital Lead (Subcontractor) – ERC Project KITAB-Transform"
+author: anjum_alam
 layout: single
 series:
-docx:  "APmarketingblog.docx"
-new_author:
+tags: 
+  - Tender-Notice
+docx: "Digital Lead Tender.docx"
+new_author: 
   - name:
     bio:
 glossary:
