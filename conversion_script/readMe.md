@@ -215,5 +215,6 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 - news corpus, release
 - corpus data
 - search
+- Tender-Notice
 
 #
