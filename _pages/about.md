@@ -23,7 +23,7 @@ Our most recent work has involved gathering statistics on such reuse across the 
 
 The technology that powers KITAB is at the cutting edge of computer science. Our text reuse algorithm was created by David Smith and is now being adapted by Ryan Muther for Arabic. Ryan and Masoumeh Seydi are doing experimental work to map citations. We join our Open Islamicate Texts Initiative (OpenITI) partners in the OCR effort. For funding, we are grateful for the support that we have received from our home institution, the Aga Khan University, and also from the British Academy, the Qatar National Library, the Andrew W. Mellon Foundation, and the European Research Council under the Horizon 2020 grant scheme (KITAB, no. 772989).
 
-To use our corpus, please start [here](https://kitab-corpus-metadata.azurewebsites.net/). We are annotating and vetting works, with documentation available on [GitHub](https://openiti.github.io/documentation/).
+To use our corpus, please start [here](https://kitab-project.org/metadata). We are annotating and vetting works, with documentation available on [GitHub](https://openiti.github.io/documentation/).
 
 Do read the blog, as it provides windows on team members at work. We are working hard to bring all of our data and sources into the public domain. We want scholars everywhere to be able to take best advantage of what digital technology now allows us all to see and to discover. You can find regular updates posted through my Twitter account [@sarahsavant1](https://twitter.com/sarahsavant1).
 

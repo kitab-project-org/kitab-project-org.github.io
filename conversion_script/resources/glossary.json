@@ -1,10 +1,54 @@
-{"glossary":[
-{"term": "passim", "def": "A computer algorithm used to detect text reuse in the OpenITI Corpus."},
-{"term": "mARkdown", "def" : "The annotation system used on OpenITI texts, see the documentation for more details."},
-{"term": "boxplot", "def" : "A plot that shows the distribution of data. The main box shows the central 50% of the data points (from the lower quartile to the upper quartile) and the central line gives the median. The outer 'whiskers' show 95% of the data points."},
-{"term": "csv", "def" : "a csv ('Comma Separated Values') file is a plain text file containing data in a table. Each row in the table starts on a new line, and columns are separated using a comma (sometimes another character like a tab)."},
-{"term": "png", "def" : "png ('Portable Network Graphics') is a widely supported open image format. It is raster-based (images are stored as columns and rows of pixels), which means that scaling it (reducing or increasing the image size or resolution) will reduce the sharpness of the image."},
-{"term": "svg", "def" : "svg ('Scalabla Vector Graphics') is an image format that is based on vectors (shapes and lines) rather than pixels. This has the advantage that svg images can be scaled up or down without any loss in quality. You cannot use an svg image in a MS Word or Google Docs document."},
-{"term" : "heat map", "def" : "a visualization that shows the difference in magnitude of a phenomenon as a variation in color (hue or intensity)."},
-{"term" : "milestone", "def" : "The units into which OpenITI's texts are automatically divided into for computational analysis (primarily for passim), typically 300 words in length (about the length of a book page)."}]
-}
+[
+ {
+  "term": "passim",
+  "def": "A computer algorithm used to detect text reuse in the OpenITI Corpus."
+ },
+ {
+  "term": "mARkdown",
+  "def": "The annotation system used on OpenITI texts, see the documentation for more details."
+ },
+ {
+  "term": "boxplot",
+  "def": "A plot that shows the distribution of data. The main box shows the central 50% of the data points (from the lower quartile to the upper quartile) and the central line gives the median. The outer 'whiskers' show 95% of the data points."
+ },
+ {
+  "term": "csv",
+  "def": "a csv ('Comma Separated Values') file is a plain text file containing data in a table. Each row in the table starts on a new line, and columns are separated using a comma (sometimes another character like a tab)."
+ },
+ {
+  "term": "png",
+  "def": "png ('Portable Network Graphics') is a widely supported open image format. It is raster-based (images are stored as columns and rows of pixels), which means that scaling it (reducing or increasing the image size or resolution) will reduce the sharpness of the image."
+ },
+ {
+  "term": "svg",
+  "def": "svg ('Scalabla Vector Graphics') is an image format that is based on vectors (shapes and lines) rather than pixels. This has the advantage that svg images can be scaled up or down without any loss in quality. You cannot use an svg image in a MS Word or Google Docs document."
+ },
+ {
+  "term": "heat map",
+  "def": "a visualization that shows the difference in magnitude of a phenomenon as a variation in color (hue or intensity)."
+ },
+ {
+  "term": "milestone",
+  "def": "The units into which OpenITI's texts are automatically divided for computational analysis (primarily for passim), typically 300 words in length (about the length of a book page)."
+ },
+ {
+  "term": "shuhra",
+  "def": "the name by which a person is best known"
+ },
+ {
+  "term": "ism",
+  "def": "the given name of a person"
+ },
+ {
+  "term": "kunya",
+  "def": "teknonym, a name given to a person derived from the name of their (first) child; usually takes the form Abu X (Father of X) or Umm X (Mother of X)."
+ },
+ {
+  "term": "nisba",
+  "def": "a name element derived usually from a person\u2019s geographical background."
+ },
+ {
+  "term": "direct informant",
+  "def": "A person whom an author cites as an informant, often within an <i>isnad</i>"
+ }
+]

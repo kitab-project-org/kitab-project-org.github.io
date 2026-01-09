@@ -1,23 +1,28 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_arabic_pasts_cfp.jpg"
-  overlay_filter: 0.3
-  caption: "A muntakhab by Ibn Qadi Shuhba of al-Dhahabī's Muʿjam al-mukhtass. ([Bibliothèque Nationale de France, ms Arabe 2076](https://gallica.bnf.fr/ark:/12148/btv1b11001648r/f10.item.r=arabe%20dhahabi.zoom))" 
-  show_overlay_excerpt: false  
-title:	"Call for papers: Arabic Pasts 2022"		
 author: anjum_alam
-layout:		single
 categories:
-  - 
-  - 
-tags:
-  - events
+- null
+- null
+header:
+  caption: "A muntakhab by Ibn Qadi Shuhba of al-Dhahab\u012B's Mu\u02BFjam al-mukhtass.\
+    \ ([Biblioth\xE8que Nationale de France, ms Arabe 2076](https://gallica.bnf.fr/ark:/12148/btv1b11001648r/f10.item.r=arabe%20dhahabi.zoom))"
+  overlay_filter: 0.3
+  overlay_image: /images/covers/banner_arabic_pasts_cfp.jpg
+  show_overlay_excerpt: false
+image: /images/arabic-pasts/BNF_Arabe_2076_Ahmad_ibn_Hamdan.jpg
+layout: single
 permalink: /research/events/arabic-pasts-cfp
-image: "/images/arabic-pasts/BNF_Arabe_2076_Ahmad_ibn_Hamdan.jpg"
 sidebar:
-  - title: "Arabic Pasts"
-  - text: "This annual exploratory and informal workshop co-hosted with SOAS University and the University of Oxford offers the opportunity to reflect on history writing in Arabic. For more, see the [Arabic Pasts page](/research/events/arabic-pasts)."
+- title: Arabic Pasts
+- text: This annual exploratory and informal workshop co-hosted with SOAS University
+    and the University of Oxford offers the opportunity to reflect on history writing
+    in Arabic. For more, see the [Arabic Pasts page](/research/events/arabic-pasts).
+tags:
+- events
+title: 'Call for papers: Arabic Pasts 2022'
+
 ---
+
 
 **Arabic Pasts: Histories and Historiographies** 
 {: .text-center}

@@ -1,23 +1,32 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false  
-title:	"A Ramble Through the Cluster Data, Part 2: Quantifying and Visualising Clusters."		
 author: mathew_barber
-layout:		single
 categories:
-  - 
-  - 
+- clusters
+- null
+glossary:
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2022-06-21/mathew_barber/media/image7.png
+layout: single
 tags:
-  - text-reuse
-  - book-history
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**milestone:** The units into which OpenITI's texts are automatically divided into for computational analysis (primarily for passim), typically 300 words in length (about the length of a book page).<br><br>"
-image: "/images/blogs/2022-06-21/mathew_barber/media/image7.png"
+- text-reuse
+- book-history
+title: 'A Ramble Through the Cluster Data, Part 2: Quantifying and Visualising Clusters.'
+
 ---
+
+
+
 
 
 In part 1, I introduced you to the cluster data set, a second [passim](https://kitab-project.org/methods/text-reuse) data set that is slightly different from the pairwise data set that the KITAB team use in their daily research. The cluster data set brings together the pairwise alignments that overlap by more than 80% into larger clusters containing multiple book milestones. These clusters can be used to explore stemmatic relationships between texts, or may even reveal how a set of texts rely on the same lost source text. I will be using this data set in my research for the ERC team's [forthcoming volume](https://kitab-project.org/research/books#the-erc-team-memories-books-communities-making-and-re-making-the-past-in-the-arabic-textual-tradition). However, before I engage in a closer study of individual clusters and their historical importance (I will begin to explore this in part 3), it is important to understand the nature of single-link clustering and its limitations and to explore the scale of the cluster data set in general. This will guide me in identifying clusters of interest and help to contextualise my findings later on.
@@ -41,15 +50,15 @@ Alignment 1 does not have anything in common with alignments 3 and 4.[^1]
 
 For an example from the real cluster data, see figure 1. This gives a sample of pairwise alignments that belong to a cluster containing 15 milestones in total - I have only provided a sampling of the milestones, enough to illustrate how the cluster is linked together. Small but important similarities have led strong instances of text reuse to be clustered with much weaker alignments. The final table in the series shows how the last alignment in the sequence of the cluster is entirely unrelated to the first, apart from a few quite vague words. The pair of milestones 605 and 9310 illustrate how a weak link has led to other alignments being added to the cluster. There is strong text reuse between 605 and 9732, and between 9310 and 634. By comparison, 605 and 9310 are linked on the basis the phrase 'Ibn Hibban said in the *Majruhin*' and on a shared citation of a text (the footnotes have yet to be removed from these two OpenITI texts).[^2] Thus in this case three strong clusters of texts have been drawn into one cluster by these weaker links. From this example it is easy to see how similarities in chains of transmission (isnads) in particular could lead to the creation of enormous clusters.
 
-[![](/images/blogs/2022-06-21/mathew_barber/media/image6.png)](/images/blogs/2022-06-21/mathew_barber/media/image6.png)
+[![]({{ "/images/blogs/2022-06-21/mathew_barber/media/image6.png" | absolute_url }})]( {{ "/images/blogs/2022-06-21/mathew_barber/media/image6.png" | absolute_url }})
 
-[![](/images/blogs/2022-06-21/mathew_barber/media/image5.png)](/images/blogs/2022-06-21/mathew_barber/media/image5.png)
+[![]({{ "/images/blogs/2022-06-21/mathew_barber/media/image5.png" | absolute_url }})]( {{ "/images/blogs/2022-06-21/mathew_barber/media/image5.png" | absolute_url }})
 
-[![](/images/blogs/2022-06-21/mathew_barber/media/image1.png)](/images/blogs/2022-06-21/mathew_barber/media/image1.png)
+[![]({{ "/images/blogs/2022-06-21/mathew_barber/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2022-06-21/mathew_barber/media/image1.png" | absolute_url }})
 
-[![](/images/blogs/2022-06-21/mathew_barber/media/image3.png)](/images/blogs/2022-06-21/mathew_barber/media/image3.png)
+[![]({{ "/images/blogs/2022-06-21/mathew_barber/media/image3.png" | absolute_url }})]( {{ "/images/blogs/2022-06-21/mathew_barber/media/image3.png" | absolute_url }})
 
-[![](/images/blogs/2022-06-21/mathew_barber/media/image2.png)](/images/blogs/2022-06-21/mathew_barber/media/image2.png)
+[![]({{ "/images/blogs/2022-06-21/mathew_barber/media/image2.png" | absolute_url }})]( {{ "/images/blogs/2022-06-21/mathew_barber/media/image2.png" | absolute_url }})
 
 *Figure 1: A selection of pairwise alignments from cluster 34359801867, which contains 15 book milestones in total, given as a series of tables. Each table in the series contains a milestone from the table above (for example, the second table contains ms605, which is also in the first table), and so they each represent a step in the creation of the cluster. This representation is somewhat artificial and it has been reconstructed after the fact, as passim's output does not indicate the manner in which each cluster has been formed. These tables were produced using the [diff viewer](https://kitab-project.org/diffViewer/) developed by Peter Verkinderen.*
 
@@ -58,7 +67,7 @@ Lay of the land: some visualisations and statistics
 
 Even if we exclude extremely large clusters (for example, exclude all clusters that contain more than 500 milestones), the data set is still too large to be understood through one visualisation. Figure 2 gives an example of a graph drawn from the cluster data for books written before 900/1494. Each node (a dot) is an author in the corpus and each edge (that is, the line connecting two nodes) represents a cluster shared between two authors (using authors rather than books reduces the total number of nodes). Edges are weighted based on the number of clusters shared between two authors. To help distinguish the nodes, they have been coloured according to the author's death date (darker nodes are later).
 
-[![](/images/blogs/2022-06-21/mathew_barber/media/image4.png)](/images/blogs/2022-06-21/mathew_barber/media/image4.png)
+[![]({{ "/images/blogs/2022-06-21/mathew_barber/media/image4.png" | absolute_url }})]( {{ "/images/blogs/2022-06-21/mathew_barber/media/image4.png" | absolute_url }})
 
 *Figure 2: A graph of all authors in the corpus written who died before 900/1494 with edges weighted according to the number of clusters shared between authors.*
 
@@ -70,18 +79,18 @@ In short, many pre-modern authors in the OpenITI corpus are connected by at leas
 
 Figure 3 gives a histogram for the entirety of the cluster dataset, plotting the frequency of clusters according to their size. As can be seen in this figure , larger clusters are much less frequent in the dataset, but they do occur. There are two huge outliers (a cluster of 903,302 milestones and another of 2874). There are, however, a number of clusters that contain over 500 book milestones. It is very likely that these clusters are not meaningfully related, a consequence of the single-link clustering described above, but they would need closer investigation.
 
-[![](/images/blogs/2022-06-21/mathew_barber/media/image8.png)](/images/blogs/2022-06-21/mathew_barber/media/image8.png)
+[![]({{ "/images/blogs/2022-06-21/mathew_barber/media/image8.png" | absolute_url }})]( {{ "/images/blogs/2022-06-21/mathew_barber/media/image8.png" | absolute_url }})
 
 *Figure 3: A histogram showing the frequencies of clusters at different sizes. In order to make the bars readable, both the x and y axis use log scales (the gaps between the values get larger the further along the axis you proceed). As a result, you should pay careful attention to the values on each axis when reading this graph.*
 
 We can be more certain that clusters that contain fewer than 20 milestones are more meaningfully related (although as the example in figure 1 above showed, even smaller clusters can become unrelated). Figure 4 graphs the frequencies of clusters by their size, up to size 20, and provides an additional bar for all those clusters that contain more than 20 milestones. Table 1 gives the frequencies and their percentage of the total data set.
 
-[![](/images/blogs/2022-06-21/mathew_barber/media/image7.png)](/images/blogs/2022-06-21/mathew_barber/media/image7.png)
+[![]({{ "/images/blogs/2022-06-21/mathew_barber/media/image7.png" | absolute_url }})]( {{ "/images/blogs/2022-06-21/mathew_barber/media/image7.png" | absolute_url }})
 
 *Figure 4: A barchart of the frequencies of clusters by their size (focussing on clusters that contain up to 20 book milestones, with all clusters above size 20 given in the final bar). In order to make the bars visible, a logarithmic scale has been used for the count on the y axis. For the values see table 4.*
 
 | Cluster Size   | Count     | Percentage |
-|----------------|-----------|------------|
+|-|--||
 | 2              | 2,321,187 | 65.74      |
 | 3              | 636,594   | 18.03      |
 | 4              | 246,287   | 6.98       |

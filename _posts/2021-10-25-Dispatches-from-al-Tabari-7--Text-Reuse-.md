@@ -1,23 +1,38 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 7: Text Reuse Alignments"
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
+- tabari
+- null
+glossary:
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: '**passim:**'
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: a csv ('Comma Separated Values') file is a plain text file containing data
+    in a table. Each row in the table starts on a new line, and columns are separated
+    using a comma (sometimes another character like a tab).
+  term: csv
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png
+layout: single
 tags:
-  - releases
-image : "/images/thumbs/releases.png"
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>"
-image: "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png"
+- releases
+title: 'Dispatches from al-Tabari 7: Text Reuse Alignments'
+
 ---
+
+
+
+
 
 
 **Post 7: Text Reuse Alignments**
@@ -56,15 +71,15 @@ The general picture of text reuse yielded by our data set is one of a few extens
 
 Previous scholars have held the view that al-Tabari did not copy wholesale the *Tafsir* into the *Taʾrikh* (or vice versa), and that is also what our data and visualisations suggest.[^2]
 
-[![](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png)](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png)Image 1: Alignments between the *Taʾrikh* (on the top) and the *Tafsir* (on the bottom). Based on passim run of February 2021. Files compared: Shamela0009783BK1 and Shamela0007798.
+[![]({{ "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image1.png" | absolute_url }})Image 1: Alignments between the *Taʾrikh* (on the top) and the *Tafsir* (on the bottom). Based on passim run of February 2021. Files compared: Shamela0009783BK1 and Shamela0007798.
 
 The latest section of the *Taʾrikh* that is aligned with the *Tafsir* falls within a discussion of events in the Prophet's lifetime, specifically concerning the Prophet's wife ʿAʾisha. The arrangement owes much to *Sira* material derived from Muhammad b. Humayd, and the frequency of mentions of Muhammad b. Humayd's name in the aligned passages also points to both texts relying heavily on the *Sira*.
 
-[![](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image2.png)](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image2.png)Image 2: Alignments between the *Tahdhib* (on the top) and the *Taʾrikh* (on the bottom). Files compared: JK008250Vols and Shamela0009783BK1.
+[![]({{ "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image2.png" | absolute_url }})]( {{ "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image2.png" | absolute_url }})Image 2: Alignments between the *Tahdhib* (on the top) and the *Taʾrikh* (on the bottom). Files compared: JK008250Vols and Shamela0009783BK1.
 
 By contrast, there are very few alignments between the *Tahdhib* and the *Taʾrikh*, and no obvious pattern. The total number of aligned passages between these two works is forty-four, and the longest passage consists of 239 words. Eight further alignments contain 100 words or more.
 
-[![](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image3.png)](/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image3.png)Image 3: Alignments between the *Tahdhib* (on the top) and the *Tafsir* (on the bottom). Files compared: JK008250Vols and Shamela0007798.
+[![]({{ "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image3.png" | absolute_url }})]( {{ "/images/blogs/2021-10-25/sarah_savant_masoumeh_seydi/media/image3.png" | absolute_url }})Image 3: Alignments between the *Tahdhib* (on the top) and the *Tafsir* (on the bottom). Files compared: JK008250Vols and Shamela0007798.
 
 Between the *Tahdhib* and the *Tafsir*, there are a total of 229 aligned passages, the longest of which is 265 words. Of these alignments, forty-five contain at least 100 words.
 

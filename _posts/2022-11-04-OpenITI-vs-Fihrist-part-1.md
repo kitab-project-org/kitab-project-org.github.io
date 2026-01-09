@@ -8,7 +8,7 @@ title:	"OpenITI and the Fihrist"
 author: peter_verkinderen
 layout:		single
 categories:
-  - 
+  - fihrist
   - 
 tags:
   - corpus

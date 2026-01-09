@@ -8,7 +8,7 @@ title: "Dispatches from al-Tabari 6: Sources Common to All of al-Tabari’s Work
 author: sarah_savant_masoumeh_seydi
 layout:	single
 categories:
-  - 
+  - tabari
   - 
 tags:
 

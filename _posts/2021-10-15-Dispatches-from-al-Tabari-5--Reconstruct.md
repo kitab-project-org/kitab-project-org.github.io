@@ -1,22 +1,46 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 5: Reconstructing al-Tabari’s Notebooks"
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
-tags:
+- tabari
+- null
+glossary:
+- def: ' A computer algorithm used to detect text reuse in the OpenITI Corpus.'
+  term: '**passim:**'
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: '**mARkdown:**'
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: a csv ('Comma Separated Values') file is a plain text file containing data
+    in a table. Each row in the table starts on a new line, and columns are separated
+    using a comma (sometimes another character like a tab).
+  term: csv
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+- def: A person whom an author cites as an informant, often within an <i>isnad</i>
+  term: direct informant
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png
+layout: single
+tags: null
+title: "Dispatches from al-Tabari 5: Reconstructing al-Tabari\u2019s Notebooks"
 
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details.<br><br>"
-image: "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png"
 ---
+
+
+
+
+
 
 
 In our previous blog post, we argued that al-Tabari (d. 310/923) had to hand an extensive written collection consisting of sets of well-written notes.
@@ -24,7 +48,7 @@ In our previous blog post, we argued that al-Tabari (d. 310/923) had to hand an 
 In this post, we demonstrate that the data we have collected helps us begin to visualise the notebooks that served as al-Tabari's 'data carriers'.[^1] Scholars have often mined al-Tabari's citations for evidence of earlier works. They have given the lion's share of their attention to reputed authors such as Mujahid and Sayf b. ʿUmar who lived two or more generations before al-Tabari. By contrast, our starting point is his direct informants and the material they passed on to al-Tabari. In some cases, they combined material from many different sources.
 
 Tree Maps
----------
+
 
 We visualise al-Tabari's notebooks using a tree map that was created from a subset of the *isnad*s introduced by the phrases 'he told me'/'he told us' (*haddathana*/*haddathani*) -- specifically, *isnad*s with at least three transmitters after al-Tabari. The tree map displays each person in an *isnad* as a rectangle; the size of the rectangle is proportional to the number of times the person is cited. Our main tree map contains four layers of rectangles: al-Tabari himself (dark pink), his direct informants (dark orange), their informants (light orange) and the latters' informants (yellow). For example, in the first notebook, Bishr b. Muʿadh's (d. 245/859--60) main source is Yazid b. Zariʿ (d. 182/798-9?). All but twenty of the 2,387 chains that contain three persons after al-Tabari run thus: Bishr b. Muʿadh \< Yazid b. Zariʿ \< Saʿid.
 
@@ -33,13 +57,13 @@ It is important to stress that our tree maps do not represent the entirety of th
 The images included here are excerpts from a larger set of tree maps that we will publish with our data set in a forthcoming print publication. Bibliographical information is collated from publications by Gilliot, Athari and Lucas,[^2] as well as from Ibn Nadim's *Fihrist* and the relevant *Encyclopaedia of Islam* articles. We have also consulted other sources.[^3]
 
 Six Sets of Notes
------------------
+--
 
 What follows is a series of visualisations of six possible -- even likely -- collections of notes used by al-Tabari.
 
 **Notebook 1: Bishr b. Muʿadh** (d. 245/859--60), cited 2,418 times, filtered to 2,387 chains of at least three transmitters.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image1.png" | absolute_url }})
 
 Image 1: The possible structure of al-Tabari's notes on his lessons with Bishr b. Muʿadh in Basra.
 
@@ -51,7 +75,7 @@ Al-Tabari used this notebook mainly for the *Jāmiʿ al-bayān*, but he also pic
 
 **Notebook 2: Muhammad b. Humayd al-Razi** (d. 248/862), cited 2,879 times, filtered to 2,312 chains of at least three transmitters.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image2.png" | absolute_url }})
 
 Image 2: The possible structure of al-Tabari's notes on his lessons with Muhammad b. Humayd in Rayy.
 
@@ -67,7 +91,7 @@ It would be worthwhile to compare the fragmentary Quran commentary attributed to
 
 **Notebook 3: Al-Muthanna b. Ibrahim al-Amuli** (d. unknown), cited 2,259 times, filtered to 1,973 chains of at least three people.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image3.png" | absolute_url }})
 
 Image 3: The possible structure of al-Tabari's notes from his lessons with al-Muthanna in Rayy (possibly Amul also).
 
@@ -87,7 +111,7 @@ This hierarchy of prestige can be detected in al-Tabari's citations. Consider th
 
 **Notebooks 4 and 5:** **Ismaʿil b. ʿAbd al-Rahman al-Suddi** (d. ca. 127/745) via **Musa b. Harun al-Hamdani** (d. unknown) and **Muhammad b. al-Husayn** (d. 261/874), respectively.
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image4.png" | absolute_url }})
 
 Image 4: The possible structure of al-Tabari's notes from his lessons with Musa b. Harun al-Hamdani (d. unknown) and Muhammad b. al-Husayn (d. 261/874).
 
@@ -97,7 +121,7 @@ Examining these citations, G. H. A. Juynbol questioned the degree to which the m
 
 **Notebook 6: ʿAbd Allah b. al-ʿAbbas** (d. ca. 68/687--8) via Muhammad b. Saʿd (d. 276/889).
 
-[![](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png)](/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png)
+[![]({{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png" | absolute_url }})]( {{ "/images/blogs/2021-10-05/sarah_savant_masoumeh_seydi5/media/image5.png" | absolute_url }})
 
 Image 5: The possible structure of al-Tabari's notes on information received through a family *isnad* from Muhammad b. Saʿd (d. 276/889) in Baghdad.
 

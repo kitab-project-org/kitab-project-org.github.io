@@ -1,4 +1,4 @@
-# Test instance of KITAB website hosted on GitHub
+# KITAB website hosted on GitHub
 
 ### Using [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 

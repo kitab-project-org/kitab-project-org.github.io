@@ -1,24 +1,38 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false  
-title:	"Oh Brethren, Where Are Ye? How to search for words and phrases in the OpenITI corpus, demonstrated with the phrase 'Ikhwan al-Safa'"		
 author: gowaart_van_den_bossche
-layout:		single
 categories:
-  - 
-  - 
+- null
+- null
+glossary:
+- def: A computer algorithm used to detect text reuse in the OpenITI Corpus.
+  term: passim
+- def: The annotation system used on OpenITI texts, see the documentation for more
+    details.
+  term: mARkdown
+- def: The units into which OpenITI's texts are automatically divided for computational
+    analysis (primarily for passim), typically 300 words in length (about the length
+    of a book page).
+  term: milestone
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png
+layout: single
 tags:
-  - corpus
-  - markdown
-  - search
-sidebar:
-  - title: "Glossary"
-  - text: "**passim:** A computer algorithm used to detect text reuse in the OpenITI Corpus.<br><br>**mARkdown:** The annotation system used on OpenITI texts, see the documentation for more details."
-image: "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png"
+- corpus
+- markdown
+- search
+title: Oh Brethren, Where Are Ye? How to search for words and phrases in the OpenITI
+  corpus, demonstrated with the phrase 'Ikhwan al-Safa'
+
 ---
+
+
+
+
 
 
 The OpenITI corpus is designed to facilitate many different forms of computational analysis. Within the KITAB project we spend the bulk of our time fine-tuning the methods of text reuse and the data it provides on the corpus' many textual relationships, but we are aware that this is not necessarily the primary interest in digital texts for many scholars. As the continued popularity of the Shamela library and its software suggests, one of the most important functions of a corpus of digital texts is its searchability: scholars want to be able to search for information and locate the usage of names, words and phrases across a vast corpus. In the long run we hope to develop a complex search app by which users will be able to search the OpenITI corpus online, but our colleague Aslisho Qurboniev discovered that doing so is in fact already possible with both of the two text editors we recommend to read texts from the corpus: EditPad Pro and Kate. This is a great and easy method to do searches and it is more reliable than using Shamela. For guidance on installing these editors and the mARkdown highlighting scheme, see [here](https://kitab-project.org/docs/openITI#5-software-versions-and-installation). (Installing the highlighting scheme is not absolutely necessary for simply searching the corpus, but it is nice to be able to fold texts and see the structural tagging to help navigation.)
@@ -33,13 +47,13 @@ If you download the OpenITI corpus as a release, all author files will be in a s
 
 Once you have downloaded the corpus, launch the Kate app, click the \'Search and replace\' tab, which in Image 1 below is on the bottom left of the app (or use the keyboard shortcut Ctrl+Alt+F on Windows = Cmd+Alt+F on Mac). This will open a dialog box in which you can change the location where Kate will conduct the requested search: either in 'current file', in all 'open files\', or \'In Folder\'. It is this last option we will use to search through the whole OpenITI corpus.
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image6.png" | absolute_url }})
 
 Image 1: The basic search window in Kate editor
 
 Once the \'In folder\' option has been marked, you only have to tell Kate where the folder you want it to look through is situated on your computer. For this you click the folder icon next to the Folder bar (see Image 2), which will open a pop-up where you can direct your computer to where you have stored the OpenITI folder. This should be a familiar procedure if you have ever opened a file from within a text editor like Word or added an attachment to an email
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image4.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image4.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image4.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image4.png" | absolute_url }})
 
 Image 2: Second step of the search in Kate editor -- directing Kate to the relevant folder
 
@@ -47,7 +61,7 @@ That's all! The next step is simply typing your search term or phrase into the \
 
 Kate will list all results, ordered alphabetically (which means chronologically due to how we name files in the corpus). It is possible to copy these results and paste them in a separate document: this will copy the filepath and the line number as well as the place where the result is found, but the results will not be clickable. In EditPad Pro you can do the same, but the result will be clickable. Once the results are displayed (see Image 3), you can click on one of the results and Kate will open the file and take you to the place where the search result is found in the text by highlighting it. As with Shamela, the search via Kate or EditPadPro is not as smart as Google or the passim software we use to detect text reuse. It will not locate words spelt differently than the way you have input it. The inclusion of works digitised by using OCR in newer releases of the corpus, many of which have not yet been closely proofread, as well as the preponderance of typos in texts from online libraries should also be taken into account. It thus remains important to closely check every search result, especially if they come from texts that do not bear the mARkdown tag (although that tag does not necessarily mean a text is entirely reliable or free from typos, only that it has been looked at by at least two different people and its problems/reliability have been assessed). One way to work around this is by using regular expressions (regex), which is useful to learn in general if you are interested in learning some computational skills.
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image5.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image5.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image5.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image5.png" | absolute_url }})
 
 Image 3: \'matches\' listed in the search window and highlighted in individual text files.
 
@@ -55,13 +69,13 @@ Image 3: \'matches\' listed in the search window and highlighted in individual t
 
 To illustrate the method, in the following I will show a few results on searching for the phrase \'ikhwan al-safa\' in the corpus. Because of the ambiguity of whether or not the digital texts have properly spelt the first and last letters of that phrase with their respective hamzas, I omitted them and told Kate to look instead for \'khwān al-safa\' (see image 3). Regex would have helped here to also include cases where the two words are separated: if the space in the search term is replaced with the regular expression \[ -؀\\r\\n\]\* it will deal with cases where \'ikhwan\' and \'al-safaʾ\' are separated by a new line, page number, footnote marker and/or milestone number, etc. but not by another Arabic word. (I am grateful to Peter Verkinderen, KITAB's in-house regex wizard for this advice).
 
-As is clear from the search results --- and, to be sure, as is well known among scholars --- the phrase \'ikhwan al-safaʾ\' did not originate with the enigmatic brotherhood that composed the Epistles. They made use of an existing turn of phrase to designate themselves as a brotherhood that saw itself as exceptionally pure and sincere and which strove to create a broader community built around those principles. Some scholars have suggested that the authors of the epistles took the phrase from *Kalila wa-Dimna* (notably Ignaz Goldziher), which seems plausible enough given that the epistles refer to *Kalila wa-Dimna* repeatedly and reproduce some of its stories. Our search results indicate however that the translator of *Kalila wa-Dimna* himself likely made use of a phrase that was already well attested as a poetic trope and that the authors of the epistles may also have been more broadly inspired. In Image 3 I have opened the earliest search result, a *diwan* (poetry compilation) of the pre-Islamic poet Aws b. Hajar (he in fact died before the Hijra, year 1 in the OpenITI corpus, but all pre-Islamic authors are filed under that year within OpenITI), which contains a poem in which the phrase is used. In general, results from the earliest centuries need to be interpreted with care as many of these texts are problematic reconstructions. Some of these diwans never even circulated as such in the pre-modern period and are modern compilations. The early transmission history of *Kalila wa-Dimna* is also all but straightforward, however, as the work of the AnonymClassic project is showing. Nevertheless, it appears that the phrase had some currency already very early on and that the authors of the epistles may have been inspired not just by *Kalila wa-Dimna* but by a relatively broadly circulating metaphoric designation.
+As is clear from the search results  and, to be sure, as is well known among scholars  the phrase \'ikhwan al-safaʾ\' did not originate with the enigmatic brotherhood that composed the Epistles. They made use of an existing turn of phrase to designate themselves as a brotherhood that saw itself as exceptionally pure and sincere and which strove to create a broader community built around those principles. Some scholars have suggested that the authors of the epistles took the phrase from *Kalila wa-Dimna* (notably Ignaz Goldziher), which seems plausible enough given that the epistles refer to *Kalila wa-Dimna* repeatedly and reproduce some of its stories. Our search results indicate however that the translator of *Kalila wa-Dimna* himself likely made use of a phrase that was already well attested as a poetic trope and that the authors of the epistles may also have been more broadly inspired. In Image 3 I have opened the earliest search result, a *diwan* (poetry compilation) of the pre-Islamic poet Aws b. Hajar (he in fact died before the Hijra, year 1 in the OpenITI corpus, but all pre-Islamic authors are filed under that year within OpenITI), which contains a poem in which the phrase is used. In general, results from the earliest centuries need to be interpreted with care as many of these texts are problematic reconstructions. Some of these diwans never even circulated as such in the pre-modern period and are modern compilations. The early transmission history of *Kalila wa-Dimna* is also all but straightforward, however, as the work of the AnonymClassic project is showing. Nevertheless, it appears that the phrase had some currency already very early on and that the authors of the epistles may have been inspired not just by *Kalila wa-Dimna* but by a relatively broadly circulating metaphoric designation.
 
 Another very early instance of the phrase, which for sure predates the encyclopaedia and likely also *Kalila wa-Dimna*, is found in Ibn Hisham's redaction of Ibn Ishaq's *sira* of the Prophet. Here the phrase is used in a poem attributed to Abu Khurāsh in which the death of one of the fighters at the Battle of Hunayn is lamented (PageV02P474 of the file 0213IbnHisham.SiraNabawiyya.Shamela0023833-ara1.completed). A very similar phrase is found in a poem that has been attributed to ʿAli b. Abi Talib (see below).
 
 While I could write much more about the many different results I found, I will in the remainder of this blog continue to focus on a few further poetic usages. Such references are an understudied phenomenon which I believe has great potential for the study of the reception of the Ikhwanian corpus. Coming across one such poetic use initially urged me to conduct this search: on an important 7th/13th century manuscript manuscript of the *Rasaʾil ikhwan al-safaʾ* a reader wrote a line of poetry the flyleaf (see Image 4).
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image3.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image3.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image3.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image3.png" | absolute_url }})
 
 Image 4: poetic line on flyleaf of Süleymaniye Kütüphanesi MS Esad Efendi 3638
 
@@ -154,18 +168,18 @@ Sincere brethren's truthful writings
 <br/>
 <br/>
 
-This is but a very small sampling of the 1694 matches for our phrase identified by Kate in the OpenITI corpus (see Image 3 --- however, note that probably at least half of these are duplicates, usages found in two or more different versions of the same text), but it highlights that poetic references to the Ikhwan al-Safaʾ constitute a potentially rich field of enquiry for which this simple search method may be used fruitfully. The existence of a number of versifications of Epistles from the Ikhwanian corpus as well as poems responding to the Epistles' contents recorded on flyleaves and title pages, which I have come across in my study of the Ikhwanian manuscript tradition suggests that this could figure in a broader evaluation of the literary reception of the Epistles.
+This is but a very small sampling of the 1694 matches for our phrase identified by Kate in the OpenITI corpus (see Image 3  however, note that probably at least half of these are duplicates, usages found in two or more different versions of the same text), but it highlights that poetic references to the Ikhwan al-Safaʾ constitute a potentially rich field of enquiry for which this simple search method may be used fruitfully. The existence of a number of versifications of Epistles from the Ikhwanian corpus as well as poems responding to the Epistles' contents recorded on flyleaves and title pages, which I have come across in my study of the Ikhwanian manuscript tradition suggests that this could figure in a broader evaluation of the literary reception of the Epistles.
 
 ### Appendix: Searching in EditPad Pro
 
 In EditPad Pro: Use Ctrl+F to open the search-and-replace box, and write your search term in the Search field. In the EditPad Pro menu, go to Search \> Find on Disk; this will open a dialog box where you can select the folder you want to search.
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image1.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image1.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image1.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image1.png" | absolute_url }})
 
 Image 5: Search on Disk dialog in EditPad Pro. Pro tip: write \`\^\[01\].+(?\<!yml)\$\` in the Regular expression field, after ticking the 'regular expression' box: this way, only text files will be searched, and not metadata or other irrelevant files. (Note, this also works in Kate)
 
 If you click the OK button, EditPad Pro will start searching all files and subfolders within that folder. The search results will finally be displayed in a separate window. You can preview the lines that contain the matches inside the search results window; if you double-click on the line number, the text will open in the editor at that location.
 
-[![](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image2.png)](/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image2.png)
+[![]({{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image2.png" | absolute_url }})]( {{ "/images/blogs/2022-02-09/gowaart_van_den_bossche/media/image2.png" | absolute_url }})
 
 Image 6: EditPad Pro search results

@@ -1,0 +1,62 @@
+---
+layout : splash
+permalink : /text-reuse-stats/
+releases:
+- id: feb-2023
+  url: https://app.powerbi.com/view?r=eyJrIjoiMDkyOWFjNjItZTk2MC00ZGM2LTk3MjctMTZiOTA2ZGE4NmEyIiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9
+  str: "February 2023"
+- id: oct-2022
+  url: https://app.powerbi.com/view?r=eyJrIjoiMjhmNmM5OGYtY2QyMi00ZDMxLTg1NDMtYWNmYzU2M2I4ZDAwIiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9&pageName=ReportSection57648cf4486f0b21d4b7
+  str: "October 2022"
+info_heading: KITAB Aggregated Passim Statistics
+app_guide: "Select a release version to view a PowerBI application corresponding to statistics for that OpenITI release. The applications allows you to explore statistics based on [passim](https://kitab-project.org/methods/text-reuse) runs on the corpus. It gives data on pairwise relationships between books in the OpenITI corpus.<br><br>There are five pages to the app. Navigate by clicking on the buttons at the top. **HOME** shows all of the text reuse statistics. **CORPUS STATS** gives general statistics on the corpus (for example lengths of texts). **UP TO 1000AH** gives text reuse statistics for only authors who died before 1000AH. **BOOK COMPARISON** allows you to search for particular authors and books and see statistics and lists of books that have text reuse with the books for which you have searched. *Note that searches on this page will need to match quite exactly, including transliteration in certain cases.* **RANKING** allows you to see the top reusers by different categories.<br><br>**Some notes on terminology:** if passim identifies any reuse between two books it produces a pairwise file. For each Book Two that is related to a Book One, there is one pairwise file. The summary counts and graphs for *pairwise reuse files* aggregate the number of files that passim produced (for example, the graph on the right of the HOME page gives the number of pairwise files the were created for each book in the corpus). *Instances* by comparison refers to the number of cases of reuse that passim found between two texts and a card at the top sums all of the cases of reuse. On many of the pages you will be able to explore tables describing reuse relationships. In the tables pairwise relationships are expressed as *Book One* and *Book Two*. For example, in such a table *No of Records* counts the number of reuse alignments that passim found between *Book One* and *Book Two*. *WM_B1inB2* gives the percentage of the total length of *Book One* that is reused in *Book Two*. *WM_B2inB1* gives the percentage of the total length of *Book Two* that is reused in *Book One*. Applying filters on the left will change the summary statistics, graphs and tables. For example, if the end of the *BOOK TWO DATE* range slider is changed to 300, then all of the data (and summary statistics) are filtered to only show cases where the author of *Book Two* died before 300. The buttons above the table allow for certain kinds of filtering: *anachron* gives only results where the author of *Book Two* died after the author of *Book One*. *chron* gives only results where the author of *Book Two* died after the author of *Book One*."
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap-grid.min.css">
+<script type="text/javascript">
+function getOption() {
+    selectElement = document.querySelector('#version');
+    output = selectElement.options[selectElement.selectedIndex].value;
+    console.log(output)
+    document.getElementById('embed').src = output;
+}
+</script>
+<style>
+
+#version{
+    height: 30px;
+    padding-top: 4px;
+    font-size: 16px;
+}
+
+</style>
+
+<div class="row">
+<div class="col-1">
+	<a href="#show-info" onclick="document.getElementById('notice-about').classList.toggle('hidden'); document.getElementById('help').classList.toggle('hidden')" class = "hidden" id="help">
+		<i class="fa fa-question-circle"></i>
+	</a>
+</div>
+<div class = "col-9 text-right pe-1 pt-1">
+		<label for = "version" class="small">Choose a release version:</label>
+	</div>
+<div class = "col-2 ps-1 pt-1">
+	<select name="version" id="version" onChange="getOption()" class="align-left" >
+		{% for version in page.releases %}
+		<option value = {{version.url}}>{{version.str}}</option>
+		{% endfor %}
+	</select>
+</div>
+</div>
+
+<div class="row">
+<div id="notice-about" class = "notice">
+	<h1>{{ page.info_heading }}</h1>
+	<p>{{ page.app_guide | markdownify }}</p>
+	<p><a href="#hide-info" onclick="document.getElementById('notice-about').classList.toggle('hidden'); document.getElementById('help').classList.toggle('hidden')"><i class="fa fa-times"></i> Hide this information box.</a> Click <i class="fa fa-question-circle"></i> to re-open this box</p>
+</div>
+</div>
+
+<div class = "responsive-video-container">
+<iframe id = "embed" title="PowerBi - KITAB Oct 22 Stats - Pri-bi-dir" src={{page.releases[0].url}} frameborder="0" allowFullScreen="true"></iframe>
+</div>

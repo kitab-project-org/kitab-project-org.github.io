@@ -21,6 +21,8 @@ about:
         url: /about/
       - title: "The KITABis"
         url: /about/kitabis
+      - title: "Our interns"
+        url: /about/interns
       - title: "Our Projects"
         url: /about/our-projects
       - title: "Collaborations"
@@ -111,9 +113,9 @@ research:
       - title: "Arabic Pasts"
         url: /research/events/arabic-pasts
       - title: "Latest Programme"
-        url: /research/events/programme-2022
+        url: /documents/Arabic_Pasts_Schedule_2025.pdf
       - title: "Call for Papers"
-        url: /research/events/arabic-pasts-cfp
+        url: /Call-For-Papers-Arabic-Pasts-2025/
       - title: "Previous Programmes"
         url: /research/events/past-programmes
       - title: "Gallery"

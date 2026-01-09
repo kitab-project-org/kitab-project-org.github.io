@@ -1,19 +1,23 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title:	"A Close and Distant Reading of Writerly Practices: Sarah Bowen Savant's Inaugural Lecture"		
-layout:		single
 categories:
-  - 
-  - 
+- null
+- null
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/blogs/2022-05-20/lecture-clip.png
+layout: single
 tags:
-  - events
-  - news
-image: "/images/blogs/2022-05-20/lecture-clip.png"
+- events
+- news
+title: 'A Close and Distant Reading of Writerly Practices: Sarah Bowen Savant''s Inaugural
+  Lecture'
+
 ---
+
 
 On Thursday 5th of May 2022 Sarah Bowen Savant gave her inaugural lecture as full professor at the AKU-ISMC.
 

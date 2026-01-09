@@ -886,13 +886,26 @@ After that one more Next, Finish, and Git is installed!
 
 ##### On Mac
 
-(instructions from
-[https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git))
+The easiest way to install git on Mac is by using homebrew, a package installer for Mac. 
 
-Download Git for Mac here:
-[https://sourceforge.net/projects/git-osx-installer/files/](https://sourceforge.net/projects/git-osx-installer/files/)
+1. Open Terminal by opening Finder, and then clicking Applications > Utilities > Terminal (alternatively, you can use Spotlight to find Terminal: press the command and space keys on your keyboard and start typing Terminal; click Terminal in the search results to open the program)
+2. write the following command in the Terminal: `brew install git`
+3. now also install the git credential manager using this command: `brew install --cask git-credential-manager` . The script may ask you for your (Mac) password. Provide it to proceed with the installation
 
-Follow the prompts to install Git.
+NB: If you do not have homebrew yet, install it first (instructions from [here](https://docs.brew.sh/Installation): 
+
+Paste this command into your terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+The script explains what it will do and then pauses before it does it. You should now be able to use homebrew to install git, as described above.
+
+**Activating bash in Terminal on Mac**
+There are multiple command line systems, each with their own grammar and lexicon; these systems are often referred to as “shells.” We are going to use one such shell called bash.
+
+On older Mac operation systems (prior to MacOS Catalina (2019)), Terminal uses bash by default; for more recent operation systems, we will have to make bash the default.
+
+1. Open Terminal by opening Finder, and then clicking Applications > Utilities > Terminal (alternatively, you can use Spotlight to find Terminal: press the command and space keys on your keyboard and start typing Terminal; click Terminal in the search results to open the program).
+2. The Terminal program will open, containing two lines of text. The last character you see is called the “prompt”: it prompts you to write commands. If the prompt is the `$` character, you’re all set: Terminal is already using bash.
+3. If the prompt is the `%` character, you’ll have to type the following command after that `%`: `chsh -s /bin/bash` and then press Enter to execute the command. Terminal will ask you for your password; type it (you won’t see it appear, for security reasons) and press Enter again.
+Close and reopen Terminal; the prompt should now be a `$`
 
 ##### On Linux
 
@@ -965,7 +978,7 @@ Useful commands:
 
 If you are a Mac user, you are probably familiar with the standard Mac
 command line tool, Terminal. You can use Terminal to interact with Git,
-or install a dedicated command line tool for Git, called Git Bash:
+or install a dedicated command line tool for Git:
 
 To open Terminal, do one of the following:
 
@@ -974,10 +987,7 @@ To open Terminal, do one of the following:
      search field, then click "Terminal".
 
 -   In the Finder ![](/images//media/image42.png), open the /Applications/Utilities
-     folder, then double-click "Termina"l.
-
-To install Git Bash: download it from here:
-[https://downloads.digitaltrends.com/git/mac](https://downloads.digitaltrends.com/git/mac)
+     folder, then double-click "Terminal".
 
 ##### On Linux
 
@@ -1423,9 +1433,9 @@ quality problems, etc. Each issue related to a specific text (or author)
 contains its URI in the title.
 
 The easiest way to raise text-related issues is through the issue links 
-in our [metadata app](http://kitabapp-v5.azurewebsites.net/visualise):
+in our [web application](https://kitab-project.org/explore/):
 
-![Raising issues in the metadata app](/images//media/metadata-app-issues.png)
+![Raising issues in the metadata app](/images//media/web-app-issues.png)
 
 Clicking one of these issue links will bring you to a pre-formatted 
 issue on GitHub that contains the URI of your author / book / version
@@ -1714,7 +1724,6 @@ A full description of OpenITI mARkdown can be found here:
 
 ## 5. Software (versions and installation)
 
-
 OpenITI is designed not to depend on specific software. However, a
 number of software packages are especially useful for interacting with
 the corpus.
@@ -1722,90 +1731,18 @@ the corpus.
 OpenITI text files are plain text files, and they can be read and edited
 using any text editing program. However, some text editors do not handle
 text in right-to-left languages like Arabic and Persian well; and others
-don't handle large files well.
+have problems displaying large files.
 
-Our text editor of choice is EditPad Pro because it can handle very
-large texts and supports right-to-left languages well. Moreover, it
-offers custom highlighting schemes that allow highlighting of OpenITI
-mARkdown tags. Unfortunately, EditPad Pro works only on Windows. 
-You can get it to work on most Mac computers as well, using a Windows 
-emulator, but not on the most recent Mac operating systems. 
+Our text editor of choice is currently [Kate editor](#kate-editor), a free text editor that works
+on all major platforms (Mac, Windows, Linux), supports right-to-left languages, 
+can handle rather large texts and allows search in entire directories. 
+Moreover, it offers custom highlighting schemes that allow highlighting of OpenITI
+mARkdown tags. Kate does struggle sometimes with the very largest texts in the corpus.
 
-Another good editor for OpenITI texts, which does work on all platforms, 
-is Kate editor. The downside of Kate is that it does struggle sometimes 
-with the very largest texts in the corpus. 
+On Windows, a good alternative to Kate is [EditPad Pro](#editpad-pro), 
+which handles very large texts better than Kate.
 
-
-### EditPad Pro
-
-EditPad Pro is a powerful text editor with good support for
-right-to-left text and large files. 
-
-The free (trial) version of the software can be downloaded here:
-[download.jgsoft.com/editpad/SetupEditPadProDemo.exe](http://download.jgsoft.com/editpad/SetupEditPadProDemo.exe)
-. The trial version is fully functional for the needs of working with
-OpenITI texts.
-
-NB: EditPad Pro works on Windows only. If you use a Mac or Linux
-computer, you can still run the program using an emulator software like
-Wine ([winehq.org/](https://www.winehq.org/)),
-which makes it possible to use Windows programs on Mac and Linux. For
-Mac, see:
-[wiki.winehq.org/MacOS](https://wiki.winehq.org/MacOS).
-Alternatively, you can install a virtual machine on your computer that
-runs Windows:
-
--   Parallels (commercial): [parallels.com/products/desktop/](https://www.parallels.com/products/desktop/)
-
--   VirtualBox (free): [virtualbox.org/](https://www.virtualbox.org/)
-
-Once you have downloaded and installed EditPad Pro, take the following
-steps to install the **OpenITI mARkdown highlighting schema** (see
-[github.com/OpenITI/mARkdown\_scheme](https://github.com/OpenITI/mARkdown_scheme)
-for more detail):
-
--   VERY IMPORTANT: Make sure that EditPad Pro is fully closed. Do not
-     close it using the "X" in the upper right corner (which will not
-     fully close the program) but go to 'file \> exit' in Edit Pad Pro.
-
--   Download [https://github.com/OpenITI/mARkdown\_scheme/archive/master.zip](https://github.com/OpenITI/mARkdown_scheme/archive/master.zip)
-
--   Unzip the downloaded file.
-
--   The unzipped folder contains two zip files; one for EditPad Pro
-     Version 7 and one for EditPad Pro version 8. Unzip the file for
-     your version of EditPad Pro.
-
--   Open the unzipped folder, and copy all of the files
-
--   Within the unzipped folder, double click on the link
-     `__Follow_this_link_to_paste_mARkdownScheme7.lnk`. This
-     link takes you to the location where EditPad Pro was installed on
-     your computer (`%APPDATA%/JGsoft/EditPad Pro 7` in case of
-     EditPadPro7 and `%APPDATA%/JGsoft/EditPad Pro 8` in case of
-     EditPadPro 8)
-
--   Paste the files into this folder
-
--   Now, open EditPadPro. If you have done everything correctly, the
-     background in EditPadPro should be of yellowish color. If the
-     background is still white, you need to repeat the whole procedure;
-     now, make absolutely sure to shut down EditPadPro (not just click
-     on the x in the top right corner, but shut it down through FILE \>
-     Exit), then repeat all steps from the beginning of this section.
-
--   The scheme is automatically activated in EditPad Pro by the first
-     line in the file, which must be: `#####OpenITI#` (called "magic
-     value" in EditPad Pro)
-
--   Open a file in EditPad Pro and check if the schema works. It should
-     look like this: 
-     
-     ![](/images//media/image21.png)
-
-NB: EditPad Pro was upgraded from version 7 to version 8 in 2020.
-Currently we provide highlighting schemas for both versions, but 7 will
-be phased out in future updates.
+For instructions on installing [Kate](#kate-editor) and [EditPad Pro](#editpad-pro), see below.
 
 ### Kate editor
 
@@ -1815,8 +1752,8 @@ but it works on Windows and Linux as well.
 #### Installation on Windows
 
 * Download the most recent installation file here:   
-  [https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/](https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/) ; 
-  go to the **Pipeline Kate_Release_win64** section on that page and download the file that ends with `_64-cl.exe`.
+  [https://cdn.kde.org/ci-builds/utilities/kate/master/windows/](https://cdn.kde.org/ci-builds/utilities/kate/master/windows/) ; 
+  download the exe file to install.
 
 * Once the file was downloaded, double-click the installation file and follow the instructions (you can keep all the default settings the installer proposes)
  
@@ -1825,14 +1762,15 @@ but it works on Windows and Linux as well.
 
 #### Installation on Mac
 
-* Download the `.dmg` file here: 
-  [https://binary-factory.kde.org/view/MacOS/job/Kate_Release_macos/](https://binary-factory.kde.org/view/MacOS/job/Kate_Release_macos/)
-  (choose the file that ends with `.dmg`, the other file is a 
-  [checksum](https://www.howtogeek.com/363735/what-is-a-checksum-and-why-should-you-care/))
+* Download the `.dmg` file here:
+  - if your Mac has an ARM chipset: [https://cdn.kde.org/ci-builds/utilities/kate/master/macos-arm64/](https://cdn.kde.org/ci-builds/utilities/kate/master/macos-arm64/)
+  - if your Mac has an x86 chipset: [https://cdn.kde.org/ci-builds/utilities/kate/master/macos-x86_64/](https://cdn.kde.org/ci-builds/utilities/kate/master/macos-x86_64/)
 
-* Once downloaded click on the .dmg file, double click on the “kate” icon or drag it to the Applications folder 
+  ((If you don't know if your Mac has ARM or x86 chips: see here: [https://www.quora.com/Is-my-Mac-ARM-or-x64](https://www.quora.com/Is-my-Mac-ARM-or-x64))
 
-    NB: You will most likely get a message like 
+* Once downloaded, click on the .dmg file, and drag the Kate icon to the Applications folder. 
+
+    NB: When you now click the Kate icon in the applications folder, you will most likely get a message like 
 
     ```
     “kate” can’t be opened because Apple cannot check it for malicious software. 
@@ -1840,7 +1778,7 @@ but it works on Windows and Linux as well.
     ```
 
     This is because recent Mac instances do not allow you to install apps from non-verified developers. There is however a way to override this security measure:
-    - Go to “system preferences” => “security & privacy” => under “general” you will see a note saying `"Kate" was blocked from use because it is not from an identified developer`
+    - Go to “System Settings” => “privacy & security” => scroll down, under “Security” you will see a note saying `"Kate" was blocked from use because it is not from an identified developer`
     - click “open anyway”
     - a new pop up will appear where you will have to consent again, and then the app should launch 
     
@@ -1853,23 +1791,10 @@ but it works on Windows and Linux as well.
 
 #### On Windows: 
 
-* Download the highlighting scheme `OpenITImARkdown.xml` file by right-clicking on this [link](https://github.com/OpenITI/mARkdown_highlighting_Kate/raw/main/OpenITImARkdown.xml) and choosing "Save link as". 
-
-* In Windows Explorer, go to `C:/Users` and double-click the folder with your user name
-
-* In your user folder, find the folder `AppData`. This folder is sometimes hidden; to make it visible, you may have to go to the "View" tab in Windows Explorer, and check the box next to "Hidden items": 
-
-![make hidden files visible](/images/media/make_hidden_files_visible.png)
-
-* Enter the `AppData` folder, double-click the `Local` folder, and make a new directory in it: `org.kde.syntax-highlighting`
-
-* Within the new `org.kde.syntax-highlighting` folder, create another new folder: `syntax`. The full path to this folder should now be `C:\Users\<user_name>\AppData\Local\org.kde.syntax-highlighting\syntax`
-
-* Copy the `OpenITImARkdown.xml` file into the newly created `syntax` folder. 
-
-* Close the Kate editor if it was open, and open it again. 
-
-* You should now be able to find the OpenITImARkdown highlighting scheme in the list in the Tools > Highlighting > Markup menu: 
+1. Download the zip file https://github.com/OpenITI/mARkdown_highlighting_Kate/archive/refs/heads/main.zip
+2. Unzip the zip file
+3. Open the unzipped folder in Explorer, and double-click `install_on_windows.bat`. This will install the OpenITImARkdown.xml file in the folder `%LocalAppData%/org.kde.syntax-highlighting/syntax`
+4. Close Kate and (re-)open it. The OpenITImARkdown highlighting scheme should now be visible in Kate's menu: Tools > Highlighting > Markup
 
 ![OpenITImARkdown in Tools menu](/images/media/screenshot_kate_tools_highlighting.png)
 
@@ -1880,44 +1805,41 @@ And also in the dropdown menu in the bottom right of your Kate screen:
 #### On Mac: 
 
 
-1. Download the highlighting scheme `OpenITImARkdown.xml` file by right-clicking on this [link](https://github.com/OpenITI/mARkdown_highlighting_Kate/raw/main/OpenITImARkdown.xml) and choosing "Save link as". 
-2. Open Terminal (see [https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/](https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/))
-3. Create new subdirectories in the `~/Library/Application Support` folder by
-executing this command:
-
-```
-mkdir -p "$HOME/Library/Application Support/org.kde.syntax-highlighting/syntax"
-```
-
-  NB: the quotation marks are essential because there is a space in the path!
-
-4. Assuming the `OpenITImARkdown.xml` file is in the `Downloads` folder: 
-execute the following command to copy it to the newly created folder:
-
-```
-cp ~/Downloads/OpenITImARkdown.xml "$HOME/Library/Application Support/org.kde.syntax-highlighting/syntax"
-```
-
-Alternatively:
-
-2. Open Finder
-3. in the Finder menu, choose `Go > Go to folder...`, write `~/Library/Application Support/`, then click `Go`
-4. create a new folder using the combination command+shift+n, and call it `org.kde.syntax-highlighting`
-5. Move into that folder, and create another subfolder using command+shift+n, called `syntax`
-6. Copy the `OpenITImARkdown.xml` file into that folder
-
-
-Close the Kate editor if it was open, and open it again. 
-
-You should now be able to find the OpenITImARkdown highlighting scheme in the list in the Tools > Highlighting > Markup menu: 
+1. Download the [zip file](https://github.com/OpenITI/mARkdown_highlighting_Kate/archive/refs/heads/main.zip)
+2. Unzip the zip file
+3. Open the unzipped folder in Finder
+4. Choose View > Show Path Bar
+   
+   ![Finder: Show Path Bar](/images/media/Finder_show_path_bar.png)
+   
+5. Finder should now display the path to the current folder (mARkdown_highlighting_Kate) at the bottom of the window. Control-click the folder in the path bar, then choose "Open in Terminal":
+   
+   ![Finder: Open in Terminal](/images/media/Finder_open_in_Terminal_.png)
+   
+6. The Terminal window opens. In it, write the following command: `bash ./install_on_mac.sh`. This will then install the OpenITImARkdown.xml file in the folder `$HOME/Library/Application Support/org.kde.syntax-highlighting/syntax`
+7. Close Kate and (re-)open it. The OpenITImARkdown highlighting scheme should now be visible in Kate's menu: Tools > Highlighting > Markup
 
 ![OpenITImARkdown in Tools menu](/images/media/screenshot_kate_tools_highlighting.png)
 
 And also in the dropdown menu in the bottom right of your Kate screen: 
 
-![OpenITImARkdown in dropdown menu](/images/media/screenshot_kate_highlighting_dropdown.png)
+![OpenITImARkdown in dropdown menu](/images/media/Kate_highlighting_Dropdown_Mac.png)
+
+#### On Linux: 
+
+1. Download the zip file https://github.com/OpenITI/mARkdown_highlighting_Kate/archive/refs/heads/main.zip
+2. Unzip the zip file
+3. Open the unzipped folder in your file manager, and double-click `install_on_linux.sh`. This will install the OpenITImARkdown.xml file in the folder `$HOME/.local/share/org.kde.syntax-highlighting/syntax/`
+4. Close Kate and (re-)open it. The OpenITImARkdown highlighting scheme should now be visible in Kate's menu: Tools > Highlighting > Markup
 
 ### Working with Kate
+
+#### Forcing an entire text file to be displayed from right to left:
+
+By default, Kate automatically determines the reading direction of each line of text separately;
+the first character with a specific direction (right-to-left or left-to-right) determines the direction of the line.
+
+To force Kate to display all lines in a text file from right to left, go to the View menu and choose "Force RTL direction".
 
 #### Activating the OpenITI mARkdown highlighting scheme 
 
@@ -1942,16 +1864,26 @@ list in the Tools > Highlighting > Markup menu:
 
 ![OpenITImARkdown in Tools menu](/images/media/screenshot_kate_tools_highlighting.png)
 
+#### Setting OpenITI mARkdown as the default highlighting scheme
+
+Go to the Settings menu and select "Configure Kate..."
+
+![Configure Kate settings](/images/media/Kate_configure_settings.png)
+
+Then choose Open/Save > Modes & Filetypes > Filetype: Markup/OpenITI mARkdown > File extensions: add `*.*`
+
+![Make mARkdown the default highlighting scheme](/images/media/Kate_mARkdown_default.png)
+
 #### Folding sections
 
 One of the most useful features of Kate and OpenITI mARkdown is that it allows
-you to fold all sections, displaying only their headers. 
+you to fold all sections, displaying only their headers - a kind of table of contents. 
 
 In the menu, go to `View > Code Folding > Fold Toplevel Nodes` to collapse all
 sections, and `View > Code Folding > Unfold Toplevel Nodes` to make them visible
 in their entirety again. 
 
-![](/images/media/Kate_fold.png)
+![Folding in Kate](/images/media/Kate_fold.png)
 
 You can also use the following key combinations: 
 
@@ -1985,7 +1917,6 @@ To make the `Search and replace` bar visible, go to `Edit > Find`:
 ![](/images/media/Kate_edit_replace_menu.png)
 
 You can also use the `Ctrl+F` key shortcut.
-
 
 This opens up a basic search bar, in which you cannot use regular expressions:
 
@@ -2078,6 +2009,78 @@ Go to `Settings > Configure Kate` to change the font, font size and other settin
 ![](/images/media/Kate_settings.png)
 
 
+### EditPad Pro
+
+EditPad Pro is a powerful text editor with good support for
+right-to-left text and large files. 
+
+The free (trial) version of the software can be downloaded here:
+[download.jgsoft.com/editpad/SetupEditPadProDemo.exe](http://download.jgsoft.com/editpad/SetupEditPadProDemo.exe)
+. The trial version is fully functional for the needs of working with
+OpenITI texts.
+
+NB: EditPad Pro works on Windows only. If you use a Mac or Linux
+computer, you can still run the program using an emulator software like
+Wine ([winehq.org/](https://www.winehq.org/)),
+which makes it possible to use Windows programs on Mac and Linux. For
+Mac, see:
+[wiki.winehq.org/MacOS](https://wiki.winehq.org/MacOS).
+Alternatively, you can install a virtual machine on your computer that
+runs Windows:
+
+-   Parallels (commercial): [parallels.com/products/desktop/](https://www.parallels.com/products/desktop/)
+
+-   VirtualBox (free): [virtualbox.org/](https://www.virtualbox.org/)
+
+Once you have downloaded and installed EditPad Pro, take the following
+steps to install the **OpenITI mARkdown highlighting schema** (see
+[github.com/OpenITI/mARkdown\_scheme](https://github.com/OpenITI/mARkdown_scheme)
+for more detail):
+
+-   VERY IMPORTANT: Make sure that EditPad Pro is fully closed. Do not
+     close it using the "X" in the upper right corner (which will not
+     fully close the program) but go to 'file \> exit' in Edit Pad Pro.
+
+-   Download [https://github.com/OpenITI/mARkdown\_scheme/archive/master.zip](https://github.com/OpenITI/mARkdown_scheme/archive/master.zip)
+
+-   Unzip the downloaded file.
+
+-   The unzipped folder contains two zip files; one for EditPad Pro
+     Version 7 and one for EditPad Pro version 8. Unzip the file for
+     your version of EditPad Pro.
+
+-   Open the unzipped folder, and copy all of the files
+
+-   Within the unzipped folder, double click on the link
+     `__Follow_this_link_to_paste_mARkdownScheme7.lnk`. This
+     link takes you to the location where EditPad Pro was installed on
+     your computer (`%APPDATA%/JGsoft/EditPad Pro 7` in case of
+     EditPadPro7 and `%APPDATA%/JGsoft/EditPad Pro 8` in case of
+     EditPadPro 8)
+
+-   Paste the files into this folder
+
+-   Now, open EditPadPro. If you have done everything correctly, the
+     background in EditPadPro should be of yellowish color. If the
+     background is still white, you need to repeat the whole procedure;
+     now, make absolutely sure to shut down EditPadPro (not just click
+     on the x in the top right corner, but shut it down through FILE \>
+     Exit), then repeat all steps from the beginning of this section.
+
+-   The scheme is automatically activated in EditPad Pro by the first
+     line in the file, which must be: `#####OpenITI#` (called "magic
+     value" in EditPad Pro)
+
+-   Open a file in EditPad Pro and check if the schema works. It should
+     look like this: 
+     
+     ![](/images//media/image21.png)
+
+NB: EditPad Pro was upgraded from version 7 to version 8 in 2020.
+Currently we provide highlighting schemas for both versions, but 7 will
+be phased out in future updates.
+
+
 
 ### Git Bash
 
@@ -2096,7 +2099,7 @@ Installing bash/working through command line tool: see
 ### How can I find a text in OpenITI? 
 
 The easiest way to find a text in the OpenITI corpus is to use the metadata 
-application at [kitab-corpus-metadata.azurewebsites.net](https://kitab-corpus-metadata.azurewebsites.net/).
+application at [kitab-project.org/metadata](https://kitab-project.org/metadata).
 The search function of the app allows you to filter the books by 
 the author's name or year of death, the work's title, 
 a specific OpenITI version id, and/or tags. 
@@ -2307,7 +2310,7 @@ annotation
      Give your issue a title and fill in the form. Click the "Submit new issue" button.
 
 -   Alternatively, you can use the [metadata
-     application](https://kitab-corpus-metadata.azurewebsites.net/)
+     application](https://kitab-project.org/metadata)
      to create a selected categories of github issues on the existing
      texts in OpenITI. The issues will be assigned a proper label and
      the OpenITI development team will take care of the issue.

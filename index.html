@@ -24,11 +24,11 @@ all_blogs:
 
 
 corpus_search:
-  - image_path: /images/covers/search_app.png
-    alt: "placeholder image 2"
-    title: "Find a book in the OpenITI corpus"
-    excerpt: 'Click the button to start searching for books in our corpus and downloading texts'
-    url: "https://kitab-corpus-metadata.azurewebsites.net/"
+  - image_path: /images/covers/web_app.png
+    alt: "The KITAB portal"
+    title: "Explore the OpenITI corpus and reuse data"
+    excerpt: 'Click the button to start searching for books in our corpus and explore our text reuse data'
+    url: "https://kitab-project.org/explore"
     btn_label: "Find a book"
     btn_class: "btn--primary"
 
@@ -48,94 +48,183 @@ corpus_search:
 
     
   
+  <div class = "grid__item">
+      <article class = "archive__item">
+        
+        {% assign latest_post = site.posts[0]%}
+        <div class = "archive__item-teaser">
+        {% if latest_post.image %}
+        <img src = {{ latest_post.image | absolute_url }} </img>
+        {% else %}
+        <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+        {% endif %}
+        </div>
+        <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 35 }} </h2> <a href="{{ latest_post.url | absolute_url }}">read more</a></b>
+        
+        
+        
+        </article>           
+  </div>
+
+  <div class = "grid__item">
+
+      <article class = "archive__item">
+        
+        {% assign latest_post = site.posts[1]%}
+        <div class = "archive__item-teaser">
+        {% if latest_post.image %}
+        <img src = {{ latest_post.image | absolute_url }} </img>
+        {% else %}
+        <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+        {% endif %}
+        </div>
+        <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 35 }}</h2><a href="{{ latest_post.url | absolute_url }}">read more</a>
+        
+        
+        
+        </article>
+        
+      
+  </div>
+
+  <div class = "grid__item">
+
+      <article class = "archive__item">
+        
+        {% assign latest_post = site.posts[2]%}
+        <div class = "archive__item-teaser">
+        {% if latest_post.image %}
+        <img src = {{ latest_post.image | absolute_url }} </img>
+        {% else %}
+        <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
+        {% endif %}
+        </div>
+        <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 35 }}</h2><a href="{{ latest_post.url | absolute_url }}">read more</a>
+        
+        
+        
+        </article>
+        
+      
+  </div>
+
+  <div class = "grid__item">
+
+      <article class = "archive__item">
+        
+        <div class = "archive__item-teaser">
+        <img src = {{ "/images/kitab/mesa.jpg" | absolute_url }} > </img>
+        </div>
+        <h2 class = "archive__item-title no_toc">Read more blogs </h2>
+        <div class = "archive__item-excerpt">
+        <p> Read more blogs about KITAB's corpus, methods and data </p>
+
+        </div>
+        <p> <a href="{{ '/blogs' | relative_url }}" class="btn btn--primary">Read other blogs</a></p>
+        
+        </article>
+        
+
+  </div>
+
+</div>
+
+<!-- Liquid based code that locates all of the pages with a layout category (which correspond to blog series on our website) and gives the most recent on the homepage-->
+
+<h1> Our latest blog series </h1>
+<br>  
+<div class = "feature__wrapper">
+
+
+{% assign category_list = site.pages | where: "layout", "category" | sort: "date" | reverse %}
+
+  
 <div class = "grid__item">
+     <article class = "archive__item">      
+      {% assign category_page = category_list[0]%}
+      {% assign taxonomy = category_page.taxonomy %}
+      {% assign posts = site.posts | where :"categories", taxonomy %}         
+      <div class = "archive__item-teaser">
+      {% for post in posts %}
+        {% if post.image %}
+          {% assign series_image = post.image %}       
+        {% break % }
+        {% else %}
+          {% assign series_image = '/images/kitab/mesa.jpg' %}    
+        {% endif %}        
+      {% endfor %}
+      <img src = {{ series_image | absolute_url }}> </img>
+      </div>
+      <h2 class = "archive__item-title no_toc">{{ category_page.title | truncate: 35 }} </h2> <a href="{{ category_page.permalink | absolute_url }}">read more</a></b>
+      
+      </article>           
+</div>
+
+<div class = "grid__item">
+  <article class = "archive__item">      
+   {% assign category_page = category_list[1]%}
+   {% assign taxonomy = category_page.taxonomy %}
+   {% assign posts = site.posts | where :"categories", taxonomy %}         
+   <div class = "archive__item-teaser">
+   {% for post in posts %}
+     {% if post.image %}
+       {% assign series_image = post.image %}       
+     {% break % }
+     {% else %}
+       {% assign series_image = '/images/kitab/mesa.jpg' %}    
+     {% endif %}        
+   {% endfor %}
+   <img src = {{ series_image | absolute_url }}> </img>
+   </div>
+   <h2 class = "archive__item-title no_toc">{{ category_page.title | truncate: 35 }} </h2> <a href="{{ category_page.permalink | absolute_url }}">read more</a></b>
+   
+   </article>           
+</div>
+
+<div class = "grid__item">
+  <article class = "archive__item">      
+   {% assign category_page = category_list[2]%}
+   {% assign taxonomy = category_page.taxonomy %}
+   {% assign posts = site.posts | where :"categories", taxonomy %}         
+   <div class = "archive__item-teaser">
+   {% for post in posts %}
+     {% if post.image %}
+       {% assign series_image = post.image %}       
+     {% break % }
+     {% else %}
+       {% assign series_image = '/images/kitab/mesa.jpg' %}    
+     {% endif %}        
+   {% endfor %}
+   <img src = {{ series_image | absolute_url }}> </img>
+   </div>
+   <h2 class = "archive__item-title no_toc">{{ category_page.title | truncate: 35 }} </h2> <a href="{{ category_page.permalink | absolute_url }}">read more</a></b>
+   
+   </article>           
+</div>
+
+<div class = "grid__item">
+
      <article class = "archive__item">
       
-      {% assign latest_post = site.posts[0]%}
       <div class = "archive__item-teaser">
-      {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
-      {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
-      {% endif %}
+      <img src = {{"/images/kitab/mesa.jpg" | absolute_url }} > </img>
       </div>
-      <h2 class = "archive__item-title no_toc">{{ latest_post.title | truncate: 50 }} </h2> <a href="{{ latest_post.url }}">read more</a></b>
-      
-      
+      <br>
+      <p> <a href="{{ '/categories' | relative_url }}" class="btn btn--primary">See all blog series</a></p>
       
       </article>
       
-      
-</div>
-
-<div class = "grid__item">
-
-     <article class = "archive__item">
-      
-      {% assign latest_post = site.posts[1]%}
-      <div class = "archive__item-teaser">
-      {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
-      {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
-      {% endif %}
-      </div>
-      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url }}">read more</a>
-      
-      
-      
-      </article>
-      
-     
-</div>
-
-<div class = "grid__item">
-
-     <article class = "archive__item">
-      
-      {% assign latest_post = site.posts[2]%}
-      <div class = "archive__item-teaser">
-      {% if latest_post.image %}
-      <img src = {{ latest_post.image }} </img>
-      {% else %}
-      <img src = "/images/kitab/mesa.jpg" > </img>
-      {% endif %}
-      </div>
-      <h2 class = "archive__item-title no_toc"> {{ latest_post.title | truncate: 50 }}</h2><a href="{{ latest_post.url }}">read more</a>
-      
-      
-      
-      </article>
-      
-     
-</div>
-
-<div class = "grid__item">
-
-     <article class = "archive__item">
-      
-      <div class = "archive__item-teaser">
-      <img src = "/images/kitab/mesa.jpg" > </img>
-      </div>
-      <h2 class = "archive__item-title no_toc">Read more blogs </h2>
-      <div class = "archive__item-excerpt">
-      <p> Read more blogs about KITAB's corpus, methods and data </p>
-
-      </div>
-      <p> <a href="{{ '/blogs' | relative_url }}" class="btn btn--primary">Read other blogs</a></p>
-      
-      </article>
-      
 
 </div>
 
 </div>
 
-<! end of code block for latest blog posts !>
+
+<!-- end of code block for latest blog posts series -->
 
  {% include feature_row id="corpus_search" type="right" %}
 
-<!Code block for the twitter embed and sharing - do not change!>
+<!-- Code block for the twitter embed and sharing - do not change-->
 
 <div class="feature__wrapper">
 

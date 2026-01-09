@@ -1,19 +1,24 @@
 ---
-header:
-  overlay_image: "/images/covers/banner_blog.jpg"
-  overlay_filter: 0.1
-  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
-  show_overlay_excerpt: false 
-title: "Dispatches from al-Tabari 3: How Many People Did al-Tabari Talk To?"
 author: sarah_savant_masoumeh_seydi
-layout:	single
 categories:
-  - 
-  - 
-tags:
+- tabari
+- null
+glossary:
+- def: A person whom an author cites as an informant, often within an <i>isnad</i>
+  term: direct informant
+header:
+  caption: Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart
+    Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)
+  overlay_filter: 0.1
+  overlay_image: /images/covers/banner_blog.jpg
+  show_overlay_excerpt: false
+image: /images/thumbs/tabari_dispatches.png
+layout: single
+tags: null
+title: 'Dispatches from al-Tabari 3: How Many People Did al-Tabari Talk To?'
 
-image: "/images/thumbs/tabari_dispatches.png"
 ---
+
 
 
 This is the third in a series of blog posts examining al-Tabari's (d. 310/923) citations in his *Taʾrikh al-rusul wa-l-muluk*, *Jāmiʿ al-bayān ʿan taʾwīl āy al-Qurʾān* (*Tafsir*), and *Tahdhib al-āthār*. In the first and second posts we presented our questions, method and data set. The data set consists of six tables created iteratively using a series of analytical procedures developed by both of us and implemented by Masoumeh.
@@ -21,14 +26,14 @@ This is the third in a series of blog posts examining al-Tabari's (d. 310/923) c
 In this post we tackle the size of al-Tabari's likely source base. In particular, we seek to establish how many people he credits with a major role in providing the information on which he relies. Al-Tabari's books are full of citations, giving the impression that he drew actively on numerous sources of information. How big was his source base? And how many people gave him significant amounts of information directly?
 
 A Small Number of Very Important Direct Informants
---------------------------------------------------
+--
 
 Coming to grips with al-Tabari's source base means wrestling with a long and complicated list of names whose referents countless generations have already struggled to identify. We cannot access these sources directly, unmediated by the efforts of the intervening generations. But using digital methods, we can discern and analyse frequencies and patterns of citation on a scale that is unprecedented.
 
 It is impossible to determine precisely how many people al-Tabari reported from directly using the *haddathani*/*haddathana* formula, but we were able to form a fairly good estimate of that number, and it is surprisingly small. We looked at all 32,115 *isnad*s that feature this formula in any of al-Tabari's three works and counted the number of citations for each direct informant (the first person in the *isnad*); these figures are presented in the Direct Informants Overview table, described in our previous post. After listing the informants in the order of the frequency with which they are cited, we calculated the cumulative total number of citations and the percentage of the total that the citations represent at each level -- the top informant, the top two informants, the top three and so on down the list. This information is found in the 'Cumulative count' and 'Cumulative percentage' columns. The table yields the following data:
 
 
-|---------------------|------------------------|
+|||
 | **Number of names** | **% of all citations** |
 | 1                   | 9%                     |
 | 2                   | 17%                    |
@@ -54,7 +59,7 @@ Table 1 shows the high degree to which al-Tabari relied on a small group of core
 On the flip side, 749 names cited by al-Tabari appear as direct informants in only about 7% of his citations across all three works. There are hundreds of names that appear just once, though many of these names may represent variant surface forms of the same name. The total number of people from whom al-Tabari actually harvested information is likely to fall far short of this high figure. More probably it lies in the neighbourhood of 200--300; but within this number, a very small group played an outsized role.
 
 The Top Ten
------------
+--
 
 What this means is that al-Tabari worked efficiently, drawing maximum benefit from a small set of sources. But who were these people? What follows is an annotated list of the ten most often cited informants in order of the frequency of their citation. These ten persons are cited in all three of al-Tabari's works, and according to our data set they together account for 59% of all references to a direct informant. The list specifies how many times al-Tabari cites each individual (that is, how often the individual's name begins a paragraph in our machine-readable files) after *haddathani* ('he told me') and *haddathana* ('he told us'), respectively. The biographical information given below has been collated from publications by Gilliot, Athari and Lucas.[^1] We also list the variant surface forms of each name. It is important to note that surface forms can vary for many reasons, including different appellations by which a person was known, the effect of Arabic case endings (which vary depending on the sentence's syntax), and typological and other errors, both those present in the source texts and those arising from the normalisation of Arabic script in the OpenITI corpus. (As an example, the variation in the dotting of the final yaʾ under Bishr b. Muʿadh below appears already in the source on which the OpenITI file is based.)
 
