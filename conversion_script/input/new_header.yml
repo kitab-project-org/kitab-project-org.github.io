@@ -3,13 +3,15 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title:
-author:
+title: 'Bias in the OpenITI corpus'
+author: peter_verkinderen
 layout: single
-series:
+series: ''
 tags:
-  - 
-docx:
+  - OpenITI
+  - bias
+  - Shamela
+docx: 'Bias-in-the-OpenITI-corpus.docx'
 new_author:
   - name:
     bio:
