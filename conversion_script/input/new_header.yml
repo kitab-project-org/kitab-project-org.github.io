@@ -4,13 +4,13 @@ header:
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
 title: "Back-end Engineer (Subcontractor) - ERC Project, KITAB-Transform"
-author:
+author: "anjum_alam"
 layout: single
 series:
 tags:
   - 
 docx: "Website_announcement.docx"
-new_author: "anjum_alam"
+new_author:
   - name:
     bio:
 glossary:
