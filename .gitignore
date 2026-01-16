@@ -32,3 +32,4 @@ _site
 
 conversion_script/venv/
 __pycache__/
+conversion_script/__pycache__/
