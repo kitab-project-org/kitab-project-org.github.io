@@ -319,6 +319,8 @@ def clean_up_directories(in_dir, archive_dir, template_yaml_path):
     for idx, name in enumerate(files):
         source_file = os.path.join(root, name)
         archive_dest = os.path.join(archive_dir, name)
+        while os.path.exists(archive_dest):
+           archive_dest = archive_dest + "-0"
         shutil.move(source_file, archive_dest)
     print("{} : file(s) moved to the archive".format(idx+1))
   template_dest = os.path.join(in_dir, "new_header.yml")
