@@ -36,13 +36,14 @@ Do read the blog, as it provides windows on team members at work. We are working
 
 Thank you for your interest in KITAB & KITAB-Transform. Please do be in touch if you would like to get involved. We welcome your interest. 
 
-Warm regards, \
-Sarah Bowen Savant \
-Professor of History \
+Warm regards,\
+Sarah Bowen Savant\
+Professor of History
 
-Director, Centre for Digital Humanities \ 
-Aga Khan University International \
-Institute for the Study of Muslim Civilisations \
-Principal Investigator \
-KITAB & KITAB-Transform \
+Director, Centre for Digital Humanities\ 
+Aga Khan University International\
+Institute for the Study of Muslim Civilisations\
+Principal Investigator\
+KITAB & KITAB-Transform
+
 
