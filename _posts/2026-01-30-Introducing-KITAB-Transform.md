@@ -9,7 +9,7 @@ header:
   overlay_filter: 0.1
   overlay_image: /images/covers/banner_blog.jpg
   show_overlay_excerpt: false
-image: /images/blogs/2026-01-30/Introducing-KITAB-Transformsarah_savant/517126722288daded79eca77a3ccc1d4dd29934b.png
+image: /images/blogs/2026-01-30/Introducing-KITAB-Transformsarah_savant/transform-diff.png
 layout: single
 tags:
 - news
@@ -20,7 +20,7 @@ On 2 January, we began a new European Research Council-funded project, ‘KITAB-
 
 With our first phase, KITAB (ERC, grant no. 772989), we adapted and applied the text reuse detection algorithm [passim](https://kitab-project.org/methods/text-reuse) to the [OpenITI corpus](https://doi.org/10.5281/zenodo.3082463). We were able to map millions of matches across our corpus, and to create the [web application](https://kitab-project.org/explore) through which scholars can access our data, results and visualisations, and also explore the corpus to trace relationships between books.
 
-<img src="../images/blogs/2026-01-30/Introducing-KITAB-Transformsarah_savant/517126722288daded79eca77a3ccc1d4dd29934b.png" style="width:6.5in;height:0.57292in" />Figure 1: This is an example of text reuse with a transformation, in the KITAB diffViewer (unhighlighted text is common between both passages; text highlighted in blue and green is different in both passages, text highlighted in orange is shared but in different locations).
+<img src="../images/blogs/2026-01-30/Introducing-KITAB-Transformsarah_savant/transform-diff.png" style="width:6.5in;height:0.57292in" />Figure 1: This is an example of text reuse with a transformation, in the KITAB diffViewer (unhighlighted text is common between both passages; text highlighted in blue and green is different in both passages, text highlighted in orange is shared but in different locations).
 
 Now the team is developing upon advances in machine learning and natural language processing to understand how medieval authors writing in Arabic and Persian used paraphrase and translation to produce their books. This sort of ‘transformative’ text reuse eluded passim, which only detected near-verbatim text reuse.
 
