@@ -12,27 +12,37 @@ sidebar:
   nav: "about"
 permalink: /about/
 ---
-# About the Project: A Message from the PI
-![Sarah-Savant](/images/kitab/sarah_savant.jpg){: .align-right}
-
-KITAB provides a digital toolbox and a forum for discussions about Arabic texts. We wish to empower users to explore Arabic texts in completely new ways and to expand the frontiers of knowledge about one of the world's largest and most complex textual traditions.
-
-We are leading with methods that detect how authors copied from previous works. Arabic authors frequently made use of past works, cutting them into pieces and reconstituting them to address their own outlooks and concerns. We are working to discover relationships between these texts and also the profoundly intertextual circulatory systems in which they sit.
-
-Our most recent work has involved gathering statistics on such reuse across the tradition. This includes the extent and precision of reuse, and where it does and does not occur. We study this data alongside further data documenting citation practices, including transmission chains known as *isnad*s. We are also developing new visualisations that show the relationships between authors, books and the ideas that the books contain. Equally importantly, we are building the corpus of texts upon which our research is based, and making use of our recent and pioneering work on Optical Character Recognition (OCR). In the coming years, we aim to increase our OCR efforts significantly.
-
-The technology that powers KITAB is at the cutting edge of computer science. Our text reuse algorithm was created by David Smith and is now being adapted by Ryan Muther for Arabic. Ryan and Masoumeh Seydi are doing experimental work to map citations. We join our Open Islamicate Texts Initiative (OpenITI) partners in the OCR effort. For funding, we are grateful for the support that we have received from our home institution, the Aga Khan University, and also from the British Academy, the Qatar National Library, the Andrew W. Mellon Foundation, and the European Research Council under the Horizon 2020 grant scheme (KITAB, no. 772989).
-
-To use our corpus, please start [here](https://kitab-project.org/metadata). We are annotating and vetting works, with documentation available on [GitHub](https://openiti.github.io/documentation/).
-
-Do read the blog, as it provides windows on team members at work. We are working hard to bring all of our data and sources into the public domain. We want scholars everywhere to be able to take best advantage of what digital technology now allows us all to see and to discover. You can find regular updates posted through my Twitter account [@sarahsavant1](https://twitter.com/sarahsavant1).
-
-Thank you for your interest in KITAB and please do be in touch if you would like to get involved in the project. We welcome your interest.
-
-Warm regards,\
-Sarah Bowen Savant\
-Professor\
-Aga Khan University International\
-Institute for the Study of Muslim Civilisations\
-Principal Investigator\
-Knowledge, Information Technology, and the Arabic Book
+# About the Project: A Message from the PI
+
+![Sarah-Savant](/images/kitab/sarah_savant.jpg){: .align-right}
+
+Welcome to ‘KITAB-Transform’ 
+
+The KITAB project (Knowledge, Information Technology, and the Arabic Book) originated as a project to develop methods for detecting how authors copied from previous works. Classical Arabic authors frequently made use of past works, cutting them into pieces and reconstituting them to address their own outlooks and concerns. We wanted to discover relationships between Arabic texts, as well as the profoundly intertextual circulatory systems in which they sit. The project received funding from the European Research Council (KITAB, no. 772989) and the Qatar National Library. The results can be seen in our web application, blog, many data releases on Zenodo, and publications – including two monographs due out later this year from Edinburgh University Press.  
+
+From January 2026, we begin a new chapter. With KITAB-Transform (ERC, grant no. 101199672), we continue to investigate the ways that authors work, but now – thanks to recent advances in machine learning and natural language processing (NLP) – we can be more ambitious. Previously, we were able to detect near-verbatim matches; now we want to detect matches that are semantically similar but worded differently. For the next five years, or more, we will be training models to find and align paraphrases and translations across the OpenITI corpus. Our training and evaluation data sets will classify and explain different matches, with the hope that our models will do so too. 
+
+Our work is first aimed at our research community. We work now with increasing numbers of historians and linguists who are interested in our questions, which revolve around authorial practices, book history, and narrative adaptations. Our earlier work focused on Arabic, but now we are also looking across languages to the relationship of Arabic texts with works written in Persian (we hope for Urdu too). We believe KITAB & KITAB-Transform should change how any student or researcher approaches historical sources.  
+
+We also aim to reach libraries, museums, and other institutions that hold book data. Our book relationship data is vital to understanding collections and also to building systems that make them accessible. I am inspired by ImageNet and music collections in platforms such as Spotify, where pattern matching is put to different uses.  
+
+But we also believe the Artificial Intelligence community cannot afford to ignore the language modeling we are doing. Classical Arabic, with its many challenges, is a good test case for natural language processing. The OpenITI and our data will increasingly offer testing beds for the capacities of language models. 
+
+Additionally, historians must always work under conditions of epistemic uncertainty: source texts are often fragmentary and allusive. We work with incomplete evidence. Tasks of the kind commonly used to test large language models match these conditions poorly. Likewise, historians care deeply about productive disagreement whereas machine learning evaluation often treats disagreement as error. A central aim of KITAB-Transform's AI research is therefore to develop models and evaluation frameworks that treat uncertainty, loss, and disagreement as structured information rather than noise. We will expect to publish NLP papers, historically grounded NLP tasks, and benchmarks that advance AI for history. These will also address the wider gaps in current work in AI. 
+
+The technology that powers KITAB is at the cutting edge of computer science. Our main partner in Computer Science remains David Smith, at Northeastern University. We join our Open Islamicate Texts Initiative (OpenITI) partners in generating the corpus with which we work. To use our corpus, please start [here](https://zenodo.org/records/17767721). We are annotating and vetting works, with documentation available on GitHub. 
+
+Do read the blog, as it provides windows on team members at work. We are working hard to bring all of our data and sources into the public domain. We want research communities everywhere to be able to take best advantage of what digital technology now allows us all to see and to discover.  
+
+Thank you for your interest in KITAB & KITAB-Transform. Please do be in touch if you would like to get involved. We welcome your interest. 
+
+Warm regards, \
+Sarah Bowen Savant \
+Professor of History \
+
+Director, Centre for Digital Humanities \ 
+Aga Khan University International \
+Institute for the Study of Muslim Civilisations \
+Principal Investigator \
+KITAB & KITAB-Transform \
+
