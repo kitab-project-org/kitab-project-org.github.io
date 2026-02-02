@@ -30,7 +30,7 @@ But we also believe the Artificial Intelligence community cannot afford to ignor
 
 Additionally, historians must always work under conditions of epistemic uncertainty: source texts are often fragmentary and allusive. We work with incomplete evidence. Tasks of the kind commonly used to test large language models match these conditions poorly. Likewise, historians care deeply about productive disagreement whereas machine learning evaluation often treats disagreement as error. A central aim of KITAB-Transform's AI research is therefore to develop models and evaluation frameworks that treat uncertainty, loss, and disagreement as structured information rather than noise. We expect to publish NLP papers, historically grounded NLP tasks, and benchmarks that advance AI for history. These will also address the wider gaps in current work in AI. 
 
-The technology that powers KITAB is at the cutting edge of computer science. Our main partner in Computer Science remains David Smith, at Northeastern University. We join our Open Islamicate Texts Initiative (OpenITI) partners in generating the corpus with which we work. To use our corpus, please start [here](https://zenodo.org/records/17767721). We are annotating and vetting works, with documentation available on GitHub. 
+The technology that powers KITAB is at the frontier of research in computer science. Our main partner in Computer Science remains David Smith, at Northeastern University. We join our Open Islamicate Texts Initiative (OpenITI) partners in generating the corpus with which we work. To use our corpus, please start [here](https://zenodo.org/records/17767721). We are annotating and vetting works, with documentation available on GitHub. 
 
 Do read the blog, as it provides windows onto team members at work. We are working hard to bring all of our data and sources into the public domain. We want research communities everywhere to be able to take best advantage of what digital technology now allows us all to see and to discover.  
 
@@ -45,6 +45,7 @@ Aga Khan University International\
 Institute for the Study of Muslim Civilisations\
 Principal Investigator\
 KITAB & KITAB-Transform
+
 
 
 
