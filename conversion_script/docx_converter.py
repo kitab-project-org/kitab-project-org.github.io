@@ -46,7 +46,7 @@ def docx_conv(root, name, images_path, author):
     extract_img = "--extract-media=" + images_path + author
     full_path = os.path.abspath(os.path.join(root, name))
     if os.path.exists(full_path):
-      blog = pypandoc.convert_file(full_path, 'gfm+footnotes', extra_args =["--wrap=none", "--markdown-headings=atx", extract_img])
+      blog = pypandoc.convert_file(full_path, 'markdown-simple_tables-multiline_tables-grid_tables', extra_args =["--wrap=none", "--markdown-headings=atx", extract_img])
     else:
       blog = None
     return blog
@@ -92,7 +92,7 @@ def clean_md_update_image_routing(blog_text):
       # Cliean up links in the same way
       blog_text = re.sub(r"(\[[^]]*\]\()([^)|:]*)(\))", r"\1{{ \2 | absolute_url }}\3", blog_text)
 
-      # Remove double underlines (sometimes added in conversion of hyperlinks)
+      # Remove double underlines (sometimes added in conversion of hyperlinks) - need to handle {.underline} cases in hyperlinks
       blog_text = re.sub(r"\[<u>(.*)</u>\]", "", blog_text)
       
       blog_text = re.sub(r"\[([^\[\]]*)\]{\.ul}", r"\1", blog_text)
