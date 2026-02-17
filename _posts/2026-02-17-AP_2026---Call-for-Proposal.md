@@ -10,12 +10,12 @@ image: /images/blogs/2026-02-17/AP_2026---Call-for-Proposalanjum_alam/media/imag
 layout: single
 tags:
 - null
-title: AP_2026 - Call for Proposal
+title: Arabic Pasts 2026 - Call for Proposal
 
 ---
-**Arabic Pasts: Histories and Historiographies\**
+**Arabic Pasts: Histories and Historiographies**\
 \
-**Research workshop\**
+**Research workshop**\
 \
 The Aga Khan University’s Institute for the Study of Muslim Civilisations (AKU-ISMC)\
 \
