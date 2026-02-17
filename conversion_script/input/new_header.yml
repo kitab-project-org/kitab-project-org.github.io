@@ -3,13 +3,13 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title: "AP_2026 Call for Proposal"
-author: "anjum_alam"
+title:
+author:
 layout: single
 series:
 tags:
   - 
-docx: "AP_2026"
+docx:
 new_author:
   - name:
     bio:
