@@ -78,4 +78,4 @@ In addition to the core programme of Arabic Pasts on October 08–09, we offer p
 
 	Submissions for this workshop are separate from the submissions for the Arabic Pasts workshop. Please, submit your paper proposal [here.](https://forms.cloud.microsoft/r/jBRLXfR0VN)
 
-**(Image credit: Anonymous: *Mukhtaṣar Tārīkh al-Khaṭīb al-Baghdādī, *BnF Arabe No. 2132, 3v (part).**
+**(Image credit: Anonymous: Mukhtaṣar Tārīkh al-Khaṭīb al-Baghdādī, BnF Arabe No. 2132, 3v (part).**
