@@ -180,6 +180,7 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 - tabari
 - clusters
 - druze-corpus
+- 
 
 ## Existing tags
 - text-reuse
@@ -206,6 +207,9 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 - Tender-Notice
 - markdown
 - search
+- OpenITI
+- bias
+- Shamela
 - reg-egypt
 - corpus data
 - author-practice data, book-history
@@ -215,14 +219,6 @@ Once you have created a yml file for each blog, you need to add the docx and yml
 - druze-corpus
 - reg-east
 - khurasan
-- iran
-- OpenITI
-- bias
-- Shamela
-- news corpus, release
-- corpus data
-- search
-- Tender-Notice
 - data
 
 #
