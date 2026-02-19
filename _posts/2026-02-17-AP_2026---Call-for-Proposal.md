@@ -10,7 +10,7 @@ image: /images/blogs/2026-02-17/AP_2026---Call-for-Proposalanjum_alam/media/imag
 layout: single
 tags:
 - null
-title: Arabic Pasts 2026 - Call for Proposal
+title: Arabic Pasts 2026 - Call for Proposals
 
 ---
 **Arabic Pasts: Histories and Historiographies**\
