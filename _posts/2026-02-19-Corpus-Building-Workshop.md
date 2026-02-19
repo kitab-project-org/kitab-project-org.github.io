@@ -6,7 +6,7 @@ header:
   overlay_filter: 0.1
   overlay_image: /images/covers/banner_blog.jpg
   show_overlay_excerpt: false
-image: /images/blogs/2026-02-19/Corpus-Building-Workshopanjum_alam/media/image1.png
+image: /images/blogs/2026-02-19/Corpus-Building-Workshopanjum_alam/media/image2.png
 layout: single
 tags:
 - null
