@@ -21,6 +21,6 @@ The Centre for Digital Humanities (CDH) at the Aga Khan University's Institute f
 
 This hands-on workshop is designed for researchers, digital humanists, and scholars working with Arabic and Islamicate texts who are interested in corpus development, text encoding standards and metadata practices. Participants will explore best practices in corpus curation, quality control, collaborative editing, and long-term preservation, while also engaging in practical discussions about current challenges and future directions for OpenITI.
 
-The workshop aims to foster collaboration across disciplines and to strengthen the scholarly community engaged in digital text initiatives. It will provide a space for knowledge exchange, skill-building, and networking among researchers working at the intersection of digital humanities and Islamic studies.
+The workshop aims to foster collaboration across disciplines and to strengthen the scholarly community engaged in digital text initiatives. It will provide a space for knowledge exchange, skill-building, and networking among researchers working at the intersection of digital humanities and Arabic.
 
 Participation is limited to ensure an interactive and productive working environment. If you are interested in attending, please click [here](https://forms.office.com/r/mP5LSuzVeR) to submit your interest. Places are limited and will be allocated on a first-come, first-served basis.
