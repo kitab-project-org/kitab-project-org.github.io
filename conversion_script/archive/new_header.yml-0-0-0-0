@@ -1,0 +1,21 @@
+header:
+  overlay_image: "/images/covers/banner_blog.jpg"
+  overlay_filter: 0.1
+  caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
+  show_overlay_excerpt: false  
+title: "Research Workshop on Miskawayh"
+author: anjum_alam
+layout: single
+series:
+tags:
+  - 
+docx: "Miskawayah_workshop.docx"
+new_author:
+  - name:
+    bio:
+glossary:
+  - term:
+    def:
+new_series:
+  - label: 
+    title:
