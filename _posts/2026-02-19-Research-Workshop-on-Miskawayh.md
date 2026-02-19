@@ -6,7 +6,7 @@ header:
   overlay_filter: 0.1
   overlay_image: /images/covers/banner_blog.jpg
   show_overlay_excerpt: false
-image: /images/blogs/2026-02-19/Research-Workshop-on-Miskawayhanjum_alam/media/image1.png
+image: /images/blogs/2026-02-19/Research-Workshop-on-Miskawayhanjum_alam/media/image2.jpeg
 layout: single
 tags:
 - null
