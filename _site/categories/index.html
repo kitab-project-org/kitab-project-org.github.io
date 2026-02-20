@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="KITAB">
 <meta property="og:title" content="Posts by category">
-<meta property="og:url" content="/categories/">
+<meta property="og:url" content="http://localhost:4000/categories/">
 
 
   <meta property="og:description" content="The Website for the KITAB project">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="/categories/">
+<link rel="canonical" href="http://localhost:4000/categories/">
 
 
 
@@ -52,7 +52,7 @@
     
       "@type": "Person",
       "name": "KITAB",
-      "url": "/"
+      "url": "http://localhost:4000/"
     
   }
 </script>
@@ -178,7 +178,7 @@
     
       
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
           <meta itemprop="position" content="1" />
         </li>
         <span class="sep">/</span>
@@ -5187,95 +5187,6 @@
 <script src="/assets/js/lunr/lunr.min.js"></script>
 <script src="/assets/js/lunr/lunr-store.js"></script>
 <script src="/assets/js/lunr/lunr-en.js"></script>
-
-
-
-
-  <!-- Previous implementation - w/o consent box-->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-184803711-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-184803711-1');
-</script> -->
-
-<!-- Re-implementation with cookie consent - note, if we add other forms of cookie, this will need to be changed -->
-<!-- Taken from: https://gist.github.com/Chuvisco88/2b446a5c9190b77b41eaafab358223ec-->
-
-
-<!-- Add cookie consent css & js -->
-<link rel="stylesheet"
-    type="text/css"
-    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"/>
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
-    data-cfasync="false"></script>
-
-<!-- Add google analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-184803711-1"></script>
-
-<script>
-    // Reads the value of a cookie by name or returns empty string
-    function getCookie(name) {
-        var b = document.cookie.match('(^|[^;]+)\\s*' + name + '\\s*=\\s*([^;]+)');
-        return b ? b.pop() : '';
-    }
-
-    // Actually starting analytics up
-    function addAnalytics() {
-        console.log('Adding analytics')
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-        gtag('config', 'UA-184803711-1');
-    }
-
-    // Waiting for the load event
-    window.addEventListener("load", function () {
-        // Reading "cookieconsent_status" cookie
-        
-        const cookieConsent = getCookie('cookieconsent_status');
-        console.log(`Cookie consent set to: ${cookieConsent}`)
-
-        // Start analytics if user consented or did not deny
-        if (cookieConsent === 'allow' || cookieConsent === '') {
-            addAnalytics();
-        }
-
-        // Initialise cookie consent banner
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#efefef",
-                    "text": "#404040"
-                },
-                "button": {
-                    "background": "#2862a5",
-                    "text": "#ffffff"
-                }
-            },
-            "type": "opt-out",
-            "content": {
-                "allow": "Approve",
-                "dismiss": "Approve",
-                "deny": "Reject"
-            },
-            // Reload the page on user choice to make sure cookie is set
-            onStatusChange: function (status, chosenBefore) {
-                location.reload();
-            }
-        })
-    });
-</script>
-
-
-
 
 
 
