@@ -215,12 +215,8 @@ kevin_jaques:
   uri: null
 lorenz_nigst:
   avatar: /images/kitab/Lorenz.jpg
-  bio: Lorenz Nigst is Assistant Professor in the Centre for Digital Humanities
-    at AKU-ISMC and is an Arabist. He
-    is responsible for the management of the KITAB corpus.
-  bio_long: "the ascetic thought in Abu al-ʿAlaʾ al-Maʿarri's *Luzumiyyat*. The thesis for his PhD degree, likewise obtained from the University of Vienna, focused on Ibn Taymiyya's understanding of the *awliyaʾ Allah* and was entitled 'Legitime Nähe: Ibn Taymīyas theoretisches Konstrukt von den *awliyāʾ Allāh*'. Before joining KITAB, he was a postdoctoral researcher at the Austrian Academy of Sciences in a project focusing on the contemporary Druze discourse on reincarnation. He is responsible for the management of the KITAB corpus. At KITAB, he is especially interested in book relations and premodern terminology related to auctorial practices."
-  kitabi: true
-  email: null
+  bio: "Lorenz Nigst is Assistant Professor at the Centre for Digital Humanities at AKU-ISMC and manager of the KITAB corpus. He is a specialist in Arabic philology with a research focus on religious thought in addition to his work for KITAB and KITAB Transform."
+  bio_long: "Lorenz Nigst is Assistant Professor at the Centre for Digital Humanities at AKU-ISMC and manager of the KITAB corpus. He is a specialist in Arabic philology with a research interest in religious thought. He obtained a MA in Arabic Studies from the University of Vienna (Austria) with a thesis on ascetic thought in Abū al-ʿAlāʾ al-Maʿarrī’s Luzūmiyyāt and a doctoral degree from same institution with a thesis on Ibn Taymiyya’s ideas on sainthood. Before joining AKU-ISMC in 2019, he was a postdoctoral researcher at the Austrian Academy of Sciences with a project focused on Druze ideas of transmigration. In addition to his work for KITAB and KITAB Transform which looks into how premodern authors thought about their activities and the structural relations between books that result from their practices of writing and organising knowledge, he currently is working on historical Druze religious poetry. He also has been a team member of the Mellon-funded AOCP project which is focussed on the improvement of Arabic-script OCR and HTR." 
   facebook: null
   flickr: null
   github: null
