@@ -29,13 +29,13 @@ permalink: /about/kitabis
         {% if profile.bio_long %}
 
 ### {{name}}
-![{{name}}]({{image}}){: .align-left} 
+![{{name}}]({{image | absolute_url}}){: .align-left} 
 {{ profile.bio_long }}
         
         {% elsif profile.bio %}
 
 ### {{name}}
-![{{name}}]({{image}}){: .align-left} 
+![{{name}}]({{image | absolute_url}}){: .align-left} 
 {{ profile.bio_long }}
 
         {% endif %}
@@ -43,4 +43,5 @@ permalink: /about/kitabis
     {% endif %}
   {% endif %}
 {% endfor %}
+
 
