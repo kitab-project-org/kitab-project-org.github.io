@@ -16,75 +16,31 @@ toc_sticky : true
 permalink: /about/kitabis
 ---
 
-### Sarah Bowen Savant 
-![Sarah Savant](/images/kitab/sarah_savant.jpg){: .align-left} 
-Sarah Bowen Savant is a professor at the Aga Khan University--Institute for the Study of Muslim Civilisations (AKU-ISMC) and the principal investigator of KITAB. She received her PhD from Harvard University and her MA from the University of Chicago. Sarah is a cultural historian specialising in the Middle East and Iran c. 600--1500. Her work on KITAB is motivated by a desire to write a cultural history of the Arabic book using digital tools. Her publications include [*The New Muslims of Post-Conquest Iran: Tradition, Memory, and Conversion*](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9781107014084) (Cambridge University Press, 2013; winner of the Saidi-Sirjani Book Award given by the International Society for Iranian Studies on behalf of the Persian Heritage Foundation); as editor (with Helena de Felipe), [*Genealogy and Knowledge in Muslim Societies: Understanding the Past*](https://edinburghuniversitypress.com/book-genealogy-and-knowledge-in-muslim-societies.html) (AKU-ISMC, Exploring Muslim Contexts/Edinburgh University Press, 2014); as translator (with Peter Webb), [*The Excellence of the Arabs. A Translation of Ibn Qutaybah's Faḍl al-ʿArab wa l-tanbīh ʿalā ʿulūmihā*](https://nyupress.org/books/9781479809578/) (Library of Arabic Literature/New York University Press, 2017); and numerous articles treating ethnic identity, cultural memory, genealogy and history writing. She is currently preparing a monograph that introduces and explores KITAB's data, entitled *The Making of the Arabic Book (700–1500): How Text Reuse Built a World Tradition*. She also sits on the management team of AKU-ISMC.
+{% assign profiles = site.data.authors %}
 
-### Maxim Romanov
-![Maxim Romanov](/images/kitab/maxim200px.jpg){: .align-left}
-Maxim Romanov’s research focuses on the social history of the premodern Islamic world, the history of the Arabic written tradition, and computational methods and approaches relevant for Islamicate studies. Until recently, he held a joint position as a senior research fellow at the KITAB Project (AKU-ISMC, London) and as a Universitätsassistent of Digital Humanities (University of Vienna). Currently, at the University of Hamburg, he is leading a research project titled “The Evolution of Islamic Societies (c.600-1600 CE): Algorithmic Analysis into Social History”, which is funded by the German Research Foundation (DFG) within the framework of the Emmy Noether Program.
+{% for full_profile in profiles %}
+  {% assign profile = full_profile[1] %}
+  {% if profile.kitabi %}
+   
+    {% if profile.avatar %}
+      {% if profile.name %}
+        {% assign name = profile.name %}
+        {% assign image = profile.avatar %}
+        {% if profile.bio_long %}
 
-### Hamid Reza Hakimi
-![Hamid Reza Hakimi](/images/kitab/Hamid-Reza-Hakimi.jpg){: .align-left}
-Hamid Reza Hakimi works as the annotator of Arabic texts in KITAB Project. Hamid’s general interest is in the social history of books, and specifically, he is interested in book production in the pre-modern Iranian world. His M.A thesis in Iranian Studies entitled “Cultural Patrons and Producing Books in the Age of the Seljuqs” tries to investigate all socio-political groups that patronized different kinds of writers (mainly poets, but also historians, scientists, etc.) during the Seljuqid era.
+### {{name}}
+![{{name}}]({{image}}){: .align-left} 
+{{ profile.bio_long }}
+        
+        {% elsif profile.bio %}
 
-### Gowaart Van Den Bossche 
-![Gowaart Van Den Bossche](/images/kitab/Gowaart_200px.jpg){: .align-left}
-Gowaart Van Den Bossche is a postdoctoral research fellow with the KITAB project. He studied history and Arabic and Islamic studies at Ghent University and the Netherlands-Flemish Institute in Cairo. He obtained his PhD in history from Ghent University in January 2019 with a dissertation entitled 'The Past, Panegyric, and the Performance of Penmanship: Sultanic Biography and Social Practice in Late Medieval Egypt and Syria'. This dissertation won the 2020 British Association for Islamic Studies--De Gruyter Prize in the Study of Islam and the Muslim World. His research focuses on historiography, literature and manuscript culture in late medieval Egypt and Syria. He is generally interested in the narrative qualities of historiography and the ways in which authors made use of literary forms of expression in medieval Islamic written culture.
+### {{name}}
+![{{name}}]({{image}}){: .align-left} 
+{{ profile.bio_long }}
 
-### Aslisho Qurboniev
-![Aslisho Qurboniev](/images/kitab/Aslisho_200px.jpg){: .align-left}
-Aslisho Qurboniev is a historian of the Middle East and North Africa region with a strong interest in Central Asian and Persianate studies and cultures. His academic studies began at Khorog State University in Tajikistan, where he studied Arabic and graduated with a Specialist Diploma in Oriental Studies. Aslisho has an MPhil in Oriental studies from the University of Oxford, where he read Islamic studies and history (2012--2014; Arabic and Ottoman Turkish). He received his PhD in Middle Eastern studies from the University of Cambridge (2015--2019) with a thesis entitled 'Traditions of Learning in Fāṭimid Ifrīqiya (296--362/909--973): Networks, Practices, and Institutions'. As a postdoctoral research fellow at the KITAB project, Aslisho's primary area of research is the Islamic West, including Maghrib, al-Andalus, and Sicily. In addition to his contribution to the OpenITI corpus, Aslisho also works on subjects related to the Islamic East, premodern education and knowledge practices, connectivity and book culture. You can follow him on Twitter to get updates about his academic projects: [@aslishahqurbani](https://twitter.com/aslishahqurbani)
-
-### Mathew Barber 
-![Mathew Barber](/images/kitab/Mathew_200px.jpg){: .align-left}
-Mathew Barber is a historian specialising in Egyptian historiography and in particular Fatimid history writing (c. tenth--twelfth centuries). He obtained a BA in history from the University of Oxford (2010--2013) before going on to study for an MSc in Arabic at the University of Edinburgh. He received his doctorate in 2021 from the University of Edinburgh with a thesis on the subject of Fatimid history writing entitled 'Fatimid Historiography and Its Survival: A Case Study of the Vizierate of al-Yāzūrī (r. 442--450/1050--1058)'. In 2018--2019 he worked with the KITAB team in a partnership with the Qatar National Library to develop a prototype digital reading environment for exploring texts on the biography of the Prophet and data about those texts. He now works with the KITAB team on the development of visualisations and applications for the team's data sets. At the same time, he is exploring what KITAB's text reuse data (alongside other data sets) can teach us about Fatimid historiography, its survival and history-writing practices in Egypt.
-
-### Peter Verkinderen
-![Peter Verkinderen](/images/kitab/Peter-1.jpg){: .align-left}
-Peter Verkinderen is a postdoctoral research fellow at the KITAB Project working on the central Islamic lands. He studied Arabic at Ghent University and wrote his PhD on the evolution of the river landscape of southern Iraq and Khuzistan on the basis of Arabic texts and data from archaeological, geological and remote sensing research. He previously worked as an assistant director at the Netherlands-Flemish Institute in Cairo and in the ERC project 'The Early Islamic Empire at Work' in Hamburg. His main expertise lies in the geographical and historiographical literature of the central Islamic lands of the third--fifth/ninth/eleventh centuries. Within the KITAB project, he focuses mostly on text reuse in the geographical literature. He also is involved in expanding the OpenITI corpus that forms the basis of KITAB's research using techniques such as scraping and OCR'ing, is the main author of the OpenITI Python library, and is interested in developing new tools for searching, analysing and visualising textual data.
-
-### Lorenz Nigst
-![Lorenz Nigst](/images/kitab/Lorenz.jpg){: .align-left}
-Lorenz Nigst is an Arabist with an interest in Islamic religious thought. He graduated from the University of Vienna (Austria) with an MA thesis on the ascetic thought in Abu al-ʿAlaʾ al-Maʿarri's *Luzumiyyat*. The thesis for his PhD degree, likewise obtained from the University of Vienna, focused on Ibn Taymiyya's understanding of the *awliyaʾ Allah* and was entitled 'Legitime Nähe: Ibn Taymīyas theoretisches Konstrukt von den *awliyāʾ Allāh*'. Before joining KITAB, he was a postdoctoral researcher at the Austrian Academy of Sciences in a project focusing on the contemporary Druze discourse on reincarnation. He is responsible for the management of the KITAB corpus. At KITAB, he is especially interested in book relations and premodern terminology related to auctorial practices.
-
-### Masoumeh Seydi
-![Masoumeh Seydi](/images/kitab/s200_masoumeh.seydi_.jpg){: .align-left}
-Masoumeh Seydi is KITAB’s Digital Lead. She holds a PhD in Computer Sciences from University of Leipzig. She has been working, since 2015, in a DH group, focusing on various computational methods to retrieve, analyse, and visualise geographical descriptions of premodern Arabic sources. She has been applying methods to annotate and extract various descriptive information, such as route networks and hierarchical divisions of a pre-modern society, and introducing models and visualisations for the geographical entities, comparative view of different descriptions, locating unknown places based on the contextual information. She was involved in various projects, including al-Ṯurayyā, a gazetteer of the classical Islamic world, and Exploratorium which offers an exploratory insight into groups of individuals from the “History of Islām” (Taʾrikh al-islam) of al-Ḏahabī who share common ‘descriptors’. In KITAB, she is responsible for the technical solutions and developments of the project, including managing and maintaining the data, development of the OpenITI corpus, and related tools for using, analyzing and visualizing the data and the corpus.
-
-
-### Ryan Muther
-![Ryan Muther](/images/kitab/ryan200px.jpg){: .align-left}
-Ryan Muther is a PhD student in the Computer Science program at Northeastern University advised by Professor David Smith. He is interested in applying techniques from natural language processing to archival data to address questions in disciplines outside of computer science. Prior to joining the PhD program in 2016, he earned his Bachelor of Science degree from Union College in Computer Science and History. While working with David Smith, Ryan has worked on applying and improving text reuse analysis algorithms to a variety of domains, ranging from modeling editing in US Congressional bills to tracking the spread of news in a multilingual corpus of 19th centurynewspapers. His work with Congressional bills was written up as Charting the Changes: Modeling Edits in the Lawmaking Process and presented at the 2017 PoliInformatics workshop in Seattle, WA.For the Kitab project, Ryan is working on developing improved models of text reuse that will help the humanists on the team more easily find and understand how Ibn Ishaq’s work was reused and modified by later authors. In terms of broader goals, he would like to better understand how to integrate domain knowledge from experts to build better models of historical linguistic phenomena from archival data.
-​​
-### Sohail Merchant
-![Sohail Merchant](/images/kitab/sm200px-1.jpg){: .align-left}
-Sohail is responsible for managing the infrastructure and developing the application architecture for KITAB. He is currently working as the Lead Office 365 / SharePoint Analyst at the University of London. Prior to working at the University of London, he has worked with various organisations including the Institute of Ismaili Studies, Aga Khan University and University College London . where he has architect, managed and implemented various solutions and web applications. Sohail holds a Master of Science degree in Computing from London Metropolitan University and he is also a PRINCE2 Certified Practitioner and Microsoft Certified Solution Expert (MCSE).
-
-
-### Anjum Alam
-![Anjum Alam](/images/kitab/Anjum-Alam.jpg){: .align-left}
-Anjum Alam is the project manager for KITAB. He received his MBA in human resource development and holds an undergraduate degree in information technology. In addition, he is a certified Project Management Professional using waterfall and agile methodologies. Before joining KITAB, Anjum worked with different Aga Khan Development Network (AKDN) agencies and other organisations. His main areas of expertise include project and budget management, operational management, elearning, and data protection and GDPR compliance.
-
-### David Smith
-![David Smith](/images/kitab/david200px.jpg){: .align-left}
-David Smith is an associate professor in Northeastern University’s College of Computer and Information Science. He is a founding member of the NULab for Texts, Maps, and Networks (neu.edu/nulab), Northeastern’s center for research in the digital humanities and computational social sciences. His research in natural language processing has focused both on building statistical models of linguistic phenomena in morphology, syntax, and semantics and on applications to information retrieval, machine translation, digital libraries, the humanities, and social sciences. A common theme for much of his recent research has been inferring the structure of social, political, and communication networks from the evidence of texts that propagate over those networks. With current and former NULab colleagues Ryan Cordell, Abby Mullen, and Jonathan Fitzgerald, Prof. Smith is working on Going the Rounds, a book on texts “going viral” in the nineteenth century (viraltexts.org). He holds a Ph.D. in computer science from Johns Hopkins University and an A.B. in Classics (Greek) from Harvard. In between, he worked as a research programmer for the Perseus Digital Library Project.
-
-### Abdul Rahman Azzam 
-![Abdul Rahman Azzam](/images/kitab/abdulrahman200px.jpg){: .align-left}
-With a BA and Dphil in Islamic history from Oxford University, Abdul Rahman Azzam is the author of *Saladin* (2008), *The Other Exile* (2017) and *The Return of Sebastian* (2021). Together with Mathew Barber, he is currently working on a Digital Humanities network analysis project on power and patronage during the time of Saladin. Between 2007 and 2017, Abdul Rahman worked as Director of Communications and Advisor to Sheikha Moza, Chairperson of the Qatar Foundation (QF). In 2010 he was delegated to lead and negotiate the partnership between QF and the British Library, which has to date seen more than two million documents relating to Gulf history digitised in the [Qatar Digital Library](https://www.qdl.qa/en). Abdul Rahman also led and negotiated the joint venture deal between Bloomsbury and QF to establish a quality regional publishing house. In 2019--2020, Abdul Rahman worked on a collaborative project with the Qatar National Library to develop digital methods for research into the biography of the Prophet and to prototype the development of a digital reading environment for Arabic texts and Digital Humanities.
-
-### Kevin Jaques
-![Kevin Jaques](/images/kitab/kevin200px.jpg){: .align-left}
-Kevin Jaques is an Associate Professor of Islamic Studies in the Department of Religious Studies at Indiana University.
-
-He is a specialist in classical Islamic biography, Islamic law, and theology as well as religious hermeneutics and comparative religions. He has written two books,  Authority, Conflict, and the Transmission of Diversity in Medieval Islamic Law (Brill, 2006) and Ibn Ḥajar al-ʿAsqalānī (Oxford, 2010), as well as numerous articles.
-
-Jaques is currently working on reconstructing the various versions of Muḥammad b. Isḥāq’s Sīrah Rasūl Allāh, the earliest biography of the Prophet Muḥammad and one of our most important sources for understanding how Muslims in the 2nd/8th century viewed Muḥammad within the context of the rapidly expanding Muslim world. Ibn Isḥāq (d. 150/767) lived during a time of great change and produced different versions of his work as he traveled across the late Umayyad and early ʿAbbāsid Empires. Jaques’ project is to reconstruct those different versions as a window onto how Muslim worldviews developed over this period and in the different regions in which Ibn Isḥāq traveled. He is in the process of completing a collection of over 60 different witnesses to the work that he plans to publish together with a five volume series on the author and the Sīrah.
-
-The first volume, The Captives of ʿAyn al-Tamr, will examine the first two centuries of Islam through the lens of those captured and enslaved at the Battle of ʿAyn al-Tamr (12/633), and how they and their descendants became contributors to the early Muslim tradition. Ibn Isḥāq’s grandfather, Yasār, was a child when he was enslaved at the battle and later manumitted. The lives and experiences of manumitted slaves (mawālī sing. mawlā) is the central theme of the volume and will serve as a means of understanding many of the religious, social, economic, and political issues that helped form Ibn Isḥāq’s understanding if the world.
-
-### Karen Bauer
-![Karen Bauer](/images/kitab/karen_bauer_200px.jpg){: .align-left} 
-Dr. Karen Bauer (PhD, Princeton), Senior Research Associate in the [Qur’anic Studies Unit](https://www.iis.ac.uk/research/quranic-studies) of the Institute of Ismaili Studies, London. Dr. Bauer's research centres on the Qurʾan and its reception history, the history of emotions in Islam, and gender in Islamic history and thought. Although she is mostly known as a medievalist, she occasionally ventures into modern territory, such as when she interviewed religious scholars in Iran and Syria for her book *Gender Hierarchy in the Qur’an: Medieval Interpretations, Modern Responses* (Cambridge University Press, 2015), which detailed the history of tafsir through interpretations of verses on women, and was runner up for the BKFS Book Prize 2016. She edited a volume entitled *Aims, Methods, and Contexts of Qur'anic Exegesis, 2nd/8th - 9th/15th centuries)* (OUP/IIS, 2013), and, along with Feras Hamza, has recently completed *An Anthology of Qur'anic Commentaries, Volume 2: On Women* (Oxford University Press/IIS, 2021), which comprises annotated translations of Qur'anic commentaries and extensive introductory materials, including a chapter on women in the Qurʾān. This latter forms the basis for her current project, also with Feras Hamza, a critical introduction to women in the Qurʾān. She is also writing a book entitled *Islamic Affect: Emotions from Muḥammad to the Middle Ages*. She has published articles on subjects as diverse as women's right to be judges in Islamic law, the audiences of tafsir, and emotional rhetoric in the Qurʾān. Dr. Bauer serves on the board and the nominating committee of the International Qur’anic Studies Association (IQSA). Many of her publications can be found on her [academia.edu page](https://iis.academia.edu/KarenBauer). 
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
 

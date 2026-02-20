@@ -18,14 +18,14 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="KITAB">
 <meta property="og:title" content="About KITAB">
-<meta property="og:url" content="/about/">
+<meta property="og:url" content="http://localhost:4000/about/">
 
 
   <meta property="og:description" content="The Website for the KITAB project">
 
 
 
-  <meta property="og:image" content="/images/covers/banner_about2.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/covers/banner_about2.jpg">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="/about/">
+<link rel="canonical" href="http://localhost:4000/about/">
 
 
 
@@ -51,7 +51,7 @@
     
       "@type": "Person",
       "name": "KITAB",
-      "url": "/"
+      "url": "http://localhost:4000/"
     
   }
 </script>
@@ -211,7 +211,7 @@
     
       
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
           <meta itemprop="position" content="1" />
         </li>
         <span class="sep">/</span>
@@ -376,29 +376,39 @@
       <section class="page__content" itemprop="text">
         
         <h1 id="about-the-project-a-message-from-the-pi">About the Project: A Message from the PI</h1>
+
 <p><img src="/images/kitab/sarah_savant.jpg" alt="Sarah-Savant" class="align-right" /></p>
 
-<p>KITAB provides a digital toolbox and a forum for discussions about Arabic texts. We wish to empower users to explore Arabic texts in completely new ways and to expand the frontiers of knowledge about one of the world’s largest and most complex textual traditions.</p>
+<p>Welcome to ‘KITAB-Transform’</p>
 
-<p>We are leading with methods that detect how authors copied from previous works. Arabic authors frequently made use of past works, cutting them into pieces and reconstituting them to address their own outlooks and concerns. We are working to discover relationships between these texts and also the profoundly intertextual circulatory systems in which they sit.</p>
+<p>The KITAB project (Knowledge, Information Technology, and the Arabic Book) originated as a project to develop methods for detecting how authors copied from previous works. Classical Arabic authors frequently made use of past works, cutting them into pieces and reconstituting them to address their own outlooks and concerns. We wanted to discover relationships between Arabic texts, as well as the profoundly intertextual circulatory systems in which they sit. The project received funding from the European Research Council (KITAB, no. 772989) and the Qatar National Library. The results can be seen in our web application, blog, many data releases on Zenodo, and publications – including two monographs due out later this year from Edinburgh University Press.</p>
 
-<p>Our most recent work has involved gathering statistics on such reuse across the tradition. This includes the extent and precision of reuse, and where it does and does not occur. We study this data alongside further data documenting citation practices, including transmission chains known as <em>isnad</em>s. We are also developing new visualisations that show the relationships between authors, books and the ideas that the books contain. Equally importantly, we are building the corpus of texts upon which our research is based, and making use of our recent and pioneering work on Optical Character Recognition (OCR). In the coming years, we aim to increase our OCR efforts significantly.</p>
+<p>From January 2026, we begin a new chapter. With KITAB-Transform (ERC, grant no. 101199672), we continue to investigate the ways that authors work, but now – thanks to recent advances in machine learning and natural language processing (NLP) – we can be more ambitious. Previously, we were able to detect near-verbatim matches; now we want to detect matches that are semantically similar but worded differently. For the next five years, or more, we will be training models to find and align paraphrases and translations across the OpenITI corpus. Our training and evaluation data sets will classify and explain different matches, with the hope that our models will do so too.</p>
 
-<p>The technology that powers KITAB is at the cutting edge of computer science. Our text reuse algorithm was created by David Smith and is now being adapted by Ryan Muther for Arabic. Ryan and Masoumeh Seydi are doing experimental work to map citations. We join our Open Islamicate Texts Initiative (OpenITI) partners in the OCR effort. For funding, we are grateful for the support that we have received from our home institution, the Aga Khan University, and also from the British Academy, the Qatar National Library, the Andrew W. Mellon Foundation, and the European Research Council under the Horizon 2020 grant scheme (KITAB, no. 772989).</p>
+<p>Our work is first aimed at our research community. We work now with increasing numbers of historians and linguists who are interested in our questions, which revolve around authorial practices, book history, and narrative adaptations. Our earlier work focused on Arabic, but now we are also looking across languages to the relationship of Arabic texts with works written in Persian (we hope for Urdu too). We believe KITAB &amp; KITAB-Transform should change how any student or researcher approaches historical sources.</p>
 
-<p>To use our corpus, please start <a href="https://kitab-project.org/metadata">here</a>. We are annotating and vetting works, with documentation available on <a href="https://openiti.github.io/documentation/">GitHub</a>.</p>
+<p>We also aim to reach libraries, museums, and other institutions that hold book data. Our book relationship data is vital to understanding collections and also to building systems that make them accessible. I am inspired by ImageNet and music collections in platforms such as Spotify, where pattern matching is put to different uses.</p>
 
-<p>Do read the blog, as it provides windows on team members at work. We are working hard to bring all of our data and sources into the public domain. We want scholars everywhere to be able to take best advantage of what digital technology now allows us all to see and to discover. You can find regular updates posted through my Twitter account <a href="https://twitter.com/sarahsavant1">@sarahsavant1</a>.</p>
+<p>But we also believe the Artificial Intelligence community cannot afford to ignore the language modeling we are doing. Classical Arabic, with its many challenges, is a good test case for natural language processing. The OpenITI and our data will increasingly offer testing beds for the capacities of language models.</p>
 
-<p>Thank you for your interest in KITAB and please do be in touch if you would like to get involved in the project. We welcome your interest.</p>
+<p>Additionally, historians must always work under conditions of epistemic uncertainty: source texts are often fragmentary and allusive. We work with incomplete evidence. Tasks of the kind commonly used to test large language models match these conditions poorly. Likewise, historians care deeply about productive disagreement whereas machine learning evaluation often treats disagreement as error. A central aim of KITAB-Transform’s AI research is therefore to develop models and evaluation frameworks that treat uncertainty, loss, and disagreement as structured information rather than noise. We expect to publish NLP papers, historically grounded NLP tasks, and benchmarks that advance AI for history. These will also address the wider gaps in current work in AI.</p>
+
+<p>The technology that powers KITAB is at the frontier of research in computer science. Our main partner in Computer Science remains David Smith, at Northeastern University. We join our Open Islamicate Texts Initiative (OpenITI) partners in generating the corpus with which we work. To use our corpus, please start <a href="https://zenodo.org/records/17767721">here</a>. We are annotating and vetting works, with documentation available on GitHub.</p>
+
+<p>Do read the blog, as it provides windows onto team members at work. We are working hard to bring all of our data and sources into the public domain. We want research communities everywhere to be able to take best advantage of what digital technology now allows us all to see and to discover.</p>
+
+<p>Thank you for your interest in KITAB &amp; KITAB-Transform. Please do be in touch if you would like to get involved. We welcome your interest.</p>
 
 <p>Warm regards,<br />
 Sarah Bowen Savant<br />
-Professor<br />
+Professor of History</p>
+
+<p>Director, Centre for Digital Humanities\ 
 Aga Khan University International<br />
 Institute for the Study of Muslim Civilisations<br />
 Principal Investigator<br />
-Knowledge, Information Technology, and the Arabic Book</p>
+KITAB &amp; KITAB-Transform</p>
+
 
         
       </section>
@@ -509,95 +519,6 @@ Knowledge, Information Technology, and the Arabic Book</p>
 <script src="/assets/js/lunr/lunr.min.js"></script>
 <script src="/assets/js/lunr/lunr-store.js"></script>
 <script src="/assets/js/lunr/lunr-en.js"></script>
-
-
-
-
-  <!-- Previous implementation - w/o consent box-->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-184803711-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-184803711-1');
-</script> -->
-
-<!-- Re-implementation with cookie consent - note, if we add other forms of cookie, this will need to be changed -->
-<!-- Taken from: https://gist.github.com/Chuvisco88/2b446a5c9190b77b41eaafab358223ec-->
-
-
-<!-- Add cookie consent css & js -->
-<link rel="stylesheet"
-    type="text/css"
-    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"/>
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
-    data-cfasync="false"></script>
-
-<!-- Add google analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-184803711-1"></script>
-
-<script>
-    // Reads the value of a cookie by name or returns empty string
-    function getCookie(name) {
-        var b = document.cookie.match('(^|[^;]+)\\s*' + name + '\\s*=\\s*([^;]+)');
-        return b ? b.pop() : '';
-    }
-
-    // Actually starting analytics up
-    function addAnalytics() {
-        console.log('Adding analytics')
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-        gtag('config', 'UA-184803711-1');
-    }
-
-    // Waiting for the load event
-    window.addEventListener("load", function () {
-        // Reading "cookieconsent_status" cookie
-        
-        const cookieConsent = getCookie('cookieconsent_status');
-        console.log(`Cookie consent set to: ${cookieConsent}`)
-
-        // Start analytics if user consented or did not deny
-        if (cookieConsent === 'allow' || cookieConsent === '') {
-            addAnalytics();
-        }
-
-        // Initialise cookie consent banner
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#efefef",
-                    "text": "#404040"
-                },
-                "button": {
-                    "background": "#2862a5",
-                    "text": "#ffffff"
-                }
-            },
-            "type": "opt-out",
-            "content": {
-                "allow": "Approve",
-                "dismiss": "Approve",
-                "deny": "Reject"
-            },
-            // Reload the page on user choice to make sure cookie is set
-            onStatusChange: function (status, chosenBefore) {
-                location.reload();
-            }
-        })
-    });
-</script>
-
-
-
 
 
 
