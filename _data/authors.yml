@@ -281,7 +281,7 @@ masoumeh_seydi_peter_verkinderen:
 mathew_barber:
   name: "Mathew Barber"
   avatar: "/images/kitab/Mathew_200px.jpg"
-  bio: "Mathew is is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC. He is  a historian working with the KITAB team to develop and improve their visualisations and applications. He specialises in Fatimid historiography (c. tenth-twelfth centuries), its later survival and broader history-writing practices in Egypt. "
+  bio: "Mathew is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC. He is  a historian working with the KITAB team to develop and improve their visualisations and applications. He specialises in Fatimid historiography (c. tenth-twelfth centuries), its later survival and broader history-writing practices in Egypt. "
   bio_long: "Mathew Barber is a historian specialising in Egyptian historiography and in particular Fatimid history writing (c. tenth--twelfth centuries). He obtained a BA in history from the University of Oxford (2010--2013) before going on to study for an MSc in Arabic at the University of Edinburgh. He received his doctorate in 2021 from the University of Edinburgh with a thesis on the subject of Fatimid history writing entitled 'Fatimid Historiography and Its Survival: A Case Study of the Vizierate of al-Yāzūrī (r. 442--450/1050--1058)'. In 2018--2019 he worked with the KITAB team in a partnership with the Qatar National Library to develop a prototype digital reading environment for exploring texts on the biography of the Prophet and data about those texts. He now works with the KITAB team on the development of visualisations and applications for the team's data sets. At the same time, he is exploring what KITAB's text reuse data (alongside other data sets) can teach us about Fatimid historiography, its survival and history-writing practices in Egypt."
   kitabi: true
   location:
@@ -324,9 +324,9 @@ maxim_romanov:
   uri: null
 peter_verkinderen:
   avatar: /images/kitab/Peter-1.jpg
-  bio: 'Peter Verkinderen is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC and a research fellow at the KITAB-Transform Project working. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB on the development of the OpenITI corpus and tools for analyzing and visualizing textual data. '
+  bio: "Peter Verkinderen is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC and a research fellow at the KITAB-Transform Project working. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB on the development of the OpenITI corpus and tools for analyzing and visualizing textual data."
   bio_long: "Peter Verkinderen is an assistant professor in the Centre for Digital Humanities at AKU-ISMC. He studied Arabic at Ghent University and wrote his PhD on the evolution of the river landscape of southern Iraq and Khuzistan on the basis of Arabic texts and data from archaeological, geological and remote sensing research. He previously worked as an assistant director at the Netherlands-Flemish Institute in Cairo and in the ERC project ‘The Early Islamic Empire at Work’ in Hamburg. His main expertise lies in the geographical and historiographical literature of the central Islamic lands of the third–fifth/ninth/eleventh centuries. In the original KITAB project, he focused mostly on text reuse in the geographical literature, and questions of corpus-wide analysis. In the KITAB Transform project, he is responsible for Work Package 2 (case studies), with special interests in summarization and translation from Arabic to Persian. He also is involved in expanding the OpenITI corpus that forms the basis of KITAB’s research using techniques such as scraping and OCR’ing, is the main author of the OpenITI Python library, and is interested in developing new tools for searching, analysing and visualising textual data."
- kitabi: true
+  kitabi: true
   email: null
   facebook: null
   flickr: null
