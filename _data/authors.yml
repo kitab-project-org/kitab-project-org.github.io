@@ -326,7 +326,7 @@ peter_verkinderen:
   avatar: /images/kitab/Peter-1.jpg
   bio: "Peter Verkinderen is Assistant Professor in the Centre for Digital Humanities at AKU-ISMC and a research fellow at the KITAB-Transform Project working. His main expertise is in the geographical and historiographical literature of the 3rd-5th/9th-11th C. He is also working with KITAB on the development of the OpenITI corpus and tools for analyzing and visualizing textual data."
   bio_long: "Peter Verkinderen is an assistant professor in the Centre for Digital Humanities at AKU-ISMC. He studied Arabic at Ghent University and wrote his PhD on the evolution of the river landscape of southern Iraq and Khuzistan on the basis of Arabic texts and data from archaeological, geological and remote sensing research. He previously worked as an assistant director at the Netherlands-Flemish Institute in Cairo and in the ERC project ‘The Early Islamic Empire at Work’ in Hamburg. His main expertise lies in the geographical and historiographical literature of the central Islamic lands of the third–fifth/ninth/eleventh centuries. In the original KITAB project, he focused mostly on text reuse in the geographical literature, and questions of corpus-wide analysis. In the KITAB Transform project, he is responsible for Work Package 2 (case studies), with special interests in summarization and translation from Arabic to Persian. He also is involved in expanding the OpenITI corpus that forms the basis of KITAB’s research using techniques such as scraping and OCR’ing, is the main author of the OpenITI Python library, and is interested in developing new tools for searching, analysing and visualising textual data."
- kitabi: true
+  kitabi: true
   email: null
   facebook: null
   flickr: null
