@@ -52,7 +52,7 @@ Arabic Pasts is co-convened by Anna Chrysostomides (QMUL), Hugh Kennedy (SOAS), 
 
 Please submit an abstract of 300 words or less by **Friday, 16 April 2026 by clicking [here](https://forms.cloud.microsoft/r/3P5D4Gzc6i).**
 
-**Please note that, due to current budget limitations, we are unfortunately unable to provide financial support for travel or accommodation. We kindly ask participants to arrange funding for these expenses through their home institutions or other available sources. We appreciate your understanding and look forward to your participation in the workshop.**
+Please note that, due to current budget limitations, we are unfortunately unable to provide financial support for travel or accommodation. We kindly ask participants to arrange funding for these expenses through their home institutions or other available sources. We appreciate your understanding and look forward to your participation in the workshop.
 
 On **March 13, 2026, 2:00–4:00 PM (GMT)**, we will arrange **consultancy calls via Zoom** for those who wish to discuss their proposals prior to submission. The slots for these calls will be limited to 15 minutes and will be offered strictly on a first-come, first-served basis. Please, register for a slot [**here**](https://forms.cloud.microsoft/r/6HVPpGKHMF).
 
