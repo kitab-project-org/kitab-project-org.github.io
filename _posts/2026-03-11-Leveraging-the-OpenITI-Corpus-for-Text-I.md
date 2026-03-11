@@ -62,20 +62,20 @@ For example, if we search the OpenITI corpus for the phrase *ightasalta l-ghāsi
 
 |  |  |
 |-------------------------------------------------------------|-----------|
-| <mark style="color:green">0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 1402 |
-| 0392IbnCabdCazizJurjani.Wisata.JK010638-ara1 | 5830 |
-| 0429AbuMansurThacalibi.MutanabbiWaMaLahu.Shamela0037032-ara1.completed | 974 |
+| <mark style="background-color:green">0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 1402 |
+| <mark style="background-color:green">0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 5830 |
+| <mark style="background-color:green">0429AbuMansurThacalibi.MutanabbiWaMaLahu.Shamela0037032-ara1.completed</mark> | 974 |
 | 0429AbuMansurThacalibi.YatimatDahr.Shamela0006743-ara1.mARkdown | 3062 |
-| 0449AbuCalaMacarri.MucjizAhmad.JK010753-ara1 | 9017 |
-| 0449AbuCalaMacarri.MucjizAhmad.JK010753-ara1 | 9018 |
-| 0468IbnAhmadWahidiNaysaburi.SharhDiwanMutanabbi.JK010754-ara1 | 7289 |
+| <mark style="background-color:green">0449AbuCalaMacarri.MucjizAhmad.JK010753-ara1</mark> | 9017 |
+| <mark style="background-color:green">0449AbuCalaMacarri.MucjizAhmad.JK010753-ara1</mark> | 9018 |
+| <mark style="background-color:green">0468IbnAhmadWahidiNaysaburi.SharhDiwanMutanabbi.JK010754-ara1</mark> | 7289 |
 | 0471CabdQahirJurjani.DalailIcjaz.JK001019-ara1 | 1313 |
-| 0492AbuMurshidMacarri.TafsirAbyat.JK010780-ara1 | 3861 |
-| 0492AbuMurshidMacarri.TafsirAbyat.JK010780-ara1 | 3862 |
+| <mark style="background-color:green">0492AbuMurshidMacarri.TafsirAbyat.JK010780-ara1</mark> | 3861 |
+| <mark style="background-color:green">0492AbuMurshidMacarri.TafsirAbyat.JK010780-ara1</mark> | 3862 |
 | 0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1 | 26255 |
 | 0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1 | 86513 |
-| 0975BakathirHadrami.TanbihAdib.ShamAY0034457-ara1 | 2294 |
-| 1073YusufBadiciDimashqi.SubhMunabbi.JK010778-ara1 | 4442 |
+| <mark style="background-color:green">0975BakathirHadrami.TanbihAdib.ShamAY0034457-ara1</mark> | 2294 |
+| <mark style="background-color:green">1073YusufBadiciDimashqi.SubhMunabbi.JK010778-ara1</mark> | 4442 |
 
 This strongly, and more or less immediately, indicates a link with al-Mutanabbī insofar as seven out of the ten works where the phrase occurs have an explicit connection with al-Mutanabbī's poetry or diwan in the sense that they are commentaries or similar (see the titles marked in green). Thus, even if the verses in question are missing from the OpenITI version of al-Mutanabbī's diwan, leveraging the corpus *as a corpus* successfully allows us to bring *other works* into sight that contain the respective verses, most notably different commentaries, which as a subset shine a light on the phrase.
 
@@ -112,17 +112,17 @@ If we conduct a corpus-wide search for the half verse **ولم يستشر في �
 |  |  |
 |-----------------------------------------------------------|--------|
 | 0562IbnHamdun.TadhkiraHamduniyya.JK009325-ara1 | 11506 |
-| 0328IbnCabdRabbih.CiqdFarid.Shamela0023789-ara1.completed | 15122 |
-| 0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed | 967 |
-| 0467AbuQasimFarisi.SharhHamasa.Sham19Y0016435-ara1 | 318 |
+| <mark style="background-color:yellow">0328IbnCabdRabbih.CiqdFarid.Shamela0023789-ara1.completed</mark> | 15122 |
+| <mark style="background-color:green">0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed</mark>  | 967 |
+| <mark style="background-color:green">0467AbuQasimFarisi.SharhHamasa.Sham19Y0016435-ara1</mark>  | 318 |
 | 0609AbuCabbasJarrawi.HamasaMaghribiyya.JK006908-ara1 | 3462 |
 | 0656IbnAbiHadid.SharhNahjBalagha.Shia002185Vols-ara1.completed | 18884 |
 | 0692IbnCabdZahir.RawdZahir.GVDB20200120-ara1.mARkdown | 1508 |
-| 0702IbnCabdRahmanCubaydi.TadhkiraSacdiyya.JK010743-ara1 | 186 |
-| 0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1 | 54093 |
-| 0718AbuIshaqWatwat.GhurarKhasais.Shamela0001349-ara1.mARkdown | 8931 |
+| <mark style="background-color:blue">0702IbnCabdRahmanCubaydi.TadhkiraSacdiyya.JK010743-ara1</mark>  | 186 |
+| <mark style="background-color:purple">0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1</mark>  | 54093 |
+| <mark style="background-color:yellow">0718AbuIshaqWatwat.GhurarKhasais.Shamela0001349-ara1.mARkdown</mark>  | 8931 |
 | 1041Maqqari.NafhTib.Shamela0001002-ara1.completed | 41743 |
-| 1093CabdQadirBaghdadi.KhizanatAdab.JK007143-ara1 | 59601 |
+| <mark style="background-color:darkgreen">1093CabdQadirBaghdadi.KhizanatAdab.JK007143-ara1</mark>  | 59601 |
 
 If we move further down, the next verse, which occurs after a brief introduction which attributes it to Taʾabbaṭa Sharran and gives some context, starts with the half verse
 
@@ -132,27 +132,27 @@ If we again conduct a corpus-wide search for this phrase, we get the following l
 
 |  |  |
 |--------------------------------------------------------------|-------|
-| 0001TaabbataSharran.Diwan.JK007513-ara1 | 116 |
-| 0328IbnCabdRabbih.CiqdFarid.Shamela0023789-ara1.completed | 15279 |
+| <mark style="background-color:red">0001TaabbataSharran.Diwan.JK007513-ara1 | 116 |
+| <mark style="background-color:yellow">0328IbnCabdRabbih.CiqdFarid.Shamela0023789-ara1.completed | 15279 |
 | 0362AbuFarajIsbahani.Aghani.JK000927-ara1.completed | 60951 |
 | 0362AbuFarajIsbahani.Aghani.JK000927-ara1.completed | 129493 |
-| 0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed | 978 |
-| 0467AbuQasimFarisi.SharhHamasa.Sham19Y0016435-ara1 | 327 |
-| 0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1 | 389 |
+| <mark style="background-color:green">0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed | 978 |
+| <mark style="background-color:green">0467AbuQasimFarisi.SharhHamasa.Sham19Y0016435-ara1 | 327 |
+| <mark style="background-color:green">0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1 | 389 |
 | 0521MuhammadHamadhani.TakmilatTarikhTabari.Shamela0009783BK3-ara1.completed | 5572 |
 | 0654SibtIbnJawzi.MiratZaman.Sham19Y0023644-ara1 | 118739 |
 | 0659SadrDinBasri.Hamasa.JK006907-ara1 | 820 |
 | 0685IbnSacidMaghribi.NashwatTarab.Shamela0028174-ara1.completed | 6583 |
 | 0685SadidDinMuhallabi.MuthallathatLughawiyya.ShamAY0037030-ara1 | 71 |
-| 0702IbnCabdRahmanCubaydi.TadhkiraSacdiyya.JK010743-ara1 | 197 |
-| 0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1 | 10102 |
-| 0718AbuIshaqWatwat.GhurarKhasais.Shamela0001349-ara1.mARkdown | 9531 |
+| <mark style="background-color:blue">0702IbnCabdRahmanCubaydi.TadhkiraSacdiyya.JK010743-ara1 | 197 |
+| <mark style="background-color:purple">0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1 | 10102 |
+| <mark style="background-color:yellow">0718AbuIshaqWatwat.GhurarKhasais.Shamela0001349-ara1.mARkdown | 9531 |
 | 0743SharafDinTibi.FutuhGhayb.Sham19Y0020891-ara1 | 15177 |
 | 0761JamalDinIbnHisham.TakhlisShawahid.Sham19Y0017916-ara1 | 4066 |
 | 0855BadrDinCayni.MaqasidNahwiyya.Sham19Y0016714-ara1 | 13084 |
 | 0855BadrDinCayni.MaqasidNahwiyya.Sham19Y0016714-ara1 | 30086 |
 | 0911Suyuti.SharhShawahidMughni.Sham19Y0017724-ara1 | 17394 |
-| 1093CabdQadirBaghdadi.KhizanatAdab.JK007143-ara1 | 55986 |
+| <mark style="background-color:blue">1093CabdQadirBaghdadi.KhizanatAdab.JK007143-ara1 | 55986 |
 | 1093CabdQadirBaghdadi.SharhAbyatMughni.Sham19Y0150966-ara1 | 54670 |
 
 The two lists above are interesting insofar as there clearly is some overlap, meaning, there are several works in which both verses occur. Even more interestingly, several of these titles (see the ones marked in green) have a relation with Abū Tammām's *Ḥamāsa*. This link with the *Ḥamāsa* becomes even stronger if we take a closer look at the one *Ḥamāsa-*related work missing from the first list (0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1). Upon closer inspection, we can see that the half-verse
@@ -210,15 +210,15 @@ Against this backdrop, and with the suggested correct reading order (ENA 3977.3 
 
 **ولم يستشر في أمره غير نفسه** // **ولم يرض إلا قايم السيف صاحبا**
 
-**وقال**
+**وقال**{: style="color:red}
 
-**تأبط شرا وكان خرج يشتار عسلا**
+**تأبط شرا وكان خرج يشتار عسلا**{: style="color:red}
 
-**فوافته لحيان وهو في الغار فأرسل**
+**فوافته لحيان وهو في الغار فأرسل**{: style="color:red}
 
-**[ما كان معه من العسل على الجبل وأنج\[\...\]]{dir="rtl"}**
+**ما كان معه من العسل على الجبل وأنج\[...\]**{: style="color:red}
 
-**عليه ففاتهم**
+**عليه ففاتهم**{: style="color:red}
 
 **إذا المرء لم يحتل وقد جد جده** // **أضاع وقاسى أمره وهو مدبر**
 
@@ -226,19 +226,19 @@ Against this backdrop, and with the suggested correct reading order (ENA 3977.3 
 
 **فذاك قريع الدهر ما** عاش **حول** // **إذا سد منه منخر جاش منخر**
 
-**حول شديد الحيل**
+**حول شديد الحيل**{: style="color:red}
 
 **أقول للحيان وقد صفرت لهم // وطابي ويومي ضيق الجحر معور**
 
-**الوطاب زقاق اللبن وصفرت خلت**
+**الوطاب زقاق اللبن وصفرت خلت**{: style="color:red}
 
-**وهو مثل هاهنا وإنما يريد أنه قد**
+**وهو مثل هاهنا وإنما يريد أنه قد**{: style="color:red}
 
-**بدت لهم مقاتله أي لم يبق لي حيل**
+**بدت لهم مقاتله أي لم يبق لي حيل**{: style="color:red}
 
-**وقيل أمل وقيل أراد خلا قلبي**
+**وقيل أمل وقيل أراد خلا قلبي**{: style="color:red}
 
-**من ودهم ويقال أعور الرجل**
+**من ودهم ويقال أعور الرجل**{: style="color:red}
 
 The above strongly indicates that this fragment indeed corresponds to a fragment of a commentary on Abū Tammām's *Ḥamāsa*. The text on the fragment sets in with the last verse of a poem by Saʿd b. Nāshib for which no lexical explanations are given. It then moves on to a poem by Taʾabbaṭa Sharran, to which it gives a brief introduction and through which it then moves until it runs into a lexeme or a phrase considered to require an explanation. The commentary is short and minimal, but it clearly appears to be falling back on other existing commentaries of the same poem.
 
