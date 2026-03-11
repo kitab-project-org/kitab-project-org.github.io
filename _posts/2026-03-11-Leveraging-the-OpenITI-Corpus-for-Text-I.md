@@ -28,7 +28,7 @@ Nonetheless, leveraged *as a corpus*, the OpenITI corpus allows zeroing in on th
 
 [\[John Rylands Library, University of Manchester, JRL Gaster ar. 373. Available online through the Princeton Geniza Project at https://geniza.princeton.edu/documents/33068/, accessed February 25, 2026.\]]{.mark}
 
-The first [[example]{.underline}](https://geniza.princeton.edu/en/documents/33068/) (JRL Gaster ar. 373 1) [is described as follows on the Princeton Geniza Project site:]{.mark}
+The first [example]](https://geniza.princeton.edu/en/documents/33068/) (JRL Gaster ar. 373 1) [is described as follows on the Princeton Geniza Project site:]{.mark}
 
 > ['Unidentified text in Arabic script. Part or all of it looks like poetry. Ruling regarding bathing according to Islamic jurisprudence on verso.']{.mark}
 
@@ -62,7 +62,7 @@ For example, if we search the OpenITI corpus for the phrase *ightasalta l-ghāsi
 
 |  |  |
 |-------------------------------------------------------------|-----------|
-| 0392IbnCabdCazizJurjani.Wisata.JK010638-ara1 | 1402 |
+| <mark>0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 1402 |
 | 0392IbnCabdCazizJurjani.Wisata.JK010638-ara1 | 5830 |
 | 0429AbuMansurThacalibi.MutanabbiWaMaLahu.Shamela0037032-ara1.completed | 974 |
 | 0429AbuMansurThacalibi.YatimatDahr.Shamela0006743-ara1.mARkdown | 3062 |
