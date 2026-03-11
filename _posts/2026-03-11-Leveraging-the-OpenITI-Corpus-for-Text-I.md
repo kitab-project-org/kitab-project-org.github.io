@@ -36,29 +36,29 @@ The text found on the document indeed is poetry but poetry is found on both rect
 
 [![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image1.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image1.jpg" | absolute_url }})
 
-[**أستودع الله في بغداد لي** قمرا // بالكرخ **من**]{dir="rtl"} **[فلك الأزرار مطلعه]{dir="rtl"}**
+**أستودع الله في بغداد لي** قمرا // بالكرخ **من** **فلك الأزرار مطلعه**
 
-**[ودعته وبودي]{dir="rtl"}** **[أن]{dir="rtl"}** [تودع**ني**]{dir="rtl"} // **[روح الحياة وأني لا أودعه]{dir="rtl"}**
+**ودعته وبودي** **أن** تودع**ني** // **روح الحياة وأني لا أودعه**
 
-[**و**ك**م**]{dir="rtl"} [تشب**ث**]{dir="rtl"} [بي **يوم**]{dir="rtl"} **[الرحيل]{dir="rtl"}** [ضحى // **وأدمعي مستهلات وأدمعه**]{dir="rtl"}
+**و**ك**م** تشب**ث** بي **يوم** **الرحيل** ضحى // **وأدمعي مستهلات وأدمعه**
 
-**[وكم تشفع في]{dir="rtl"}** [**أن لا أفا**رقه // وللضرورة حال لا تشفعه]{dir="rtl"}
+**وكم تشفع في** **أن لا أفا**رقه // وللضرورة حال لا تشفعه
 
 The verso side, on which I shall focus in this first example, contains fragments of verses by al-Mutanabbī (d. 354/965):
 
 [![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image2.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image2.jpg" | absolute_url }})
 
-**[وأما وحقك]{dir="rtl"}** **[وهو]{dir="rtl"}** [غاية مقسم]{dir="rtl"} // [لل**حق أنت وما سواك** الباطل]{dir="rtl"}
+**وأما وحقك** **وهو** غاية مقسم // لل**حق أنت وما سواك** الباطل
 
-[ال**طيب**]{dir="rtl"} [أنت إذا **أصابك**]{dir="rtl"} [طيبه // **والماء أنت إذا اغتسلت الغاسلوا**]{dir="rtl"}
+ال**طيب** أنت إذا **أصابك** طيبه // **والماء أنت إذا اغتسلت الغاسلوا**
 
-**[ما دار في الحنك اللسان وقلبت]{dir="rtl"}** // [**قل**ما بأحسن ما ثناك أنامل]{dir="rtl"}
+**ما دار في الحنك اللسان وقلبت** // **قل**ما بأحسن ما ثناك أنامل
 
 As has already been said further above, while these verses are *not* contained in the current OpenITI version of al-Mutanabbī's diwan which has been sourced from the *Jāmiʿ al-kabīr* collection (see 0354Mutanabbi.Diwan.JK007610-ara1, ms24), their identification nonetheless is relatively straightforward if we glide over the entire corpus and benefit from the resulting bird's eye view.
 
 For example, if we search the OpenITI corpus for the phrase *ightasalta l-ghāsilū* (see the left end of the second line on JRL Gaster ar. 373 1 / verso), we get the following list of titles:
 
-**[اغتسلت الغاسل]{dir="rtl"}**
+**اغتسلت الغاسل**
 
 |  |  |
 |-------------------------------------------------------------|-----------|
@@ -105,7 +105,7 @@ So, let us start with image ENA 3977.3 2:
 
 [![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }})
 
-If we conduct a corpus-wide search for the half verse **[ولم يستشر في أمره غير نفسه]{dir="rtl"}** occurring in the first line on the page, the following OpenITI titles figure among the search results, given here with the number of the line in which the phrase occurs in the respective OpenITI text file:
+If we conduct a corpus-wide search for the half verse **ولم يستشر في أمره غير نفسه** occurring in the first line on the page, the following OpenITI titles figure among the search results, given here with the number of the line in which the phrase occurs in the respective OpenITI text file:
 
 ​​
 
@@ -126,7 +126,7 @@ If we conduct a corpus-wide search for the half verse **[ولم يستشر في 
 
 If we move further down, the next verse, which occurs after a brief introduction which attributes it to Taʾabbaṭa Sharran and gives some context, starts with the half verse
 
-**[إذا المرء لم يحتل وقد جد جده]{dir="rtl"}**
+**إذا المرء لم يحتل وقد جد جده**
 
 If we again conduct a corpus-wide search for this phrase, we get the following list of titles, again given here with the respective line numbers:
 
@@ -157,11 +157,11 @@ If we again conduct a corpus-wide search for this phrase, we get the following l
 
 The two lists above are interesting insofar as there clearly is some overlap, meaning, there are several works in which both verses occur. Even more interestingly, several of these titles (see the ones marked in green) have a relation with Abū Tammām's *Ḥamāsa*. This link with the *Ḥamāsa* becomes even stronger if we take a closer look at the one *Ḥamāsa-*related work missing from the first list (0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1). Upon closer inspection, we can see that the half-verse
 
-**[ولم يستشر في أمره غير نفسه]{dir="rtl"}**
+**ولم يستشر في أمره غير نفسه**
 
 occurs as the variant
 
-**[ولم يستشر في]{dir="rtl"} [رأيه]{dir="rtl"} [غير نفسه]{dir="rtl"}**
+**ولم يستشر في رأيه غير نفسه**
 
 here (see line 382 of 0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1), Thus, if we factor in this variant reading, 0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1 also figures on the first list.
 
@@ -171,27 +171,28 @@ If we zoom in on Abū Tammām's *Ḥamāsa,* this hypothesis can be corroborated
 
 Thus, the first two lines of ENA 3977.3 2 (see below) correspond to the last verse of a poem by Saʿd b. Nāshib:
 
-**[ولم يستشر في أمره غير نفسه]{dir="rtl"}** // **[ولم يرض إلا قايم السيف صاحبا]{dir="rtl"}**
+**ولم يستشر في أمره غير نفسه** // **ولم يرض إلا قايم السيف صاحبا**
 
 [![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }})
 
 Afterwards, there is an introductory transition to a poem by Taʾabbaṭa Sharran (*'wa-qāla Taʾabbaṭa Sharran'*). The latter sets in with:
 
-**[إذا المرء لم يحتل وقد جدّ جدّه // أضاع وقاسى أمره وهو مدبر]{dir="rtl"}**
+**إذا المرء لم يحتل وقد جدّ جدّه // أضاع وقاسى أمره وهو مدبر**
 
 This exactly corresponds to the succession of verses found in the *Ḥamāsa* (see, for example, [[here]{.underline}](https://gallica.bnf.fr/ark:/12148/btv1b11002868p/f6.item.r=%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D8%B3%D8%A9.zoom) (last line on the right side and second line on the left side) and [[here]{.underline}](https://gallica.bnf.fr/ark:/12148/btv1b11002888h/f6.item.r=%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D8%B3%D8%A9) (third line from the bottom right and last line on the right). It is plausible that the same succession of verses also occurs in commentaries of the *Ḥamāsa* (see, for example, [[al-Tibrīzī's]{.underline} *[sharḥ]{.underline}*](https://archive.org/details/3907pdf_202001/page/n59/mode/2up), pp. 60--61).
 
 This succession of verses also is corroborated by the numbers of the lines in which the two verses occur in the OpenITI text files, and which are given next to the titles in the two lists above. If we zoom in on these lines numbers, we can see clearly that the two verses for which we searched occur in close proximity precisely in *those* texts that are commentaries of Abū Tammām's *Ḥamāsa*.
 
-> **First list = occurrences of [ولم يستشر في أمره غير نفسه]{dir="rtl"}**
+> **First list = occurrences of ولم يستشر في أمره غير نفسه**
 >
 > 0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed: 967
 >
 > 0467AbuQasimFarisi.SharhHamasa.Sham19Y0016435-ara1: 318
 >
 > 0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1: 382
+
 >
-> **Second list = occurrences of [إذا المرء لم يحتل وقد جدّ جدّه]{dir="rtl"}**
+> **Second list = occurrences of إذا المرء لم يحتل وقد جدّ جدّه**
 >
 > 0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed: 978
 >
@@ -205,39 +206,39 @@ The tentative link of the fragment Jewish Theological Seminary Library, ENA 3977
 
 Against this backdrop, and with the suggested correct reading order (ENA 3977.3 2, ENA 3977.3 1), the situation already is much clearer: The fragment contains verses that also occur in Abū Tammām's *Ḥamāsa* (see the black lines below), and their succession exactly corresponds to the succession in which they occur in Abū Tammām's *Ḥamāsa*. Interspersed are all sorts of explanations, ranging from lexicographical explanations to a brief allusion to the context of Taʾabbaṭa Sharran's poem (see the red lines below):
 
-[![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }})[![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image3.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image3.jpg" | absolute_url }})
+[![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }}){: style="float: left; height: 100px; width: auto; margin-left: 15px;"}[![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image3.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image3.jpg" | absolute_url }}){: style="float: left; height: 100px; width: auto; margin-right: 15px;"}
 
-**[ولم يستشر في أمره غير نفسه]{dir="rtl"}** // **[ولم يرض إلا قايم السيف صاحبا]{dir="rtl"}**
+**ولم يستشر في أمره غير نفسه** // **ولم يرض إلا قايم السيف صاحبا**
 
-**[وقال]{dir="rtl"}**
+**وقال**
 
-**[تأبط شرا وكان خرج يشتار عسلا]{dir="rtl"}**
+**تأبط شرا وكان خرج يشتار عسلا**
 
-**[فوافته لحيان وهو في الغار فأرسل]{dir="rtl"}**
+**فوافته لحيان وهو في الغار فأرسل**
 
 **[ما كان معه من العسل على الجبل وأنج\[\...\]]{dir="rtl"}**
 
-**[عليه ففاتهم]{dir="rtl"}**
+**عليه ففاتهم**
 
-**[إذا المرء لم يحتل وقد جد جده]{dir="rtl"}** // **[أضاع وقاسى أمره وهو مدبر]{dir="rtl"}**
+**إذا المرء لم يحتل وقد جد جده** // **أضاع وقاسى أمره وهو مدبر**
 
-**[لكن أخو الحزم الذي ليس نازلا]{dir="rtl"}** // **[به الخطب إلا وهو للقصد مبصر]{dir="rtl"}**
+**لكن أخو الحزم الذي ليس نازلا** // **به الخطب إلا وهو للقصد مبصر**
 
-**[فذاك قريع الدهر ما]{dir="rtl"}** [عاش **حول**]{dir="rtl"} // **[إذا سد منه منخر جاش منخر]{dir="rtl"}**
+**فذاك قريع الدهر ما** عاش **حول** // **إذا سد منه منخر جاش منخر**
 
-**[حول شديد الحيل]{dir="rtl"}**
+**حول شديد الحيل**
 
-**[أقول للحيان وقد صفرت لهم // وطابي ويومي ضيق الجحر معور]{dir="rtl"}**
+**أقول للحيان وقد صفرت لهم // وطابي ويومي ضيق الجحر معور**
 
-**[الوطاب زقاق اللبن وصفرت خلت]{dir="rtl"}**
+**الوطاب زقاق اللبن وصفرت خلت**
 
-**[وهو مثل هاهنا وإنما يريد أنه قد]{dir="rtl"}**
+**وهو مثل هاهنا وإنما يريد أنه قد**
 
-**[بدت لهم مقاتله أي لم يبق لي حيل]{dir="rtl"}**
+**بدت لهم مقاتله أي لم يبق لي حيل**
 
-**[وقيل أمل وقيل أراد خلا قلبي]{dir="rtl"}**
+**وقيل أمل وقيل أراد خلا قلبي**
 
-**[من ودهم ويقال أعور الرجل]{dir="rtl"}**
+**من ودهم ويقال أعور الرجل**
 
 The above strongly indicates that this fragment indeed corresponds to a fragment of a commentary on Abū Tammām's *Ḥamāsa*. The text on the fragment sets in with the last verse of a poem by Saʿd b. Nāshib for which no lexical explanations are given. It then moves on to a poem by Taʾabbaṭa Sharran, to which it gives a brief introduction and through which it then moves until it runs into a lexeme or a phrase considered to require an explanation. The commentary is short and minimal, but it clearly appears to be falling back on other existing commentaries of the same poem.
 
