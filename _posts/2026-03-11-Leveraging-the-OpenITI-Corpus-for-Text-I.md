@@ -79,7 +79,7 @@ For example, if we search the OpenITI corpus for the phrase *ightasalta l-ghāsi
 
 This strongly, and more or less immediately, indicates a link with al-Mutanabbī insofar as seven out of the ten works where the phrase occurs have an explicit connection with al-Mutanabbī's poetry or diwan in the sense that they are commentaries or similar (see the titles marked in green). Thus, even if the verses in question are missing from the OpenITI version of al-Mutanabbī's diwan, leveraging the corpus *as a corpus* successfully allows us to bring *other works* into sight that contain the respective verses, most notably different commentaries, which as a subset shine a light on the phrase.
 
-That the verses indeed belong to al-Mutanabbī's diwan can be confirmed by consulting other versions / editions of the diwan than the one currently in the OpenITI corpus. For example, if we look at the last three verses on page 80 [[here]{.underline}](https://archive.org/details/ar107diwan14/page/n179/mode/2up) or the first three verses on page 114 [[here]{.underline}](https://www.digitale-sammlungen.de/view/bsb10249668?page=274%2C275), the verses found on JRL Gaster ar. 373 1 / verso are all there.
+That the verses indeed belong to al-Mutanabbī's diwan can be confirmed by consulting other versions / editions of the diwan than the one currently in the OpenITI corpus. For example, if we look at the last three verses on page 80 [here](https://archive.org/details/ar107diwan14/page/n179/mode/2up) or the first three verses on page 114 [here](https://www.digitale-sammlungen.de/view/bsb10249668?page=274%2C275), the verses found on JRL Gaster ar. 373 1 / verso are all there.
 
 # **Example \# 2:**
 
@@ -87,7 +87,7 @@ That the verses indeed belong to al-Mutanabbī's diwan can be confirmed by consu
 
 The second example is provided by the document Jewish Theological Seminary Library ENA 3977.3, likewise accessible through the Princeton Geniza Project.
 
-The available [[description]{.underline}](https://geniza.princeton.edu/en/documents/10852/) of the fragment states the following:
+The available [description](https://geniza.princeton.edu/en/documents/10852/) of the fragment states the following:
 
 > 'Literary work in Arabic script. Lexicographic? Citing aphorisms and verses of poetry, and seems to be explaining the usage of *aʿwar*.'
 
@@ -99,7 +99,7 @@ However, even regular close-reading tells us that more is going on in this fragm
 
 But can we find out more about the fragment than close-reading can tell us if we again leverage the OpenITI corpus *as a corpus*? That is, can a structured bird's eye view on the corpus-wide occurrences of the verses found in the document perhaps again shed some additional light on the text fragment and lead the way?
 
-Before putting the rule to the test, it is important to underline that the [[order]{.underline}](https://geniza.princeton.edu/en/documents/10852/) in which the images are provided by the Princeton Geniza Project unfortunately is somewhat misleading here. This insofar as the page shown in the image which currently comes in second place (ENA 3977.3 2) visibly has sewing stations on the *right* side which would seem to indicate that it corresponds to the recto side, hence must come first in terms of the reading order whereas ENA 3977.3 1, where the holes are found on the *left* side and which would seem to indicate verso, must come second in the reading order.
+Before putting the rule to the test, it is important to underline that the [order](https://geniza.princeton.edu/en/documents/10852/) in which the images are provided by the Princeton Geniza Project unfortunately is somewhat misleading here. This insofar as the page shown in the image which currently comes in second place (ENA 3977.3 2) visibly has sewing stations on the *right* side which would seem to indicate that it corresponds to the recto side, hence must come first in terms of the reading order whereas ENA 3977.3 1, where the holes are found on the *left* side and which would seem to indicate verso, must come second in the reading order.
 
 So, let us start with image ENA 3977.3 2:
 
@@ -179,7 +179,7 @@ Afterwards, there is an introductory transition to a poem by Taʾabbaṭa Sharra
 
 **إذا المرء لم يحتل وقد جدّ جدّه // أضاع وقاسى أمره وهو مدبر**
 
-This exactly corresponds to the succession of verses found in the *Ḥamāsa* (see, for example, [[here]{.underline}](https://gallica.bnf.fr/ark:/12148/btv1b11002868p/f6.item.r=%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D8%B3%D8%A9.zoom) (last line on the right side and second line on the left side) and [[here]{.underline}](https://gallica.bnf.fr/ark:/12148/btv1b11002888h/f6.item.r=%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D8%B3%D8%A9) (third line from the bottom right and last line on the right). It is plausible that the same succession of verses also occurs in commentaries of the *Ḥamāsa* (see, for example, [[al-Tibrīzī's]{.underline} *[sharḥ]{.underline}*](https://archive.org/details/3907pdf_202001/page/n59/mode/2up), pp. 60--61).
+This exactly corresponds to the succession of verses found in the *Ḥamāsa* (see, for example, [here](https://gallica.bnf.fr/ark:/12148/btv1b11002868p/f6.item.r=%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D8%B3%D8%A9.zoom) (last line on the right side and second line on the left side) and [here](https://gallica.bnf.fr/ark:/12148/btv1b11002888h/f6.item.r=%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D8%B3%D8%A9) (third line from the bottom right and last line on the right). It is plausible that the same succession of verses also occurs in commentaries of the *Ḥamāsa* (see, for example, [al-Tibrīzī's *sharḥ*](https://archive.org/details/3907pdf_202001/page/n59/mode/2up), pp. 60--61).
 
 This succession of verses also is corroborated by the numbers of the lines in which the two verses occur in the OpenITI text files, and which are given next to the titles in the two lists above. If we zoom in on these lines numbers, we can see clearly that the two verses for which we searched occur in close proximity precisely in *those* texts that are commentaries of Abū Tammām's *Ḥamāsa*.
 
@@ -206,7 +206,7 @@ The tentative link of the fragment Jewish Theological Seminary Library, ENA 3977
 
 Against this backdrop, and with the suggested correct reading order (ENA 3977.3 2, ENA 3977.3 1), the situation already is much clearer: The fragment contains verses that also occur in Abū Tammām's *Ḥamāsa* (see the black lines below), and their succession exactly corresponds to the succession in which they occur in Abū Tammām's *Ḥamāsa*. Interspersed are all sorts of explanations, ranging from lexicographical explanations to a brief allusion to the context of Taʾabbaṭa Sharran's poem (see the red lines below):
 
-[![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }}){: style="max-width:50%"}[![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image3.jpg" | absolute_url }})]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image3.jpg" | absolute_url }}){: style="max-width:50%"}
+[![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }}){: style="max-width:50%"}]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image4.jpg" | absolute_url }})[![]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image3.jpg" | absolute_url }}){: style="max-width:50%"}]({{ "/images/blogs/2026-03-11/Leveraging-the-OpenITI-Corpus-for-Text-Ilorenz_nigst/media/image3.jpg" | absolute_url }})
 
 **ولم يستشر في أمره غير نفسه** // **ولم يرض إلا قايم السيف صاحبا**
 
