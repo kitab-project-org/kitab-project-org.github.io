@@ -210,15 +210,15 @@ Against this backdrop, and with the suggested correct reading order (ENA 3977.3 
 
 **ولم يستشر في أمره غير نفسه** // **ولم يرض إلا قايم السيف صاحبا**
 
-**وقال**{: style="color:red}
+**وقال**{: "style="color:red}
 
-**تأبط شرا وكان خرج يشتار عسلا**{: style="color:red}
+**تأبط شرا وكان خرج يشتار عسلا**{: "style="color:red}
 
-**فوافته لحيان وهو في الغار فأرسل**{: style="color:red}
+**فوافته لحيان وهو في الغار فأرسل**{: "style="color:red}
 
-**ما كان معه من العسل على الجبل وأنج\[...\]**{: style="color:red}
+**ما كان معه من العسل على الجبل وأنج\[...\]**{: "style="color:red}
 
-**عليه ففاتهم**{: style="color:red}
+**عليه ففاتهم**{: "style="color:red}
 
 **إذا المرء لم يحتل وقد جد جده** // **أضاع وقاسى أمره وهو مدبر**
 
@@ -226,19 +226,19 @@ Against this backdrop, and with the suggested correct reading order (ENA 3977.3 
 
 **فذاك قريع الدهر ما** عاش **حول** // **إذا سد منه منخر جاش منخر**
 
-**حول شديد الحيل**{: style="color:red}
+**حول شديد الحيل**{: "style="color:red}
 
 **أقول للحيان وقد صفرت لهم // وطابي ويومي ضيق الجحر معور**
 
-**الوطاب زقاق اللبن وصفرت خلت**{: style="color:red}
+**الوطاب زقاق اللبن وصفرت خلت**{: "style="color:red}
 
-**وهو مثل هاهنا وإنما يريد أنه قد**{: style="color:red}
+**وهو مثل هاهنا وإنما يريد أنه قد**{: "style="color:red}
 
-**بدت لهم مقاتله أي لم يبق لي حيل**{: style="color:red}
+**بدت لهم مقاتله أي لم يبق لي حيل**{: "style="color:red}
 
-**وقيل أمل وقيل أراد خلا قلبي**{: style="color:red}
+**وقيل أمل وقيل أراد خلا قلبي**{: "style="color:red}
 
-**من ودهم ويقال أعور الرجل**{: style="color:red}
+**من ودهم ويقال أعور الرجل**{: "style="color:red}
 
 The above strongly indicates that this fragment indeed corresponds to a fragment of a commentary on Abū Tammām's *Ḥamāsa*. The text on the fragment sets in with the last verse of a poem by Saʿd b. Nāshib for which no lexical explanations are given. It then moves on to a poem by Taʾabbaṭa Sharran, to which it gives a brief introduction and through which it then moves until it runs into a lexeme or a phrase considered to require an explanation. The commentary is short and minimal, but it clearly appears to be falling back on other existing commentaries of the same poem.
 
