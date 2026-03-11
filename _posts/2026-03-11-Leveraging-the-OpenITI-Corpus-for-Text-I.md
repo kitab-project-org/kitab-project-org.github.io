@@ -62,7 +62,7 @@ For example, if we search the OpenITI corpus for the phrase *ightasalta l-ghāsi
 
 |  |  |
 |-------------------------------------------------------------|-----------|
-| <mark>0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 1402 |
+| <mark style="color:green">0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 1402 |
 | 0392IbnCabdCazizJurjani.Wisata.JK010638-ara1 | 5830 |
 | 0429AbuMansurThacalibi.MutanabbiWaMaLahu.Shamela0037032-ara1.completed | 974 |
 | 0429AbuMansurThacalibi.YatimatDahr.Shamela0006743-ara1.mARkdown | 3062 |
