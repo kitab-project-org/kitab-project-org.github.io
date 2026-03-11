@@ -3,13 +3,13 @@ header:
   overlay_filter: 0.1
   caption: "Gentile Bellini - Scribe, 1479-1481 (Image courtesy of [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/experience/collection/10755), Boston)" 
   show_overlay_excerpt: false  
-title:
-author:
+title: Leveraging the OpenITI Corpus for Text Identification: Two Examples from Geniza Documents
+author: lorenz_nigst
 layout: single
 series:
 tags:
-  - 
-docx:
+  - corpus
+docx: Lorenz_Geniza_OpenITI_Leveraging_OpenITI_Corpus_shared.docx
 new_author:
   - name:
     bio:
