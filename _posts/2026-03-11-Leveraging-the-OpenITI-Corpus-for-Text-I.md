@@ -26,11 +26,11 @@ Nonetheless, leveraged *as a corpus*, the OpenITI corpus allows zeroing in on th
 
 # **Example \# 1:**
 
-[\[John Rylands Library, University of Manchester, JRL Gaster ar. 373. Available online through the Princeton Geniza Project at https://geniza.princeton.edu/documents/33068/, accessed February 25, 2026.\]]{.mark}
+\[John Rylands Library, University of Manchester, JRL Gaster ar. 373. Available online through the Princeton Geniza Project at [https://geniza.princeton.edu/documents/33068/](https://geniza.princeton.edu/documents/33068/), accessed February 25, 2026.\]
 
-The first [example]](https://geniza.princeton.edu/en/documents/33068/) (JRL Gaster ar. 373 1) [is described as follows on the Princeton Geniza Project site:]{.mark}
+The first [example](https://geniza.princeton.edu/en/documents/33068/) (JRL Gaster ar. 373 1) is described as follows on the Princeton Geniza Project site:
 
-> ['Unidentified text in Arabic script. Part or all of it looks like poetry. Ruling regarding bathing according to Islamic jurisprudence on verso.']{.mark}
+> 'Unidentified text in Arabic script. Part or all of it looks like poetry. Ruling regarding bathing according to Islamic jurisprudence on verso.'
 
 The text found on the document indeed is poetry but poetry is found on both recto and verso. The recto side contains verses by al-Waʾwāʾ al-Dimashqī (d. appr. 385/995), a part of which also occurs in Ibn Zurayq (d. 420/1029):
 
@@ -62,20 +62,20 @@ For example, if we search the OpenITI corpus for the phrase *ightasalta l-ghāsi
 
 |  |  |
 |-------------------------------------------------------------|-----------|
-| <mark style="background-color:green">0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 1402 |
-| <mark style="background-color:green">0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 5830 |
-| <mark style="background-color:green">0429AbuMansurThacalibi.MutanabbiWaMaLahu.Shamela0037032-ara1.completed</mark> | 974 |
+| <mark style="background-color:lightgreen">0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 1402 |
+| <mark style="background-color:lightgreen">0392IbnCabdCazizJurjani.Wisata.JK010638-ara1</mark> | 5830 |
+| <mark style="background-color:lightgreen">0429AbuMansurThacalibi.MutanabbiWaMaLahu.Shamela0037032-ara1.completed</mark> | 974 |
 | 0429AbuMansurThacalibi.YatimatDahr.Shamela0006743-ara1.mARkdown | 3062 |
-| <mark style="background-color:green">0449AbuCalaMacarri.MucjizAhmad.JK010753-ara1</mark> | 9017 |
-| <mark style="background-color:green">0449AbuCalaMacarri.MucjizAhmad.JK010753-ara1</mark> | 9018 |
-| <mark style="background-color:green">0468IbnAhmadWahidiNaysaburi.SharhDiwanMutanabbi.JK010754-ara1</mark> | 7289 |
+| <mark style="background-color:lightgreen">0449AbuCalaMacarri.MucjizAhmad.JK010753-ara1</mark> | 9017 |
+| <mark style="background-color:lightgreen">0449AbuCalaMacarri.MucjizAhmad.JK010753-ara1</mark> | 9018 |
+| <mark style="background-color:lightgreen">0468IbnAhmadWahidiNaysaburi.SharhDiwanMutanabbi.JK010754-ara1</mark> | 7289 |
 | 0471CabdQahirJurjani.DalailIcjaz.JK001019-ara1 | 1313 |
-| <mark style="background-color:green">0492AbuMurshidMacarri.TafsirAbyat.JK010780-ara1</mark> | 3861 |
-| <mark style="background-color:green">0492AbuMurshidMacarri.TafsirAbyat.JK010780-ara1</mark> | 3862 |
+| <mark style="background-color:lightgreen">0492AbuMurshidMacarri.TafsirAbyat.JK010780-ara1</mark> | 3861 |
+| <mark style="background-color:lightgreen">0492AbuMurshidMacarri.TafsirAbyat.JK010780-ara1</mark> | 3862 |
 | 0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1 | 26255 |
 | 0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1 | 86513 |
-| <mark style="background-color:green">0975BakathirHadrami.TanbihAdib.ShamAY0034457-ara1</mark> | 2294 |
-| <mark style="background-color:green">1073YusufBadiciDimashqi.SubhMunabbi.JK010778-ara1</mark> | 4442 |
+| <mark style="background-color:lightgreen">0975BakathirHadrami.TanbihAdib.ShamAY0034457-ara1</mark> | 2294 |
+| <mark style="background-color:lightgreen">1073YusufBadiciDimashqi.SubhMunabbi.JK010778-ara1</mark> | 4442 |
 
 This strongly, and more or less immediately, indicates a link with al-Mutanabbī insofar as seven out of the ten works where the phrase occurs have an explicit connection with al-Mutanabbī's poetry or diwan in the sense that they are commentaries or similar (see the titles marked in green). Thus, even if the verses in question are missing from the OpenITI version of al-Mutanabbī's diwan, leveraging the corpus *as a corpus* successfully allows us to bring *other works* into sight that contain the respective verses, most notably different commentaries, which as a subset shine a light on the phrase.
 
@@ -83,7 +83,7 @@ That the verses indeed belong to al-Mutanabbī's diwan can be confirmed by consu
 
 # **Example \# 2:**
 
-\[Jewish Theological Seminary Library, ENA 3977.3. Available online through the Princeton Geniza Project at https://geniza.princeton.edu/documents/10852/, accessed February 25, 2026.\]
+\[Jewish Theological Seminary Library, ENA 3977.3. Available online through the Princeton Geniza Project at [https://geniza.princeton.edu/documents/10852/](https://geniza.princeton.edu/documents/10852/), accessed February 25, 2026.\]
 
 The second example is provided by the document Jewish Theological Seminary Library ENA 3977.3, likewise accessible through the Princeton Geniza Project.
 
@@ -113,16 +113,16 @@ If we conduct a corpus-wide search for the half verse **ولم يستشر في �
 |-----------------------------------------------------------|--------|
 | 0562IbnHamdun.TadhkiraHamduniyya.JK009325-ara1 | 11506 |
 | <mark style="background-color:yellow">0328IbnCabdRabbih.CiqdFarid.Shamela0023789-ara1.completed</mark> | 15122 |
-| <mark style="background-color:green">0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed</mark>  | 967 |
-| <mark style="background-color:green">0467AbuQasimFarisi.SharhHamasa.Sham19Y0016435-ara1</mark>  | 318 |
+| <mark style="background-color:lightgreen">0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed</mark>  | 967 |
+| <mark style="background-color:lightgreen">0467AbuQasimFarisi.SharhHamasa.Sham19Y0016435-ara1</mark>  | 318 |
 | 0609AbuCabbasJarrawi.HamasaMaghribiyya.JK006908-ara1 | 3462 |
 | 0656IbnAbiHadid.SharhNahjBalagha.Shia002185Vols-ara1.completed | 18884 |
 | 0692IbnCabdZahir.RawdZahir.GVDB20200120-ara1.mARkdown | 1508 |
-| <mark style="background-color:blue">0702IbnCabdRahmanCubaydi.TadhkiraSacdiyya.JK010743-ara1</mark>  | 186 |
+| <mark style="background-color:lightblue">0702IbnCabdRahmanCubaydi.TadhkiraSacdiyya.JK010743-ara1</mark>  | 186 |
 | <mark style="background-color:purple">0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1</mark>  | 54093 |
 | <mark style="background-color:yellow">0718AbuIshaqWatwat.GhurarKhasais.Shamela0001349-ara1.mARkdown</mark>  | 8931 |
 | 1041Maqqari.NafhTib.Shamela0001002-ara1.completed | 41743 |
-| <mark style="background-color:darkgreen">1093CabdQadirBaghdadi.KhizanatAdab.JK007143-ara1</mark>  | 59601 |
+| <mark style="background-color:orange">1093CabdQadirBaghdadi.KhizanatAdab.JK007143-ara1</mark>  | 59601 |
 
 If we move further down, the next verse, which occurs after a brief introduction which attributes it to Taʾabbaṭa Sharran and gives some context, starts with the half verse
 
@@ -136,23 +136,23 @@ If we again conduct a corpus-wide search for this phrase, we get the following l
 | <mark style="background-color:yellow">0328IbnCabdRabbih.CiqdFarid.Shamela0023789-ara1.completed | 15279 |
 | 0362AbuFarajIsbahani.Aghani.JK000927-ara1.completed | 60951 |
 | 0362AbuFarajIsbahani.Aghani.JK000927-ara1.completed | 129493 |
-| <mark style="background-color:green">0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed | 978 |
-| <mark style="background-color:green">0467AbuQasimFarisi.SharhHamasa.Sham19Y0016435-ara1 | 327 |
-| <mark style="background-color:green">0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1 | 389 |
+| <mark style="background-color:lightgreen">0421IbnMuhammadMarzuqi.SharhDiwanHamasa.Shamela0026536-ara1.completed | 978 |
+| <mark style="background-color:lightgreen">0467AbuQasimFarisi.SharhHamasa.Sham19Y0016435-ara1 | 327 |
+| <mark style="background-color:lightgreen">0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1 | 389 |
 | 0521MuhammadHamadhani.TakmilatTarikhTabari.Shamela0009783BK3-ara1.completed | 5572 |
 | 0654SibtIbnJawzi.MiratZaman.Sham19Y0023644-ara1 | 118739 |
 | 0659SadrDinBasri.Hamasa.JK006907-ara1 | 820 |
 | 0685IbnSacidMaghribi.NashwatTarab.Shamela0028174-ara1.completed | 6583 |
 | 0685SadidDinMuhallabi.MuthallathatLughawiyya.ShamAY0037030-ara1 | 71 |
-| <mark style="background-color:blue">0702IbnCabdRahmanCubaydi.TadhkiraSacdiyya.JK010743-ara1 | 197 |
-| <mark style="background-color:purple">0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1 | 10102 |
+| <mark style="background-color:lightblue">0702IbnCabdRahmanCubaydi.TadhkiraSacdiyya.JK010743-ara1 | 197 |
+| <mark style="background-color:orchid">0710IbnAydamurMustacsimi.DurrFarid.Sham19Y0020762-ara1 | 10102 |
 | <mark style="background-color:yellow">0718AbuIshaqWatwat.GhurarKhasais.Shamela0001349-ara1.mARkdown | 9531 |
 | 0743SharafDinTibi.FutuhGhayb.Sham19Y0020891-ara1 | 15177 |
 | 0761JamalDinIbnHisham.TakhlisShawahid.Sham19Y0017916-ara1 | 4066 |
 | 0855BadrDinCayni.MaqasidNahwiyya.Sham19Y0016714-ara1 | 13084 |
 | 0855BadrDinCayni.MaqasidNahwiyya.Sham19Y0016714-ara1 | 30086 |
 | 0911Suyuti.SharhShawahidMughni.Sham19Y0017724-ara1 | 17394 |
-| <mark style="background-color:blue">1093CabdQadirBaghdadi.KhizanatAdab.JK007143-ara1 | 55986 |
+| <mark style="background-color:orange">1093CabdQadirBaghdadi.KhizanatAdab.JK007143-ara1 | 55986 |
 | 1093CabdQadirBaghdadi.SharhAbyatMughni.Sham19Y0150966-ara1 | 54670 |
 
 The two lists above are interesting insofar as there clearly is some overlap, meaning, there are several works in which both verses occur. Even more interestingly, several of these titles (see the ones marked in green) have a relation with Abū Tammām's *Ḥamāsa*. This link with the *Ḥamāsa* becomes even stronger if we take a closer look at the one *Ḥamāsa-*related work missing from the first list (0502IbnCaliTabriziShaybani.DiwanHamasa.JK001099-ara1). Upon closer inspection, we can see that the half-verse
