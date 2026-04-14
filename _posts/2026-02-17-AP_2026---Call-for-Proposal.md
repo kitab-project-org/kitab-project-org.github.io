@@ -50,7 +50,7 @@ By way of example, papers might elucidate the following sorts of questions – o
 
 Arabic Pasts is co-convened by Anna Chrysostomides (QMUL), Hugh Kennedy (SOAS), Lorenz Nigst (AKU-ISMC), Yossi Rapoport (QMUL), and Sarah Bowen Savant (AKU-ISMC).
 
-Please submit an abstract of 300 words or less by **Friday, 16 April 2026 by clicking [here](https://forms.cloud.microsoft/r/3P5D4Gzc6i).**
+Please submit an abstract of 300 words or less by **Thursday, 30 April 2026 by clicking [here](https://forms.cloud.microsoft/r/3P5D4Gzc6i).**
 
 Please note that, due to current budget limitations, we are unfortunately unable to provide financial support for travel or accommodation. We kindly ask participants to arrange funding for these expenses through their home institutions or other available sources. We appreciate your understanding and look forward to your participation in the workshop.
 
