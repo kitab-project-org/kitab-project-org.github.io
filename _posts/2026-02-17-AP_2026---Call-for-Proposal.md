@@ -54,8 +54,6 @@ Please submit an abstract of 300 words or less by **Thursday, 30 April 2026 by c
 
 Please note that, due to current budget limitations, we are unfortunately unable to provide financial support for travel or accommodation. We kindly ask participants to arrange funding for these expenses through their home institutions or other available sources. We appreciate your understanding and look forward to your participation in the workshop.
 
-On **March 13, 2026, 2:00–4:00 PM (GMT)**, we will arrange **consultancy calls via Zoom** for those who wish to discuss their proposals prior to submission. The slots for these calls will be limited to 15 minutes and will be offered strictly on a first-come, first-served basis. Please, register for a slot [**here**](https://forms.cloud.microsoft/r/6HVPpGKHMF).
-
 **Arabic Pasts Companion Programme**
 
 In addition to the core programme of Arabic Pasts on October 08–09, we offer participants the opportunity to attend two autonomous events that frame the Arabic Pasts workshop:
