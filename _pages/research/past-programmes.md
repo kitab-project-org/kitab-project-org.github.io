@@ -12,6 +12,9 @@ sidebar:
 
 Browse the table below to find pdfs of our previous workshop programmes
 
+## [8 - 9 October 2026]({{ '/documents/Arabic_Pasts_Schedule_2026.pdf' | absolute_url }}) 
+## [8 - 10 October 2025]({{ '/documents/Arabic_Pasts_Schedule_2025.pdf' | absolute_url }}) 
+## [3 - 4 October 2024]({{ '/documents/Arabic_Pasts_Schedule_2024.pdf' | absolute_url }}) 
 ## [5 - 6 October 2023]({{ '/documents/Arabic_Pasts_Schedule_2023.pdf' | absolute_url }}) 
 ## [6 - 8 October 2022]({{ '/documents/Arabic_Pasts_Schedule_2022.pdf' | absolute_url }}) 
 ## [7 - 9 October 2021]({{ '/documents/Arabic_Pasts_Schedule_2021.pdf' | absolute_url }}) 
